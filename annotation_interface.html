@@ -596,28 +596,15 @@
             // Use the full URL path for the image
             img.src = `/${imagePath}`;
             img.onload = function() {
-                // Remove any previous listeners
-                img.onmousedown = null;
-                img.onmousemove = null;
-                img.onmouseup = null;
-                img.onmouseleave = null;
-
-                // Attach the drawing listeners
-                img.addEventListener('mousedown', startDrawing);
-                img.addEventListener('mousemove', draw);
-                img.addEventListener('mouseup', endDrawing);
-                img.addEventListener('mouseleave', endDrawing);
-
+                attachDrawingListeners();
                 img.ondragstart = function() { return false; };
+                // Clear previous annotations
+                clearBoundingBoxes();
+                annotations = [];
+                updateAnnotationList();
+                updateImageCounter();
+                updateNavigationButtons();
             };
-            
-            // Clear previous annotations
-            clearBoundingBoxes();
-            annotations = [];
-            updateAnnotationList();
-            
-            updateImageCounter();
-            updateNavigationButtons();
         }
 
         // Navigation functions
@@ -755,6 +742,12 @@
             boundingBoxes.forEach(box => box.remove());
             boundingBoxes = [];
             selectedBox = null;
+        }
+
+        function attachDrawingListeners() {
+            const img = document.getElementById('annotationImage');
+            img.onmousedown = null;
+            img.addEventListener('mousedown', startDrawing);
         }
 
         // Annotation functionality
