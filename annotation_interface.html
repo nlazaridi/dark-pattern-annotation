@@ -595,7 +595,10 @@
             const img = document.getElementById('annotationImage');
             // Use the full URL path for the image
             img.src = `/${imagePath}`;
-            img.onload = initializeBoundingBoxes; // Re-attach listeners after image loads
+            img.onload = function() {
+                initializeBoundingBoxes();
+                img.ondragstart = function() { return false; };
+            };
             
             // Clear previous annotations
             clearBoundingBoxes();
@@ -651,8 +654,12 @@
 
         // Bounding box functionality
         function initializeBoundingBoxes() {
-            const imageWrapper = document.getElementById('imageWrapper');
             const image = document.getElementById('annotationImage');
+            // Remove previous listeners
+            image.onmousedown = null;
+            image.onmousemove = null;
+            image.onmouseup = null;
+            image.onmouseleave = null;
 
             image.addEventListener('mousedown', startDrawing);
             image.addEventListener('mousemove', draw);
@@ -882,7 +889,7 @@
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', function() {
             initializeInterface();
-            initializeBoundingBoxes();
+            // Do not call initializeBoundingBoxes() here
             document.getElementById('annotationImage').ondragstart = function() { return false; };
         });
     </script>
