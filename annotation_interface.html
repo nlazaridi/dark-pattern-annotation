@@ -596,14 +596,21 @@
             // Use the full URL path for the image
             img.src = `/${imagePath}`;
             img.onload = function() {
-                attachDrawingListeners();
-                img.ondragstart = function() { return false; };
+                // Clone and replace the image element to ensure clean event listeners
+                const imageWrapper = document.getElementById('imageWrapper');
+                const newImg = img.cloneNode(true);
+                newImg.draggable = false;
+                imageWrapper.replaceChild(newImg, img);
+                
                 // Clear previous annotations
                 clearBoundingBoxes();
                 annotations = [];
                 updateAnnotationList();
                 updateImageCounter();
                 updateNavigationButtons();
+                
+                // Attach drawing listeners to the new image element
+                attachDrawingListeners();
             };
         }
 
@@ -655,8 +662,10 @@
             if (e.target !== document.getElementById('annotationImage')) return;
             if (isDrawing) return;
             isDrawing = true;
-            startX = e.offsetX;
-            startY = e.offsetY;
+            
+            const rect = e.target.getBoundingClientRect();
+            startX = e.clientX - rect.left;
+            startY = e.clientY - rect.top;
 
             currentBox = document.createElement('div');
             currentBox.className = 'bounding-box';
@@ -666,9 +675,6 @@
             currentBox.style.height = '0px';
 
             document.getElementById('imageWrapper').appendChild(currentBox);
-
-            document.addEventListener('mousemove', draw);
-            document.addEventListener('mouseup', endDrawing);
         }
 
         function draw(e) {
@@ -692,16 +698,15 @@
         function endDrawing() {
             if (!isDrawing || !currentBox) return;
             isDrawing = false;
-            document.removeEventListener('mousemove', draw);
-            document.removeEventListener('mouseup', endDrawing);
 
             const width = parseInt(currentBox.style.width);
             const height = parseInt(currentBox.style.height);
 
             if (width > 10 && height > 10) {
-                const boxNumber = document.querySelectorAll('.bounding-box').length + 1;
+                const boxNumber = boundingBoxes.length + 1;
                 currentBox.innerHTML = `<div class="bounding-box-number">${boxNumber}</div>`;
                 currentBox.onclick = () => selectBox(currentBox);
+                boundingBoxes.push(currentBox);
             } else {
                 currentBox.remove();
             }
@@ -746,8 +751,22 @@
 
         function attachDrawingListeners() {
             const img = document.getElementById('annotationImage');
+            if (!img) return;
+            
+            // Remove any existing listeners
             img.onmousedown = null;
+            img.onmousemove = null;
+            img.onmouseup = null;
+            img.onmouseleave = null;
+            
+            // Add new listeners
             img.addEventListener('mousedown', startDrawing);
+            img.addEventListener('mousemove', draw);
+            img.addEventListener('mouseup', endDrawing);
+            img.addEventListener('mouseleave', endDrawing);
+            
+            // Prevent drag behavior
+            img.ondragstart = function() { return false; };
         }
 
         // Annotation functionality
