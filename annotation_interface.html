@@ -622,6 +622,16 @@
                 console.log('About to call attachDrawingListeners...');
                 attachDrawingListeners();
                 console.log('attachDrawingListeners called');
+                
+                // Also try to attach listeners after a short delay as backup
+                setTimeout(function() {
+                    console.log('=== BACKUP ATTACHMENT ===');
+                    const img = document.getElementById('annotationImage');
+                    if (img && !img.onmousedown) {
+                        console.log('Backup: attaching listeners');
+                        img.onmousedown = startDrawing;
+                    }
+                }, 500);
             };
             
             img.onerror = function() {
@@ -963,6 +973,12 @@
             initializeInterface();
             // No initializeBoundingBoxes here
             document.getElementById('annotationImage').ondragstart = function() { return false; };
+            
+            // Automatically attach drawing listeners after a short delay
+            setTimeout(function() {
+                console.log('=== AUTO ATTACHING LISTENERS ===');
+                attachDrawingListeners();
+            }, 1000);
             
             // Add a global test function that can be called immediately
             window.testDrawingNow = function() {
