@@ -80,11 +80,14 @@ def get_images():
     # Handle different path formats
     folder = folder.replace('\\', '/')
     
-    logger.info(f"Looking for images in folder: {folder}")
+    # Extract just the folder name (e.g., "United_Airlines_a_alt1" from the full path)
+    folder_name = folder.split('/')[-1]
     
-    images = get_images_from_folder(folder)
+    logger.info(f"Looking for images in folder: {folder_name}")
     
-    logger.info(f"Found {len(images)} images in {folder}")
+    images = get_images_from_folder(folder_name)
+    
+    logger.info(f"Found {len(images)} images in {folder_name}")
     
     return jsonify({
         "folder": folder,
@@ -189,11 +192,14 @@ def list_folders():
             
             folder_path = folder_path.replace('\\', '/')
             
+            # Extract just the folder name
+            folder_name = folder_path.split('/')[-1]
+            
             # Count images in this folder
-            images = get_images_from_folder(folder_path)
+            images = get_images_from_folder(folder_name)
             
             folder_info['image_count'] = len(images)
-            folder_info['actual_path'] = folder_path
+            folder_info['actual_path'] = folder_name
             folders_info.append(folder_info)
         
         return jsonify({
