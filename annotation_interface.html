@@ -596,6 +596,8 @@
             // Use the full URL path for the image
             img.src = `/${imagePath}`;
             img.onload = function() {
+                console.log('Image loaded:', img.src);
+                
                 // Clear previous annotations
                 clearBoundingBoxes();
                 annotations = [];
@@ -603,7 +605,7 @@
                 updateImageCounter();
                 updateNavigationButtons();
                 
-                // Attach drawing listeners to the image element
+                // Simple direct event listener attachment
                 attachDrawingListeners();
             };
         }
@@ -759,35 +761,27 @@
                 return;
             }
             
-            // Remove any existing listeners by removing and re-adding the element
-            const imageWrapper = document.getElementById('imageWrapper');
-            const parent = img.parentNode;
-            const nextSibling = img.nextSibling;
-            
-            // Remove the image
-            parent.removeChild(img);
-            
-            // Re-add the image (this removes all event listeners)
-            if (nextSibling) {
-                parent.insertBefore(img, nextSibling);
-            } else {
-                parent.appendChild(img);
-            }
+            console.log('Attaching drawing listeners to:', img);
             
             // Set draggable to false
             img.draggable = false;
             
-            // Add event listeners
-            img.addEventListener('mousedown', startDrawing);
-            img.addEventListener('mousemove', draw);
-            img.addEventListener('mouseup', endDrawing);
-            img.addEventListener('mouseleave', endDrawing);
+            // Remove any existing listeners by setting to null first
+            img.onmousedown = null;
+            img.onmousemove = null;
+            img.onmouseup = null;
+            img.onmouseleave = null;
+            
+            // Add event listeners directly
+            img.onmousedown = startDrawing;
+            img.onmousemove = draw;
+            img.onmouseup = endDrawing;
+            img.onmouseleave = endDrawing;
             
             // Prevent drag behavior
             img.ondragstart = function() { return false; };
             
-            console.log('Drawing listeners attached to image:', img);
-            console.log('Image src:', img.src);
+            console.log('Drawing listeners attached successfully');
             console.log('Image draggable:', img.draggable);
         }
 
@@ -945,6 +939,18 @@
                 cancelable: true
             });
             img.dispatchEvent(clickEvent);
+        }
+
+        // Simple test function that should work immediately
+        function quickTest() {
+            const img = document.getElementById('annotationImage');
+            console.log('Quick test - Image found:', !!img);
+            if (img) {
+                console.log('Image src:', img.src);
+                console.log('Image draggable:', img.draggable);
+                console.log('onmousedown attached:', !!img.onmousedown);
+                console.log('onmousemove attached:', !!img.onmousemove);
+            }
         }
     </script>
 </body>
