@@ -655,13 +655,18 @@
 
         // Bounding box functionality
         function startDrawing(e) {
-            console.log('startDrawing called', e.target, document.getElementById('annotationImage'));
+            console.log('=== START DRAWING CALLED ===');
+            console.log('Event:', e);
+            console.log('Event target:', e.target);
+            console.log('Image element:', document.getElementById('annotationImage'));
+            console.log('Target matches image:', e.target === document.getElementById('annotationImage'));
+            
             if (e.target !== document.getElementById('annotationImage')) {
-                console.log('Target mismatch:', e.target, document.getElementById('annotationImage'));
+                console.log('Target mismatch - returning');
                 return;
             }
             if (isDrawing) {
-                console.log('Already drawing');
+                console.log('Already drawing - returning');
                 return;
             }
             console.log('Starting to draw at:', e.clientX, e.clientY);
@@ -670,6 +675,7 @@
             const rect = e.target.getBoundingClientRect();
             startX = e.clientX - rect.left;
             startY = e.clientY - rect.top;
+            console.log('Calculated start position:', startX, startY);
 
             currentBox = document.createElement('div');
             currentBox.className = 'bounding-box';
@@ -679,7 +685,8 @@
             currentBox.style.height = '0px';
 
             document.getElementById('imageWrapper').appendChild(currentBox);
-            console.log('Box created:', currentBox);
+            console.log('Box created and added to DOM:', currentBox);
+            console.log('=== START DRAWING COMPLETE ===');
         }
 
         function draw(e) {
