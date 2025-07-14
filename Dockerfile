@@ -6,11 +6,8 @@ RUN apt-get update && apt-get install -y git git-lfs && git lfs install
 # Set workdir
 WORKDIR /app
 
-# Copy everything
-COPY . .
-
-# Pull LFS files
-RUN git lfs pull
+# Clone the repo and pull LFS files
+RUN git clone https://github.com/nlazaridi/dark-pattern-annotation.git . && git lfs pull
 
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
