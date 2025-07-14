@@ -587,15 +587,28 @@
 
         // Load a specific image
         function loadImage(imageIndex) {
-            if (imageIndex < 0 || imageIndex >= currentFolderImages.length) return;
+            console.log('=== LOAD IMAGE CALLED ===');
+            console.log('Image index:', imageIndex);
+            console.log('Current folder images:', currentFolderImages);
+            
+            if (imageIndex < 0 || imageIndex >= currentFolderImages.length) {
+                console.log('Invalid image index - returning');
+                return;
+            }
             
             currentImageIndex = imageIndex;
             const imagePath = currentFolderImages[imageIndex];
+            console.log('Image path:', imagePath);
             
             const img = document.getElementById('annotationImage');
+            console.log('Image element found:', !!img);
+            
             // Use the full URL path for the image
             img.src = `/${imagePath}`;
+            console.log('Set image src to:', img.src);
+            
             img.onload = function() {
+                console.log('=== IMAGE LOADED ===');
                 console.log('Image loaded:', img.src);
                 
                 // Clear previous annotations
@@ -606,7 +619,14 @@
                 updateNavigationButtons();
                 
                 // Simple direct event listener attachment
+                console.log('About to call attachDrawingListeners...');
                 attachDrawingListeners();
+                console.log('attachDrawingListeners called');
+            };
+            
+            img.onerror = function() {
+                console.log('=== IMAGE LOAD ERROR ===');
+                console.log('Failed to load image:', img.src);
             };
         }
 
@@ -686,6 +706,11 @@
 
             document.getElementById('imageWrapper').appendChild(currentBox);
             console.log('Box created and added to DOM:', currentBox);
+            
+            // Attach mousemove and mouseup to document for proper dragging
+            document.addEventListener('mousemove', draw);
+            document.addEventListener('mouseup', endDrawing);
+            
             console.log('=== START DRAWING COMPLETE ===');
         }
 
@@ -710,6 +735,10 @@
         function endDrawing() {
             if (!isDrawing || !currentBox) return;
             isDrawing = false;
+            
+            // Remove document event listeners
+            document.removeEventListener('mousemove', draw);
+            document.removeEventListener('mouseup', endDrawing);
 
             const width = parseInt(currentBox.style.width);
             const height = parseInt(currentBox.style.height);
@@ -778,15 +807,9 @@
             
             // Remove any existing listeners by setting to null first
             img.onmousedown = null;
-            img.onmousemove = null;
-            img.onmouseup = null;
-            img.onmouseleave = null;
             
-            // Add event listeners directly
+            // Add only mousedown to the image (mousemove and mouseup are handled by document)
             img.onmousedown = startDrawing;
-            img.onmousemove = draw;
-            img.onmouseup = endDrawing;
-            img.onmouseleave = endDrawing;
             
             // Prevent drag behavior
             img.ondragstart = function() { return false; };
@@ -794,7 +817,6 @@
             console.log('Drawing listeners attached successfully');
             console.log('Image draggable:', img.draggable);
             console.log('onmousedown after assignment:', !!img.onmousedown);
-            console.log('onmousemove after assignment:', !!img.onmousemove);
         }
 
         // Annotation functionality
