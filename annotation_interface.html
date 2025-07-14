@@ -27,6 +27,88 @@
             overflow: hidden;
         }
 
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        .welcome-page {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .welcome-form {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 500;
+            color: #2c3e50;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .instructions {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: left;
+        }
+
+        .instructions h3 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .instructions ol {
+            margin-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        .thank-you-page {
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .thank-you-page h1 {
+            color: #27ae60;
+            margin-bottom: 20px;
+        }
+
+        .thank-you-page p {
+            font-size: 18px;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+
         .header {
             background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
             color: white;
@@ -138,6 +220,8 @@
             padding: 30px;
             text-align: center;
             background: #f8f9fa;
+            overflow: hidden;
+            position: relative;
         }
 
         .image-wrapper {
@@ -147,12 +231,16 @@
             border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 100%;
+            max-height: 70vh;
+            overflow: auto;
         }
 
         .annotation-image {
             max-width: 100%;
             max-height: 70vh;
             display: block;
+            transform-origin: top left;
         }
 
         .status-message {
@@ -196,6 +284,99 @@
             100% { transform: rotate(360deg); }
         }
 
+        .bounding-box {
+            position: absolute;
+            border: 2px solid #e74c3c;
+            background: rgba(231, 76, 60, 0.1);
+            cursor: pointer;
+            pointer-events: auto;
+            z-index: 5;
+            transform-origin: top left;
+        }
+        .bounding-box.selected {
+            border-color: #f39c12;
+            background: rgba(243, 156, 18, 0.2);
+            outline: 3px solid #f39c12;
+            z-index: 10;
+        }
+
+        .box-label {
+            position: absolute;
+            top: -22px;
+            left: 0;
+            background: #f39c12;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.9em;
+            pointer-events: none;
+            z-index: 20;
+            white-space: nowrap;
+        }
+
+        .zoom-controls {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .zoom-btn {
+            padding: 8px 16px;
+            margin: 0 5px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 6px;
+            background: #3498db;
+            color: white;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .zoom-btn:hover {
+            background: #2980b9;
+        }
+
+        .mode-toggle-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 15px;
+            gap: 10px;
+        }
+
+        .mode-label {
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+
+        .toggle-switch {
+            position: relative;
+            width: 50px;
+            height: 24px;
+            background-color: #ccc;
+            border-radius: 12px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 2px;
+        }
+
+        .toggle-slider {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: white;
+            border-radius: 50%;
+            transition: transform 0.3s ease;
+        }
+
+        .toggle-switch.active {
+            background-color: #27ae60; /* Green for Draw Mode */
+            justify-content: flex-end;
+        }
+
+        .toggle-slider.active {
+            transform: translateX(26px); /* Position slider to the right */
+        }
+
         @media (max-width: 768px) {
             .main-content {
                 grid-template-columns: 1fr;
@@ -213,47 +394,133 @@
 </head>
 <body>
     <div class="container">
-        <div class="header">
-            <h1>Dark Pattern Annotation Interface</h1>
-            <p>Navigate through folders and view images</p>
-            <div class="progress-bar">
-                <div class="progress-fill" id="progressFill"></div>
+        <!-- Welcome Page -->
+        <div id="welcomePage" class="page active">
+            <div class="header">
+                <h1>Dark Pattern Annotation Interface</h1>
+                <p>Welcome! Please provide your information to begin</p>
+            </div>
+            <div class="welcome-page">
+                <div class="welcome-form">
+                    <div class="form-group">
+                        <label for="userName">Full Name *</label>
+                        <input type="text" id="userName" placeholder="Enter your full name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="userEmail">Email Address *</label>
+                        <input type="email" id="userEmail" placeholder="Enter your email address" required>
+                    </div>
+                    
+                    <div class="instructions">
+                        <h3>📋 How to Use This Interface</h3>
+                        <ol>
+                            <li><strong>Navigation:</strong> Use the Previous/Next buttons to move between folders and images</li>
+                            <li><strong>Mode Toggle:</strong> Switch between Pan Mode (🖱️) and Draw Mode (✏️) using the toggle switch</li>
+                            <li><strong>Drawing Boxes:</strong> In Draw Mode, click and drag on images to create bounding boxes around dark patterns</li>
+                            <li><strong>Adding Descriptions:</strong> When you create a box, you'll be prompted to describe the dark pattern</li>
+                            <li><strong>Folder Comments:</strong> Add general observations about each folder in the comments section</li>
+                            <li><strong>Zoom & Pan:</strong> Use the zoom controls and pan mode to examine images closely</li>
+                            <li><strong>Submission:</strong> Click "Submit Annotations" when you're finished to save all your work</li>
+                        </ol>
+                    </div>
+                    
+                    <button id="startAnnotationBtn" class="nav-btn" style="background: #28a745; width: 100%; padding: 15px; font-size: 18px;">Start Annotation Process</button>
+                </div>
             </div>
         </div>
 
-        <div class="main-content">
-            <div class="sidebar">
-                <div class="folder-info">
-                    <h3 id="currentFolder">Loading...</h3>
-                    <p id="folderDescription">Loading folder information...</p>
+        <!-- Main Annotation Page -->
+        <div id="annotationPage" class="page">
+            <div class="header">
+                <h1>Dark Pattern Annotation Interface</h1>
+                <p id="userInfo">Loading...</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill"></div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="sidebar">
+                    <div class="folder-info">
+                        <h3 id="currentFolder">Loading...</h3>
+                        <p id="folderDescription">Loading folder information...</p>
+                        <div class="folder-comments">
+                            <h4>General Comments for this Folder</h4>
+                            <textarea id="folderComments" placeholder="Add your general observations about dark patterns in this folder..." rows="4" style="width: 100%; margin-top: 10px; padding: 8px; border: 1px solid #ddd; border-radius: 4px; resize: vertical;"></textarea>
+                            <button id="saveFolderComments" class="nav-btn" style="margin-top: 10px; background: #28a745;">Save Comments</button>
+                        </div>
+                    </div>
+
+                    <div class="navigation">
+                        <div class="nav-buttons">
+                            <button class="nav-btn" id="prevFolder" onclick="previousFolder()">← Previous Folder</button>
+                            <button class="nav-btn" id="nextFolder" onclick="nextFolder()">Next Folder →</button>
+                        </div>
+                        <div class="image-counter">
+                            Image <span id="currentImageIndex">0</span> of <span id="totalImages">0</span>
+                        </div>
+                        <div class="nav-buttons">
+                            <button class="nav-btn" id="prevImage" onclick="previousImage()">← Previous Image</button>
+                            <button class="nav-btn" id="nextImage" onclick="nextImage()">Next Image →</button>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="navigation">
-                    <div class="nav-buttons">
-                        <button class="nav-btn" id="prevFolder" onclick="previousFolder()">← Previous</button>
-                        <button class="nav-btn" id="nextFolder" onclick="nextFolder()">Next →</button>
+                <div class="image-container">
+                    <div class="zoom-controls">
+                        <button class="zoom-btn" onclick="setZoom(zoomLevel + 0.2)">+</button>
+                        <button class="zoom-btn" onclick="setZoom(zoomLevel - 0.2)">−</button>
+                        <button class="zoom-btn" onclick="resetPan(); setZoom(1)">Reset</button>
+                        <span id="zoomPercent" style="margin-left:10px; font-weight:bold;">100%</span>
                     </div>
-                    <div class="image-counter">
-                        Image <span id="currentImageIndex">0</span> of <span id="totalImages">0</span>
+                    <div class="controls">
+                        <button class="nav-btn" onclick="clearBoundingBoxes()">Clear All Boxes</button>
+                        <button class="nav-btn" onclick="deleteSelectedBox()">Delete Selected Box</button>
+                        <button class="nav-btn" onclick="submitAnnotations()" style="background: #28a745;">Submit Annotations</button>
+                        <div class="mode-toggle-container">
+                            <span class="mode-label">🖱️ Pan</span>
+                            <div class="toggle-switch" onclick="toggleDrawMode()">
+                                <div class="toggle-slider" id="toggleSlider"></div>
+                            </div>
+                            <span class="mode-label">✏️ Draw</span>
+                        </div>
                     </div>
-                    <div class="nav-buttons">
-                        <button class="nav-btn" id="prevImage" onclick="previousImage()">← Previous</button>
-                        <button class="nav-btn" id="nextImage" onclick="nextImage()">Next →</button>
+                    <div id="descriptionInputContainer" style="display:none; margin-top:10px; text-align:center;">
+                        <input type="text" id="boxDescriptionInput" placeholder="Describe the dark pattern for the selected box..." style="width:60%;padding:8px;">
+                        <button id="saveDescriptionBtn" class="nav-btn" style="margin-left:10px;">Save Description</button>
+                        <button id="cancelDescriptionBtn" class="nav-btn btn-danger" style="margin-left:10px;">Cancel</button>
+                        <div id="descWarning" style="color:#e74c3c; margin-top:5px; display:none;">Description is required!</div>
+                    </div>
+                    <div id="statusMessage"></div>
+                    <div id="imageWrapper" class="image-wrapper">
+                        <div id="imageContainer" style="position: relative; display: inline-block;">
+                            <img id="annotationImage" class="annotation-image" src="" alt="Annotatable" draggable="false" />
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="image-container">
-                <div class="image-wrapper" id="imageWrapper">
-                    <img id="annotationImage" class="annotation-image" src="" alt="Screenshot to view">
-                </div>
-                <div id="statusMessage"></div>
+            <div class="loading" id="loading">
+                <div class="spinner"></div>
+                <p>Loading images...</p>
             </div>
         </div>
 
-        <div class="loading" id="loading">
-            <div class="spinner"></div>
-            <p>Loading images...</p>
+        <!-- Thank You Page -->
+        <div id="thankYouPage" class="page">
+            <div class="header">
+                <h1>Thank You!</h1>
+                <p>Your annotations have been submitted successfully</p>
+            </div>
+            <div class="thank-you-page">
+                <h1>🎉 Submission Complete!</h1>
+                <p>Thank you for your valuable contribution to our dark pattern research.</p>
+                <p>Your annotations and comments have been saved and will be used for analysis.</p>
+                <p><strong>Participant:</strong> <span id="submittedUserName"></span></p>
+                <p><strong>Email:</strong> <span id="submittedUserEmail"></span></p>
+                <p><strong>Submission Time:</strong> <span id="submissionTime"></span></p>
+                <button onclick="location.reload()" class="nav-btn" style="background: #3498db; margin-top: 20px;">Start New Session</button>
+            </div>
         </div>
     </div>
 
@@ -263,39 +530,269 @@
         let currentImageIndex = 0;
         let folders = [];
         let currentFolderImages = [];
+        // Instead of just elements, store objects: { element, description }
+        let boundingBoxes = [];
+        let selectedBox = null;
+        let isDrawing = false;
+        let startX, startY, currentBox;
+        let actionsDisabled = false;
+        // Store boxes per image path
+        let imageBoxes = {};
+        let zoomLevel = 1; // Initialize zoom level
+        let isPanning = false;
+        let panStartX, panStartY;
+        let panStartScrollX, panStartScrollY;
+        let drawMode = false; // false = pan mode, true = draw mode
+        // Store folder comments
+        let folderComments = {};
+        // User information
+        let userInfo = {
+            name: '',
+            email: ''
+        };
+
+        // Place setZoom function before any code that calls it
+        function setZoom(level) {
+            zoomLevel = Math.max(0.2, Math.min(level, 4));
+            const wrapper = document.getElementById('imageWrapper');
+            const container = document.getElementById('imageContainer');
+            if (wrapper && container) {
+                container.style.transform = `scale(${zoomLevel})`;
+                // Reset scroll position when zoom changes
+                wrapper.scrollLeft = 0;
+                wrapper.scrollTop = 0;
+            }
+            const zoomPercent = document.getElementById('zoomPercent');
+            if (zoomPercent) {
+                zoomPercent.textContent = Math.round(zoomLevel * 100) + '%';
+            }
+        }
+
+        function startPanning(e) {
+            if (zoomLevel <= 1 || drawMode) return; // Only pan when zoomed and not in draw mode
+            isPanning = true;
+            panStartX = e.clientX;
+            panStartY = e.clientY;
+            const wrapper = document.getElementById('imageWrapper');
+            panStartScrollX = wrapper.scrollLeft;
+            panStartScrollY = wrapper.scrollTop;
+            document.addEventListener('mousemove', pan);
+            document.addEventListener('mouseup', stopPanning);
+            e.preventDefault();
+        }
+
+        function pan(e) {
+            if (!isPanning) return;
+            const wrapper = document.getElementById('imageWrapper');
+            const deltaX = panStartX - e.clientX;
+            const deltaY = panStartY - e.clientY;
+            wrapper.scrollLeft = panStartScrollX + deltaX;
+            wrapper.scrollTop = panStartScrollY + deltaY;
+        }
+
+        function stopPanning() {
+            isPanning = false;
+            document.removeEventListener('mousemove', pan);
+            document.removeEventListener('mouseup', stopPanning);
+        }
+
+        function resetPan() {
+            const wrapper = document.getElementById('imageWrapper');
+            if (wrapper) {
+                wrapper.scrollLeft = 0;
+                wrapper.scrollTop = 0;
+            }
+        }
+
+        function showPage(pageId) {
+            // Hide all pages
+            document.querySelectorAll('.page').forEach(page => {
+                page.classList.remove('active');
+            });
+            // Show the specified page
+            document.getElementById(pageId).classList.add('active');
+        }
+
+        function startAnnotation() {
+            const userName = document.getElementById('userName').value.trim();
+            const userEmail = document.getElementById('userEmail').value.trim();
+            
+            if (!userName || !userEmail) {
+                alert('Please provide both your name and email address.');
+                return;
+            }
+            
+            // Save user information
+            userInfo.name = userName;
+            userInfo.email = userEmail;
+            
+            // Update user info display
+            document.getElementById('userInfo').textContent = `${userName} (${userEmail})`;
+            
+            // Switch to annotation page
+            showPage('annotationPage');
+            
+            // Initialize the annotation interface
+            initializeInterface();
+        }
+
+        function showThankYouPage() {
+            // Update thank you page with user info
+            document.getElementById('submittedUserName').textContent = userInfo.name;
+            document.getElementById('submittedUserEmail').textContent = userInfo.email;
+            document.getElementById('submissionTime').textContent = new Date().toLocaleString();
+            
+            // Switch to thank you page
+            showPage('thankYouPage');
+        }
+
+        function saveFolderComments() {
+            const comments = document.getElementById('folderComments').value;
+            const folderName = folders[currentFolderIndex].folder_name;
+            folderComments[folderName] = comments;
+            showStatus('Folder comments saved!', 'success');
+        }
+
+        function loadFolderComments() {
+            const folderName = folders[currentFolderIndex].folder_name;
+            const comments = folderComments[folderName] || '';
+            document.getElementById('folderComments').value = comments;
+        }
+
+        function submitAnnotations() {
+            // Save current image boxes before submitting
+            saveCurrentImageBoxes();
+            // Save current folder comments
+            saveFolderComments();
+            
+            // Collect all annotation data
+            const allAnnotations = {};
+            
+            // Go through all folders and images to collect data
+            folders.forEach((folder, folderIndex) => {
+                const folderName = folder.folder_name;
+                allAnnotations[folderName] = {
+                    images: {},
+                    comments: folderComments[folderName] || ''
+                };
+                
+                folder.images.forEach((imagePath, imageIndex) => {
+                    const cleanImagePath = imagePath.replace(/^diverse_searchers_task_folders[\\/]/, '');
+                    const uniqueImageId = `${folderName}_${cleanImagePath}`;
+                    
+                    // Get boxes for this image
+                    const boxes = imageBoxes[uniqueImageId] || [];
+                    
+                    if (boxes.length > 0) {
+                        allAnnotations[folderName].images[cleanImagePath] = boxes.map(box => ({
+                            left: box.left,
+                            top: box.top,
+                            width: box.width,
+                            height: box.height,
+                            description: box.description
+                        }));
+                    }
+                });
+            });
+            
+            console.log('Submitting annotations:', allAnnotations);
+            
+            // Send to backend
+            fetch('/api/submit-annotations', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    annotations: allAnnotations,
+                    timestamp: new Date().toISOString(),
+                    total_folders: folders.length,
+                    total_images: folders.reduce((sum, folder) => sum + folder.images.length, 0),
+                    user_info: {
+                        name: userInfo.name,
+                        email: userInfo.email
+                    }
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    showStatus('Annotations submitted successfully!', 'success');
+                    console.log('Submission response:', data);
+                    showThankYouPage(); // Show thank you page on success
+                } else {
+                    showStatus('Error submitting annotations: ' + data.error, 'error');
+                }
+            })
+            .catch(error => {
+                console.error('Error submitting annotations:', error);
+                showStatus('Error submitting annotations. Please try again.', 'error');
+            });
+        }
+
+        function toggleDrawMode() {
+            drawMode = !drawMode;
+            const toggleSwitch = document.querySelector('.toggle-switch');
+            const toggleSlider = document.getElementById('toggleSlider');
+            if (drawMode) {
+                toggleSwitch.classList.add('active');
+                toggleSlider.classList.add('active');
+                toggleSlider.style.transform = 'translateX(26px)'; // Position slider to the right
+            } else {
+                toggleSwitch.classList.remove('active');
+                toggleSlider.classList.remove('active');
+                toggleSlider.style.transform = 'translateX(2px)'; // Position slider to the left
+            }
+        }
 
         // Initialize the interface
         async function initializeInterface() {
             try {
                 console.log('Initializing interface...');
-                const response = await fetch('folders_summary.json');
+                // Fetch folders and images dynamically from backend
+                const response = await fetch('/api/folders-dynamic');
                 const data = await response.json();
                 folders = data.folders;
-                console.log('Loaded folders:', folders.length);
-                
-                // Load the first folder
-                await loadFolder(0);
-                updateProgress();
+                console.log('Dynamic folders loaded:', folders);
+                if (folders.length > 0) {
+                    await loadFolder(0);
+                    updateProgress();
+                } else {
+                    showStatus('No folders with images found.', 'error');
+                }
             } catch (error) {
                 console.error('Error loading folders:', error);
-                showStatus('Error loading folders. Please check if folders_summary.json exists.', 'error');
+                showStatus('Error loading folders. Please check if folders exist.', 'error');
             }
         }
-
         // Load a specific folder
         async function loadFolder(folderIndex) {
             if (folderIndex < 0 || folderIndex >= folders.length) return;
             
-            console.log('Loading folder:', folderIndex);
+            // Save boxes for the current image before switching folders
+            if (currentFolderImages.length > 0) {
+                saveCurrentImageBoxes();
+            }
+            // Save current folder comments
+            saveFolderComments();
+            
             currentFolderIndex = folderIndex;
             currentImageIndex = 0;
-            
             const folder = folders[folderIndex];
-            document.getElementById('currentFolder').textContent = `${folder.airline} - ${folder.task_title}`;
-            document.getElementById('folderDescription').textContent = `Task: ${folder.task_id}`;
-            
-            // Load images from the folder
-            await loadFolderImages(folder.folder_path);
+            document.getElementById('currentFolder').textContent = folder.folder_name;
+            document.getElementById('folderDescription').textContent = '';
+            // Use images directly from folder object
+            currentFolderImages = folder.images;
+            if (currentFolderImages.length > 0) {
+                loadImage(0, false); // Pass false to indicate not to save current boxes
+                loadFolderComments(); // Load comments for the current folder
+            } else {
+                document.getElementById('annotationImage').src = '';
+                clearBoundingBoxes();
+                document.getElementById('descriptionInputContainer').style.display = 'none';
+                showStatus('No images found in this folder.', 'error');
+                loadFolderComments(); // Load comments for the current folder
+            }
             updateNavigationButtons();
         }
 
@@ -306,14 +803,16 @@
                 const response = await fetch(`/api/images?folder=${encodeURIComponent(folderPath)}`);
                 const data = await response.json();
                 currentFolderImages = data.images;
-                console.log('Loaded images:', currentFolderImages.length);
-                
+                console.log('Loaded images:', currentFolderImages.length, currentFolderImages);
                 if (currentFolderImages.length > 0) {
                     loadImage(0);
                 } else {
+                    // Clear image and boxes if no images
+                    document.getElementById('annotationImage').src = '';
+                    clearBoundingBoxes();
+                    document.getElementById('descriptionInputContainer').style.display = 'none';
                     showStatus('No images found in this folder.', 'error');
                 }
-                
                 updateImageCounter();
             } catch (error) {
                 console.error('Error loading images:', error);
@@ -321,51 +820,335 @@
             }
         }
 
-        // Load a specific image
-        function loadImage(imageIndex) {
+        // After loading an image, clear boxes and attach listeners
+        function loadImage(imageIndex, saveCurrent = true) {
             if (imageIndex < 0 || imageIndex >= currentFolderImages.length) return;
-            
-            console.log('Loading image:', imageIndex);
-            currentImageIndex = imageIndex;
-            const imagePath = currentFolderImages[imageIndex];
-            
             const img = document.getElementById('annotationImage');
+            if (!img) {
+                console.warn('Image element not found! Retrying in 50ms...');
+                setTimeout(() => loadImage(imageIndex, saveCurrent), 50);
+                return;
+            }
+            // Save boxes for the current image before switching (unless called from loadFolder)
+            if (saveCurrent) {
+                saveCurrentImageBoxes();
+            }
+            // Update the image index
+            currentImageIndex = imageIndex;
+            let imagePath = currentFolderImages[imageIndex]; // full path
+            // Remove diverse_searchers_task_folders/ or \\ prefix if present
+            imagePath = imagePath.replace(/^diverse_searchers_task_folders[\\/]/, '');
+            console.log('Setting image src to:', imagePath);
             img.src = `/${imagePath}`;
-            console.log('Image src set to:', img.src);
-            
             updateImageCounter();
             updateNavigationButtons();
+            restoreImageBoxes(imagePath);
+            setZoom(1);
+            resetPan(); // Reset pan when loading a new image
+            updateProgress(); // Update progress bar
+        }
+        function saveCurrentImageBoxes() {
+            if (!currentFolderImages.length) return;
+            let imagePath = currentFolderImages[currentImageIndex]; // full path
+            // Create a unique identifier that includes folder and image info
+            const folderName = folders[currentFolderIndex].folder_name;
+            const uniqueImageId = `${folderName}_${imagePath.replace(/^diverse_searchers_task_folders[\\/]/, '')}`;
+            console.log('=== SAVING BOXES ===');
+            console.log('Current folder index:', currentFolderIndex);
+            console.log('Current image index:', currentImageIndex);
+            console.log('Folder name:', folderName);
+            console.log('Image path:', imagePath);
+            console.log('Unique image ID:', uniqueImageId);
+            console.log('Current boundingBoxes count:', boundingBoxes.length);
+            imageBoxes[uniqueImageId] = boundingBoxes.map(obj => {
+                return {
+                    left: parseFloat(obj.element.style.left),
+                    top: parseFloat(obj.element.style.top),
+                    width: parseFloat(obj.element.style.width),
+                    height: parseFloat(obj.element.style.height),
+                    description: obj.description || '',
+                };
+            });
+            console.log('Saved boxes for path:', uniqueImageId, 'Boxes:', imageBoxes[uniqueImageId]);
+            console.log('=== END SAVING ===');
+        }
+        function restoreImageBoxes(imagePath) {
+            const folderName = folders[currentFolderIndex].folder_name;
+            const uniqueImageId = `${folderName}_${imagePath.replace(/^diverse_searchers_task_folders[\\/]/, '')}`;
+            console.log('=== RESTORING BOXES ===');
+            console.log('Current folder index:', currentFolderIndex);
+            console.log('Current image index:', currentImageIndex);
+            console.log('Folder name:', folderName);
+            console.log('Image path:', imagePath);
+            console.log('Unique image ID:', uniqueImageId);
+            console.log('Available imageBoxes keys:', Object.keys(imageBoxes));
+            clearBoundingBoxes();
+            const boxes = imageBoxes[uniqueImageId] || [];
+            console.log('Found boxes for path:', uniqueImageId, 'Count:', boxes.length);
+            console.log('=== END RESTORING ===');
+            boxes.forEach(data => {
+                const box = document.createElement('div');
+                box.className = 'bounding-box';
+                box.style.left = data.left + 'px';
+                box.style.top = data.top + 'px';
+                box.style.width = data.width + 'px';
+                box.style.height = data.height + 'px';
+                box.setAttribute('tabindex', '0');
+                box.onclick = function(e) {
+                    if (actionsDisabled) return;
+                    e.stopPropagation();
+                    selectBox(this);
+                };
+                box.onmousedown = function(e) {
+                    if (actionsDisabled) return;
+                    e.stopPropagation();
+                    selectBox(this);
+                };
+                // Add label
+                const label = document.createElement('span');
+                label.className = 'box-label';
+                if (data.description) {
+                    label.textContent = data.description;
+                    label.style.display = 'block';
+                } else {
+                    label.style.display = 'none';
+                }
+                box.appendChild(label);
+                document.getElementById('imageContainer').appendChild(box);
+                boundingBoxes.push({ element: box, description: data.description });
+            });
+            // Re-attach drawing handler to image
+            const img = document.getElementById('annotationImage');
+            if (img) {
+                img.onmousedown = startDrawing;
+                img.ondragstart = () => false;
+            }
+        }
+
+        function startDrawing(e) {
+            if (isDrawing || !drawMode) return; // Only draw when in draw mode
+            isDrawing = true;
+            const img = document.getElementById('annotationImage');
+            const wrapper = document.getElementById('imageWrapper');
+            const rect = img.getBoundingClientRect();
+            // Calculate coordinates relative to the image, accounting for scroll and scale
+            startX = (e.clientX - rect.left + wrapper.scrollLeft) / zoomLevel;
+            startY = (e.clientY - rect.top + wrapper.scrollTop) / zoomLevel;
+            currentBox = document.createElement('div');
+            currentBox.className = 'bounding-box';
+            currentBox.style.left = startX + 'px';
+            currentBox.style.top = startY + 'px';
+            currentBox.style.width = '0px';
+            currentBox.style.height = '0px';
+            document.getElementById('imageContainer').appendChild(currentBox);
+            document.addEventListener('mousemove', drawBox);
+            document.addEventListener('mouseup', endDrawing);
+        }
+        function drawBox(e) {
+            if (!isDrawing || !currentBox) return;
+            const img = document.getElementById('annotationImage');
+            const wrapper = document.getElementById('imageWrapper');
+            const rect = img.getBoundingClientRect();
+            const x = (e.clientX - rect.left + wrapper.scrollLeft) / zoomLevel;
+            const y = (e.clientY - rect.top + wrapper.scrollTop) / zoomLevel;
+            const width = Math.abs(x - startX);
+            const height = Math.abs(y - startY);
+            const left = Math.min(x, startX);
+            const top = Math.min(y, startY);
+            currentBox.style.left = left + 'px';
+            currentBox.style.top = top + 'px';
+            currentBox.style.width = width + 'px';
+            currentBox.style.height = height + 'px';
+        }
+        function endDrawing() {
+            if (!isDrawing || !currentBox) return;
+            isDrawing = false;
+            document.removeEventListener('mousemove', drawBox);
+            document.removeEventListener('mouseup', endDrawing);
+            const width = parseInt(currentBox.style.width);
+            const height = parseInt(currentBox.style.height);
+            if (width > 10 && height > 10) {
+                currentBox.setAttribute('tabindex', '0');
+                currentBox.onclick = function(e) {
+                    if (actionsDisabled) return;
+                    e.stopPropagation();
+                    console.log('Box clicked (onclick)');
+                    selectBox(this);
+                };
+                currentBox.onmousedown = function(e) {
+                    if (actionsDisabled) return;
+                    e.stopPropagation();
+                    console.log('Box clicked (mousedown)');
+                    selectBox(this);
+                };
+                // Add label span
+                const label = document.createElement('span');
+                label.className = 'box-label';
+                label.style.display = 'none';
+                currentBox.appendChild(label);
+                // Store as object
+                const boxObj = { element: currentBox, description: '' };
+                boundingBoxes.push(boxObj);
+                // Immediately select and focus description input
+                selectBox(currentBox);
+                setTimeout(() => {
+                    const input = document.getElementById('boxDescriptionInput');
+                    if (input) input.focus();
+                }, 0);
+                setActionsDisabled(true);
+            } else {
+                currentBox.remove();
+            }
+            currentBox = null;
+        }
+        function selectBox(boxElem) {
+            if (!boxElem) {
+                console.log('selectBox called with null/undefined');
+                return;
+            }
+            console.log('selectBox called', boxElem);
+            boundingBoxes.forEach(obj => obj.element.classList.remove('selected'));
+            selectedBox = boundingBoxes.find(obj => obj.element === boxElem);
+            if (!selectedBox) return;
+            boxElem.classList.add('selected');
+            // Show input and set value
+            const inputContainer = document.getElementById('descriptionInputContainer');
+            const input = document.getElementById('boxDescriptionInput');
+            const saveBtn = document.getElementById('saveDescriptionBtn');
+            const cancelBtn = document.getElementById('cancelDescriptionBtn');
+            const warning = document.getElementById('descWarning');
+            inputContainer.style.display = 'block';
+            input.value = selectedBox.description || '';
+            warning.style.display = 'none';
+            input.disabled = false;
+            saveBtn.disabled = false;
+            cancelBtn.disabled = false;
+            input.oninput = function() {
+                warning.style.display = 'none';
+            };
+            saveBtn.onclick = function() {
+                if (!input.value.trim()) {
+                    warning.style.display = 'block';
+                    input.focus();
+                    return;
+                }
+                selectedBox.description = input.value;
+                // Update label
+                const label = selectedBox.element.querySelector('.box-label');
+                label.textContent = input.value;
+                label.style.display = 'block';
+                inputContainer.style.display = 'none';
+                setActionsDisabled(false);
+            };
+            cancelBtn.onclick = function() {
+                // If the box has no description, treat as new/misclick: delete it
+                if (!selectedBox.description) {
+                    if (selectedBox.element.parentNode) {
+                        selectedBox.element.parentNode.removeChild(selectedBox.element);
+                    }
+                    boundingBoxes = boundingBoxes.filter(obj => obj !== selectedBox);
+                    selectedBox = null;
+                }
+                inputContainer.style.display = 'none';
+                setActionsDisabled(false);
+            };
+            // If description is empty, force user to save
+            if (!selectedBox.description) {
+                setActionsDisabled(true);
+                setTimeout(() => { input.focus(); }, 0);
+            }
+        }
+        function deleteSelectedBox() {
+            if (actionsDisabled) return;
+            console.log('Delete button pressed. selectedBox:', selectedBox);
+            if (selectedBox) {
+                console.log('Deleting selected box', selectedBox);
+                if (selectedBox.element.parentNode) {
+                    selectedBox.element.parentNode.removeChild(selectedBox.element);
+                }
+                boundingBoxes = boundingBoxes.filter(obj => obj !== selectedBox);
+                selectedBox = null;
+                // Hide input
+                document.getElementById('descriptionInputContainer').style.display = 'none';
+                setActionsDisabled(false);
+            } else if (boundingBoxes.length > 0) {
+                // Fallback: delete last box
+                const last = boundingBoxes.pop();
+                if (last.element.parentNode) {
+                    last.element.parentNode.removeChild(last.element);
+                }
+                console.log('Deleted last box (no selection)');
+            } else {
+                console.log('No box to delete');
+            }
+        }
+        function clearBoundingBoxes() {
+            if (actionsDisabled) return;
+            boundingBoxes.forEach(obj => obj.element.remove());
+            boundingBoxes = [];
+            selectedBox = null;
+            document.getElementById('descriptionInputContainer').style.display = 'none';
+            setActionsDisabled(false);
         }
 
         // Navigation functions
         function nextFolder() {
-            if (currentFolderIndex < folders.length - 1) {
+            if (!actionsDisabled && currentFolderIndex < folders.length - 1) {
                 loadFolder(currentFolderIndex + 1);
+                updateProgress();
             }
         }
 
         function previousFolder() {
-            if (currentFolderIndex > 0) {
+            if (!actionsDisabled && currentFolderIndex > 0) {
                 loadFolder(currentFolderIndex - 1);
+                updateProgress();
             }
         }
 
         function nextImage() {
-            if (currentImageIndex < currentFolderImages.length - 1) {
-                loadImage(currentImageIndex + 1);
+            if (!actionsDisabled && currentImageIndex < currentFolderImages.length - 1) {
+                loadImage(currentImageIndex + 1, true);
+                updateProgress();
             }
         }
 
         function previousImage() {
-            if (currentImageIndex > 0) {
-                loadImage(currentImageIndex - 1);
+            if (!actionsDisabled && currentImageIndex > 0) {
+                loadImage(currentImageIndex - 1, true);
+                updateProgress();
             }
         }
 
         // Update UI elements
         function updateProgress() {
-            const progress = ((currentFolderIndex + 1) / folders.length) * 100;
-            document.getElementById('progressFill').style.width = progress + '%';
+            const totalFolders = folders.length;
+            const currentFolder = currentFolderIndex + 1;
+            const totalImagesInCurrentFolder = currentFolderImages.length;
+            const currentImage = currentImageIndex + 1;
+            
+            // Calculate overall progress (folders completed + current folder progress)
+            let overallProgress = 0;
+            if (totalFolders > 0) {
+                // Progress from completed folders
+                const completedFolders = currentFolderIndex;
+                const folderProgress = completedFolders / totalFolders;
+                
+                // Progress within current folder
+                const imageProgress = totalImagesInCurrentFolder > 0 ? currentImageIndex / totalImagesInCurrentFolder : 0;
+                const currentFolderProgress = imageProgress / totalFolders;
+                
+                overallProgress = (folderProgress + currentFolderProgress) * 100;
+            }
+            
+            // Update progress bar
+            document.getElementById('progressFill').style.width = Math.min(overallProgress, 100) + '%';
+            
+            // Update progress text in header with numbers
+            const headerP = document.querySelector('.header p');
+            if (headerP) {
+                headerP.textContent = `Folder ${currentFolder} of ${totalFolders} • Image ${currentImage} of ${totalImagesInCurrentFolder}`;
+            }
         }
 
         function updateImageCounter() {
@@ -391,11 +1174,65 @@
             }, 5000);
         }
 
+        function setActionsDisabled(disabled) {
+            actionsDisabled = disabled;
+            // Disable navigation
+            document.getElementById('prevFolder').disabled = disabled || currentFolderIndex === 0;
+            document.getElementById('nextFolder').disabled = disabled || currentFolderIndex === folders.length - 1;
+            document.getElementById('prevImage').disabled = disabled || currentImageIndex === 0;
+            document.getElementById('nextImage').disabled = disabled || currentImageIndex === currentFolderImages.length - 1;
+            // Disable box controls
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                if (btn.textContent.includes('Clear All Boxes') || btn.textContent.includes('Delete Selected Box')) {
+                    btn.disabled = disabled;
+                }
+            });
+        }
+
         // Initialize when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            console.log('DOM loaded, initializing...');
-            initializeInterface();
-        });
+        // Don't auto-initialize - wait for user to start
+        const wrapper = document.getElementById('imageWrapper');
+        if (wrapper) {
+            wrapper.addEventListener('wheel', function(e) {
+                if (e.ctrlKey) return; // let browser zoom if ctrl is pressed
+                e.preventDefault();
+                if (e.deltaY < 0) setZoom(zoomLevel + 0.1);
+                else setZoom(zoomLevel - 0.1);
+            }, { passive: false });
+            // Add panning functionality to wrapper
+            wrapper.addEventListener('mousedown', function(e) {
+                if (!drawMode && zoomLevel > 1) {
+                    startPanning(e);
+                }
+            });
+        }
+        setZoom(1);
+
+        // Set up image drawing functionality
+        const img = document.getElementById('annotationImage');
+        if (img) {
+            img.onmousedown = function(e) {
+                if (actionsDisabled) {
+                    e.preventDefault();
+                    return false;
+                }
+                if (drawMode) {
+                    startDrawing(e);
+                }
+            };
+        }
+
+        // Set up folder comments functionality
+        const saveCommentsBtn = document.getElementById('saveFolderComments');
+        if (saveCommentsBtn) {
+            saveCommentsBtn.addEventListener('click', saveFolderComments);
+        }
+
+        // Set up start annotation button
+        const startBtn = document.getElementById('startAnnotationBtn');
+        if (startBtn) {
+            startBtn.addEventListener('click', startAnnotation);
+        }
     </script>
 </body>
 </html> 

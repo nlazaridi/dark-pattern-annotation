@@ -1,0 +1,47 @@
+{
+  "timestamp": "2025-07-14T21:18:01.610Z",
+  "total_folders": 18,
+  "total_images": 220,
+  "annotations": {
+    "EasyJet_a": {
+      "EasyJet_a/run_20250619_160140_c8dae5a2/step_21_160426_screenshot.png": [
+        {
+          "left": 297,
+          "top": 189.333,
+          "width": 262,
+          "height": 174,
+          "description": "asd"
+        },
+        {
+          "left": 134,
+          "top": 116.333,
+          "width": 89,
+          "height": 54,
+          "description": "dddd"
+        }
+      ]
+    },
+    "EasyJet_b": {},
+    "Emirates_a": {},
+    "Emirates_b": {},
+    "Emirates_c_alt3": {},
+    "Emirates_d": {},
+    "LATAM_Airlines_Brasil_a_alt3": {},
+    "LATAM_Airlines_Brasil_b_alt3": {},
+    "LATAM_Airlines_Brasil_c_alt1": {},
+    "Ryanair_a_alt2": {},
+    "Ryanair_b": {},
+    "Ryanair_c_alt1": {},
+    "Turkish_Airlines_a_alt4": {},
+    "Turkish_Airlines_b_alt2": {},
+    "Turkish_Airlines_c": {},
+    "United_Airlines_a_alt1": {},
+    "United_Airlines_b": {},
+    "United_Airlines_c_alt1": {}
+  },
+  "summary": {
+    "folders_with_annotations": 1,
+    "total_annotated_images": 1,
+    "total_boxes": 2
+  }
+}

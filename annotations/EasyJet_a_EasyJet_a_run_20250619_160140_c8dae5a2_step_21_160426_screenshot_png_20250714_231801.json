@@ -1,0 +1,22 @@
+{
+  "folder": "EasyJet_a",
+  "image": "EasyJet_a/run_20250619_160140_c8dae5a2/step_21_160426_screenshot.png",
+  "annotations": [
+    {
+      "left": 297,
+      "top": 189.333,
+      "width": 262,
+      "height": 174,
+      "description": "asd"
+    },
+    {
+      "left": 134,
+      "top": 116.333,
+      "width": 89,
+      "height": 54,
+      "description": "dddd"
+    }
+  ],
+  "timestamp": "2025-07-14T21:18:01.610Z",
+  "total_annotations": 2
+}

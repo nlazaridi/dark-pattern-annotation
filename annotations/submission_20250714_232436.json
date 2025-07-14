@@ -1,0 +1,84 @@
+{
+  "timestamp": "2025-07-14T21:24:36.935Z",
+  "total_folders": 18,
+  "total_images": 220,
+  "annotations": {
+    "EasyJet_a": {
+      "images": {},
+      "comments": "sdasddsdsda"
+    },
+    "EasyJet_b": {
+      "images": {},
+      "comments": ""
+    },
+    "Emirates_a": {
+      "images": {},
+      "comments": ""
+    },
+    "Emirates_b": {
+      "images": {},
+      "comments": ""
+    },
+    "Emirates_c_alt3": {
+      "images": {},
+      "comments": ""
+    },
+    "Emirates_d": {
+      "images": {},
+      "comments": ""
+    },
+    "LATAM_Airlines_Brasil_a_alt3": {
+      "images": {},
+      "comments": ""
+    },
+    "LATAM_Airlines_Brasil_b_alt3": {
+      "images": {},
+      "comments": ""
+    },
+    "LATAM_Airlines_Brasil_c_alt1": {
+      "images": {},
+      "comments": ""
+    },
+    "Ryanair_a_alt2": {
+      "images": {},
+      "comments": ""
+    },
+    "Ryanair_b": {
+      "images": {},
+      "comments": ""
+    },
+    "Ryanair_c_alt1": {
+      "images": {},
+      "comments": ""
+    },
+    "Turkish_Airlines_a_alt4": {
+      "images": {},
+      "comments": ""
+    },
+    "Turkish_Airlines_b_alt2": {
+      "images": {},
+      "comments": ""
+    },
+    "Turkish_Airlines_c": {
+      "images": {},
+      "comments": ""
+    },
+    "United_Airlines_a_alt1": {
+      "images": {},
+      "comments": ""
+    },
+    "United_Airlines_b": {
+      "images": {},
+      "comments": ""
+    },
+    "United_Airlines_c_alt1": {
+      "images": {},
+      "comments": ""
+    }
+  },
+  "summary": {
+    "folders_with_annotations": 18,
+    "total_annotated_images": 36,
+    "total_boxes": 11
+  }
+}

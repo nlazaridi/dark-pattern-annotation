@@ -211,40 +211,141 @@ def list_folders():
         logger.error(f"Error listing folders: {str(e)}")
         return jsonify({"error": f"Failed to list folders: {str(e)}"}), 500
 
+@app.route('/api/folders-dynamic')
+def list_folders_dynamic():
+    """List all available folders with their image files by scanning the filesystem."""
+    try:
+        # List all directories in the current directory (excluding special/hidden ones)
+        base_dir = os.getcwd()
+        all_dirs = [d for d in os.listdir(base_dir) if os.path.isdir(d) and not d.startswith('.')]
+        folders_info = []
+        for folder_name in all_dirs:
+            images = get_images_from_folder(folder_name)
+            if images:
+                folders_info.append({
+                    'folder_name': folder_name,
+                    'images': images,
+                    'image_count': len(images)
+                })
+        return jsonify({
+            'folders': folders_info,
+            'total_folders': len(folders_info)
+        })
+    except Exception as e:
+        logger.error(f"Error listing folders dynamically: {str(e)}")
+        return jsonify({"error": f"Failed to list folders dynamically: {str(e)}"}), 500
+
 @app.route('/api/statistics')
 def get_statistics():
-    """Get annotation statistics."""
+    """Get statistics about annotations and folders."""
     try:
-        # Count annotation files
+        # Get annotation statistics
         annotation_files = glob.glob(os.path.join(ANNOTATIONS_DIR, '*.json'))
-        
-        # Count total annotations across all files
         total_annotations = 0
-        experts = set()
-        folders = set()
+        total_files = 0
         
         for file_path in annotation_files:
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                    total_annotations += len(data.get('annotations', []))
-                    experts.add(data.get('expert', 'unknown'))
-                    folders.add(data.get('folder', 'unknown'))
+                    total_annotations += data.get('total_annotations', 0)
+                    total_files += 1
             except Exception as e:
                 logger.warning(f"Error reading annotation file {file_path}: {e}")
         
+        # Get folder statistics
+        with open('folders_summary.json', 'r', encoding='utf-8') as f:
+            folders_data = json.load(f)
+        
+        total_folders = len(folders_data.get('folders', []))
+        total_images = sum(folder.get('image_count', 0) for folder in folders_data.get('folders', []))
+        
         return jsonify({
-            "total_annotation_files": len(annotation_files),
-            "total_annotations": total_annotations,
-            "unique_experts": len(experts),
-            "unique_folders": len(folders),
-            "experts": list(experts),
-            "folders": list(folders)
+            "annotations": {
+                "total_files": total_files,
+                "total_annotations": total_annotations,
+                "average_per_file": total_annotations / total_files if total_files > 0 else 0
+            },
+            "folders": {
+                "total_folders": total_folders,
+                "total_images": total_images
+            }
         })
         
     except Exception as e:
         logger.error(f"Error getting statistics: {str(e)}")
         return jsonify({"error": f"Failed to get statistics: {str(e)}"}), 500
+
+@app.route('/api/submit-annotations', methods=['POST'])
+def submit_annotations():
+    """Submit all annotations for analysis."""
+    try:
+        data = request.get_json()
+        
+        if not data:
+            return jsonify({"error": "No data provided"}), 400
+        
+        annotations = data.get('annotations', {})
+        timestamp = data.get('timestamp', datetime.now().isoformat())
+        total_folders = data.get('total_folders', 0)
+        total_images = data.get('total_images', 0)
+        
+        # Create a comprehensive submission file
+        submission_data = {
+            "timestamp": timestamp,
+            "total_folders": total_folders,
+            "total_images": total_images,
+            "annotations": annotations,
+            "summary": {
+                "folders_with_annotations": len([f for f in annotations.keys() if annotations[f]]),
+                "total_annotated_images": sum(len(images) for images in annotations.values()),
+                "total_boxes": sum(len(boxes) for folder_images in annotations.values() 
+                                 for images in folder_images.values() 
+                                 for boxes in [images])
+            }
+        }
+        
+        # Create filename with timestamp
+        timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
+        submission_file = os.path.join(ANNOTATIONS_DIR, f"submission_{timestamp_str}.json")
+        
+        # Save the complete submission
+        with open(submission_file, 'w', encoding='utf-8') as f:
+            json.dump(submission_data, f, indent=2, ensure_ascii=False)
+        
+        logger.info(f"Saved complete annotation submission to {submission_file}")
+        
+        # Also save individual annotation files for each image
+        for folder_name, folder_images in annotations.items():
+            for image_path, boxes in folder_images.items():
+                if boxes:  # Only save if there are boxes
+                    # Create individual annotation file
+                    safe_filename = f"{folder_name}_{image_path.replace('/', '_').replace('.', '_')}_{timestamp_str}.json"
+                    safe_filename = "".join(c for c in safe_filename if c.isalnum() or c in ('-', '_', '.'))
+                    
+                    individual_file = os.path.join(ANNOTATIONS_DIR, safe_filename)
+                    
+                    individual_data = {
+                        "folder": folder_name,
+                        "image": image_path,
+                        "annotations": boxes,
+                        "timestamp": timestamp,
+                        "total_annotations": len(boxes)
+                    }
+                    
+                    with open(individual_file, 'w', encoding='utf-8') as f:
+                        json.dump(individual_data, f, indent=2, ensure_ascii=False)
+        
+        return jsonify({
+            "success": True,
+            "message": "Annotations submitted successfully",
+            "submission_file": submission_file,
+            "summary": submission_data["summary"]
+        })
+        
+    except Exception as e:
+        logger.error(f"Error submitting annotations: {str(e)}")
+        return jsonify({"error": f"Failed to submit annotations: {str(e)}"}), 500
 
 @app.route('/<path:filename>')
 def serve_file(filename):
