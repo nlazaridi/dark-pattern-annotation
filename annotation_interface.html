@@ -502,7 +502,7 @@
                 </div>
 
                 <div class="image-wrapper" id="imageWrapper">
-                    <img id="annotationImage" class="annotation-image" src="" alt="Screenshot to annotate">
+                    <img id="annotationImage" class="annotation-image" src="" alt="Screenshot to annotate" draggable="false">
                 </div>
 
                 <div class="controls">
@@ -595,6 +595,7 @@
             const img = document.getElementById('annotationImage');
             // Use the full URL path for the image
             img.src = `/${imagePath}`;
+            img.onload = initializeBoundingBoxes; // Re-attach listeners after image loads
             
             // Clear previous annotations
             clearBoundingBoxes();
@@ -882,6 +883,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             initializeInterface();
             initializeBoundingBoxes();
+            document.getElementById('annotationImage').ondragstart = function() { return false; };
         });
     </script>
 </body>
