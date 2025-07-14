@@ -593,7 +593,8 @@
             const imagePath = currentFolderImages[imageIndex];
             
             const img = document.getElementById('annotationImage');
-            img.src = imagePath;
+            // Use the full URL path for the image
+            img.src = `/${imagePath}`;
             
             // Clear previous annotations
             clearBoundingBoxes();
