@@ -134,75 +134,6 @@
             margin-bottom: 15px;
         }
 
-        .annotation-panel {
-            background: white;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-
-        .annotation-panel h4 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-        }
-
-        .annotation-input {
-            width: 100%;
-            padding: 12px;
-            border: 2px solid #e9ecef;
-            border-radius: 8px;
-            font-size: 14px;
-            margin-bottom: 15px;
-            transition: border-color 0.3s ease;
-        }
-
-        .annotation-input:focus {
-            outline: none;
-            border-color: #3498db;
-        }
-
-        .annotation-list {
-            max-height: 200px;
-            overflow-y: auto;
-            border: 1px solid #e9ecef;
-            border-radius: 8px;
-            padding: 10px;
-        }
-
-        .annotation-item {
-            background: #f8f9fa;
-            padding: 10px;
-            margin-bottom: 8px;
-            border-radius: 6px;
-            border-left: 4px solid #3498db;
-        }
-
-        .annotation-item:last-child {
-            margin-bottom: 0;
-        }
-
-        .annotation-text {
-            font-size: 0.9em;
-            color: #2c3e50;
-            margin-bottom: 5px;
-        }
-
-        .annotation-coords {
-            font-size: 0.8em;
-            color: #6c757d;
-        }
-
-        .remove-annotation {
-            float: right;
-            background: #e74c3c;
-            color: white;
-            border: none;
-            border-radius: 4px;
-            padding: 4px 8px;
-            font-size: 0.8em;
-            cursor: pointer;
-        }
-
         .image-container {
             padding: 30px;
             text-align: center;
@@ -222,139 +153,6 @@
             max-width: 100%;
             max-height: 70vh;
             display: block;
-            cursor: crosshair;
-        }
-
-        .bounding-box {
-            position: absolute;
-            border: 2px solid #e74c3c;
-            background: rgba(231, 76, 60, 0.1);
-            cursor: move;
-        }
-
-        .bounding-box.selected {
-            border-color: #f39c12;
-            background: rgba(243, 156, 18, 0.2);
-        }
-
-        .bounding-box-number {
-            position: absolute;
-            top: -25px;
-            left: -2px;
-            background: #e74c3c;
-            color: white;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 0.8em;
-            font-weight: bold;
-        }
-
-        .controls {
-            margin-top: 20px;
-            display: flex;
-            gap: 15px;
-            justify-content: center;
-            flex-wrap: wrap;
-        }
-
-        .control-btn {
-            padding: 12px 24px;
-            border: none;
-            border-radius: 8px;
-            font-weight: 500;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-size: 14px;
-        }
-
-        .btn-primary {
-            background: #3498db;
-            color: white;
-        }
-
-        .btn-primary:hover {
-            background: #2980b9;
-        }
-
-        .btn-success {
-            background: #27ae60;
-            color: white;
-        }
-
-        .btn-success:hover {
-            background: #229954;
-        }
-
-        .btn-warning {
-            background: #f39c12;
-            color: white;
-        }
-
-        .btn-warning:hover {
-            background: #e67e22;
-        }
-
-        .btn-danger {
-            background: #e74c3c;
-            color: white;
-        }
-
-        .btn-danger:hover {
-            background: #c0392b;
-        }
-
-        .folder-comment {
-            margin-top: 20px;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-
-        .folder-comment h4 {
-            color: #2c3e50;
-            margin-bottom: 15px;
-        }
-
-        .folder-comment textarea {
-            width: 100%;
-            min-height: 100px;
-            padding: 12px;
-            border: 2px solid #e9ecef;
-            border-radius: 8px;
-            font-size: 14px;
-            resize: vertical;
-            font-family: inherit;
-        }
-
-        .folder-comment textarea:focus {
-            outline: none;
-            border-color: #3498db;
-        }
-
-        .save-section {
-            background: white;
-            padding: 20px;
-            border-top: 1px solid #e9ecef;
-            text-align: center;
-        }
-
-        .save-btn {
-            padding: 15px 40px;
-            background: linear-gradient(135deg, #27ae60, #2ecc71);
-            color: white;
-            border: none;
-            border-radius: 10px;
-            font-size: 16px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
-        }
-
-        .save-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
         }
 
         .status-message {
@@ -398,28 +196,6 @@
             100% { transform: rotate(360deg); }
         }
 
-        .instructions {
-            background: #e8f4fd;
-            border: 1px solid #bee5eb;
-            border-radius: 8px;
-            padding: 15px;
-            margin-bottom: 20px;
-            color: #0c5460;
-        }
-
-        .instructions h4 {
-            margin-bottom: 10px;
-            color: #0c5460;
-        }
-
-        .instructions ul {
-            margin-left: 20px;
-        }
-
-        .instructions li {
-            margin-bottom: 5px;
-        }
-
         @media (max-width: 768px) {
             .main-content {
                 grid-template-columns: 1fr;
@@ -439,7 +215,7 @@
     <div class="container">
         <div class="header">
             <h1>Dark Pattern Annotation Interface</h1>
-            <p>Annotate UI screenshots with bounding boxes and dark pattern descriptions</p>
+            <p>Navigate through folders and view images</p>
             <div class="progress-bar">
                 <div class="progress-fill" id="progressFill"></div>
             </div>
@@ -465,50 +241,13 @@
                         <button class="nav-btn" id="nextImage" onclick="nextImage()">Next →</button>
                     </div>
                 </div>
-
-                <div class="annotation-panel">
-                    <h4>Dark Pattern Annotations</h4>
-                    <input type="text" class="annotation-input" id="annotationInput" 
-                           placeholder="Describe the dark pattern you see..." 
-                           onkeypress="handleAnnotationKeypress(event)">
-                    <button class="control-btn btn-primary" onclick="addAnnotation()">Add Annotation</button>
-                    
-                    <div class="annotation-list" id="annotationList">
-                        <!-- Annotations will be added here -->
-                    </div>
-                </div>
-
-                <div class="folder-comment">
-                    <h4>Folder Comments</h4>
-                    <textarea id="folderComment" placeholder="Add any general comments about this folder's dark patterns..."></textarea>
-                </div>
-
-                <div class="save-section">
-                    <button class="save-btn" onclick="saveAnnotations()">Save Annotations</button>
-                    <div id="statusMessage"></div>
-                </div>
             </div>
 
             <div class="image-container">
-                <div class="instructions">
-                    <h4>Instructions:</h4>
-                    <ul>
-                        <li>Click and drag on the image to create bounding boxes around dark patterns</li>
-                        <li>Type a description of the dark pattern and click "Add Annotation"</li>
-                        <li>Use the navigation buttons to move between images and folders</li>
-                        <li>Add folder-level comments at the bottom of the sidebar</li>
-                        <li>Click "Save Annotations" to save your work</li>
-                    </ul>
-                </div>
-
                 <div class="image-wrapper" id="imageWrapper">
-                    <img id="annotationImage" class="annotation-image" src="" alt="Screenshot to annotate" draggable="false">
+                    <img id="annotationImage" class="annotation-image" src="" alt="Screenshot to view">
                 </div>
-
-                <div class="controls">
-                    <button class="control-btn btn-warning" onclick="clearAnnotations()">Clear All Annotations</button>
-                    <button class="control-btn btn-danger" onclick="deleteSelectedBox()">Delete Selected Box</button>
-                </div>
+                <div id="statusMessage"></div>
             </div>
         </div>
 
@@ -524,18 +263,15 @@
         let currentImageIndex = 0;
         let folders = [];
         let currentFolderImages = [];
-        let annotations = [];
-        let boundingBoxes = [];
-        let selectedBox = null;
-        let isDrawing = false;
-        let startX, startY, currentBox;
 
         // Initialize the interface
         async function initializeInterface() {
             try {
+                console.log('Initializing interface...');
                 const response = await fetch('folders_summary.json');
                 const data = await response.json();
                 folders = data.folders;
+                console.log('Loaded folders:', folders.length);
                 
                 // Load the first folder
                 await loadFolder(0);
@@ -550,11 +286,9 @@
         async function loadFolder(folderIndex) {
             if (folderIndex < 0 || folderIndex >= folders.length) return;
             
+            console.log('Loading folder:', folderIndex);
             currentFolderIndex = folderIndex;
             currentImageIndex = 0;
-            annotations = [];
-            boundingBoxes = [];
-            selectedBox = null;
             
             const folder = folders[folderIndex];
             document.getElementById('currentFolder').textContent = `${folder.airline} - ${folder.task_title}`;
@@ -568,9 +302,11 @@
         // Load images from a folder
         async function loadFolderImages(folderPath) {
             try {
+                console.log('Loading images from:', folderPath);
                 const response = await fetch(`/api/images?folder=${encodeURIComponent(folderPath)}`);
                 const data = await response.json();
                 currentFolderImages = data.images;
+                console.log('Loaded images:', currentFolderImages.length);
                 
                 if (currentFolderImages.length > 0) {
                     loadImage(0);
@@ -587,79 +323,18 @@
 
         // Load a specific image
         function loadImage(imageIndex) {
-            console.log('=== LOAD IMAGE CALLED ===');
-            console.log('Image index:', imageIndex);
-            console.log('Current folder images:', currentFolderImages);
+            if (imageIndex < 0 || imageIndex >= currentFolderImages.length) return;
             
-            if (imageIndex < 0 || imageIndex >= currentFolderImages.length) {
-                console.log('Invalid image index - returning');
-                return;
-            }
-            
+            console.log('Loading image:', imageIndex);
             currentImageIndex = imageIndex;
             const imagePath = currentFolderImages[imageIndex];
-            console.log('Image path:', imagePath);
             
             const img = document.getElementById('annotationImage');
-            console.log('Image element found:', !!img);
-            
-            // Use the full URL path for the image
             img.src = `/${imagePath}`;
-            console.log('Set image src to:', img.src);
+            console.log('Image src set to:', img.src);
             
-            img.onload = function() {
-                console.log('=== IMAGE LOADED ===');
-                console.log('Image loaded:', img.src);
-                
-                // Clear previous annotations
-                clearBoundingBoxes();
-                annotations = [];
-                updateAnnotationList();
-                updateImageCounter();
-                updateNavigationButtons();
-                
-                // Simple direct event listener attachment
-                console.log('About to call attachDrawingListeners...');
-                // attachDrawingListeners(); // This function is no longer needed
-                console.log('attachDrawingListeners called');
-                
-                // Also try to attach listeners after a short delay as backup
-                setTimeout(function() {
-                    console.log('=== BACKUP ATTACHMENT ===');
-                    const img = document.getElementById('annotationImage');
-                    if (img && !img.onmousedown) {
-                        console.log('Backup: attaching listeners');
-                        img.onmousedown = function(e) {
-                            console.log('Mouse down on image');
-                            if (isDrawing) return;
-                            
-                            isDrawing = true;
-                            const rect = img.getBoundingClientRect();
-                            startX = e.clientX - rect.left;
-                            startY = e.clientY - rect.top;
-                            
-                            currentBox = document.createElement('div');
-                            currentBox.className = 'bounding-box';
-                            currentBox.style.left = startX + 'px';
-                            currentBox.style.top = startY + 'px';
-                            currentBox.style.width = '0px';
-                            currentBox.style.height = '0px';
-                            
-                            document.getElementById('imageWrapper').appendChild(currentBox);
-                            console.log('Box created');
-                            
-                            // Add document listeners
-                            document.addEventListener('mousemove', handleMouseMove);
-                            document.addEventListener('mouseup', handleMouseUp);
-                        };
-                    }
-                }, 500);
-            };
-            
-            img.onerror = function() {
-                console.log('=== IMAGE LOAD ERROR ===');
-                console.log('Failed to load image:', img.src);
-            };
+            updateImageCounter();
+            updateNavigationButtons();
         }
 
         // Navigation functions
@@ -705,158 +380,6 @@
             document.getElementById('nextImage').disabled = currentImageIndex === currentFolderImages.length - 1;
         }
 
-        // Bounding box functionality
-        function selectBox(box) {
-            // Remove previous selection
-            if (selectedBox) {
-                selectedBox.classList.remove('selected');
-            }
-            
-            // Select new box
-            selectedBox = box;
-            box.classList.add('selected');
-        }
-
-        function deleteSelectedBox() {
-            if (selectedBox) {
-                const index = boundingBoxes.indexOf(selectedBox);
-                if (index > -1) {
-                    boundingBoxes.splice(index, 1);
-                    selectedBox.remove();
-                    selectedBox = null;
-                    
-                    // Update box numbers
-                    boundingBoxes.forEach((box, i) => {
-                        const numberDiv = box.querySelector('.bounding-box-number');
-                        if (numberDiv) {
-                            numberDiv.textContent = i + 1;
-                        }
-                    });
-                }
-            }
-        }
-
-        function clearBoundingBoxes() {
-            boundingBoxes.forEach(box => box.remove());
-            boundingBoxes = [];
-            selectedBox = null;
-        }
-
-        // Annotation functionality
-        function addAnnotation() {
-            const input = document.getElementById('annotationInput');
-            const description = input.value.trim();
-            
-            if (!description) {
-                showStatus('Please enter a description for the annotation.', 'error');
-                return;
-            }
-            
-            if (boundingBoxes.length === 0) {
-                showStatus('Please draw at least one bounding box before adding an annotation.', 'error');
-                return;
-            }
-            
-            // Get coordinates of all bounding boxes
-            const coordinates = boundingBoxes.map(box => {
-                const rect = box.getBoundingClientRect();
-                const imageRect = document.getElementById('annotationImage').getBoundingClientRect();
-                
-                return {
-                    x: rect.left - imageRect.left,
-                    y: rect.top - imageRect.top,
-                    width: rect.width,
-                    height: rect.height
-                };
-            });
-            
-            const annotation = {
-                description: description,
-                coordinates: coordinates,
-                timestamp: new Date().toISOString()
-            };
-            
-            annotations.push(annotation);
-            input.value = '';
-            updateAnnotationList();
-            showStatus('Annotation added successfully!', 'success');
-        }
-
-        function handleAnnotationKeypress(event) {
-            if (event.key === 'Enter') {
-                addAnnotation();
-            }
-        }
-
-        function updateAnnotationList() {
-            const list = document.getElementById('annotationList');
-            list.innerHTML = '';
-            
-            annotations.forEach((annotation, index) => {
-                const item = document.createElement('div');
-                item.className = 'annotation-item';
-                
-                const coordsText = annotation.coordinates.map((coord, i) => 
-                    `Box ${i + 1}: (${Math.round(coord.x)}, ${Math.round(coord.y)}) ${Math.round(coord.width)}×${Math.round(coord.height)}`
-                ).join(', ');
-                
-                item.innerHTML = `
-                    <div class="annotation-text">${annotation.description}</div>
-                    <div class="annotation-coords">${coordsText}</div>
-                    <button class="remove-annotation" onclick="removeAnnotation(${index})">×</button>
-                `;
-                
-                list.appendChild(item);
-            });
-        }
-
-        function removeAnnotation(index) {
-            annotations.splice(index, 1);
-            updateAnnotationList();
-        }
-
-        function clearAnnotations() {
-            annotations = [];
-            clearBoundingBoxes();
-            updateAnnotationList();
-            showStatus('All annotations cleared.', 'success');
-        }
-
-        // Save functionality
-        async function saveAnnotations() {
-            const folder = folders[currentFolderIndex];
-            const imagePath = currentFolderImages[currentImageIndex];
-            const folderComment = document.getElementById('folderComment').value.trim();
-            
-            const annotationData = {
-                folder: folder.folder_path,
-                image: imagePath,
-                annotations: annotations,
-                folderComment: folderComment,
-                timestamp: new Date().toISOString(),
-                expert: 'UI_Dark_Pattern_Expert' // This could be made configurable
-            };
-            
-            try {
-                const response = await fetch('/api/save-annotations', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify(annotationData)
-                });
-                
-                if (response.ok) {
-                    showStatus('Annotations saved successfully!', 'success');
-                } else {
-                    throw new Error('Failed to save annotations');
-                }
-            } catch (error) {
-                console.error('Error saving annotations:', error);
-                showStatus('Error saving annotations. Please try again.', 'error');
-            }
-        }
-
         function showStatus(message, type) {
             const statusDiv = document.getElementById('statusMessage');
             statusDiv.textContent = message;
@@ -870,162 +393,9 @@
 
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded, initializing...');
             initializeInterface();
-            
-            // Simple direct approach - attach listeners immediately
-            console.log('=== SIMPLE INITIALIZATION ===');
-            const img = document.getElementById('annotationImage');
-            if (img) {
-                console.log('Image found, attaching simple listeners');
-                img.onmousedown = function(e) {
-                    console.log('Mouse down on image');
-                    if (isDrawing) return;
-                    
-                    isDrawing = true;
-                    const rect = img.getBoundingClientRect();
-                    startX = e.clientX - rect.left;
-                    startY = e.clientY - rect.top;
-                    
-                    currentBox = document.createElement('div');
-                    currentBox.className = 'bounding-box';
-                    currentBox.style.left = startX + 'px';
-                    currentBox.style.top = startY + 'px';
-                    currentBox.style.width = '0px';
-                    currentBox.style.height = '0px';
-                    
-                    document.getElementById('imageWrapper').appendChild(currentBox);
-                    console.log('Box created');
-                    
-                    // Add document listeners
-                    document.addEventListener('mousemove', handleMouseMove);
-                    document.addEventListener('mouseup', handleMouseUp);
-                };
-                
-                img.ondragstart = function() { return false; };
-                console.log('Simple listeners attached');
-            } else {
-                console.log('No image found during initialization');
-            }
         });
-        
-        // Simple mouse move handler
-        function handleMouseMove(e) {
-            if (!isDrawing || !currentBox) return;
-            
-            const img = document.getElementById('annotationImage');
-            if (!img) return;
-            
-            const rect = img.getBoundingClientRect();
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            
-            const width = Math.abs(x - startX);
-            const height = Math.abs(y - startY);
-            const left = Math.min(x, startX);
-            const top = Math.min(y, startY);
-            
-            currentBox.style.left = left + 'px';
-            currentBox.style.top = top + 'px';
-            currentBox.style.width = width + 'px';
-            currentBox.style.height = height + 'px';
-        }
-        
-        // Simple mouse up handler
-        function handleMouseUp() {
-            if (!isDrawing || !currentBox) return;
-            
-            isDrawing = false;
-            document.removeEventListener('mousemove', handleMouseMove);
-            document.removeEventListener('mouseup', handleMouseUp);
-            
-            const width = parseInt(currentBox.style.width);
-            const height = parseInt(currentBox.style.height);
-            
-            if (width > 10 && height > 10) {
-                const boxNumber = boundingBoxes.length + 1;
-                currentBox.innerHTML = `<div class="bounding-box-number">${boxNumber}</div>`;
-                currentBox.onclick = () => selectBox(currentBox);
-                boundingBoxes.push(currentBox);
-                console.log('Box completed:', currentBox);
-            } else {
-                currentBox.remove();
-                console.log('Box too small, removed');
-            }
-            currentBox = null;
-        }
-
-        // Test function - can be called from browser console
-        function testDrawing() {
-            console.log('Testing drawing functionality...');
-            const img = document.getElementById('annotationImage');
-            console.log('Image element:', img);
-            console.log('Image src:', img ? img.src : 'No image');
-            console.log('Image draggable:', img ? img.draggable : 'No image');
-            
-            // Test if event listeners are attached
-            const listeners = getEventListeners ? getEventListeners(img) : 'getEventListeners not available';
-            console.log('Event listeners:', listeners);
-            
-            // Test click
-            console.log('Simulating click on image...');
-            const clickEvent = new MouseEvent('mousedown', {
-                clientX: 100,
-                clientY: 100,
-                bubbles: true,
-                cancelable: true
-            });
-            img.dispatchEvent(clickEvent);
-        }
-
-        // Simple test function that should work immediately
-        function quickTest() {
-            const img = document.getElementById('annotationImage');
-            console.log('Quick test - Image found:', !!img);
-            if (img) {
-                console.log('Image src:', img.src);
-                console.log('Image draggable:', img.draggable);
-                console.log('onmousedown attached:', !!img.onmousedown);
-                console.log('onmousemove attached:', !!img.onmousemove);
-            }
-        }
-
-        // Manual test function - run this in console
-        function manualTest() {
-            console.log('=== MANUAL TEST ===');
-            const img = document.getElementById('annotationImage');
-            console.log('1. Image element:', img);
-            
-            if (!img) {
-                console.log('ERROR: No image found');
-                return;
-            }
-            
-            console.log('2. Image src:', img.src);
-            console.log('3. Functions exist:');
-            console.log('   - startDrawing:', typeof startDrawing);
-            console.log('   - draw:', typeof draw);
-            console.log('   - endDrawing:', typeof endDrawing);
-            
-            console.log('4. Current event handlers:');
-            console.log('   - onmousedown:', !!img.onmousedown);
-            console.log('   - onmousemove:', !!img.onmousemove);
-            
-            console.log('5. Manually attaching handlers...');
-            img.onmousedown = startDrawing;
-            img.onmousemove = draw;
-            img.onmouseup = endDrawing;
-            img.onmouseleave = endDrawing;
-            
-            console.log('6. After manual attachment:');
-            console.log('   - onmousedown:', !!img.onmousedown);
-            console.log('   - onmousemove:', !!img.onmousemove);
-            
-            console.log('7. Testing click...');
-            const testEvent = { clientX: 100, clientY: 100, target: img };
-            img.onmousedown(testEvent);
-            
-            console.log('=== TEST COMPLETE ===');
-        }
     </script>
 </body>
 </html> 
