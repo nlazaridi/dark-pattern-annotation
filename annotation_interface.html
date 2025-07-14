@@ -528,7 +528,7 @@
         let boundingBoxes = [];
         let selectedBox = null;
         let isDrawing = false;
-        let startX, startY, currentBox = null;
+        let startX, startY, currentBox;
 
         // Initialize the interface
         async function initializeInterface() {
@@ -666,6 +666,7 @@
         // Bounding box functionality
         function startDrawing(e) {
             if (e.target !== document.getElementById('annotationImage')) return;
+            if (isDrawing) return;
             isDrawing = true;
             startX = e.offsetX;
             startY = e.offsetY;
@@ -679,14 +680,12 @@
 
             document.getElementById('imageWrapper').appendChild(currentBox);
 
-            // Attach listeners to document for robust drawing
             document.addEventListener('mousemove', draw);
             document.addEventListener('mouseup', endDrawing);
         }
 
         function draw(e) {
             if (!isDrawing || !currentBox) return;
-            // Calculate mouse position relative to the image
             const img = document.getElementById('annotationImage');
             const rect = img.getBoundingClientRect();
             const x = e.clientX - rect.left;
@@ -706,11 +705,9 @@
         function endDrawing() {
             if (!isDrawing || !currentBox) return;
             isDrawing = false;
-            // Remove document listeners
             document.removeEventListener('mousemove', draw);
             document.removeEventListener('mouseup', endDrawing);
 
-            // Only keep the box if it has a reasonable size
             const width = parseInt(currentBox.style.width);
             const height = parseInt(currentBox.style.height);
 
