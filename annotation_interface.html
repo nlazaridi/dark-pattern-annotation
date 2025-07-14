@@ -669,34 +669,32 @@
 
         function startDrawing(e) {
             if (e.target !== document.getElementById('annotationImage')) return;
-            
             isDrawing = true;
-            const rect = e.target.getBoundingClientRect();
-            startX = e.clientX - rect.left;
-            startY = e.clientY - rect.top;
-            
+            startX = e.offsetX;
+            startY = e.offsetY;
+            console.log('startDrawing', startX, startY);
+
             currentBox = document.createElement('div');
             currentBox.className = 'bounding-box';
             currentBox.style.left = startX + 'px';
             currentBox.style.top = startY + 'px';
             currentBox.style.width = '0px';
             currentBox.style.height = '0px';
-            
+
             document.getElementById('imageWrapper').appendChild(currentBox);
         }
 
         function draw(e) {
             if (!isDrawing || !currentBox) return;
-            
-            const rect = e.target.getBoundingClientRect();
-            const currentX = e.clientX - rect.left;
-            const currentY = e.clientY - rect.top;
-            
+            const currentX = e.offsetX;
+            const currentY = e.offsetY;
+            console.log('draw', currentX, currentY);
+
             const width = Math.abs(currentX - startX);
             const height = Math.abs(currentY - startY);
             const left = Math.min(currentX, startX);
             const top = Math.min(currentY, startY);
-            
+
             currentBox.style.left = left + 'px';
             currentBox.style.top = top + 'px';
             currentBox.style.width = width + 'px';
