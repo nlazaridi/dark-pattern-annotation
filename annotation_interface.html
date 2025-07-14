@@ -970,23 +970,29 @@
                 
                 console.log('4. Current event handlers:');
                 console.log('   - onmousedown:', !!img.onmousedown);
-                console.log('   - onmousemove:', !!img.onmousemove);
                 
                 console.log('5. Manually attaching handlers...');
                 img.onmousedown = startDrawing;
-                img.onmousemove = draw;
-                img.onmouseup = endDrawing;
-                img.onmouseleave = endDrawing;
                 
                 console.log('6. After manual attachment:');
                 console.log('   - onmousedown:', !!img.onmousedown);
-                console.log('   - onmousemove:', !!img.onmousemove);
                 
                 console.log('7. Testing click...');
                 const testEvent = { clientX: 100, clientY: 100, target: img };
                 img.onmousedown(testEvent);
                 
                 console.log('=== TEST COMPLETE ===');
+            };
+            
+            // Add a simple fix function
+            window.fixDrawing = function() {
+                console.log('=== FIXING DRAWING ===');
+                const img = document.getElementById('annotationImage');
+                if (img) {
+                    img.onmousedown = startDrawing;
+                    console.log('Fixed: onmousedown attached');
+                }
+                console.log('=== FIX COMPLETE ===');
             };
         });
 
