@@ -754,27 +754,41 @@
 
         function attachDrawingListeners() {
             const img = document.getElementById('annotationImage');
-            if (!img) return;
+            if (!img) {
+                console.log('No image element found');
+                return;
+            }
             
-            // Remove any existing listeners by cloning and replacing
+            // Remove any existing listeners by removing and re-adding the element
             const imageWrapper = document.getElementById('imageWrapper');
-            const newImg = img.cloneNode(true);
-            newImg.draggable = false;
-            imageWrapper.replaceChild(newImg, img);
+            const parent = img.parentNode;
+            const nextSibling = img.nextSibling;
             
-            // Get the new image element
-            const freshImg = document.getElementById('annotationImage');
+            // Remove the image
+            parent.removeChild(img);
             
-            // Add event listeners to the fresh image
-            freshImg.addEventListener('mousedown', startDrawing);
-            freshImg.addEventListener('mousemove', draw);
-            freshImg.addEventListener('mouseup', endDrawing);
-            freshImg.addEventListener('mouseleave', endDrawing);
+            // Re-add the image (this removes all event listeners)
+            if (nextSibling) {
+                parent.insertBefore(img, nextSibling);
+            } else {
+                parent.appendChild(img);
+            }
+            
+            // Set draggable to false
+            img.draggable = false;
+            
+            // Add event listeners
+            img.addEventListener('mousedown', startDrawing);
+            img.addEventListener('mousemove', draw);
+            img.addEventListener('mouseup', endDrawing);
+            img.addEventListener('mouseleave', endDrawing);
             
             // Prevent drag behavior
-            freshImg.ondragstart = function() { return false; };
+            img.ondragstart = function() { return false; };
             
-            console.log('Drawing listeners attached to image:', freshImg);
+            console.log('Drawing listeners attached to image:', img);
+            console.log('Image src:', img.src);
+            console.log('Image draggable:', img.draggable);
         }
 
         // Annotation functionality
@@ -909,6 +923,29 @@
             // No initializeBoundingBoxes here
             document.getElementById('annotationImage').ondragstart = function() { return false; };
         });
+
+        // Test function - can be called from browser console
+        function testDrawing() {
+            console.log('Testing drawing functionality...');
+            const img = document.getElementById('annotationImage');
+            console.log('Image element:', img);
+            console.log('Image src:', img ? img.src : 'No image');
+            console.log('Image draggable:', img ? img.draggable : 'No image');
+            
+            // Test if event listeners are attached
+            const listeners = getEventListeners ? getEventListeners(img) : 'getEventListeners not available';
+            console.log('Event listeners:', listeners);
+            
+            // Test click
+            console.log('Simulating click on image...');
+            const clickEvent = new MouseEvent('mousedown', {
+                clientX: 100,
+                clientY: 100,
+                bubbles: true,
+                cancelable: true
+            });
+            img.dispatchEvent(clickEvent);
+        }
     </script>
 </body>
 </html> 
