@@ -921,6 +921,44 @@
             initializeInterface();
             // No initializeBoundingBoxes here
             document.getElementById('annotationImage').ondragstart = function() { return false; };
+            
+            // Add a global test function that can be called immediately
+            window.testDrawingNow = function() {
+                console.log('=== INLINE TEST ===');
+                const img = document.getElementById('annotationImage');
+                console.log('1. Image element:', img);
+                
+                if (!img) {
+                    console.log('ERROR: No image found');
+                    return;
+                }
+                
+                console.log('2. Image src:', img.src);
+                console.log('3. Functions exist:');
+                console.log('   - startDrawing:', typeof startDrawing);
+                console.log('   - draw:', typeof draw);
+                console.log('   - endDrawing:', typeof endDrawing);
+                
+                console.log('4. Current event handlers:');
+                console.log('   - onmousedown:', !!img.onmousedown);
+                console.log('   - onmousemove:', !!img.onmousemove);
+                
+                console.log('5. Manually attaching handlers...');
+                img.onmousedown = startDrawing;
+                img.onmousemove = draw;
+                img.onmouseup = endDrawing;
+                img.onmouseleave = endDrawing;
+                
+                console.log('6. After manual attachment:');
+                console.log('   - onmousedown:', !!img.onmousedown);
+                console.log('   - onmousemove:', !!img.onmousemove);
+                
+                console.log('7. Testing click...');
+                const testEvent = { clientX: 100, clientY: 100, target: img };
+                img.onmousedown(testEvent);
+                
+                console.log('=== TEST COMPLETE ===');
+            };
         });
 
         // Test function - can be called from browser console
