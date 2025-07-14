@@ -731,6 +731,11 @@
             console.log('Mouse position:', e.clientX, e.clientY);
             
             const img = document.getElementById('annotationImage');
+            if (!img) {
+                console.log('ERROR: Image element not found in draw function');
+                return;
+            }
+            
             const rect = img.getBoundingClientRect();
             console.log('Image rect:', rect);
             
@@ -1024,6 +1029,21 @@
                 console.log('=== FIX COMPLETE ===');
             };
         });
+
+        // Immediate fallback - run as soon as script loads
+        console.log('=== SCRIPT LOADED ===');
+        if (document.readyState === 'loading') {
+            console.log('Document still loading, will attach on DOMContentLoaded');
+        } else {
+            console.log('Document already loaded, attaching immediately');
+            setTimeout(function() {
+                const img = document.getElementById('annotationImage');
+                if (img) {
+                    console.log('Immediate attachment to existing image');
+                    img.onmousedown = startDrawing;
+                }
+            }, 100);
+        }
 
         // Test function - can be called from browser console
         function testDrawing() {
