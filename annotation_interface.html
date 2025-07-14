@@ -762,6 +762,9 @@
             }
             
             console.log('Attaching drawing listeners to:', img);
+            console.log('startDrawing function exists:', typeof startDrawing);
+            console.log('draw function exists:', typeof draw);
+            console.log('endDrawing function exists:', typeof endDrawing);
             
             // Set draggable to false
             img.draggable = false;
@@ -783,6 +786,8 @@
             
             console.log('Drawing listeners attached successfully');
             console.log('Image draggable:', img.draggable);
+            console.log('onmousedown after assignment:', !!img.onmousedown);
+            console.log('onmousemove after assignment:', !!img.onmousemove);
         }
 
         // Annotation functionality
@@ -951,6 +956,44 @@
                 console.log('onmousedown attached:', !!img.onmousedown);
                 console.log('onmousemove attached:', !!img.onmousemove);
             }
+        }
+
+        // Manual test function - run this in console
+        function manualTest() {
+            console.log('=== MANUAL TEST ===');
+            const img = document.getElementById('annotationImage');
+            console.log('1. Image element:', img);
+            
+            if (!img) {
+                console.log('ERROR: No image found');
+                return;
+            }
+            
+            console.log('2. Image src:', img.src);
+            console.log('3. Functions exist:');
+            console.log('   - startDrawing:', typeof startDrawing);
+            console.log('   - draw:', typeof draw);
+            console.log('   - endDrawing:', typeof endDrawing);
+            
+            console.log('4. Current event handlers:');
+            console.log('   - onmousedown:', !!img.onmousedown);
+            console.log('   - onmousemove:', !!img.onmousemove);
+            
+            console.log('5. Manually attaching handlers...');
+            img.onmousedown = startDrawing;
+            img.onmousemove = draw;
+            img.onmouseup = endDrawing;
+            img.onmouseleave = endDrawing;
+            
+            console.log('6. After manual attachment:');
+            console.log('   - onmousedown:', !!img.onmousedown);
+            console.log('   - onmousemove:', !!img.onmousemove);
+            
+            console.log('7. Testing click...');
+            const testEvent = { clientX: 100, clientY: 100, target: img };
+            img.onmousedown(testEvent);
+            
+            console.log('=== TEST COMPLETE ===');
         }
     </script>
 </body>
