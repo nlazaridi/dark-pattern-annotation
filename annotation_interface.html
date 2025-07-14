@@ -620,7 +620,7 @@
                 
                 // Simple direct event listener attachment
                 console.log('About to call attachDrawingListeners...');
-                attachDrawingListeners();
+                // attachDrawingListeners(); // This function is no longer needed
                 console.log('attachDrawingListeners called');
                 
                 // Also try to attach listeners after a short delay as backup
@@ -629,7 +629,29 @@
                     const img = document.getElementById('annotationImage');
                     if (img && !img.onmousedown) {
                         console.log('Backup: attaching listeners');
-                        img.onmousedown = startDrawing;
+                        img.onmousedown = function(e) {
+                            console.log('Mouse down on image');
+                            if (isDrawing) return;
+                            
+                            isDrawing = true;
+                            const rect = img.getBoundingClientRect();
+                            startX = e.clientX - rect.left;
+                            startY = e.clientY - rect.top;
+                            
+                            currentBox = document.createElement('div');
+                            currentBox.className = 'bounding-box';
+                            currentBox.style.left = startX + 'px';
+                            currentBox.style.top = startY + 'px';
+                            currentBox.style.width = '0px';
+                            currentBox.style.height = '0px';
+                            
+                            document.getElementById('imageWrapper').appendChild(currentBox);
+                            console.log('Box created');
+                            
+                            // Add document listeners
+                            document.addEventListener('mousemove', handleMouseMove);
+                            document.addEventListener('mouseup', handleMouseUp);
+                        };
                     }
                 }, 500);
             };
@@ -684,104 +706,6 @@
         }
 
         // Bounding box functionality
-        function startDrawing(e) {
-            console.log('=== START DRAWING CALLED ===');
-            console.log('Event:', e);
-            console.log('Event target:', e.target);
-            console.log('Image element:', document.getElementById('annotationImage'));
-            console.log('Target matches image:', e.target === document.getElementById('annotationImage'));
-            
-            if (e.target !== document.getElementById('annotationImage')) {
-                console.log('Target mismatch - returning');
-                return;
-            }
-            if (isDrawing) {
-                console.log('Already drawing - returning');
-                return;
-            }
-            console.log('Starting to draw at:', e.clientX, e.clientY);
-            isDrawing = true;
-            
-            const rect = e.target.getBoundingClientRect();
-            startX = e.clientX - rect.left;
-            startY = e.clientY - rect.top;
-            console.log('Calculated start position:', startX, startY);
-
-            currentBox = document.createElement('div');
-            currentBox.className = 'bounding-box';
-            currentBox.style.left = startX + 'px';
-            currentBox.style.top = startY + 'px';
-            currentBox.style.width = '0px';
-            currentBox.style.height = '0px';
-
-            document.getElementById('imageWrapper').appendChild(currentBox);
-            console.log('Box created and added to DOM:', currentBox);
-            
-            // Attach mousemove and mouseup to document for proper dragging
-            document.addEventListener('mousemove', draw);
-            document.addEventListener('mouseup', endDrawing);
-            
-            console.log('=== START DRAWING COMPLETE ===');
-        }
-
-        function draw(e) {
-            if (!isDrawing || !currentBox) return;
-            
-            console.log('=== DRAW CALLED ===');
-            console.log('Mouse position:', e.clientX, e.clientY);
-            
-            const img = document.getElementById('annotationImage');
-            if (!img) {
-                console.log('ERROR: Image element not found in draw function');
-                return;
-            }
-            
-            const rect = img.getBoundingClientRect();
-            console.log('Image rect:', rect);
-            
-            // Calculate position relative to the image
-            const x = e.clientX - rect.left;
-            const y = e.clientY - rect.top;
-            console.log('Relative position:', x, y);
-
-            const width = Math.abs(x - startX);
-            const height = Math.abs(y - startY);
-            const left = Math.min(x, startX);
-            const top = Math.min(y, startY);
-            
-            console.log('Box dimensions:', width, height);
-            console.log('Box position:', left, top);
-
-            currentBox.style.left = left + 'px';
-            currentBox.style.top = top + 'px';
-            currentBox.style.width = width + 'px';
-            currentBox.style.height = height + 'px';
-            
-            console.log('=== DRAW COMPLETE ===');
-        }
-
-        function endDrawing() {
-            if (!isDrawing || !currentBox) return;
-            isDrawing = false;
-            
-            // Remove document event listeners
-            document.removeEventListener('mousemove', draw);
-            document.removeEventListener('mouseup', endDrawing);
-
-            const width = parseInt(currentBox.style.width);
-            const height = parseInt(currentBox.style.height);
-
-            if (width > 10 && height > 10) {
-                const boxNumber = boundingBoxes.length + 1;
-                currentBox.innerHTML = `<div class="bounding-box-number">${boxNumber}</div>`;
-                currentBox.onclick = () => selectBox(currentBox);
-                boundingBoxes.push(currentBox);
-            } else {
-                currentBox.remove();
-            }
-            currentBox = null;
-        }
-
         function selectBox(box) {
             // Remove previous selection
             if (selectedBox) {
@@ -816,35 +740,6 @@
             boundingBoxes.forEach(box => box.remove());
             boundingBoxes = [];
             selectedBox = null;
-        }
-
-        function attachDrawingListeners() {
-            const img = document.getElementById('annotationImage');
-            if (!img) {
-                console.log('No image element found');
-                return;
-            }
-            
-            console.log('Attaching drawing listeners to:', img);
-            console.log('startDrawing function exists:', typeof startDrawing);
-            console.log('draw function exists:', typeof draw);
-            console.log('endDrawing function exists:', typeof endDrawing);
-            
-            // Set draggable to false
-            img.draggable = false;
-            
-            // Remove any existing listeners by setting to null first
-            img.onmousedown = null;
-            
-            // Add only mousedown to the image (mousemove and mouseup are handled by document)
-            img.onmousedown = startDrawing;
-            
-            // Prevent drag behavior
-            img.ondragstart = function() { return false; };
-            
-            console.log('Drawing listeners attached successfully');
-            console.log('Image draggable:', img.draggable);
-            console.log('onmousedown after assignment:', !!img.onmousedown);
         }
 
         // Annotation functionality
@@ -976,73 +871,87 @@
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', function() {
             initializeInterface();
-            // No initializeBoundingBoxes here
-            document.getElementById('annotationImage').ondragstart = function() { return false; };
             
-            // Automatically attach drawing listeners after a short delay
-            setTimeout(function() {
-                console.log('=== AUTO ATTACHING LISTENERS ===');
-                attachDrawingListeners();
-            }, 1000);
-            
-            // Add a global test function that can be called immediately
-            window.testDrawingNow = function() {
-                console.log('=== INLINE TEST ===');
-                const img = document.getElementById('annotationImage');
-                console.log('1. Image element:', img);
+            // Simple direct approach - attach listeners immediately
+            console.log('=== SIMPLE INITIALIZATION ===');
+            const img = document.getElementById('annotationImage');
+            if (img) {
+                console.log('Image found, attaching simple listeners');
+                img.onmousedown = function(e) {
+                    console.log('Mouse down on image');
+                    if (isDrawing) return;
+                    
+                    isDrawing = true;
+                    const rect = img.getBoundingClientRect();
+                    startX = e.clientX - rect.left;
+                    startY = e.clientY - rect.top;
+                    
+                    currentBox = document.createElement('div');
+                    currentBox.className = 'bounding-box';
+                    currentBox.style.left = startX + 'px';
+                    currentBox.style.top = startY + 'px';
+                    currentBox.style.width = '0px';
+                    currentBox.style.height = '0px';
+                    
+                    document.getElementById('imageWrapper').appendChild(currentBox);
+                    console.log('Box created');
+                    
+                    // Add document listeners
+                    document.addEventListener('mousemove', handleMouseMove);
+                    document.addEventListener('mouseup', handleMouseUp);
+                };
                 
-                if (!img) {
-                    console.log('ERROR: No image found');
-                    return;
-                }
-                
-                console.log('2. Image src:', img.src);
-                console.log('3. Functions exist:');
-                console.log('   - startDrawing:', typeof startDrawing);
-                console.log('   - draw:', typeof draw);
-                console.log('   - endDrawing:', typeof endDrawing);
-                
-                console.log('4. Current event handlers:');
-                console.log('   - onmousedown:', !!img.onmousedown);
-                
-                console.log('5. Manually attaching handlers...');
-                img.onmousedown = startDrawing;
-                
-                console.log('6. After manual attachment:');
-                console.log('   - onmousedown:', !!img.onmousedown);
-                
-                console.log('7. Testing click...');
-                const testEvent = { clientX: 100, clientY: 100, target: img };
-                img.onmousedown(testEvent);
-                
-                console.log('=== TEST COMPLETE ===');
-            };
-            
-            // Add a simple fix function
-            window.fixDrawing = function() {
-                console.log('=== FIXING DRAWING ===');
-                const img = document.getElementById('annotationImage');
-                if (img) {
-                    img.onmousedown = startDrawing;
-                    console.log('Fixed: onmousedown attached');
-                }
-                console.log('=== FIX COMPLETE ===');
-            };
+                img.ondragstart = function() { return false; };
+                console.log('Simple listeners attached');
+            } else {
+                console.log('No image found during initialization');
+            }
         });
-
-        // Immediate fallback - run as soon as script loads
-        console.log('=== SCRIPT LOADED ===');
-        if (document.readyState === 'loading') {
-            console.log('Document still loading, will attach on DOMContentLoaded');
-        } else {
-            console.log('Document already loaded, attaching immediately');
-            setTimeout(function() {
-                const img = document.getElementById('annotationImage');
-                if (img) {
-                    console.log('Immediate attachment to existing image');
-                    img.onmousedown = startDrawing;
-                }
-            }, 100);
+        
+        // Simple mouse move handler
+        function handleMouseMove(e) {
+            if (!isDrawing || !currentBox) return;
+            
+            const img = document.getElementById('annotationImage');
+            if (!img) return;
+            
+            const rect = img.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+            
+            const width = Math.abs(x - startX);
+            const height = Math.abs(y - startY);
+            const left = Math.min(x, startX);
+            const top = Math.min(y, startY);
+            
+            currentBox.style.left = left + 'px';
+            currentBox.style.top = top + 'px';
+            currentBox.style.width = width + 'px';
+            currentBox.style.height = height + 'px';
+        }
+        
+        // Simple mouse up handler
+        function handleMouseUp() {
+            if (!isDrawing || !currentBox) return;
+            
+            isDrawing = false;
+            document.removeEventListener('mousemove', handleMouseMove);
+            document.removeEventListener('mouseup', handleMouseUp);
+            
+            const width = parseInt(currentBox.style.width);
+            const height = parseInt(currentBox.style.height);
+            
+            if (width > 10 && height > 10) {
+                const boxNumber = boundingBoxes.length + 1;
+                currentBox.innerHTML = `<div class="bounding-box-number">${boxNumber}</div>`;
+                currentBox.onclick = () => selectBox(currentBox);
+                boundingBoxes.push(currentBox);
+                console.log('Box completed:', currentBox);
+            } else {
+                currentBox.remove();
+                console.log('Box too small, removed');
+            }
+            currentBox = null;
         }
 
         // Test function - can be called from browser console
