@@ -249,7 +249,14 @@ def get_statistics():
 @app.route('/<path:filename>')
 def serve_file(filename):
     """Serve static files (images, etc.)."""
-    return send_from_directory('.', filename)
+    # Handle subdirectory paths for images
+    if '/' in filename:
+        # Split the path to get directory and filename
+        directory, file = os.path.split(filename)
+        return send_from_directory(directory, file)
+    else:
+        # Serve files from current directory
+        return send_from_directory('.', filename)
 
 @app.errorhandler(404)
 def not_found(error):
