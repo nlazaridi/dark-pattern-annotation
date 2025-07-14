@@ -1,0 +1,3309 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started successfully.",
+          "memory": "",
+          "next_goal": "Go to United Airlines website."
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.united.com/en/us"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.united.com/en/us",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened United Airlines website.",
+          "memory": "",
+          "next_goal": "Find tickets from Denver to Orlando"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 32,
+              "text": "Denver"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Denver\" for element index 32",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[2]/div/div/div/div/div/div/div/div/div/div[2]/input",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "atm-c-text-input atm-c-textfield__input atm-c-text-input--hover",
+              "id": "bookFlightOriginInput",
+              "type": "text",
+              "placeholder": "Origin",
+              "aria-invalid": "false",
+              "autocapitalize": "none",
+              "autocomplete": "off",
+              "autocorrect": "off",
+              "role": "combobox",
+              "spellcheck": "false",
+              "aria-autocomplete": "both",
+              "aria-expanded": "false",
+              "aria-owns": "bookFlightOriginInput-menu",
+              "aria-controls": "bookFlightOriginInput-menu",
+              "aria-activedescendant": "",
+              "aria-required": "true",
+              "value": "Amsterdam AMS",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Input Denver as origin.",
+          "memory": "",
+          "next_goal": "Select Denver, CO, US (DEN) from the suggestions."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 35
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 35: , CO, US (DEN)",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "p",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[2]/div/div/div/div/div/div/div[2]/div/ul/li[2]/p",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "p"
+            ],
+            "attributes": {
+              "class": "app-components-QueryBuilder-Homepage-styles__autoCompleteItem--kSZvJ"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Denver as origin.",
+          "memory": "",
+          "next_goal": "Input Orlando as destination."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 34,
+              "text": "Orlando"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Orlando\" for element index 34",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[2]/div/div/div/div/div[2]/div/div/div/div/div[2]/input",
+            "highlight_index": 34,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "atm-c-text-input atm-c-textfield__input atm-c-text-input--hover",
+              "id": "bookFlightDestinationInput",
+              "type": "text",
+              "placeholder": "Destination",
+              "aria-invalid": "false",
+              "autocapitalize": "none",
+              "autocomplete": "off",
+              "autocorrect": "off",
+              "role": "combobox",
+              "spellcheck": "false",
+              "aria-autocomplete": "both",
+              "aria-expanded": "false",
+              "aria-owns": "bookFlightDestinationInput-menu",
+              "aria-controls": "bookFlightDestinationInput-menu",
+              "aria-activedescendant": "",
+              "aria-required": "true",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Input Orlando as destination.",
+          "memory": "",
+          "next_goal": "Select Orlando, FL, US (MCO) from the suggestions."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 37
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 37: , FL, US (MCO)",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "p",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[2]/div/div/div/div/div[2]/div/div[2]/div/ul/li[2]/p",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "p"
+            ],
+            "attributes": {
+              "class": "app-components-QueryBuilder-Homepage-styles__autoCompleteItem--kSZvJ"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Orlando as destination.",
+          "memory": "",
+          "next_goal": "Open the departure date-picker."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 37
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 37: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[3]/div/div/div/div/div/div[2]/span/input",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "input"
+            ],
+            "attributes": {
+              "type": "text",
+              "class": "atm-c-resizing-input atm-c-datepicker_input",
+              "id": "DepartDate",
+              "aria-invalid": "false",
+              "autocomplete": "off",
+              "placeholder": "Departure",
+              "value": "Aug 15",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the departure date-picker.",
+          "memory": "",
+          "next_goal": "Select the departure date: July 18, 2025."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "index": 61,
+              "target_month": "July",
+              "search_all": true,
+              "date": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u274c No calendar month header elements found on the page. Decide if you have to move to the next or previous month and call verify_month again",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[6]/div/div/div/div/table/tbody/tr/td[6]/button",
+            "highlight_index": 61,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "class": "rdp-day_button",
+              "tabindex": "-1",
+              "aria-label": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Calendar month header not found.",
+          "memory": "",
+          "next_goal": "Go to previous month to find July 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 126
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 126: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[6]/div/button[2]",
+            "highlight_index": 126,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "class": "atm-c-datepicker__navigation atm-c-datepicker-prev",
+              "aria-label": "Previous month"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Went to the previous month.",
+          "memory": "",
+          "next_goal": "Select the departure date: July 18, 2025."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "index": 61,
+              "target_month": "July",
+              "search_all": true,
+              "date": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July' \n\u2705 Found date 18 in correct month at index 78. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[6]/div/div/div/div/table/tbody/tr/td[3]/button",
+            "highlight_index": 61,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "class": "rdp-day_button",
+              "tabindex": "-1",
+              "aria-label": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Found July 18, 2025.",
+          "memory": "",
+          "next_goal": "Click on July 18, 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 756
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 756: 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[6]/div/div/div/div/table/tbody/tr[3]/td[6]/button",
+            "highlight_index": 756,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "class": "rdp-day_button",
+              "tabindex": "-1",
+              "aria-label": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected July 18, 2025 as departure date.",
+          "memory": "",
+          "next_goal": "Open the return date-picker."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 35
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 35: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[3]/div/div/div/div/div/div[2]/span[3]/input",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "input"
+            ],
+            "attributes": {
+              "type": "text",
+              "class": "atm-c-resizing-input atm-c-datepicker_input",
+              "id": "ReturnDate",
+              "aria-invalid": "false",
+              "autocomplete": "off",
+              "placeholder": "Return",
+              "value": "Aug 17",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the return date field",
+          "memory": "",
+          "next_goal": "Select the return date: July 25, 2025."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "index": 703,
+              "target_month": "July",
+              "search_all": true,
+              "date": 25
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July' \n\u2705 Found date 25 in correct month at index 737. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[6]/div/button",
+            "highlight_index": 703,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-datepicker_shortcuts-button",
+              "type": "button",
+              "aria-label": "Shortcuts"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Found July 25, 2025.",
+          "memory": "",
+          "next_goal": "Click on July 25, 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 737
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 737",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[6]/div/div/div/div/table/tbody/tr[4]/td[6]/button",
+            "highlight_index": 737,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "class": "rdp-day_button",
+              "tabindex": "-1",
+              "aria-label": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected July 25, 2025 as return date.",
+          "memory": "",
+          "next_goal": "Keep number of adult passengers as 1, close the number of passengers dropdown."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 41
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 41: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[3]/div[2]/div/div/div/div/div/div/div/div/div/div/div[2]/input",
+            "highlight_index": 41,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "atm-c-text-input atm-c-textfield__input atm-c-text-input--hover",
+              "id": "0edc68bd-8704-40fe-abe1-a79fd09476f8",
+              "type": "button",
+              "required": "",
+              "aria-labelledby": "stuff",
+              "aria-invalid": "false",
+              "value": "1 Adult",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Kept number of adult passengers as 1.",
+          "memory": "",
+          "next_goal": "Close the number of passengers dropdown."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 76
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 76: Close dialog",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[3]/div[2]/div/div/div/div/div/div/div/div/div[2]/div[2]/article/button",
+            "highlight_index": 76,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "article",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-popupmodal__close-btn atm-c-btn--bare",
+              "type": "button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Closed the number of passengers dropdown.",
+          "memory": "",
+          "next_goal": "Click 'find flights' button."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 46
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 46: Find flights",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us",
+            "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[4]/div[2]/div/div/div/div/main/section/div/div/div/div/div/div[2]/section/div/div/div[2]/form/div[5]/div/div/div/div/div[2]/button",
+            "highlight_index": 46,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn app-components-BookFlightForm-bookFlightForm__findFlightBtn--wBfJd atm-c-btn--primary",
+              "aria-label": "Find flights",
+              "type": "submit"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us",
+        "title": "United Airlines - Airline Tickets, Travel Deals and Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked 'find flights' button.",
+          "memory": "",
+          "next_goal": "Select the cheapest available flight option (Basic Economy $257)."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 49
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 49: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div[3]/div/div[3]/div/div/div[2]/div/div/div/div/button",
+            "highlight_index": 49,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "app-components-Shopping-PriceCard-styles__priceItems--nOzJo app-components-Shopping-PriceCard-styles__left--GUeGb app-components-Shopping-PriceCard-styles__nonVisibleButton--U20hc app-components-Shopping-PriceCard-styles__firstRow--BlYvK"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at flight selection page.",
+          "memory": "",
+          "next_goal": "If you select the Basic Economy, then you need to click ONCE 'Basic Economy works for me', and then click one of the two buttons that appear below it."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 31
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 31: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div/div/label/div/input",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "label",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "d1a47f03-4e06-4247-a3ed-63e2d35c135e",
+              "type": "checkbox",
+              "class": "atm-c-checkbox__input",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at flight selection page.",
+          "memory": "",
+          "next_goal": "Click 'Basic Economy works for me'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 31
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 31: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div/div/label/div/input",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "label",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "d1a47f03-4e06-4247-a3ed-63e2d35c135e",
+              "type": "checkbox",
+              "class": "atm-c-checkbox__input",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed Basic Economy Restrictions.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--primary atm-c-btn--block",
+              "disabled": "",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed Basic Economy Restrictions.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--primary atm-c-btn--block",
+              "disabled": "",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the Basic Economy checkbox.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--primary atm-c-btn--block",
+              "disabled": "",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed Basic Economy Restrictions.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--primary atm-c-btn--block",
+              "disabled": "",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed Basic Economy Restrictions.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--primary atm-c-btn--block",
+              "disabled": "",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed Basic Economy Restrictions.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 31
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 31: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div/div/label/div/input",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "label",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "d1a47f03-4e06-4247-a3ed-63e2d35c135e",
+              "type": "checkbox",
+              "class": "atm-c-checkbox__input",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed Basic Economy Restrictions.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[17]/div[2]/div/div/div/div/div[2]/div/div/div/div[2]/div/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--primary atm-c-btn--block"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed Basic Economy Restrictions.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 35
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 35: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?st=bestmatches&d=2025-07-18&clm=7&taxng=1&f=DEN&px=1&newHP=True&sc=7%2C7&r=2025-07-25&tqp=R&t=MCO&idx=2&mm=0&cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div[3]/div/div[2]/div/div/div/div[2]/div/div/div/div/button",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn app-components-Shopping-ColumnSortResultHeader-styles__cabinDescription--UNcyi atm-c-btn--link",
+              "id": "columnHeaderBtn",
+              "aria-live": "polite"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?st=bestmatches&d=2025-07-18&clm=7&taxng=1&f=DEN&px=1&newHP=True&sc=7%2C7&r=2025-07-25&tqp=R&t=MCO&idx=2&mm=0&cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed Basic Economy Restrictions.",
+          "memory": "",
+          "next_goal": "Select Basic Economy from $257."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 51
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 51: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/fsr/choose-flights?mm=0&st=ECO-BASIC_ASC&d=2025-07-18&clm=7&taxng=1&f=DEN&px=1&newHP=True&sc=7%2C3&r=2025-07-25&tqp=R&t=MCO&cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&idx=2",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div[3]/div/div[2]/div/div/div/div/div/div[3]/div/div[3]/div/div/div[2]/div/div/div/div/button",
+            "highlight_index": 51,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "app-components-Shopping-PriceCard-styles__priceItems--nOzJo app-components-Shopping-PriceCard-styles__left--GUeGb app-components-Shopping-PriceCard-styles__nonVisibleButton--U20hc app-components-Shopping-PriceCard-styles__firstRow--BlYvK"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/fsr/choose-flights?mm=0&st=ECO-BASIC_ASC&d=2025-07-18&clm=7&taxng=1&f=DEN&px=1&newHP=True&sc=7%2C3&r=2025-07-25&tqp=R&t=MCO&cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&idx=2",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at traveler details page.",
+          "memory": "",
+          "next_goal": "Fill in first name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 117,
+              "text": "John"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "error": "Error executing action input_text: Element index 117 does not exist - retry or use alternative actions",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not find the element",
+          "memory": "",
+          "next_goal": "Scrolling down to find first name input field."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down.",
+          "memory": "",
+          "next_goal": "Fill in first name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 9,
+              "text": "John"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "error": "Error executing action input_text: Failed to input text into element: <button class=\"atm-c-btn app-components-Shopping-BasicEconomyRestrictions-styles__footNoteLink--CtEbT atm-c-btn--link\" href=\"\" aria-label=\"Link to footnote 2\" id=\"footNote2Link\"> [interactive, top, highlight:9]. Error: ElementHandle.fill: Error: Element is not an <input>, <textarea> or [contenteditable] element\nCall log:\n    - fill(\"\")\n  -   - attempting fill action\n  -     - waiting for element to be visible, enabled and editable\n",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/div/div/div/div[2]/div/div/div[2]/p/span/sup/button",
+            "highlight_index": 9,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "p",
+              "span",
+              "sup",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn app-components-Shopping-BasicEconomyRestrictions-styles__footNoteLink--CtEbT atm-c-btn--link",
+              "href": "",
+              "aria-label": "Link to footnote 2",
+              "id": "footNote2Link"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not find the element",
+          "memory": "",
+          "next_goal": "Fill in first name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 13,
+              "text": "John"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"John\" for element index 13",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/form/div[3]/section/div[2]/div[2]/div/div/div/div/div/div[2]/input",
+            "highlight_index": 13,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "atm-c-text-input atm-c-textfield__input atm-c-text-input--hover",
+              "id": "830bc4f3-a09d-4d8e-9d93-f37668566836",
+              "name": "rtiTraveler.travelers[0].firstName",
+              "type": "text",
+              "maxlength": "30",
+              "required": "",
+              "aria-invalid": "false",
+              "aria-required": "true",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled in first name.",
+          "memory": "",
+          "next_goal": "Fill in last name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 15,
+              "text": "Doe"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Doe\" for element index 15",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/form/div[3]/section/div[2]/div[2]/div/div/div/div[2]/div/div[2]/input",
+            "highlight_index": 15,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "atm-c-text-input atm-c-textfield__input atm-c-text-input--hover",
+              "id": "03872ec7-3344-414a-9b27-ed5dc0100b46",
+              "name": "rtiTraveler.travelers[0].lastName",
+              "type": "text",
+              "maxlength": "30",
+              "required": "",
+              "aria-invalid": "false",
+              "aria-required": "true",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled in last name.",
+          "memory": "",
+          "next_goal": "Get the options for the month dropdown."
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "0: text=\"Month\"\n1: text=\"January\"\n2: text=\"February\"\n3: text=\"March\"\n4: text=\"April\"\n5: text=\"May\"\n6: text=\"June\"\n7: text=\"July\"\n8: text=\"August\"\n9: text=\"September\"\n10: text=\"October\"\n11: text=\"November\"\n12: text=\"December\"\nUse the exact text string in select_dropdown_option",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/form/div[3]/section/div[2]/div[2]/div/div/div/div[4]/fieldset/div/span/div/div[2]/div/select",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "atm-c-select atm-c-select-field__control",
+              "required": "",
+              "aria-label": "Month",
+              "aria-required": "true",
+              "aria-invalid": "false",
+              "autocomplete": "bday-month"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Got the options for the month dropdown.",
+          "memory": "",
+          "next_goal": "Select January as the birth month."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 18,
+              "text": "January"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "selected option January with value ['0']",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/form/div[3]/section/div[2]/div[2]/div/div/div/div[4]/fieldset/div/span/div/div[2]/div/select",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "atm-c-select atm-c-select-field__control",
+              "required": "",
+              "aria-label": "Month",
+              "aria-required": "true",
+              "aria-invalid": "false",
+              "autocomplete": "bday-month"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected January as the birth month.",
+          "memory": "",
+          "next_goal": "Select January as the birth month."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 18,
+              "text": "January"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "selected option January with value ['0']",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/form/div[3]/section/div[2]/div[2]/div/div/div/div[4]/fieldset/div/span/div/div[2]/div/select",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "atm-c-select atm-c-select-field__control",
+              "required": "",
+              "aria-label": "Month",
+              "aria-required": "true",
+              "aria-invalid": "false",
+              "autocomplete": "bday-month",
+              "data-gtm-form-interact-field-id": "3"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected January as the birth month.",
+          "memory": "",
+          "next_goal": "Input the day of birth."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 19,
+              "text": "15"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"15\" for element index 19",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/form/div[3]/section/div[2]/div[2]/div/div/div/div[4]/fieldset/div/span[2]/div/div[2]/input",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "span",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "atm-c-text-input atm-c-textfield__input app-components-Form-Atmos-DateOfBirth-styles__dobInput--Iftmd atm-c-text-input--hover",
+              "type": "text",
+              "placeholder": "DD",
+              "maxlength": "2",
+              "inputmode": "numeric",
+              "required": "",
+              "size": "3",
+              "aria-invalid": "false",
+              "aria-required": "true",
+              "pattern": "[0-9]*",
+              "autocomplete": "bday-day",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Input the day of birth.",
+          "memory": "",
+          "next_goal": "Input the year of birth."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 20,
+              "text": "1990"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"1990\" for element index 20",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/form/div[3]/section/div[2]/div[2]/div/div/div/div[4]/fieldset/div/span[3]/div/div[2]/input",
+            "highlight_index": 20,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "span",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "atm-c-text-input atm-c-textfield__input app-components-Form-Atmos-DateOfBirth-styles__dobInput--Iftmd atm-c-text-input--hover",
+              "type": "text",
+              "placeholder": "YYYY",
+              "maxlength": "4",
+              "inputmode": "numeric",
+              "required": "",
+              "size": "4",
+              "aria-invalid": "false",
+              "aria-required": "true",
+              "pattern": "[0-9]*",
+              "autocomplete": "bday-year",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Input the year of birth.",
+          "memory": "",
+          "next_goal": "Select the gender."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 23,
+              "text": "Male (M)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "selected option Male (M) with value ['M']",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div/form/div[3]/section/div[2]/div[2]/div/div/div/div[5]/div/div[2]/div/select",
+            "highlight_index": 23,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "atm-c-select atm-c-select-field__control",
+              "id": "82387190-750b-473d-9dba-466ac421a250",
+              "aria-required": "true",
+              "name": "rtiTraveler.travelers[0].gender"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the gender.",
+          "memory": "",
+          "next_goal": "Scroll down to locate and click \"Continue\"."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 44
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 44: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+            "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[5]/div[2]/div/div/div[2]/div/div/div[2]/div[2]/button",
+            "highlight_index": 44,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--primary atm-c-btn--block",
+              "aria-disabled": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R",
+        "title": "United Airlines Reservations - Book a Flight on More Than 80 Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at traveler details page.",
+          "memory": "",
+          "next_goal": "Click continue to seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: Continue to seats",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/book-flight/customizetravel/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+            "title": "Customize Your Travel | United Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div[2]/div[2]/div/div/div[2]/div[2]/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--primary atm-c-btn--block",
+              "data-test-id": "btnContinue"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/book-flight/customizetravel/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+        "title": "Customize Your Travel | United Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at seat selection page.",
+          "memory": "",
+          "next_goal": "Scroll down to locate and click \"Continue\"."
+        },
+        "action": [
+          {
+            "scroll_to_text": {
+              "text": "Continue"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled to text: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/book-flight/seatmap/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+            "title": "Flight Booking Seatmap | United Airlines"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.united.com/en/us/book-flight/seatmap/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+        "title": "Flight Booking Seatmap | United Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled to the continue button.",
+          "memory": "",
+          "next_goal": "Click continue to checkout."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 60
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 60: Continue to checkout",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/book-flight/seatmap/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+            "title": "Flight Booking Seatmap | United Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/div/div/div[2]/div/div[3]/div/div/div/div[2]/div[2]/div/button",
+            "highlight_index": 60,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn atm-c-btn--secondary",
+              "data-test-id": "confirm-seats-button",
+              "type": "button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/book-flight/seatmap/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+        "title": "Flight Booking Seatmap | United Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at checkout page.",
+          "memory": "",
+          "next_goal": "Click Next Step."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 18: Next step",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+            "title": "Check Out | United Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/main/section/div[2]/div[2]/div/section/div[2]/form/div[2]/button",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "form",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn app-components-Shopping-TravelOptions-styles__nextStep--to2c9 atm-c-btn--primary",
+              "data-test-id": "btnNextStep",
+              "type": "submit"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+        "title": "Check Out | United Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed insurance options.",
+          "memory": "",
+          "next_goal": "Select No to travel without insurance and click Next Step."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 18: Next step",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+            "title": "Check Out | United Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/main/section/div[2]/div[2]/div/section/div[2]/form/div[2]/button",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "form",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "atm-c-btn app-components-Shopping-TravelOptions-styles__nextStep--to2c9 atm-c-btn--primary",
+              "data-test-id": "btnNextStep",
+              "type": "submit"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+        "title": "Check Out | United Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Displayed insurance options.",
+          "memory": "",
+          "next_goal": "Select No to travel without insurance and click Next Step."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 15
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 15: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+            "title": "Check Out | United Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/div/div/div/div/div[3]/div/div[3]/div[2]/div/main/section/div[2]/div[2]/div/section/div[2]/form/div/div/div[2]/div/div/div[4]/div/div/div/div/div[3]/div/div/div/div[2]/div/div/div/div/label",
+            "highlight_index": 15,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "label"
+            ],
+            "attributes": {
+              "for": "WASCInsuranceOfferOption2",
+              "class": "radio"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+        "title": "Check Out | United Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at the final \"Payment\" page.",
+          "memory": "",
+          "next_goal": "Task completed."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I have completed the task by navigating to the payment page."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I have completed the task by navigating to the payment page.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+            "title": "Check Out | United Airlines"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R",
+        "title": "Check Out | United Airlines"
+      }
+    }
+  ]
+}

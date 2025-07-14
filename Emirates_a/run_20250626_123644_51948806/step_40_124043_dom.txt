@@ -1,0 +1,124 @@
+
+
+Current url: https://payment.emirates.com/payment/
+Available tabs:
+[TabInfo(page_id=0, url='https://payment.emirates.com/payment/', title='Payment | Emirates Netherlands')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Emirates Logo Graphic"></a>
+1[:]<img ></img>
+_[:]Make a purchase
+2[:]<a >1
+Flights
+Step 1 Flights undefined</a>
+3[:]<a >2
+Passengers
+Step 2 Passengers</a>
+4[:]<a >3
+Options
+Step 3 Options</a>
+_[:]4
+_[:]Payment
+_[:]Step 4 Payment
+_[:]5
+_[:]Confirm
+_[:]Step 5 Confirm
+_[:]Review your selection
+_[:]Flights
+5[:]<button name="flight-details-popup" role="link" type="button">All flight details
+, opens in a modal</button>
+_[:]For 1 passenger (Including airfare, taxes, fees and carrier-imposed charges)
+_[:]Total:
+_[:]AED 3,935
+_[:]Flight departure date:
+_[:]Friday 18 July 2025
+_[:]Fri 18 Jul 25
+_[:]Flight departure time:
+_[:]14:15
+_[:]Flight origin:
+_[:]Dubai (DXB)
+_[:]Flight travel duration is:
+_[:]7h 25m
+6[:]<img alt="Travel mode Flight"></img>
+7[:]<button role="link" type="button">Non-stop
+Flight details for Dubai to London Heathrow (opens in a modal)</button>
+_[:]Flight arrival date:
+_[:]Friday 18 July 2025
+_[:]Fri 18 Jul 25
+_[:]Flight arrival time:
+_[:]18:40
+_[:]Flight destination:
+_[:]London Heathrow (LHR)
+_[:]Class
+_[:]/ Fare:
+_[:]Economy / Saver
+_[:]Economy / Saver
+_[:]Checked baggage:
+_[:]25kg
+_[:]Change fee:
+_[:]AED 290
+_[:]No-show penalty
+_[:]AED 580
+_[:]Refund fee:
+_[:]AED 440 before departure
+_[:]Not permitted after departure
+_[:]No-show penalty
+_[:]AED 880 before departure
+_[:]Not permitted after departure
+8[:]<button name="fare-condition-button" role="link" type="button">View detailed fare conditions
+(Opens a dialog)</button>
+9[:]<button name="rules-toggle-button" aria-expanded="true" role="link" type="button">Hide fare rules
+for Dubai to London Heathrow</button>
+_[:]Flight departure date:
+_[:]Friday 25 July 2025
+_[:]Fri 25 Jul 25
+_[:]Flight departure time:
+_[:]22:15
+_[:]Flight origin:
+_[:]London Heathrow (LHR)
+_[:]Flight travel duration is:
+_[:]6h 50m
+10[:]<img alt="Travel mode Flight"></img>
+11[:]<button role="link" type="button">Non-stop
+Flight details for London Heathrow to Dubai (opens in a modal)</button>
+_[:]Flight arrival date:
+_[:]Saturday 26 July 2025
+_[:]Sat 26 Jul 25
+_[:]Flight arrival time:
+_[:]08:05
+_[:]Flight destination:
+_[:]Dubai (DXB)
+_[:]Class
+_[:]/ Fare:
+_[:]Economy / Flex
+_[:]Economy / Flex
+_[:]Checked baggage:
+_[:]30kg
+_[:]Change fee:
+_[:]AED 240
+_[:]No-show penalty
+_[:]AED 480
+_[:]Refund fee:
+_[:]AED 370
+_[:]No-show penalty
+_[:]AED 740
+12[:]<button name="fare-condition-button" role="link" type="button">View detailed fare conditions
+(Opens a dialog)</button>
+13[:]<button name="rules-toggle-button" aria-expanded="true" role="link" type="button">Hide fare rules
+for London Heathrow to Dubai</button>
+14[:]<button name="fare-breakdown-btn" role="listitem" type="button">Fare Breakdown
+(, Opens a dialog)</button>
+15[:]<button name="fare-rules-btn" role="listitem" type="button">Fare rules/Terms and conditions
+(, Opens a dialog)</button>
+16[:]<button name="miles-breakdown-btn" role="listitem" type="button">Miles Summary
+(, Opens a dialog)</button>
+17[:]<button name="tax-breakdown-btn" role="listitem" type="button">Tax Breakdown
+(, Opens a dialog)</button>
+_[:]Passengers
+_[:](1 Adult)
+18[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+19[:]<img alt="Emirates Airline Foundation"></img>
+20[:]<button type="button" role="tab" name="FULL"></button>
+21[:]<button type="button" role="tab" name="CPM"></button>
+... 1288 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,104 @@
+
+
+Current url: https://ie.hotels.ryanair.com/HotelCheckout?tripid=bc3e76dc-a435-50a1-aee8-b718539f49f9&c=0996707e-d605-4a17-b186-dafdea159040&swpApplied=false&searchId=fd418a5c-69bd-4b46-86ea-43eaedfbe3a9
+Available tabs:
+[TabInfo(page_id=0, url='https://ie.hotels.ryanair.com/Hotel-Search?rooms=1&adults=1&destination=Rome%20City%20Centre%2C%20Rome%2C%20Lazio%2C%20Italy&startDate=2025-07-18&endDate=2025-08-01&d1=2025-07-18&d2=2025-08-01&regionId=553248633938945217&latLong=41.89893613158187%2C12.481600476754943&useRewards=false&rate_type=standalone&isInvalidatedDate=false&upsellingNumNightsAdded=&theme=&userIntent=&semdtl=&upsellingDiscountTypeAdded=&categorySearch=&sort=PRICE_LOW_TO_HIGH', title='Rome City Centre, Rome, Lazio, Italy Hotel Search results'), TabInfo(page_id=1, url='https://ie.hotels.ryanair.com/HotelCheckout?tripid=bc3e76dc-a435-50a1-aee8-b718539f49f9&c=0996707e-d605-4a17-b186-dafdea159040&swpApplied=false&searchId=fd418a5c-69bd-4b46-86ea-43eaedfbe3a9', title='Ryanair Rooms: Payment')]
+Interactive elements from current page view:
+... 927.3333129882812 pixels above - scroll or extract content to see more ...
+0[:]<button type="button"></button>
+1[:]<button type="button"></button>
+2[:]<a ></a>
+3[:]<a ></a>
+_[:]1 room x 14 nights
+_[:]€692.15
+_[:]€49.44
+_[:]average per night
+4[:]<a >10% off</a>
+5[:]<img ></img>
+6[:]<a >Taxes and fees</a>
+_[:]€69.20
+_[:]Local tax
+_[:]€35.00
+_[:]Payable at property
+_[:]Total
+_[:]€796.35
+_[:]Pay now
+_[:]€761.35
+_[:]Pay at property
+_[:]€35.00
+7[:]<a >Use a coupon, credit, or promotion code</a>
+_[:]Rates are quoted in
+_[:]Euros
+_[:]. Taxes and Fees due at the property are based on current exchange rates, and are payable in local currency.
+8[:]<label ></label>
+9[:]<input type="text" value="" name="tripPreferencesRequest.hotelTripPreferences.hotelRoomPreferences[0].firstName" placeholder="(e.g. John)" aria-label="First name"></input>
+10[:]<label ></label>
+11[:]<input type="text" value="" name="tripPreferencesRequest.hotelTripPreferences.hotelRoomPreferences[0].lastName" placeholder="(e.g. Smith)" aria-label="Surname"></input>
+12[:]<label ></label>
+13[:]<input type="email" name="email" placeholder="Email for confirmation" aria-label="Email address"></input>
+14[:]<select tabindex="-1"></select>
+15[:]<select name="tripPreferencesRequest.hotelTripPreferences.hotelRoomPreferences[0].preferredPhoneCountryCode" aria-label="Country/Territory Code"></select>
+16[:]<label ></label>
+17[:]<input type="tel" name="tripPreferencesRequest.hotelTripPreferences.hotelRoomPreferences[0].preferredPhoneNumber" value="" aria-label="Phone number"></input>
+18[:]<img alt="MasterCard" role="img"></img>
+19[:]<img alt="AmericanExpress" role="img"></img>
+20[:]<img alt="Diner's Club International" role="img"></img>
+21[:]<img alt="Visa"></img>
+22[:]<label ></label>
+23[:]<input type="text" name="creditCards[0].cardholder_name" placeholder="" aria-label="Name on Card"></input>
+24[:]<label ></label>
+25[:]<input type="tel" name="creditCards[0].card_number" value="" placeholder="0000 0000 0000 0000" aria-label="Debit/Credit card number"></input>
+_[:]Expiry date
+_[:]*
+26[:]<label >Expiration Month</label>
+27[:]<select name="creditCards[0].expiration_month" aria-label="Expiration Month"></select>
+28[:]<label >Expiration Year</label>
+29[:]<select name="creditCards[0].expiration_year" aria-label="Expiration Year"></select>
+_[:]Security code
+_[:]*
+30[:]<label >Security code</label>
+31[:]<input type="tel" name="creditCards[0].new_card_security_code" value="" placeholder="" aria-label="Security code"></input>
+_[:]Cancellation policy
+_[:]This rate is non-refundable. If you change or cancel your booking you will not get a refund or credit to use for a future stay.
+_[:]No refunds will be issued for late check-in or early check-out.
+_[:]Stay extensions require a new reservation.
+32[:]<div role="region" tabindex="0">Important information
+This property doesn't offer after-hours check-in. Front desk staff will greet guests on arrival at the property.
+You'll be asked to pay the following charges at the property. Fees may include applicable taxes:
+A tax is imposed by the city: EUR 3.50 per person, per night, up to 10 nights. This tax does not apply to children under 10 years of age.
+We have included all charges provided to us by the property.</div>
+_[:]Check-in:
+_[:]Fri, 18 Jul, 3 PM
+_[:]Check-out:
+_[:]Fri, 1 Aug, 10 AM (14-night stay)
+33[:]<label >*
+I have reviewed the
+and
+and have reviewed and accept the
+Rules & Restrictions
+Opens in a new window.
+and
+.</label>
+34[:]<input type="checkbox" name="TCCheckbox"></input>
+35[:]<a >Privacy Statement
+Opens in a new window.</a>
+36[:]<a >Government Travel Advice
+Opens in a new window.</a>
+37[:]<a >Terms of Use
+Opens in a new window.</a>
+_[:]We use secure transmission and encrypted storage to protect your personal information.
+_[:]This payment will be processed in Ireland.
+38[:]<button type="button">Complete booking</button>
+_[:]Additional information
+_[:]Your agreement is with
+39[:]<a >Expedia (Travelscape LLC)</a>
+_[:].
+40[:]<a >Privacy Statement
+opens in a new window</a>
+41[:]<a >Terms of Service
+opens in a new window</a>
+42[:]<a >Cookies
+opens in a new window</a>
+43[:]<a >Website feedback
+opens in a new window</a>
+[End of page]

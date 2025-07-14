@@ -1,0 +1,124 @@
+
+
+Current url: https://cars.united.com/en-us/book?age=30&clientID=561989&ct=MP&curr=USD&elID=1491750069482124&pickupDateTime=2025-07-18T10%3A00&residenceID=NL&returnDateTime=2025-07-25T10%3A00&countryID=US&&pickupCountryCode=US&returnCountryCode=US&pickupLat=28.5383419&pickupLng=-81.378938&pickupName=Orlando%2C%20FL%2C%20USA&returnLat=28.5383419&returnLng=-81.378938&returnName=Orlando%2C%20FL%2C%20USA#/options-with-payment/1052033672
+Available tabs:
+[TabInfo(page_id=0, url='https://cars.united.com/en-us/book?pickupDateTime=2025-07-18T10%3A00&returnDateTime=2025-07-25T10%3A00&age=30&clientID=561989&ct=MP&curr=USD&elID=1491750069482124&&residenceID=NL&vp=28.61442%2C-81.1778421%2C28.348044%2C-81.5077461&pickupLat=28.5383832&pickupLng=-81.3789269&pickupName=Orlando%2C%20FL%2C%20USA&returnLat=28.5383832&returnLng=-81.3789269&returnName=Orlando%2C%20FL%2C%20USA#/vehicles', title='United Airlines - Airline Tickets, Travel Deals and Flights'), TabInfo(page_id=1, url='https://cars.united.com/en-us/book?age=30&clientID=561989&ct=MP&curr=USD&elID=1491750069482124&pickupDateTime=2025-07-18T10%3A00&residenceID=NL&returnDateTime=2025-07-25T10%3A00&countryID=US&&pickupCountryCode=US&returnCountryCode=US&pickupLat=28.5383419&pickupLng=-81.378938&pickupName=Orlando%2C%20FL%2C%20USA&returnLat=28.5383419&returnLng=-81.378938&returnName=Orlando%2C%20FL%2C%20USA#/options-with-payment/1052033672', title='United Airlines - Airline Tickets, Travel Deals and Flights')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a title="Home"></a>
+1[:]<img alt="united-airlines-white logo"></img>
+2[:]<div tabindex="0">English (US)</div>
+3[:]<div tabindex="0">USD</div>
+4[:]<a >Help</a>
+5[:]<a >Manage reservation</a>
+6[:]<a >Sign In</a>
+_[:]Not a member?
+7[:]<a >Join now</a>
+8[:]<li tabindex="0" role="link" aria-label="Back to Search Results">Search Results</li>
+9[:]<li tabindex="0" aria-label="Details: Step 4 of 4 to complete your booking">Details</li>
+_[:]Confirmation
+10[:]<img alt="Kia Rio or similar"></img>
+_[:]Economy
+_[:]Kia Rio
+_[:]or similar
+11[:]<div tabindex="0" role="button" aria-label=","></div>
+12[:]<img alt="BUDGET" aria-label="BUDGET"></img>
+13[:]<li role="contentinfo" tabindex="0" aria-label="5 Passenger(s)">5</li>
+14[:]<li role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases">2</li>
+15[:]<li role="contentinfo" tabindex="0" aria-label="4 doors">4</li>
+16[:]<li role="contentinfo" aria-label="Automatic Transmission" tabindex="0">Auto</li>
+17[:]<li role="contentinfo" aria-label="Air Conditioning" tabindex="0">Aircon</li>
+_[:]Pick-up location:
+18[:]<a >7.55km</a>
+_[:]Mileage:
+19[:]<span role="contentinfo" tabindex="0" aria-label="There is no limit to the distance you can drive with this car">Unlimited</span>
+20[:]<a tabindex="0" role="link" title="Terms and Conditions">Important information</a>
+21[:]<img alt=""></img>
+_[:]Earn
+_[:]500 MileagePlus®miles
+_[:]with this booking
+_[:]Optional Extras
+_[:]- Payable at pick-up
+_[:]Additional Driver
+_[:]$ 91.00 per rental
+22[:]<button ></button>
+_[:]0
+23[:]<button ></button>
+_[:]GPS
+_[:]$ 118.93 per rental
+24[:]<button ></button>
+_[:]0
+25[:]<button ></button>
+_[:]Child toddler seat
+_[:]$ 87.00 per rental
+26[:]<button ></button>
+_[:]0
+27[:]<button ></button>
+_[:]Booster seat
+_[:]$ 87.00 per rental
+28[:]<button ></button>
+_[:]0
+_[:]Infant child seat
+_[:]$ 87.00 per rental
+_[:]0
+29[:]<div ></div>
+_[:]Booking details
+30[:]<input name="firstname" type="text" aria-label=""></input>
+_[:]First Name *
+31[:]<input name="surname" type="text" aria-label=""></input>
+_[:]Last Name *
+_[:]The name should match the driver's license and the credit card used when you pick up the car.
+32[:]<input name="email" type="text" aria-label=""></input>
+_[:]Email *
+33[:]<select name="contactPrefix" tabindex="0"></select>
+_[:]Country code
+34[:]<input name="contactNo" type="tel" aria-label=""></input>
+_[:]Phone *
+35[:]<ct-icon ></ct-icon>
+36[:]<select name="country" tabindex="0"></select>
+_[:]Country/Region*
+37[:]<label >Main driver's age</label>
+38[:]<label ></label>
+39[:]<span tabindex="0">30 - 69</span>
+_[:]No payment needed today!
+_[:]Just pay at the counter when you pick up your car.
+_[:]You've picked a great deal! Remember, you can cancel anytime before pick-up.
+40[:]<img alt="Earn MileagePlus Miles"></img>
+41[:]<input name="membershipid" type="text" aria-label=""></input>
+42[:]<label ></label>
+43[:]<img alt="budget"></img>
+44[:]<input name="supplierbenefitcode" type="text" aria-label=""></input>
+45[:]<label ></label>
+_[:]Trip Summary
+_[:]501 North Orlando Avenue Suite 241, Winter Park, 32789, FL, Florida
+_[:]Fri, 18 Jul
+_[:]·
+_[:]10:00
+_[:]501 North Orlando Avenue Suite 241, Winter Park, 32789, FL, Florida
+_[:]Fri, 25 Jul
+_[:]·
+_[:]10:00
+_[:]Price summary
+46[:]<ct-price-summary-line-item value="price.value">Car rental fee
+$ 310.73</ct-price-summary-line-item>
+47[:]<ct-price-summary-line-item value="price.value">Total
+$ 310.73</ct-price-summary-line-item>
+48[:]<ct-price-summary-line-item tabindex="0">Pay now
+$ 0.00</ct-price-summary-line-item>
+_[:]Car rental fee
+_[:]$ 0.00
+49[:]<ct-price-summary-line-item tabindex="0">Payable at pick-up
+$ 310.73</ct-price-summary-line-item>
+_[:]Car rental fee
+_[:]$ 310.73
+_[:]Payment at counter is in local currency. Price of optional extras are subject to change based on supplier's terms.
+_[:]​A frequent traveler program surcharge may be applied at car pick-up.
+_[:]Earn 500 MileagePlus Miles
+_[:]Earn United travel credits annually when you pay for your Avis or Budget car rental with an eligible United℠ MileagePlus Card. See Terms & Conditions below.
+50[:]<label aria-label=""></label>
+51[:]<a role="button" tabindex="0"></a>
+52[:]<a role="button" tabindex="0"></a>
+53[:]<a role="button" tabindex="0"></a>
+54[:]<label aria-label=""></label>
+55[:]<button ></button>
+... 668 pixels below - scroll or extract content to see more ...

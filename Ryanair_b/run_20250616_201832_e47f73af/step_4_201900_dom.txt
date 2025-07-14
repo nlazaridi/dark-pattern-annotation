@@ -1,0 +1,112 @@
+
+
+Current url: https://www.ryanair.com/flights/gb/en
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/flights/gb/en', title='Cheap flights in Europe | Low-cost European flights | Ryanair.com')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<li ></li>
+2[:]<a >Plan</a>
+3[:]<a >My bookings</a>
+4[:]<a >Check-in</a>
+5[:]<a >Car hire</a>
+6[:]<li ></li>
+7[:]<a >Help</a>
+8[:]<li ></li>
+9[:]<a ></a>
+10[:]<img ></img>
+_[:]Ryanair Flights and Destinations
+_[:]Discover our Travel Guides
+_[:]Read more on our blog, our tips and tricks and much more
+11[:]<a >Discover our Travel Guides</a>
+12[:]<label >From</label>
+13[:]<input type="text"></input>
+14[:]<label >To</label>
+15[:]<input type="text"></input>
+16[:]<button >Let's go</button>
+17[:]<a >Home</a>
+_[:]Flights
+_[:]Book cheap flights with Ryanair and discover Europe
+_[:]From
+_[:]To
+_[:]Flight type
+_[:]Departure date
+_[:]Fare
+_[:]Bristol
+_[:]BRS
+_[:]Knock
+_[:]NOC
+_[:]one way
+_[:]Sun 03 Aug
+_[:]£14.69
+18[:]<a >Book flight</a>
+_[:]London
+_[:]STN
+_[:]Bergamo
+_[:]BGY
+_[:]one way
+_[:]Wed 16 Jul
+_[:]£14.69
+19[:]<a >Book flight</a>
+_[:]Bristol
+_[:]BRS
+_[:]Girona
+_[:]GRO
+_[:]one way
+_[:]Sun 29 Jun
+_[:]£14.99
+20[:]<a >Book flight</a>
+_[:]Bristol
+_[:]BRS
+_[:]Limoges
+_[:]LIG
+_[:]one way
+_[:]Wed 25 Jun
+_[:]£14.99
+21[:]<a >Book flight</a>
+_[:]Bristol
+_[:]BRS
+_[:]Toulouse
+_[:]TLS
+_[:]one way
+_[:]Tue 24 Jun
+_[:]£14.99
+22[:]<a >Book flight</a>
+_[:]London
+_[:]STN
+_[:]Basel
+_[:]BSL
+_[:]one way
+_[:]Wed 27 Aug
+_[:]£14.99
+23[:]<a >Book flight</a>
+_[:]London
+_[:]STN
+_[:]Belfast
+_[:]BFS
+_[:]one way
+_[:]Sat 30 Aug
+_[:]£14.99
+_[:]Book flight
+_[:]London
+_[:]STN
+_[:]Bratislava
+_[:]BTS
+_[:]one way
+_[:]Wed 27 Aug
+_[:]£14.99
+_[:]Book flight
+24[:]<a ></a>
+25[:]<a ></a>
+26[:]<a ></a>
+27[:]<a ></a>
+28[:]<a ></a>
+_[:]We use cookies to give you the best experience on our website. By continuing to use our website without changing your cookie settings, you agree to our use of cookies in accordance with our updated
+29[:]<a >Cookie Policy</a>
+_[:].
+_[:]We have also updated our
+30[:]<a >Privacy Policy</a>
+_[:]and the settings in your myRyanair account to reflect changes in data protection law. Please visit your myRyanair account if you wish to use these settings.
+31[:]<span ></span>
+... 3649 pixels below - scroll or extract content to see more ...

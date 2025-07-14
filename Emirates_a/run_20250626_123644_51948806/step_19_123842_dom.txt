@@ -1,0 +1,63 @@
+
+
+Current url: https://www.emirates.com/booking/passenger-details/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/booking/passenger-details/', title='Passenger details | Emirates Netherlands')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<div tabindex="0"></div>
+1[:]<a aria-label="Skip to the main content" tabindex="0"></a>
+2[:]<a ></a>
+3[:]<img alt="Emirates logo"></img>
+_[:]Dubai (DXB)
+_[:]London Heathrow (LHR)
+_[:]Return
+_[:]1 passenger
+4[:]<button aria-label="Change search opens a modal" type="button">Change search</button>
+_[:]Cost
+_[:]AED
+_[:]3,935
+5[:]<button aria-label="View summary Opens a dialog" type="button">View summary</button>
+6[:]<a >Flights</a>
+7[:]<a >Passengers</a>
+8[:]<a >Options</a>
+9[:]<a >Payment</a>
+_[:]Complete your passenger details
+10[:]<div >Important information</div>
+_[:]Travel to the United Kingdom:
+_[:]Travel requirements to the UK are changing. This includes moving from physical immigration documents to eVisas and introducing Electronic Travel Authorisation (ETA) which is a digital permission to travel…
+11[:]<button name="important-info-readmore-toggle-button" aria-expanded="false" aria-label="Read more Important information" type="button">Read more</button>
+12[:]<button type="button">Log in to your account to pre-fill your passenger details.
+Login</button>
+13[:]<img ></img>
+_[:]Passenger 1
+_[:](Adult)
+_[:]Names must exactly match passport details and should be entered using English characters only. They can’t be changed after your booking is complete.
+14[:]<div role="combobox" aria-expanded="false">passenger-info-text</div>
+15[:]<label aria-label="Title">Title</label>
+16[:]<label >First name</label>
+17[:]<label >Last name</label>
+18[:]<button name="frequent-flyer-toggle-button" aria-expanded="false" type="button">Add frequent flyer membership details (optional)</button>
+_[:]Contact details
+19[:]<div role="combobox" aria-expanded="false"></div>
+20[:]<label aria-label="Contact person">Contact person</label>
+21[:]<div role="combobox" aria-expanded="false"></div>
+22[:]<button type="button" tabindex="-1"></button>
+23[:]<input type="text" value="Netherlands (+31)"></input>
+24[:]<label aria-label="Country/territory"></label>
+25[:]<input type="tel" value=""></input>
+26[:]<label aria-label="Mobile number"></label>
+27[:]<input type="email" value=""></input>
+28[:]<label aria-label="Email address"></label>
+29[:]<button type="button"></button>
+30[:]<button type="button"></button>
+31[:]<a ></a>
+32[:]<a ></a>
+33[:]<a ></a>
+34[:]<a ></a>
+35[:]<a ></a>
+36[:]<a ></a>
+37[:]<a ></a>
+38[:]<a ></a>
+39[:]<img alt="emirates-footer-logo"></img>
+... 480 pixels below - scroll or extract content to see more ...

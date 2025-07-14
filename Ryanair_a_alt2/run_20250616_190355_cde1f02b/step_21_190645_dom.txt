@@ -1,0 +1,101 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<a aria-label="Fees">Fees</a>
+2[:]<a aria-label="FAQs">FAQs</a>
+3[:]<button >My bookings</button>
+4[:]<button >Log in</button>
+5[:]<button >myRyanair Portal</button>
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Barcelona
+_[:](All airports)
+_[:]Milan
+_[:](All airports)
+_[:]Return
+_[:]17 Jul
+_[:]- 1 Aug
+_[:]1
+6[:]<button >Edit search</button>
+_[:]Flights
+_[:]Seats
+_[:]Bags
+_[:]Extras
+_[:]Review & Pay
+_[:]Your selected flights
+7[:]<a tabindex="0">Edit flights</a>
+8[:]<div tabindex="0">18
+JUL
+16:35
+Barcelona
+FR 7541
+1h 45m
+18:20
+Milan Malpensa</div>
+9[:]<div tabindex="0">02
+AUG
+06:15
+Milan Malpensa
+FR 270
+1h 40m
+· Operated by Malta Air
+07:55
+Barcelona</div>
+_[:]IDEAL FOR YOUR TRIP TO Milan
+_[:]PLUS
+_[:]is the only bundle with a
+_[:]20kg check-in bag
+_[:]included
+_[:]Choose your fare
+_[:]*
+_[:]The selected fare type applies to all passengers for all flights
+_[:]Basic
+_[:]Travel light
+_[:]Continue for
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Regular
+_[:]Choose your seat and 10kg bag on board
+_[:]+
+_[:]€
+_[:]30
+_[:].
+_[:]25
+_[:]on each flight
+_[:]Plus
+_[:]Free airport check-in
+_[:]and a huge 20kg bag
+_[:]+
+_[:]€
+_[:]38
+_[:].
+_[:]74
+_[:]on each flight
+_[:]Flexi Plus
+_[:]Our most flexible bundle
+_[:]+
+_[:]€
+_[:]100
+_[:].
+_[:]75
+_[:]on each flight
+_[:]1 small bag
+_[:]Must fit under the seat in front
+_[:]Reserved seat
+_[:]Just not the pilot's seat!
+_[:]Specific rows available
+_[:]Specific rows available
+_[:]Any seat on the plane!
+_[:]Priority boarding
+10[:]<div role="button" tabindex="0"></div>
+... 503 pixels below - scroll or extract content to see more ...

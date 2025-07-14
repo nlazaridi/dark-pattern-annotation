@@ -1,0 +1,42 @@
+
+
+Current url: https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf
+Available tabs:
+[TabInfo(page_id=0, url='https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0', title='Booking.com: Hotels in Cali. Book your hotel now!'), TabInfo(page_id=1, url='https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf', title='Flight selection | LATAM Airlines')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content.
+_[:]Navegate through the user sections.
+0[:]<a aria-label="Go to Home page.">Latam Airlines</a>
+1[:]<img alt="logo"></img>
+2[:]<button >EUR · €
+Euros</button>
+3[:]<button role="link">Log in to my LATAM account.
+Log in</button>
+4[:]<div role="region"></div>
+5[:]<div tabindex="0" aria-label="Summary of your search: Origin city Bogota, destination city Cali, with outbound date Friday, July 18, 2025 and return date Friday, July 25, 2025. Number of passengers 1, Cabin type Economy. Change flight selected.">Bogota
+Cali
+Fri, Jul 18 - Fri, Jul 25
+1
+Passenger
+Economy</div>
+6[:]<div role="link" tabindex="0" aria-label="Change search">Change search</div>
+_[:]Choose a
+_[:]departure flight
+_[:]Choose a departure flight
+7[:]<button aria-expanded="false" role="button" title="Recommended">Sort by:
+Recommended</button>
+_[:]The order will apply to your round-trip flight.
+_[:]protected by
+_[:]reCAPTCHA
+_[:]-
+8[:]<a >Privacy</a>
+_[:]-
+9[:]<a >Terms</a>
+10[:]<a >Privacy</a>
+_[:]-
+11[:]<a >Terms</a>
+_[:]protected by
+_[:]reCAPTCHA
+_[:]-
+... 59 pixels below - scroll or extract content to see more ...

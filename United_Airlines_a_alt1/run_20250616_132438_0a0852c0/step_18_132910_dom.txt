@@ -1,0 +1,286 @@
+
+
+Current url: https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us/fsr/choose-flights?f=DEN&t=MCO&d=2025-07-18&r=2025-07-25&sc=7%2C7&px=1&taxng=1&newHP=True&clm=7&st=bestmatches&tqp=R', title='United Airlines Reservations - Book a Flight on More Than 80 Airlines')]
+Interactive elements from current page view:
+... 8 pixels above - scroll or extract content to see more ...
+_[:]English - US	$
+_[:]Sign in
+_[:]Main menu
+_[:]Menu
+_[:]From
+_[:]Denver, CO, US
+_[:]reverse origin and destination
+_[:]To
+_[:]Orlando, FL, US
+_[:]Dates
+_[:]-
+_[:]Choose date, from Jul 18 to Jul 25
+_[:]Travelers
+_[:]1 Adult
+_[:]Show price in:
+_[:]Update
+_[:]Advanced Search
+_[:]Flight Search Results
+_[:]Sort
+_[:]Sort By,not selected, menu pop up, button.
+_[:]Stops
+_[:]Stops,not selected, menu pop up, button.
+_[:]Fare Type
+_[:]Fare Type,not selected, menu pop up, button.
+_[:]Duration
+_[:]Duration,not selected, menu pop up, button.
+_[:]Connections
+_[:]Connections,not selected, menu pop up, button.
+_[:]Refundable fares
+_[:]Refundable fares,not selected, menu pop up, button.
+_[:]Aircraft
+_[:]Aircraft type,not selected, menu pop up, button.
+_[:]Wheelchair
+_[:]Wheel chair,not selected, menu pop up, button.
+_[:]Reset all
+_[:]Depart on:
+_[:]July 18
+_[:]departure
+_[:]All fares shown are the total price roundtrip, per person.
+_[:]Additional bag charges may apply.
+_[:]Fare attributes apply to flights operated by United and United Express
+_[:]®
+_[:]. United flights may be listed first.
+_[:]Show price in:
+_[:]use arrow keys to navigate among tabs and enter/ space key to activate and navigate through the tab
+_[:]Money
+_[:]Money + Miles
+_[:]Compare fare types
+_[:]Show calendar
+_[:]Basic Economy
+_[:](most restrictive)
+_[:]Link. Select to sort results by Basic Economy (most restrictive) from lowest to highest price.
+_[:]Economy
+_[:]Link. Select to sort results by Economy  from lowest to highest price.
+_[:]Economy
+_[:](fully refundable)
+_[:]Link. Select to sort results by Economy (fully refundable) from lowest to highest price.
+_[:]Economy Plus
+_[:](extra legroom)
+_[:]Link. Select to sort results by Economy Plus (extra legroom) from lowest to highest price.
+_[:]Business/First
+_[:]Link. Select to sort results by Business/First  from lowest to highest price.
+_[:]Flight details section.
+_[:]Seats details section.
+0[:]<div role="grid">Flight Information
+NONSTOP
+6:00 AM
+Departing at 6:00 AM
+11:45 AM
+Arriving at 11:45 AM
+DEN
+Origin Denver, CO, US (DEN)
+3H, 45M
+Duration 3 hours and 45 minutes
+MCO
+Destination Orlando, FL, US (MCO)
+UA 2065 (Boeing 737-800)
+Flight Number UA 2065. Aircraft Boeing 737-800
+Details
+Seats
+178 kg CO
+2
+Carbon emissions estimate: 178 kilograms.
+Learn more about carbon emissions
+Roundtrip
+$257
+United Economy (N)
+Select fare for
+Basic Economy (most restrictive)
+Roundtrip
+$337
+United Economy (K)
+Select fare for
+Economy
+Roundtrip
+$417
+United Economy (K)
+Select fare for
+Economy (fully refundable)
+Roundtrip
+$451
+United Economy (K)
+Select fare for
+Economy Plus (extra legroom)
+Roundtrip
+$817
+United First (P)
+Select fare for
+Business/First
+Flight Information
+RECOMMENDED FLIGHT
+Recommended Flights Tooltip, Select this button to trigger the tooltip
+NONSTOP
+8:05 AM
+Departing at 8:05 AM
+1:50 PM
+Arriving at 1:50 PM
+DEN
+Origin Denver, CO, US (DEN)
+3H, 45M
+Duration 3 hours and 45 minutes
+MCO
+Destination Orlando, FL, US (MCO)
+UA 425 (Boeing 737 MAX 9)
+Flight Number UA 425. Aircraft Boeing 737 MAX 9
+Details
+Seats
+144 kg CO
+2
+Carbon emissions estimate: 144 kilograms. This is a lower emissions flight.
+Learn more about carbon emissions
+Roundtrip
+$257
+United Economy (N)
+Select fare for
+Basic Economy (most restrictive)
+Roundtrip
+$337
+United Economy (K)
+Select fare for
+Economy
+Roundtrip
+$417
+United Economy (K)
+Select fare for
+Economy (fully refundable)
+Roundtrip
+$451
+United Economy (K)
+Select fare for
+Economy Plus (extra legroom)
+Roundtrip
+$817
+United First (P)
+Select fare for
+Business/First
+Flight Information
+RECOMMENDED FLIGHT
+Recommended Flights Tooltip, Select this button to trigger the tooltip
+NONSTOP
+10:10 AM
+Departing at 10:10 AM
+3:59 PM
+Arriving at 3:59 PM
+DEN
+Origin Denver, CO, US (DEN)
+3H, 49M
+Duration 3 hours and 49 minutes
+MCO
+Destination Orlando, FL, US (MCO)
+UA 2648 (Airbus A321neo)
+Flight Number UA 2648. Aircraft Airbus A321neo
+Details
+Seats
+140 kg CO
+2
+Carbon emissions estimate: 140 kilograms. This is a lower emissions flight.
+Learn more about carbon emissions
+Roundtrip
+$316
+United Economy (N)
+Select fare for
+Basic Economy (most restrictive)
+Roundtrip
+$380
+United Economy (L)
+Select fare for
+Economy
+Roundtrip
+$460
+United Economy (L)
+Select fare for
+Economy (fully refundable)
+Roundtrip
+$494
+United Economy (L)
+Select fare for
+Economy Plus (extra legroom)
+Roundtrip
+$1,963
+United First (C)
+Select fare for
+Business/First
+Flight Information
+NONSTOP</div>
+1[:]<button aria-label="Details for the flight: Depart Denver, CO, US (DEN) at 1:55 PM and arrive  at 7:41 PM " aria-expanded="false"></button>
+2[:]<button aria-label="Seats for the flight: Depart Denver, CO, US (DEN) at 1:55 PM and arrive  at 7:41 PM " aria-expanded="false"></button>
+3[:]<button ></button>
+4[:]<button >Roundtrip</button>
+5[:]<button >Roundtrip</button>
+6[:]<button >Roundtrip</button>
+7[:]<button >Roundtrip</button>
+8[:]<button >Roundtrip</button>
+9[:]<button aria-label="Details for the flight: Depart Denver, CO, US (DEN) at 5:40 PM and arrive  at 11:28 PM " aria-expanded="false"></button>
+10[:]<button aria-label="Seats for the flight: Depart Denver, CO, US (DEN) at 5:40 PM and arrive  at 11:28 PM " aria-expanded="false"></button>
+11[:]<button ></button>
+12[:]<button ></button>
+13[:]<button ></button>
+14[:]<button ></button>
+15[:]<button ></button>
+16[:]<button ></button>
+17[:]<button ></button>
+18[:]<button ></button>
+19[:]<button ></button>
+20[:]<button ></button>
+21[:]<button ></button>
+22[:]<button role="button" aria-expanded="false">Site Feedback</button>
+23[:]<div ></div>
+24[:]<div >Please confirm that Basic Economy fits your travel
+Basic Economy
+(most restrictive)
+Economy
+Choose a complimentary seat, or change or upgrade seats
+Basic Economy
+Not Eligible
+Economy
+Not excluded, but fees may apply.
+Sit with your group or family
+Basic Economy
+Not Eligible
+Economy
+Not excluded, but fees may apply.
+Bring a full-sized carry-on bag on board
+Basic Economy
+Not Eligible
+Economy
+Not excluded, but fees may apply.
+Change your flight
+Basic Economy
+Not Eligible
+Economy
+Not excluded, but fees may apply.
+Earn full Premier® qualifying credit
+Basic Economy
+Not Eligible
+Economy
+Not excluded, but fees may apply.
+= Not excluded, but fees may apply.
+Seats
+are assigned prior to boarding. Advance seat assignments may be available for purchase during booking and up until check-in opens. Prices vary based on route and availability and are subject to change. You will not be eligible to purchase Economy Plus® seating or premium cabin upgrades, or receive Economy Plus subscription benefits. With standard Economy, customers traveling together can choose seats together if open seats are available. If you’re flying with children under 12, our new tools make it easier for them to sit next to a family member for free.
+With Economy: Complimentary seat assignments are only offered when available on United and United Express® flights. There may be a charge for Economy seat assignments on our partner airlines.
+Carry-on bags must be checked before security for a fee starting at $35. If you bring a carry-on bag to the gate that won't fit under the seat, you need to pay a $65 fee to check it. MileagePlus® Premier members, primary cardmembers of qualifying MileagePlus credit cards, and Star Alliance™ Gold members may bring on board a full-sized carry-on bag at no charge. All travelers are allowed a small personal item that fits under the seat in front of them, such as a shoulder bag, purse, laptop bag or other small item, 9 inches x 10 inches x 17 inches (22 cm x 25 cm x 43 cm) or less. Mobility aids and other assistive devices are also permitted.
+Changes are not permitted on Basic Economy fares. Basic Economy tickets can be canceled for a travel credit, less a Basic Economy cancellation charge. There is no cancellation charge for most Economy tickets.
+MileagePlus members will earn
+full Premier qualifying points, 0 Premier qualifying flights for each flight as well as lifetime miles and toward the four-segment minimum for Premier status.</div>
+25[:]<a aria-label="footnote 1">1</a>
+26[:]<a aria-label="footnote 1">1</a>
+27[:]<a aria-label="footnote 2">2</a>
+28[:]<a aria-label="footnote 3">3</a>
+29[:]<a aria-label="footnote 4">4</a>
+30[:]<label >Basic Economy works for me</label>
+31[:]<input type="checkbox" value=""></input>
+32[:]<button tabindex="-1">Basic Economy from
+$257</button>
+33[:]<button >Economy from
+$337</button>
+34[:]<button aria-expanded="true" type="button">With Basic Economy</button>
+35[:]<button >Close dialog</button>
+... 6130 pixels below - scroll or extract content to see more ...

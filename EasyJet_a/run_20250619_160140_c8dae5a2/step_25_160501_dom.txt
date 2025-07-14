@@ -1,0 +1,317 @@
+
+
+Current url: https://www.easyjet.com/en/buy/flights?isOneWay=off
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/flights?isOneWay=off', title='Pick Flights')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<a >easyJet home</a>
+_[:]outbound flight in basket replaced by new standard fare
+_[:]Pick flights
+_[:]All flights selected?
+1[:]<button type="button">Continue</button>
+_[:]Added to basket
+2[:]<button type="button" tabindex="-1">Show basket</button>
+_[:]Your current basket
+_[:]Basket
+_[:]£383.69
+3[:]<button type="button">Change currency
+></button>
+4[:]<button type="button">Price breakdown
+></button>
+_[:]Edinburgh
+_[:]to
+_[:]Lisbon
+_[:]Flight Number
+_[:]EZY
+_[:]3321
+5[:]<label >Departure</label>
+_[:]06:05 Thu 17th Jul
+6[:]<label >Arrival</label>
+_[:]09:20
+7[:]<button type="button" aria-label="Remove Edinburgh to Lisbon on 06:05 Thu 17th Jul"></button>
+_[:]Your Fares
+_[:]Item
+_[:]Price
+_[:]Adult
+_[:]1 x £216.99
+_[:]Included in your fare
+_[:]Included item
+_[:]Included item details
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon
+_[:]to
+_[:]Edinburgh
+_[:]Flight Number
+_[:]EZY
+_[:]3322
+8[:]<label >Departure</label>
+_[:]09:50 Thu 24th Jul
+9[:]<label >Arrival</label>
+_[:]13:05
+10[:]<button type="button" aria-label="Remove Lisbon to Edinburgh on 13:05 Thu 24th Jul"></button>
+_[:]Your Fares
+_[:]Item
+_[:]Price
+_[:]Adult
+_[:]1 x £166.70
+_[:]Included in your fare
+_[:]Included item
+_[:]Included item details
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+11[:]<button type="button">Add more flights</button>
+12[:]<button type="button">Continue</button>
+_[:]Non-refundable. Changeable subject to
+13[:]<a >fees</a>
+_[:].
+_[:]Price includes all applicable
+14[:]<a >taxes and fees</a>
+_[:].
+_[:]What do our fares include?
+_[:]What do our fares include?
+_[:]fare item
+_[:]Standard
+_[:]Flight fare and taxes
+_[:]included
+_[:]✔
+_[:]Small cabin bag
+_[:]included
+_[:]✔
+_[:]Large cabin bag
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Hold luggage
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Seat selection
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Speedy Boarding
+_[:]not included
+_[:]✘
+_[:]easyJet Plus bag drop
+_[:]not included
+_[:]✘
+_[:]Fast Track Security
+_[:]not included
+_[:]✘
+_[:]Date changes +/-1 day
+_[:]not included
+_[:]✘
+_[:]Free route changes
+_[:]not included
+_[:]✘
+_[:]No payment fees
+_[:]included
+_[:]✔
+_[:]CAFE. Meal Deal
+_[:]not included
+_[:]✘
+_[:]Pick flights
+_[:]Passenger details
+_[:]Seat selection
+_[:]Cabin bags
+_[:]Hold luggage
+_[:]Car rental
+_[:]Travel Insurance
+_[:]Checkout
+_[:]Flight search options
+15[:]<a >Change search
+></a>
+16[:]<button type="button">1 recent search
+></button>
+_[:]Outbound
+_[:]Flight calendar
+_[:]Edinburgh
+_[:]to
+_[:]Lisbon
+_[:]Last booked 3 hours ago
+17[:]<button aria-label="Scroll to earlier date" type="button"></button>
+18[:]<button aria-label="Scroll to later date" type="button"></button>
+_[:]Tuesday
+_[:]15
+_[:]July
+_[:]No flights available
+_[:]Wednesday
+_[:]16
+_[:]July
+_[:]No flights available
+_[:]Thursday
+_[:]17
+_[:]July
+19[:]<button type="button">Departure
+06:05
+Arrival
+09:20
+LOWEST FARE
+£216
+.99
+2
+seats left at</button>
+_[:]Skip to basket
+_[:]Friday
+_[:]18
+_[:]July
+_[:]No flights available
+_[:]Saturday
+_[:]19
+_[:]July
+_[:]No flights available
+_[:]Inbound
+_[:]Flight calendar
+_[:]Lisbon
+_[:]to
+_[:]Edinburgh
+_[:]Last booked 3 hours ago
+20[:]<button aria-label="Scroll to earlier date" type="button"></button>
+21[:]<button aria-label="Scroll to later date" type="button"></button>
+_[:]Tuesday
+_[:]22
+_[:]July
+_[:]No flights available
+_[:]Wednesday
+_[:]23
+_[:]July
+_[:]No flights available
+_[:]Thursday
+_[:]24
+_[:]July
+22[:]<button type="button">Departure
+09:50
+Arrival
+13:05
+LOWEST FARE
+£166
+.70</button>
+_[:]Skip to basket
+_[:]Friday
+_[:]25
+_[:]July
+_[:]No flights available
+_[:]Saturday
+_[:]26
+_[:]July
+_[:]No flights available
+_[:]Departing 17 July for 7 nights for 1 person
+23[:]<li >1
+/
+89
+Lisbon City, Lisbon, Portugal
+1,112 reviews
+Hotel
+Flights
+Small under seat bag
+£1,484
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+24[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+25[:]<button type="button" aria-label="Next" tabindex="0"></button>
+26[:]<img alt=""></img>
+27[:]<img alt=""></img>
+28[:]<a tabindex="0">Vila Gale Opera</a>
+29[:]<img alt=""></img>
+30[:]<img alt=""></img>
+31[:]<img alt=""></img>
+32[:]<button type="button" tabindex="0">Click for more details</button>
+33[:]<a tabindex="0">View Holiday</a>
+34[:]<li >1
+/
+35
+Lisbon City, Lisbon, Portugal
+7,169 reviews
+Hotel
+Flights
+Small under seat bag
+£1,834
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+35[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+36[:]<button type="button" aria-label="Next" tabindex="0"></button>
+37[:]<img alt=""></img>
+38[:]<img alt=""></img>
+39[:]<a tabindex="0">Corinthia Hotel Lisbon</a>
+40[:]<img alt=""></img>
+41[:]<img alt=""></img>
+42[:]<img alt=""></img>
+43[:]<button type="button" tabindex="0">Click for more details</button>
+44[:]<a tabindex="0">View Holiday</a>
+45[:]<li >1
+/
+17
+Lisbon City, Lisbon, Portugal
+611 reviews
+Hotel
+Flights
+Small under seat bag
+£1,588
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+46[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+47[:]<button type="button" aria-label="Next" tabindex="0"></button>
+48[:]<img alt=""></img>
+49[:]<img alt=""></img>
+50[:]<a tabindex="0">Olissippo Castelo</a>
+51[:]<img alt=""></img>
+52[:]<img alt=""></img>
+53[:]<img alt=""></img>
+54[:]<button type="button" tabindex="0">Click for more details</button>
+55[:]<a tabindex="0">View Holiday</a>
+56[:]<li >1
+/
+11
+Lisbon City, Lisbon, Portugal
+1,019 reviews
+Hotel
+Flights
+Small under seat bag
+£1,264
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+57[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+58[:]<button type="button" aria-label="Next" tabindex="0"></button>
+59[:]<img alt=""></img>
+60[:]<img alt=""></img>
+61[:]<a tabindex="0">Zenit Lisboa</a>
+62[:]<img alt=""></img>
+63[:]<img alt=""></img>
+64[:]<img alt=""></img>
+65[:]<button type="button" tabindex="0">Click for more details</button>
+66[:]<a tabindex="0">View Holiday</a>
+67[:]<li >1
+/
+24
+Lisbon City, Lisbon, Portugal
+124 reviews
+Hotel
+Flights
+Small under seat bag
+£1,419
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+68[:]<button type="button" aria-label="Previous" tabindex="-1"></button>
+69[:]<button type="button" aria-label="Next" tabindex="-1"></button>
+70[:]<img alt=""></img>
+71[:]<img alt=""></img>
+72[:]<a tabindex="-1">The Editory Riverside Santa Apolonia Hotel</a>
+73[:]<img alt=""></img>
+74[:]<img alt=""></img>
+75[:]<img alt=""></img>
+76[:]<button type="button" tabindex="-1">Click for more details</button>
+77[:]<a tabindex="-1">View Holiday</a>
+78[:]<li >Not found what you looked for?</li>
+79[:]<a tabindex="-1">View all holidays</a>
+80[:]<button ></button>
+81[:]<button aria-label="Go to slide 1"></button>
+82[:]<button aria-label="Go to slide 2"></button>
+83[:]<button aria-label="Go to slide 3"></button>
+84[:]<a >Show all holiday deals from £1,021</a>
+_[:]ATOL protected
+85[:]<a ></a>
+86[:]<a ></a>
+87[:]<a ></a>
+88[:]<a ></a>
+89[:]<a ></a>
+90[:]<a ></a>
+... 884 pixels below - scroll or extract content to see more ...

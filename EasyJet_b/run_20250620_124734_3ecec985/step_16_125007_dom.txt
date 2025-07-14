@@ -1,0 +1,103 @@
+
+
+Current url: https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicle/9909765
+Available tabs:
+[TabInfo(page_id=0, url='https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles', title='easyJet.com Car Rentals'), TabInfo(page_id=1, url='https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicle/9909765', title='easyJet.com Car Rentals')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Welcome
+0[:]<a >Sign in</a>
+_[:]or
+1[:]<a >Register</a>
+2[:]<a ></a>
+3[:]<img alt="easyJet"></img>
+4[:]<a >Flight info</a>
+5[:]<a >Holidays</a>
+6[:]<a >Hotels</a>
+7[:]<a >Cars/Transfers</a>
+8[:]<a >Business</a>
+9[:]<a >My easyJet</a>
+10[:]<a aria-label=" Clicking on this link will open easyJet.com in the new tab! "></a>
+11[:]<img alt="easyJet.com"></img>
+12[:]<a aria-label=" Manage Car Booking - The link opens in a new window ">Manage My Booking</a>
+13[:]<a aria-label=" Manage Car Booking - The link opens in a new window ">Help</a>
+14[:]<button aria-label="Change Language. Page language is currently set to English. Changing the language will cause the page to reload."></button>
+15[:]<img alt="en flag"></img>
+16[:]<button >€
+|
+EUR</button>
+17[:]<li tabindex="0" role="link" aria-label="Back to Search Results">Search Results</li>
+18[:]<li tabindex="0" aria-label="Options: Step 3 of 5 to complete your booking">Options</li>
+_[:]Details
+_[:]Confirmation
+_[:]Free cancellation up to 48 hours before pick-up.
+19[:]<div tabindex="0" role="tab">Car Details</div>
+20[:]<div tabindex="0" role="tab">Customer rating</div>
+21[:]<button >Email Quote</button>
+22[:]<ct-vehicle-block role="tabpanel">Mini
+Fiat 500 or similar
+Pick-up location:
+Unlimited Mileage
+Standard
+Car hire fee
+€ 206.05
+Only € 29.44 per day</ct-vehicle-block>
+23[:]<img alt="Fiat 500 or similar"></img>
+24[:]<span role="contentinfo" tabindex="0" aria-label="A free shuttle bus will bring you from the airport terminal to the service desk.">Free Shuttle Bus</span>
+25[:]<span tabindex="0">Free Cancellation</span>
+26[:]<div role="contentinfo" tabindex="0" aria-label="4 Passenger(s)">4 Seats</div>
+27[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 1 small suitcase">1 Bag</div>
+28[:]<div role="contentinfo" tabindex="0" aria-label="Manual Transmission">Manual</div>
+29[:]<div role="contentinfo" tabindex="0" aria-label="You will pick your car up with fuel. Check the amount of fuel before you drive. You will need to return it with the same amount of fuel.">Same to Same</div>
+30[:]<div role="contentinfo" tabindex="0" aria-label="">Damage & theft coverage</div>
+31[:]<button aria-label="8.4,vgood" tabindex="0">8.4
+Very good</button>
+32[:]<button title="Important information" role="button" tabindex="0">Important Info</button>
+_[:]Insurance Options
+_[:]With Premium Insurance you will be refunded for any incurred excess charges so you won’t be out of pocket if anything goes wrong.
+_[:]Limited Insurance
+_[:]Minimal cover for theft and bodywork damage.
+_[:]You pay for any damages
+_[:]not covered by the limited option.
+_[:]Non refundable excess of up to € 1,800
+_[:]Non-Refundable
+_[:]Excess
+33[:]<span ></span>
+_[:]Premium Insurance
+_[:]Full coverage
+_[:]for your car rental excess. If you have an accident you will be refunded your excess of up to
+_[:]CHF 3,100
+_[:].
+34[:]<img alt=""></img>
+_[:]FREE cancellation (Up to 24 hours before pick-up)
+_[:]Up to
+_[:]100% Refundable Excess
+35[:]<span ></span>
+36[:]<ct-dynamic-button tabindex="0"></ct-dynamic-button>
+37[:]<ct-dynamic-button tabindex="0"></ct-dynamic-button>
+_[:]Trip Summary
+_[:]Lisbon - Airport
+_[:]Thu, 17 Jul
+_[:]·
+_[:]10:00
+38[:]<span ></span>
+39[:]<span tabindex="0">View pick-up details</span>
+_[:]Lisbon - Airport
+_[:]Thu, 24 Jul
+_[:]·
+_[:]10:00
+40[:]<span ></span>
+41[:]<span tabindex="0">View drop-off details</span>
+_[:]Klasswagen is a popular choice with
+_[:]more than 20 bookings
+_[:]in the last 24 hours.
+_[:]Great choice
+_[:]!
+_[:]Best value
+_[:]You got the best deal with a popular brand based on 5550 reviews.
+_[:]Customer favourite
+_[:]You selected one of the top rated brands in Lisbon - Airport based on 5550 reviews.
+_[:]Unlimited mileage
+_[:]Drive as much as you want with no extra cost.
+42[:]<button ></button>
+... 931 pixels below - scroll or extract content to see more ...

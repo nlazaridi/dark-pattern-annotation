@@ -1,0 +1,134 @@
+
+
+Current url: https://www.easyjet.com/en/buy/cabin-bags
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/cabin-bags', title='Cabin bags | easyJet.com')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<a ></a>
+1[:]<img alt="easyJet"></img>
+_[:]Your cabin bags
+2[:]<button ><
+Back</button>
+3[:]<a aria-label="Cabin bags information"></a>
+4[:]<img alt="information"></img>
+_[:]Happy with your cabin bag allowance ?
+_[:]EDI to LIS, Thu 17th Jul
+_[:]LIS to EDI, Thu 24th Jul
+5[:]<button aria-label="Skip cabin bags page">Skip</button>
+6[:]<a >Pick flights</a>
+7[:]<img ></img>
+8[:]<a >Passenger Details</a>
+9[:]<img ></img>
+10[:]<a >Seat selection</a>
+11[:]<img ></img>
+12[:]<img ></img>
+_[:]Cabin bags
+13[:]<img ></img>
+_[:]Hold luggage
+14[:]<img ></img>
+_[:]Car rental
+15[:]<img ></img>
+_[:]Travel Insurance
+16[:]<img ></img>
+_[:]Checkout
+_[:]Small under seat bag
+_[:](max. 45 x 36 x 20 cm)
+17[:]<img alt="Small Cabin bag"></img>
+18[:]<img ></img>
+_[:]Included for all passengers
+19[:]<button aria-label="Open modal to view more information about small and large cabin bag dimensions">Bag details</button>
+20[:]<img alt="Information"></img>
+_[:]Large cabin bag
+_[:](max. 56 x 45 x 25 cm)
+21[:]<img alt="Cabin bag"></img>
+_[:]£
+_[:]32
+_[:].
+_[:]99
+_[:]£32.99
+_[:]per person per flight
+22[:]<button aria-label="Open modal to view more information about small and large cabin bag dimensions">Bag details</button>
+23[:]<img alt="Information"></img>
+_[:]Select your cabin bag allowance
+_[:]John Doe
+_[:]Small under seat bag
+_[:]Included for all passengers
+24[:]<div role="button" tabindex="0">Large cabin bag
+Add for
+£
+32
+.
+99
+* per flight</div>
+25[:]<label >✓</label>
+26[:]<input type="checkbox" aria-label="Same for all flights checkbox"></input>
+27[:]<label >✓
+Same for all flights</label>
+_[:]Please check your cabin bag allowance. Bags and seats are sold separately, so you can now book exactly what you need. If you arrive at the airport with bags outside of your allowance, they’ll need to be put in the hold and will be subject to the airport bag fee.
+_[:]*Prices are shown per flight and are averaged across all flights in the basket.Prices may vary if you add bags at a later stage
+_[:]Purchasing your bags online is cheaper. Any bags not purchased online or that exceed your cabin bag allowance will need to be placed in the hold and will be subject to an airport bag fee of up to £48 per bag.
+_[:]Your current basket
+_[:]Basket
+_[:]£
+_[:]383
+_[:].
+_[:]69
+_[:]£383.69
+28[:]<button >Price breakdown</button>
+_[:]Edinburgh to Lisbon
+_[:]Flight Number
+_[:]EZY3321
+29[:]<img ></img>
+_[:]Departure
+_[:]06:05
+_[:]Thu 17th Jul
+_[:]Arrival
+_[:]09:20
+_[:]Your fares
+30[:]<button aria-label="Edit Edinburgh to Lisbon flight on 17th July 2025"></button>
+31[:]<img alt="Edit Edinburgh to Lisbon flight on 17th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]216
+_[:].
+_[:]99
+_[:]£216.99
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon to Edinburgh
+_[:]Flight Number
+_[:]EZY3322
+32[:]<img ></img>
+_[:]Departure
+_[:]09:50
+_[:]Thu 24th Jul
+_[:]Arrival
+_[:]13:05
+_[:]Your fares
+33[:]<button aria-label="Edit Lisbon to Edinburgh flight on 24th July 2025"></button>
+34[:]<img alt="Edit Lisbon to Edinburgh flight on 24th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]166
+_[:].
+_[:]70
+_[:]£166.70
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+35[:]<button aria-label="Skip cabin bags page">Skip</button>
+_[:]EDI to LIS, Thu 17th Jul
+_[:]LIS to EDI, Thu 24th Jul
+_[:]Skip
+[End of page]

@@ -1,0 +1,1 @@
+web: python annotation_server.py 

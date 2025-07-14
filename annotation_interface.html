@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Pattern Annotation Interface</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .progress-bar {
+            background: rgba(255,255,255,0.1);
+            height: 6px;
+            border-radius: 3px;
+            margin-top: 15px;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            background: linear-gradient(90deg, #3498db, #2ecc71);
+            height: 100%;
+            transition: width 0.3s ease;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            min-height: 600px;
+        }
+
+        .sidebar {
+            background: #f8f9fa;
+            padding: 20px;
+            border-right: 1px solid #e9ecef;
+        }
+
+        .folder-info {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .folder-info h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+        }
+
+        .folder-info p {
+            color: #6c757d;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+
+        .navigation {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .nav-btn {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            background: #3498db;
+            color: white;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .nav-btn:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+
+        .nav-btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .image-counter {
+            text-align: center;
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .annotation-panel {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .annotation-panel h4 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .annotation-input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            margin-bottom: 15px;
+            transition: border-color 0.3s ease;
+        }
+
+        .annotation-input:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .annotation-list {
+            max-height: 200px;
+            overflow-y: auto;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 10px;
+        }
+
+        .annotation-item {
+            background: #f8f9fa;
+            padding: 10px;
+            margin-bottom: 8px;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+        }
+
+        .annotation-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .annotation-text {
+            font-size: 0.9em;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .annotation-coords {
+            font-size: 0.8em;
+            color: #6c757d;
+        }
+
+        .remove-annotation {
+            float: right;
+            background: #e74c3c;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 4px 8px;
+            font-size: 0.8em;
+            cursor: pointer;
+        }
+
+        .image-container {
+            padding: 30px;
+            text-align: center;
+            background: #f8f9fa;
+        }
+
+        .image-wrapper {
+            position: relative;
+            display: inline-block;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .annotation-image {
+            max-width: 100%;
+            max-height: 70vh;
+            display: block;
+            cursor: crosshair;
+        }
+
+        .bounding-box {
+            position: absolute;
+            border: 2px solid #e74c3c;
+            background: rgba(231, 76, 60, 0.1);
+            cursor: move;
+        }
+
+        .bounding-box.selected {
+            border-color: #f39c12;
+            background: rgba(243, 156, 18, 0.2);
+        }
+
+        .bounding-box-number {
+            position: absolute;
+            top: -25px;
+            left: -2px;
+            background: #e74c3c;
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: bold;
+        }
+
+        .controls {
+            margin-top: 20px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .control-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+        }
+
+        .btn-primary {
+            background: #3498db;
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2980b9;
+        }
+
+        .btn-success {
+            background: #27ae60;
+            color: white;
+        }
+
+        .btn-success:hover {
+            background: #229954;
+        }
+
+        .btn-warning {
+            background: #f39c12;
+            color: white;
+        }
+
+        .btn-warning:hover {
+            background: #e67e22;
+        }
+
+        .btn-danger {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .btn-danger:hover {
+            background: #c0392b;
+        }
+
+        .folder-comment {
+            margin-top: 20px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        .folder-comment h4 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+        }
+
+        .folder-comment textarea {
+            width: 100%;
+            min-height: 100px;
+            padding: 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 14px;
+            resize: vertical;
+            font-family: inherit;
+        }
+
+        .folder-comment textarea:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .save-section {
+            background: white;
+            padding: 20px;
+            border-top: 1px solid #e9ecef;
+            text-align: center;
+        }
+
+        .save-btn {
+            padding: 15px 40px;
+            background: linear-gradient(135deg, #27ae60, #2ecc71);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+        }
+
+        .save-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(39, 174, 96, 0.4);
+        }
+
+        .status-message {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
+
+        .status-success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .instructions {
+            background: #e8f4fd;
+            border: 1px solid #bee5eb;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 20px;
+            color: #0c5460;
+        }
+
+        .instructions h4 {
+            margin-bottom: 10px;
+            color: #0c5460;
+        }
+
+        .instructions ul {
+            margin-left: 20px;
+        }
+
+        .instructions li {
+            margin-bottom: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                order: 2;
+            }
+            
+            .image-container {
+                order: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Dark Pattern Annotation Interface</h1>
+            <p>Annotate UI screenshots with bounding boxes and dark pattern descriptions</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="folder-info">
+                    <h3 id="currentFolder">Loading...</h3>
+                    <p id="folderDescription">Loading folder information...</p>
+                </div>
+
+                <div class="navigation">
+                    <div class="nav-buttons">
+                        <button class="nav-btn" id="prevFolder" onclick="previousFolder()">← Previous</button>
+                        <button class="nav-btn" id="nextFolder" onclick="nextFolder()">Next →</button>
+                    </div>
+                    <div class="image-counter">
+                        Image <span id="currentImageIndex">0</span> of <span id="totalImages">0</span>
+                    </div>
+                    <div class="nav-buttons">
+                        <button class="nav-btn" id="prevImage" onclick="previousImage()">← Previous</button>
+                        <button class="nav-btn" id="nextImage" onclick="nextImage()">Next →</button>
+                    </div>
+                </div>
+
+                <div class="annotation-panel">
+                    <h4>Dark Pattern Annotations</h4>
+                    <input type="text" class="annotation-input" id="annotationInput" 
+                           placeholder="Describe the dark pattern you see..." 
+                           onkeypress="handleAnnotationKeypress(event)">
+                    <button class="control-btn btn-primary" onclick="addAnnotation()">Add Annotation</button>
+                    
+                    <div class="annotation-list" id="annotationList">
+                        <!-- Annotations will be added here -->
+                    </div>
+                </div>
+
+                <div class="folder-comment">
+                    <h4>Folder Comments</h4>
+                    <textarea id="folderComment" placeholder="Add any general comments about this folder's dark patterns..."></textarea>
+                </div>
+
+                <div class="save-section">
+                    <button class="save-btn" onclick="saveAnnotations()">Save Annotations</button>
+                    <div id="statusMessage"></div>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="instructions">
+                    <h4>Instructions:</h4>
+                    <ul>
+                        <li>Click and drag on the image to create bounding boxes around dark patterns</li>
+                        <li>Type a description of the dark pattern and click "Add Annotation"</li>
+                        <li>Use the navigation buttons to move between images and folders</li>
+                        <li>Add folder-level comments at the bottom of the sidebar</li>
+                        <li>Click "Save Annotations" to save your work</li>
+                    </ul>
+                </div>
+
+                <div class="image-wrapper" id="imageWrapper">
+                    <img id="annotationImage" class="annotation-image" src="" alt="Screenshot to annotate">
+                </div>
+
+                <div class="controls">
+                    <button class="control-btn btn-warning" onclick="clearAnnotations()">Clear All Annotations</button>
+                    <button class="control-btn btn-danger" onclick="deleteSelectedBox()">Delete Selected Box</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="loading" id="loading">
+            <div class="spinner"></div>
+            <p>Loading images...</p>
+        </div>
+    </div>
+
+    <script>
+        // Global variables
+        let currentFolderIndex = 0;
+        let currentImageIndex = 0;
+        let folders = [];
+        let currentFolderImages = [];
+        let annotations = [];
+        let boundingBoxes = [];
+        let selectedBox = null;
+        let isDrawing = false;
+        let startX, startY, currentBox = null;
+
+        // Initialize the interface
+        async function initializeInterface() {
+            try {
+                const response = await fetch('folders_summary.json');
+                const data = await response.json();
+                folders = data.folders;
+                
+                // Load the first folder
+                await loadFolder(0);
+                updateProgress();
+            } catch (error) {
+                console.error('Error loading folders:', error);
+                showStatus('Error loading folders. Please check if folders_summary.json exists.', 'error');
+            }
+        }
+
+        // Load a specific folder
+        async function loadFolder(folderIndex) {
+            if (folderIndex < 0 || folderIndex >= folders.length) return;
+            
+            currentFolderIndex = folderIndex;
+            currentImageIndex = 0;
+            annotations = [];
+            boundingBoxes = [];
+            selectedBox = null;
+            
+            const folder = folders[folderIndex];
+            document.getElementById('currentFolder').textContent = `${folder.airline} - ${folder.task_title}`;
+            document.getElementById('folderDescription').textContent = `Task: ${folder.task_id}`;
+            
+            // Load images from the folder
+            await loadFolderImages(folder.folder_path);
+            updateNavigationButtons();
+        }
+
+        // Load images from a folder
+        async function loadFolderImages(folderPath) {
+            try {
+                const response = await fetch(`/api/images?folder=${encodeURIComponent(folderPath)}`);
+                const data = await response.json();
+                currentFolderImages = data.images;
+                
+                if (currentFolderImages.length > 0) {
+                    loadImage(0);
+                } else {
+                    showStatus('No images found in this folder.', 'error');
+                }
+                
+                updateImageCounter();
+            } catch (error) {
+                console.error('Error loading images:', error);
+                showStatus('Error loading images from folder.', 'error');
+            }
+        }
+
+        // Load a specific image
+        function loadImage(imageIndex) {
+            if (imageIndex < 0 || imageIndex >= currentFolderImages.length) return;
+            
+            currentImageIndex = imageIndex;
+            const imagePath = currentFolderImages[imageIndex];
+            
+            const img = document.getElementById('annotationImage');
+            img.src = imagePath;
+            
+            // Clear previous annotations
+            clearBoundingBoxes();
+            annotations = [];
+            updateAnnotationList();
+            
+            updateImageCounter();
+            updateNavigationButtons();
+        }
+
+        // Navigation functions
+        function nextFolder() {
+            if (currentFolderIndex < folders.length - 1) {
+                loadFolder(currentFolderIndex + 1);
+            }
+        }
+
+        function previousFolder() {
+            if (currentFolderIndex > 0) {
+                loadFolder(currentFolderIndex - 1);
+            }
+        }
+
+        function nextImage() {
+            if (currentImageIndex < currentFolderImages.length - 1) {
+                loadImage(currentImageIndex + 1);
+            }
+        }
+
+        function previousImage() {
+            if (currentImageIndex > 0) {
+                loadImage(currentImageIndex - 1);
+            }
+        }
+
+        // Update UI elements
+        function updateProgress() {
+            const progress = ((currentFolderIndex + 1) / folders.length) * 100;
+            document.getElementById('progressFill').style.width = progress + '%';
+        }
+
+        function updateImageCounter() {
+            document.getElementById('currentImageIndex').textContent = currentImageIndex + 1;
+            document.getElementById('totalImages').textContent = currentFolderImages.length;
+        }
+
+        function updateNavigationButtons() {
+            document.getElementById('prevFolder').disabled = currentFolderIndex === 0;
+            document.getElementById('nextFolder').disabled = currentFolderIndex === folders.length - 1;
+            document.getElementById('prevImage').disabled = currentImageIndex === 0;
+            document.getElementById('nextImage').disabled = currentImageIndex === currentFolderImages.length - 1;
+        }
+
+        // Bounding box functionality
+        function initializeBoundingBoxes() {
+            const imageWrapper = document.getElementById('imageWrapper');
+            const image = document.getElementById('annotationImage');
+
+            image.addEventListener('mousedown', startDrawing);
+            image.addEventListener('mousemove', draw);
+            image.addEventListener('mouseup', endDrawing);
+            image.addEventListener('mouseleave', endDrawing);
+        }
+
+        function startDrawing(e) {
+            if (e.target !== document.getElementById('annotationImage')) return;
+            
+            isDrawing = true;
+            const rect = e.target.getBoundingClientRect();
+            startX = e.clientX - rect.left;
+            startY = e.clientY - rect.top;
+            
+            currentBox = document.createElement('div');
+            currentBox.className = 'bounding-box';
+            currentBox.style.left = startX + 'px';
+            currentBox.style.top = startY + 'px';
+            currentBox.style.width = '0px';
+            currentBox.style.height = '0px';
+            
+            document.getElementById('imageWrapper').appendChild(currentBox);
+        }
+
+        function draw(e) {
+            if (!isDrawing || !currentBox) return;
+            
+            const rect = e.target.getBoundingClientRect();
+            const currentX = e.clientX - rect.left;
+            const currentY = e.clientY - rect.top;
+            
+            const width = Math.abs(currentX - startX);
+            const height = Math.abs(currentY - startY);
+            const left = Math.min(currentX, startX);
+            const top = Math.min(currentY, startY);
+            
+            currentBox.style.left = left + 'px';
+            currentBox.style.top = top + 'px';
+            currentBox.style.width = width + 'px';
+            currentBox.style.height = height + 'px';
+        }
+
+        function endDrawing() {
+            if (!isDrawing || !currentBox) return;
+            
+            isDrawing = false;
+            
+            // Only keep the box if it has a reasonable size
+            const width = parseInt(currentBox.style.width);
+            const height = parseInt(currentBox.style.height);
+            
+            if (width > 10 && height > 10) {
+                const boxNumber = boundingBoxes.length + 1;
+                currentBox.innerHTML = `<div class="bounding-box-number">${boxNumber}</div>`;
+                currentBox.onclick = () => selectBox(currentBox);
+                boundingBoxes.push(currentBox);
+            } else {
+                currentBox.remove();
+            }
+            
+            currentBox = null;
+        }
+
+        function selectBox(box) {
+            // Remove previous selection
+            if (selectedBox) {
+                selectedBox.classList.remove('selected');
+            }
+            
+            // Select new box
+            selectedBox = box;
+            box.classList.add('selected');
+        }
+
+        function deleteSelectedBox() {
+            if (selectedBox) {
+                const index = boundingBoxes.indexOf(selectedBox);
+                if (index > -1) {
+                    boundingBoxes.splice(index, 1);
+                    selectedBox.remove();
+                    selectedBox = null;
+                    
+                    // Update box numbers
+                    boundingBoxes.forEach((box, i) => {
+                        const numberDiv = box.querySelector('.bounding-box-number');
+                        if (numberDiv) {
+                            numberDiv.textContent = i + 1;
+                        }
+                    });
+                }
+            }
+        }
+
+        function clearBoundingBoxes() {
+            boundingBoxes.forEach(box => box.remove());
+            boundingBoxes = [];
+            selectedBox = null;
+        }
+
+        // Annotation functionality
+        function addAnnotation() {
+            const input = document.getElementById('annotationInput');
+            const description = input.value.trim();
+            
+            if (!description) {
+                showStatus('Please enter a description for the annotation.', 'error');
+                return;
+            }
+            
+            if (boundingBoxes.length === 0) {
+                showStatus('Please draw at least one bounding box before adding an annotation.', 'error');
+                return;
+            }
+            
+            // Get coordinates of all bounding boxes
+            const coordinates = boundingBoxes.map(box => {
+                const rect = box.getBoundingClientRect();
+                const imageRect = document.getElementById('annotationImage').getBoundingClientRect();
+                
+                return {
+                    x: rect.left - imageRect.left,
+                    y: rect.top - imageRect.top,
+                    width: rect.width,
+                    height: rect.height
+                };
+            });
+            
+            const annotation = {
+                description: description,
+                coordinates: coordinates,
+                timestamp: new Date().toISOString()
+            };
+            
+            annotations.push(annotation);
+            input.value = '';
+            updateAnnotationList();
+            showStatus('Annotation added successfully!', 'success');
+        }
+
+        function handleAnnotationKeypress(event) {
+            if (event.key === 'Enter') {
+                addAnnotation();
+            }
+        }
+
+        function updateAnnotationList() {
+            const list = document.getElementById('annotationList');
+            list.innerHTML = '';
+            
+            annotations.forEach((annotation, index) => {
+                const item = document.createElement('div');
+                item.className = 'annotation-item';
+                
+                const coordsText = annotation.coordinates.map((coord, i) => 
+                    `Box ${i + 1}: (${Math.round(coord.x)}, ${Math.round(coord.y)}) ${Math.round(coord.width)}×${Math.round(coord.height)}`
+                ).join(', ');
+                
+                item.innerHTML = `
+                    <div class="annotation-text">${annotation.description}</div>
+                    <div class="annotation-coords">${coordsText}</div>
+                    <button class="remove-annotation" onclick="removeAnnotation(${index})">×</button>
+                `;
+                
+                list.appendChild(item);
+            });
+        }
+
+        function removeAnnotation(index) {
+            annotations.splice(index, 1);
+            updateAnnotationList();
+        }
+
+        function clearAnnotations() {
+            annotations = [];
+            clearBoundingBoxes();
+            updateAnnotationList();
+            showStatus('All annotations cleared.', 'success');
+        }
+
+        // Save functionality
+        async function saveAnnotations() {
+            const folder = folders[currentFolderIndex];
+            const imagePath = currentFolderImages[currentImageIndex];
+            const folderComment = document.getElementById('folderComment').value.trim();
+            
+            const annotationData = {
+                folder: folder.folder_path,
+                image: imagePath,
+                annotations: annotations,
+                folderComment: folderComment,
+                timestamp: new Date().toISOString(),
+                expert: 'UI_Dark_Pattern_Expert' // This could be made configurable
+            };
+            
+            try {
+                const response = await fetch('/api/save-annotations', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(annotationData)
+                });
+                
+                if (response.ok) {
+                    showStatus('Annotations saved successfully!', 'success');
+                } else {
+                    throw new Error('Failed to save annotations');
+                }
+            } catch (error) {
+                console.error('Error saving annotations:', error);
+                showStatus('Error saving annotations. Please try again.', 'error');
+            }
+        }
+
+        function showStatus(message, type) {
+            const statusDiv = document.getElementById('statusMessage');
+            statusDiv.textContent = message;
+            statusDiv.className = `status-message status-${type}`;
+            
+            setTimeout(() => {
+                statusDiv.textContent = '';
+                statusDiv.className = '';
+            }, 5000);
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeInterface();
+            initializeBoundingBoxes();
+        });
+    </script>
+</body>
+</html> 

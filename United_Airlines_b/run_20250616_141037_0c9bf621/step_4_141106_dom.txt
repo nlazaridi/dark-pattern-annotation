@@ -1,0 +1,51 @@
+
+
+Current url: https://www.united.com/en/us/fly/travel/trip-planning/travel-deals.html
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us/fly/travel/trip-planning/travel-deals.html', title='Travel Deals - Special Flight Offers | United Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<img alt="United logo link to homepage"></img>
+2[:]<button aria-expanded="false" type="button">Book</button>
+3[:]<button aria-expanded="false" type="button">My trips</button>
+4[:]<button aria-expanded="false" type="button">Travel info</button>
+5[:]<button aria-expanded="false" type="button">MileagePlus</button>
+6[:]<button aria-expanded="false" type="button">Deals</button>
+7[:]<a >Help</a>
+8[:]<button aria-label="Currently in English US	$ enter to change" type="button">English - US	$</button>
+9[:]<a aria-label="Search, opens in a new tab"></a>
+10[:]<button aria-label="Sign in" type="button">Sign in</button>
+11[:]<button aria-label="Close button">Close</button>
+_[:]Sign into your account
+12[:]<button type="button">Sign in</button>
+13[:]<a aria-label="Create a MileagePlus account link, opens in new tab">Join now</a>
+_[:]Travel deals
+_[:]Enjoy discounts on over 4,500 flights to 300+ destinations. Some United deals also let you earn extra miles.
+14[:]<a >Special flight offers</a>
+15[:]<a >Other offers</a>
+_[:]Special flight offers
+_[:]You can explore our current flight offers and promotions using our
+16[:]<a >search tool</a>
+_[:].
+_[:]On-going deals
+17[:]<img alt="Placeholder Text"></img>
+18[:]<a >Flights from Chicago</a>
+19[:]<img alt="Placeholder Text"></img>
+20[:]<a >Flights from Houston</a>
+21[:]<img alt="Placeholder Text"></img>
+22[:]<a >Flights from New York City</a>
+23[:]<img alt="Placeholder Text"></img>
+24[:]<a >Flights from San Francisco</a>
+25[:]<img alt="Placeholder Text"></img>
+26[:]<a >Flights from Los Angeles</a>
+27[:]<img alt="Placeholder Text"></img>
+28[:]<a >Flights from Denver</a>
+29[:]<img alt="Placeholder Text"></img>
+30[:]<a ></a>
+31[:]<a ></a>
+32[:]<img alt="Placeholder Text"></img>
+33[:]<img alt="Placeholder Text"></img>
+34[:]<img alt="Placeholder Text"></img>
+35[:]<button role="button" aria-expanded="false">Site Feedback</button>
+... 2292 pixels below - scroll or extract content to see more ...

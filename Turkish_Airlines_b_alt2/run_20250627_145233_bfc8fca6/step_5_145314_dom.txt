@@ -1,0 +1,227 @@
+
+
+Current url: https://www.turkishairlines.com/en/flight-deals
+Available tabs:
+[TabInfo(page_id=0, url='https://www.turkishairlines.com/en/flight-deals', title='Flight Deals | Turkish Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<a ></a>
+2[:]<a >Corporate Club</a>
+3[:]<a >Miles&Smiles</a>
+4[:]<a >Feedback</a>
+5[:]<button type="button" aria-label="label--region-language Global English" aria-expanded="false">language
+Global
+-
+English
+keyboard_arrow_down</button>
+6[:]<a ></a>
+7[:]<img alt="Turkish Airlines"></img>
+8[:]<button type="button" aria-expanded="false">PLAN&BOOK
+keyboard_arrow_down</button>
+9[:]<button type="button" aria-expanded="false">FLY DIFFERENT
+keyboard_arrow_down</button>
+10[:]<button type="button" aria-expanded="false">DISCOVER
+keyboard_arrow_down</button>
+11[:]<button type="button" aria-expanded="false">HELP
+keyboard_arrow_down</button>
+12[:]<a >Sign up</a>
+_[:]Discover our flight offers starting from
+13[:]<span tabindex="0" role="button">TRY2,701*</span>
+_[:]and book now!
+14[:]<div ></div>
+15[:]<div ></div>
+16[:]<div ></div>
+17[:]<div ></div>
+18[:]<div ></div>
+19[:]<div ></div>
+20[:]<div ></div>
+21[:]<div ></div>
+22[:]<div ></div>
+23[:]<div >expand_more</div>
+24[:]<div ></div>
+25[:]<div ></div>
+26[:]<button aria-label="fc-booking-journey-type-aria-label, Round-trip" type="button" aria-expanded="false">Round-trip</button>
+27[:]<div ></div>
+28[:]<div ></div>
+29[:]<div ></div>
+30[:]<div ></div>
+31[:]<div >expand_more</div>
+32[:]<div ></div>
+33[:]<div ></div>
+34[:]<button aria-label="Traveler Information. Press Enter or Spacebar key to open the passenger selection menu and use the Tab key to move through the passenger section and complete your selection, 1 Passenger, Economy" type="button" aria-expanded="false">1 Passenger, Economy</button>
+35[:]<div ></div>
+36[:]<div ></div>
+37[:]<div ></div>
+38[:]<div ></div>
+39[:]<div ></div>
+40[:]<div ></div>
+41[:]<div ></div>
+42[:]<div ></div>
+43[:]<div ></div>
+44[:]<label >From</label>
+45[:]<input aria-label="fc-booking-origin-aria-label" placeholder="Origin" role="combobox" type="text" aria-expanded="false" value=""></input>
+46[:]<div ></div>
+47[:]<div ></div>
+48[:]<div ></div>
+49[:]<div ></div>
+50[:]<div ></div>
+51[:]<div ></div>
+52[:]<div ></div>
+53[:]<label >To</label>
+54[:]<input aria-label="fc-booking-destination-aria-label" placeholder="Destination" role="combobox" type="text" aria-expanded="false" value=""></input>
+55[:]<div ></div>
+56[:]<div ></div>
+57[:]<div ></div>
+58[:]<div ></div>
+59[:]<div role="none" aria-expanded="false"></div>
+60[:]<div ></div>
+61[:]<div ></div>
+62[:]<div ></div>
+63[:]<div >today</div>
+64[:]<div ></div>
+65[:]<div >fc-booking-departure-date-aria-label</div>
+66[:]<label >Departure date</label>
+67[:]<button aria-expanded="false" type="button">Fri, July 04</button>
+68[:]<div ></div>
+69[:]<div ></div>
+70[:]<div role="none" aria-expanded="false"></div>
+71[:]<div ></div>
+72[:]<div ></div>
+73[:]<div ></div>
+74[:]<div >today</div>
+75[:]<div ></div>
+76[:]<div >fc-booking-return-date-aria-label</div>
+77[:]<label >Return date</label>
+78[:]<button aria-expanded="false" type="button">Fri, July 11</button>
+79[:]<div ></div>
+80[:]<button type="button">Search flight</button>
+81[:]<a >Home</a>
+_[:]Flights
+_[:]Discover the most popular flight destinations
+82[:]<label >From</label>
+83[:]<div >flight_takeoff</div>
+84[:]<input role="combobox" aria-expanded="true" placeholder="Origin" aria-label="Input origin" value="Frankfurt"></input>
+85[:]<ul role="listbox"></ul>
+86[:]<li role="option">Frankfurt Airport  (FRA), Frankfurt, Germany</li>
+87[:]<button type="button">keyboard_arrow_down</button>
+88[:]<label >To</label>
+89[:]<div >flight_land</div>
+90[:]<input role="combobox" aria-expanded="false" placeholder="Destination" aria-label="Input destination" value=""></input>
+91[:]<button type="button">keyboard_arrow_down</button>
+92[:]<label >Cabin Class</label>
+93[:]<div >Cabin Class option undefined Selected
+Select Travel Class
+keyboard_arrow_down</div>
+94[:]<img alt=""></img>
+_[:]Istanbul (IST)
+_[:]to
+_[:]Antalya (AYT)
+_[:]Tue, July 08 - Fri, July 11
+_[:]From
+_[:]TRY3,965
+_[:]*
+_[:]Last update 4 hrs ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+95[:]<button type="button" aria-label="BOOK NOW Istanbul IST to Antalya AYT Tue, July 08 - Fri, July 11 From TRY3,965 Last update 4 hrs ago Round-trip Economy">BOOK NOW</button>
+96[:]<img alt=""></img>
+_[:]Istanbul (IST)
+_[:]to
+_[:]Antalya (AYT)
+_[:]Fri, July 04 - Mon, July 07
+_[:]From
+_[:]TRY3,965
+_[:]*
+_[:]Last update 4 hrs ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+97[:]<button type="button" aria-label="BOOK NOW Istanbul IST to Antalya AYT Fri, July 04 - Mon, July 07 From TRY3,965 Last update 4 hrs ago Round-trip Economy">BOOK NOW</button>
+98[:]<img alt=""></img>
+_[:]Istanbul (IST)
+_[:]to
+_[:]Trabzon (TZX)
+_[:]Sun, August 03 - Thu, August 07
+_[:]From
+_[:]TRY5,058
+_[:]*
+_[:]Last update 5 hrs ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+99[:]<button type="button" aria-label="BOOK NOW Istanbul IST to Trabzon TZX Sun, August 03 - Thu, August 07 From TRY5,058 Last update 5 hrs ago Round-trip Economy">BOOK NOW</button>
+100[:]<img alt=""></img>
+_[:]Istanbul (IST)
+_[:]to
+_[:]Trabzon (TZX)
+_[:]Sat, August 02 - Fri, August 15
+_[:]From
+_[:]TRY5,058
+_[:]*
+_[:]Last update 6 hrs ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+101[:]<button type="button" aria-label="BOOK NOW Istanbul IST to Trabzon TZX Sat, August 02 - Fri, August 15 From TRY5,058 Last update 6 hrs ago Round-trip Economy">BOOK NOW</button>
+102[:]<img alt=""></img>
+103[:]<button type="button" aria-label="BOOK NOW Istanbul IST to Dalaman DLM Tue, July 29 - Fri, August 01 From TRY3,716 Last update 3 hrs ago Round-trip Economy"></button>
+104[:]<img alt=""></img>
+105[:]<button type="button" aria-label="BOOK NOW Istanbul IST to Izmir ADB Thu, July 03 - Mon, July 07 From TRY3,965 Last update 5 hrs ago Round-trip Economy"></button>
+106[:]<img alt=""></img>
+107[:]<button type="button" aria-label="BOOK NOW Istanbul IST to Cukurova COV Thu, August 28 - Sat, September 06 From TRY6,565 Last update 5 hrs ago Round-trip Economy"></button>
+108[:]<img alt=""></img>
+109[:]<button type="button" aria-label="BOOK NOW Istanbul IST to Cukurova COV Tue, July 08 - Tue, July 15 From TRY6,565 Last update 5 hrs ago Round-trip Economy"></button>
+110[:]<img alt=""></img>
+111[:]<img alt=""></img>
+112[:]<img alt=""></img>
+113[:]<img alt=""></img>
+_[:]Explore our interactive map and find our best flight deals*
+114[:]<label >From</label>
+115[:]<div role="combobox" aria-expanded="false"></div>
+116[:]<input type="text" placeholder="Departure City" value=""></input>
+117[:]<div ></div>
+_[:]Selector collapsed Enter the origin city of the trip.
+118[:]<button type="button" aria-expanded="false" aria-label="Depart ">Departure date</button>
+119[:]<button type="button" aria-expanded="false" aria-label="cmp-travel-class-filter-label-selected-item Travel Class Economy ">Travel Class</button>
+120[:]<button type="button" aria-expanded="false" aria-label="cmp-travel-class-filter-label-selected-item cmp-location-selector-label-flight-type Round-trip ">Trip Type</button>
+121[:]<button aria-label="cmp-secondary-filter-clear-button-accessibility-message" type="button">Clear</button>
+_[:]Select departure city to see available route destinations
+_[:]16
+_[:]7
+_[:]11
+_[:]3
+_[:]4
+_[:]7
+_[:]7
+_[:]2
+_[:]60
+_[:]2
+_[:]4
+_[:]11
+_[:]9
+_[:]2
+_[:]4
+_[:]3
+_[:]2
+_[:]5
+_[:]4
+_[:]4
+_[:]12
+_[:]5
+_[:]6
+_[:]23
+_[:]28
+_[:]2
+_[:]42
+_[:]6
+_[:]6
+_[:]2
+_[:]6
+_[:]3
+_[:]2
+_[:]30
+_[:]26
+_[:]*Fares displayed have been collected within the last 48 hours and may no longer be available at the time of booking. The prices don’t have TUA (Airport Usage Fee) in domestic flights. Learn more about this offer.
+... 4633 pixels below - scroll or extract content to see more ...

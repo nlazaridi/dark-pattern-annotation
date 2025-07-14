@@ -1,0 +1,167 @@
+
+
+Current url: https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf
+Available tabs:
+[TabInfo(page_id=0, url='https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0', title='Booking.com: Hotels in Cali. Book your hotel now!'), TabInfo(page_id=1, url='https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf', title='Flight selection | LATAM Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<body >Skip to main content.
+Departure flight in cabin BASIC. Friday, July 18, 2025
+Choose a
+return flight
+Choose a return flight
+Sort by:
+Recommended
+protected by
+reCAPTCHA
+-
+-
+-
+-
+0
+5
+6
+7
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+52
+53</body>
+1[:]<a aria-label="Go to Home page."></a>
+2[:]<img alt="logo"></img>
+3[:]<button ></button>
+4[:]<button role="link"></button>
+5[:]<div role="region"></div>
+6[:]<div tabindex="0" aria-label="Summary of your search: Origin city Bogota, destination city Cali, with outbound date Friday, July 18, 2025 and return date Friday, July 25, 2025. Number of passengers 1, Cabin type Economy. Change flight selected.">Bogota
+Cali
+Fri, Jul 18 - Fri, Jul 25
+1
+Passenger
+Economy</div>
+7[:]<div role="link" tabindex="0" aria-label="Change search">Change search</div>
+8[:]<img alt=""></img>
+9[:]<img alt="LATAM Airlines Colombia"></img>
+10[:]<button ></button>
+11[:]<a aria-label="[object Object]. [object Object]"></a>
+12[:]<div role="none" aria-expanded="true" aria-label="">Operated by
+LATAM Airlines Colombia
+4 Available fares
+4 Available fares</div>
+13[:]<div tabindex="-1" role="none" aria-expanded="true">Recommended
+Earlier
+5:02 AM
+CLO
+Duration
+1h 8m
+6:10 AM
+BOG
+Per passenger from
+eur 52.51
+Includes taxes and fees</div>
+14[:]<a tabindex="0">Direct</a>
+15[:]<img alt="LATAM Airlines Colombia"></img>
+16[:]<button aria-expanded="true">Close
+Close fare list.</button>
+17[:]<li tabindex="0" role="button">Basic
+eur 52.51
+Per passenger
+Includes taxes and fees</li>
+18[:]<a tabindex="0" aria-label="Know the full details of this fare.">More details</a>
+19[:]<button >Choose the BASIC fare and continue
+Continue with Basic</button>
+20[:]<li tabindex="0" role="button">Light
+eur 52.51
++
+eur 14.28
+Per passenger
+Includes taxes and fees</li>
+21[:]<a tabindex="0" aria-label="Know the full details of this fare.">More details</a>
+22[:]<button >Choose the LIGHT fare and continue
+Choose</button>
+23[:]<li tabindex="0" role="button">Full
+eur 52.51
++
+eur 35.70
+Per passenger
+Includes taxes and fees</li>
+24[:]<a tabindex="0" aria-label="Know the full details of this fare.">More details</a>
+25[:]<button >Choose the FULL fare and continue
+Choose</button>
+26[:]<li tabindex="0" role="button">Cabin Premium Economy
+Premium Economy
+eur 52.51
++
+eur 42.84
+Per passenger
+Includes taxes and fees</li>
+27[:]<a tabindex="0" aria-label="Know the full details of this fare.">More details</a>
+28[:]<button >Choose the PREMIUM ECONOMY fare and continue
+Choose</button>
+29[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight">Operated by
+LATAM Airlines Colombia</div>
+30[:]<div tabindex="0" role="button" aria-expanded="false">Flight . Departure time 6:29 AM, from Cali, airport Alfonso Bonilla Aragon, arrival time 7:37 AM, to Bogota, airport El Dorado Intl.. Flight direct, with a total duration of 1 hour 8 minutes. Price for an adult from 51,32 Euros. Operated by latam airlines colombia.
+6:29 AM
+CLO
+Duration
+1h 8m
+7:37 AM
+BOG
+Per passenger from
+eur 51.32
+Includes taxes and fees</div>
+31[:]<a tabindex="0">Direct</a>
+32[:]<img alt="LATAM Airlines Colombia"></img>
+33[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight">Direct
+Operated by
+LATAM Airlines Colombia</div>
+34[:]<div tabindex="0" role="button" aria-expanded="false">Flight faster. Departure time 7:42 AM, from Cali, airport Alfonso Bonilla Aragon, arrival time 8:45 AM, to Bogota, airport El Dorado Intl.. Flight direct, with a total duration of 1 hour 3 minutes. Price for an adult from 52,51 Euros. Operated by latam airlines colombia.
+Faster
+7:42 AM
+CLO
+Duration
+1h 3m
+8:45 AM
+BOG
+Per passenger from
+eur 52.51
+Includes taxes and fees</div>
+35[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight"></div>
+36[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+37[:]<a tabindex="0"></a>
+38[:]<img alt=""></img>
+39[:]<img alt="LATAM Airlines Colombia"></img>
+40[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight"></div>
+41[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+42[:]<a tabindex="0"></a>
+43[:]<img alt=""></img>
+44[:]<img alt="LATAM Airlines Colombia"></img>
+45[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight"></div>
+46[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+47[:]<a tabindex="0"></a>
+48[:]<img alt=""></img>
+49[:]<img alt="LATAM Airlines Colombia"></img>
+50[:]<a >Privacy</a>
+51[:]<a >Terms</a>
+52[:]<a >Privacy</a>
+53[:]<a >Terms</a>
+... 486 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,26 @@
+
+
+Current url: https://www.easyjet.com/en/buy/checkout
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/checkout', title='Checkout | easyJet.com')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<a ></a>
+1[:]<img alt="easyJet"></img>
+_[:]Checkout
+_[:]Sign In or Create an Account
+_[:]Sign in to your account
+_[:]to proceed with your booking
+2[:]<label >Email address</label>
+3[:]<input placeholder="Please enter your email address" type="email" name="email"></input>
+4[:]<label >Password</label>
+5[:]<input placeholder="Please enter your password" type="password" name="password"></input>
+6[:]<input name="login" type="submit" value="Sign in"></input>
+7[:]<button >Forgot your password?</button>
+8[:]<input type="checkbox" aria-label="Keep me signed in"></input>
+9[:]<label >Keep me signed in?</label>
+_[:]New to easyJet?
+10[:]<button >Create an account</button>
+_[:]Your current basket
+[End of page]

@@ -1,0 +1,89 @@
+
+
+Current url: https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2', title='Flight search results | Emirates Netherlands')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<div tabindex="0"></div>
+1[:]<a aria-label="Skip to the main content" tabindex="0"></a>
+2[:]<a ></a>
+3[:]<img alt="Emirates logo"></img>
+_[:]Dubai (DXB) to London Heathrow (LHR)
+_[:]Dubai (DXB)
+_[:]London Heathrow (LHR)
+_[:]Return
+_[:]1 passenger
+4[:]<button aria-label="Change search opens a modal" type="button">Change search</button>
+5[:]<button aria-label="View summary Opens a dialog" type="button">View summary</button>
+_[:]Choose your outbound flight
+_[:]Dubai to London Heathrow
+_[:]Lowest total price for 1 passenger
+_[:]AED
+_[:]3,935
+_[:]Inclusive of airfare, taxes, fees and carrier imposed charges
+6[:]<button aria-expanded="false" type="button">Change currency</button>
+7[:]<span ></span>
+_[:]You have been taken to our United Arab Emirates site
+_[:]As you selected a departure airport outside of Netherlands, you have been directed to the United Arab Emirates website to finalise this booking. Your booking will be subject to the terms and conditions of the United Arab Emirates website, including those relating to consumer protections, which may differ from those of our Netherlands website. Please note that your booking will be charged in UAE Dirham (AED)
+8[:]<button type="button" aria-label="close base message"></button>
+_[:]Friday, 18 July 2025
+_[:](6 options)
+9[:]<button type="button">Previous day</button>
+10[:]<button type="button">Next day</button>
+_[:]Show prices for:
+11[:]<button aria-label="Economy Selected" type="button">Economy</button>
+12[:]<button aria-label="Premium Economy" type="button">Premium Economy</button>
+13[:]<button aria-label="Business" type="button">Business</button>
+14[:]<button aria-label="First" type="button">First</button>
+15[:]<button aria-expanded="false" aria-label="Sort Lowest price filter Selected " type="button">Sort:
+Lowest price</button>
+16[:]<div >Fri 18 Jul
+14:15
+Fri 18 Jul
+18:40
+7 hrs 25 mins
+DXB
+Dubai
+LHR
+London Heathrow
+Lowest price
+A380
+EK003</div>
+17[:]<button aria-label="Non-stop Dubai to London Heathrow Opens a dialog" type="button">Non-stop
+Opens a dialog</button>
+18[:]<button aria-expanded="false" aria-label="Economy Class  AED  1,470  Lowest price" type="button">Economy Class
+from
+AED
+1,470</button>
+19[:]<img alt="Operated by Emirates"></img>
+20[:]<div >Fri 18 Jul
+15:45
+Fri 18 Jul
+20:15
+7 hrs 30 mins
+DXB
+Dubai
+LHR
+London Heathrow
+Lowest price
+A380
+EK005</div>
+21[:]<button aria-label="Non-stop Dubai to London Heathrow Opens a dialog" type="button">Non-stop
+Opens a dialog</button>
+22[:]<button aria-expanded="false" aria-label="Economy Class  AED  1,470  Lowest price" type="button">Economy Class
+from
+AED
+1,470</button>
+23[:]<img alt="Operated by Emirates"></img>
+24[:]<div ></div>
+25[:]<button aria-label="Non-stop Dubai to London Heathrow Opens a dialog" type="button"></button>
+26[:]<button aria-expanded="false" aria-label="Economy Class  AED  1,470  Lowest price" type="button"></button>
+27[:]<img alt="Operated by Emirates"></img>
+28[:]<div ></div>
+29[:]<button aria-label="Non-stop Dubai to London Heathrow Opens a dialog" type="button"></button>
+30[:]<button aria-expanded="false" aria-label="Economy Class  AED  1,470  Lowest price" type="button"></button>
+31[:]<img alt="Operated by Emirates"></img>
+32[:]<div ></div>
+33[:]<button aria-expanded="false" aria-label="Economy Class  AED  1,470  Lowest price" type="button"></button>
+... 1103 pixels below - scroll or extract content to see more ...

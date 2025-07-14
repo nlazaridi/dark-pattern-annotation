@@ -1,0 +1,123 @@
+
+
+Current url: https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us/book-flight/checkout/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R', title='Check Out | United Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<img alt="United logo link to homepage"></img>
+2[:]<button aria-label="Main menu" type="button">Main menu
+Menu</button>
+_[:]Checkout
+_[:]United Airlines
+_[:]Roundtrip
+_[:](1 TRAVELER)
+3[:]<button >Revise this trip</button>
+_[:]Flight selection list
+_[:]Flight 1 of 2
+_[:]Denver DEN to Orlando MCO
+_[:]Jul 18
+_[:]Friday, July 18
+_[:]6:00 AM to 11:45 AM
+_[:]Nonstop
+_[:]Basic Economy
+4[:]<button aria-expanded="false">Show details</button>
+_[:]178 kg CO
+_[:]2
+_[:]Carbon emissions estimate: 178 kilograms.
+5[:]<button type="button">Learn more about carbon emissions</button>
+_[:]Flight 2 of 2
+_[:]Orlando MCO to Denver DEN
+_[:]Jul 25
+_[:]Friday, July 25
+_[:]5:11 PM to 7:31 PM
+_[:]Nonstop
+_[:]Basic Economy
+6[:]<button aria-expanded="false">Show details</button>
+_[:]156 kg CO
+_[:]2
+_[:]Carbon emissions estimate: 156 kilograms.
+7[:]<button type="button">Learn more about carbon emissions</button>
+_[:]Price breakdown
+_[:]Fare
+_[:]$210.58
+_[:]1 adult 18+
+_[:]$210.58
+_[:]/person
+8[:]<button aria-expanded="false" type="button">Taxes and fees</button>
+_[:]$46.39
+_[:]Total due
+_[:]$256.97
+_[:]or starting from
+9[:]<button type="button" aria-label="">$
+39
+/month</button>
+_[:]Cart ID: 415571554
+10[:]<button type="button">Learn more about Cart ID</button>
+11[:]<button >View MileagePlus earnings for this trip</button>
+_[:]United travel options
+_[:]Life happens. Plan for the best, prepare for the unexpected.
+_[:]Even with more flexibility, there are some things you just can’t plan for.
+_[:]Unexpected weather
+_[:]Flights get delayed or missed
+_[:]Baggage gets lost or stolen
+_[:]Trips get cancelled or interrupted
+12[:]<a >Learn more
+Link opens external site in new window that may or may not meet accessibility guidelines</a>
+_[:]Select an option:
+_[:]Yes, insure my trip for only $17.32.
+13[:]<a >Notice to PA, NY and WA residents about your plan cost
+Link opens external site in new window that may or may not meet accessibility guidelines</a>
+_[:].
+_[:]I have read, understand and agree to the terms and conditions of the
+14[:]<a >Policy of Insurance
+Link opens external site in new window that may or may not meet accessibility guidelines</a>
+_[:], and
+_[:]Important Required Disclosures
+_[:]Link opens external site in new window that may or may not meet accessibility guidelines
+_[:]. Quoted price for plan includes both insurance premium and fee for travel assistance services.
+15[:]<label >No, I will travel without this insurance for my $256.97 trip. I understand that by declining coverage I may otherwise be responsible for certain cancellation fees and delay expenses.</label>
+_[:]Don't ignore the unexpected.
+_[:]Your trip could get delayed...
+_[:]You could miss a flight connection...
+_[:]Coverage is offered by Travel Guard Group, Inc. and
+16[:]<a >limitations will apply
+Link opens external site in new window that may or may not meet accessibility guidelines</a>
+_[:].
+17[:]<img alt="Travel Guard Logo"></img>
+18[:]<button type="submit">Next step</button>
+_[:]Payment information
+19[:]<button type="button">About United</button>
+20[:]<button type="button">Products and services</button>
+21[:]<button type="button">Popular destinations</button>
+22[:]<a aria-label="Careers, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab.">Careers</a>
+23[:]<a >Important notices</a>
+24[:]<button ></button>
+25[:]<button aria-label="Currently in English US	$ enter to change" type="button"></button>
+26[:]<button aria-label="Switch to Español"></button>
+27[:]<a aria-label="Open United's Tiktok feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+28[:]<a aria-label="Open United's Facebook page in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+29[:]<a aria-label="Open United's Twitter feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+30[:]<a aria-label="Open United's YouTube page in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+31[:]<a aria-label="Open United's Instagram feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+32[:]<a aria-label="Open United's LinkedIn profile in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+33[:]<a aria-label=""></a>
+34[:]<a aria-label=""></a>
+35[:]<a aria-label=""></a>
+36[:]<a aria-label=""></a>
+37[:]<a aria-label=""></a>
+38[:]<a aria-label=""></a>
+39[:]<a aria-label=""></a>
+40[:]<a aria-label="Do Not Sell or Share My Personal Information, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+41[:]<a aria-label=""></a>
+42[:]<a aria-label="United Jetstream, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+43[:]<a aria-label="Cargo, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+44[:]<a aria-label="Electronic Invoice, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+45[:]<a title="United logo link to homepage"></a>
+46[:]<img alt="United logo link to homepage" role="presentation"></img>
+47[:]<a title="United is a proud member of Star Alliance"></a>
+48[:]<img alt="United is a proud member of Star Alliance" role="presentation"></img>
+49[:]<button aria-expanded="false" type="button"></button>
+50[:]<button role="button" aria-expanded="false">Site Feedback</button>
+... 347 pixels below - scroll or extract content to see more ...

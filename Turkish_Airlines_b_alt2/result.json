@@ -1,0 +1,963 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser is started",
+          "memory": "",
+          "next_goal": "Go to Turkish Airlines website."
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.turkishairlines.com/"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.turkishairlines.com/",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened Turkish Airlines website.",
+          "memory": "",
+          "next_goal": "Navigate to 'Deals&Destinations'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 13
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 13: DEALS&DESTINATIONS",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div/div/main/div/header/div[2]/div/div[2]/div/ul/li[3]/div/span",
+            "highlight_index": 13,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "header",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "span"
+            ],
+            "attributes": {
+              "aria-controls": "#collapse_2",
+              "aria-expanded": "false",
+              "role": "button",
+              "class": "hm__HeaderNavBar_navLink__I0g5f hm__HeaderNavBar_thyHeaderLink__IfkSL",
+              "data-testid": "headermenubtn_262577"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on Deals & Destinations.",
+          "memory": "",
+          "next_goal": "Navigate to 'Best Flight Deals' section."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: Best flight deals",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div/div/main/div/header/div[2]/div/div[2]/div/ul/li[3]/div[2]/div/ul/li/a",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "header",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "a"
+            ],
+            "attributes": {
+              "href": "https://www.turkishairlines.com/en/flight-deals",
+              "class": "hm__HeaderNavBar_submenuItem__tjiFr",
+              "target": "",
+              "referrerpolicy": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to Best Flight Deals section.",
+          "memory": "",
+          "next_goal": "Change 'From' location filter to 'Frankfurt'."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 84,
+              "text": "Frankfurt"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Frankfurt\" for element index 84",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en/flight-deals",
+            "title": "Flight Deals | Turkish Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div[2]/div[4]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/div/input",
+            "highlight_index": 84,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-haspopup": "listbox",
+              "aria-owns": "downshift-0-menu",
+              "aria-expanded": "false",
+              "id": "sfm-origin-636c1acd3f8943558f7328c1-input",
+              "aria-autocomplete": "list",
+              "aria-controls": "downshift-0-menu",
+              "aria-labelledby": "sfm-origin-636c1acd3f8943558f7328c1-label",
+              "autocomplete": "off",
+              "placeholder": "Origin",
+              "aria-label": "Input origin",
+              "class": "appearance-none focus:outline-none w-full truncate vg-e vg-E vg-AM vg-d tracking-normal vg-F vg-H",
+              "value": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en/flight-deals",
+        "title": "Flight Deals | Turkish Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered Frankfurt in the origin field.",
+          "memory": "",
+          "next_goal": "Select the first option from the suggestions."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 86
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 86: Frankfurt Airport  (FRA), Frankfurt, Germany",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en/flight-deals",
+            "title": "Flight Deals | Turkish Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "li",
+            "xpath": "html/body/div/div[2]/div[4]/div/div/div/div/div/div/div/div/div/div/div/div/div/div/ul/div/li",
+            "highlight_index": 86,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "div",
+              "li"
+            ],
+            "attributes": {
+              "data-att": "FRA",
+              "role": "option",
+              "aria-selected": "true",
+              "id": "downshift-0-item-0",
+              "aria-posinset": "1",
+              "aria-setsize": "1",
+              "class": "\n          w-full flex items-center p-2 vg-t vg-d vg-E vg-F tracking-normal vg-e vg-AM vg-H vg-BT vg-BU vg-BV vg-BW vg-BX vg-BY vg-BZ vg-Ba\n          vg-Bb\n          \n        ",
+              "style": "top: 0px; left: 0px; position: absolute; width: 100%; height: 70px; transform: translateY(0px);"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en/flight-deals",
+        "title": "Flight Deals | Turkish Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Frankfurt as origin.",
+          "memory": "",
+          "next_goal": "Select the first flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 93
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 93: BOOK NOW",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en/flight-deals",
+            "title": "Flight Deals | Turkish Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div[2]/div[4]/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div[2]/button",
+            "highlight_index": 93,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "class": "relative p-1 block  w-full px-2 vg-E vg-AL vg-Aq vg-Bk vg-Bl vg-Ap vg-Bm vg-Bc vg-I vg-g vg-d vg-H tracking-normal vg-Bn vg-Bo vg-Bp vg-i vg-K vg-Bq vg-Br vg-Bs vg-l vg-N vg-Bt vg-Bu vg-Ay vg-Az vg-Bv",
+              "aria-label": "BOOK NOW Frankfurt FRA to Istanbul IST Thu, September 04 - Thu, September 18 From EUR207 Last update 4 minutes ago Round-trip Economy",
+              "aria-labelledby": "",
+              "aria-haspopup": "dialog",
+              "data-test": "book-now"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en/flight-deals",
+        "title": "Flight Deals | Turkish Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the first flight option.",
+          "memory": "",
+          "next_goal": "Click the search flight button."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 170
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 170: Search flight",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en/flight-deals",
+            "title": "Flight Deals | Turkish Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[7]/div/div/div/div[2]/div/div/div[3]/div[2]/div/button",
+            "highlight_index": 170,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "aria-busy": "false",
+              "aria-disabled": "false",
+              "data-att": "search",
+              "id": "",
+              "type": "button",
+              "class": "block cursor-pointer flex w-full flex-nowrap justify-center items-center css-ma62bb"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en/flight-deals",
+        "title": "Flight Deals | Turkish Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the search flight button.",
+          "memory": "",
+          "next_goal": "Close the pop up."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 3
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 3",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "img",
+            "xpath": "html/body/div[7]/div/div/img",
+            "highlight_index": 3,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "img"
+            ],
+            "attributes": {
+              "src": "https://cdn.turkishairlines.com/m/7493dadd690bf81f/original/holidays-loader.webp",
+              "alt": "cm__style_title__bpzqc",
+              "class": "cm__style_largeLoaderImage__XzMJ_"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Closed the pop up.",
+          "memory": "",
+          "next_goal": "Select the cheapest outbound flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 33
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 33: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div/div/main/div[2]/div/div/div[5]/div[3]/div/div/div[2]/div/div[2]/span/span",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "span"
+            ],
+            "attributes": {
+              "class": "av__style_metro-radio-checkbox__DXKTE",
+              "role": "button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived to flight selection page.",
+          "memory": "",
+          "next_goal": "Select the cheapest outbound flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 47
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 47: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[2]/div/div/div[5]/div[3]/div/div[2]/div/div/div[2]/div/div[3]/button",
+            "highlight_index": 47,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "av__style_thy-button__ZfnOU av__style_package-card-footer-button__nBjN2",
+              "type": "button",
+              "aria-label": "EcoFly - 119.09 EUR"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived to flight selection page.",
+          "memory": "",
+          "next_goal": "Select the cheapest outbound flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 40
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 40: Stay on EcoFly",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[8]/div/div[2]/div/div[4]/button",
+            "highlight_index": 40,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "av__style_thy-button__ZfnOU av__style_transparent__gOlC3 av__UpgradeModal_button__8e_PV av__UpgradeModal_transparentButton__zTVDb"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived to flight selection page.",
+          "memory": "",
+          "next_goal": "Select the cheapest outbound flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 40
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 40: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div/div/div[2]/div",
+            "highlight_index": 40,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_price-col___DtQ9",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived to flight selection page.",
+          "memory": "",
+          "next_goal": "Select the cheapest outbound flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 52
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 52: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div/div[2]/div/div/div[2]/div/div[3]/button",
+            "highlight_index": 52,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "av__style_thy-button__ZfnOU av__style_package-card-footer-button__nBjN2",
+              "type": "button",
+              "aria-label": "EcoFly - 86 EUR"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived to flight selection page.",
+          "memory": "",
+          "next_goal": "Select the cheapest outbound flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "img",
+            "xpath": "html/body/div[8]/img",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "img"
+            ],
+            "attributes": {
+              "src": "/common/img/loading-overlay.gif",
+              "alt": "Loading Overlay"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived to flight selection page.",
+          "memory": "",
+          "next_goal": "Select the cheapest outbound flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 45
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 45: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[2]/div/div[5]/div/div/div/div[4]/button",
+            "highlight_index": 45,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "av__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected cheapest flights.",
+          "memory": "",
+          "next_goal": "Complete the task."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "Reached the Passenger Details page successfully."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "Reached the Passenger Details page successfully.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    }
+  ]
+}

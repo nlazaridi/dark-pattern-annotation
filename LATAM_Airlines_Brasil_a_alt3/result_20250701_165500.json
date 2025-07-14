@@ -1,0 +1,1756 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started successfully.",
+          "memory": "",
+          "next_goal": "Go to the website https://www.latamairlines.com/es/en"
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.latamairlines.com/es/en"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.latamairlines.com/es/en",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to the website.",
+          "memory": "",
+          "next_goal": "Accept all cookies."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 10
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 10: Accept all cookies",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[2]/div/div/div/div/div/section/div/button",
+            "highlight_index": 10,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "cookies-politics-button--button",
+              "id": "cookies-politics-button",
+              "class": "sc-gEvEer bblQlP sc-dhKdcB sc-dUYLmH bOsUiC dFhgha"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Accepted all cookies.",
+          "memory": "",
+          "next_goal": "Enter origin city."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 19,
+              "text": "Bogota"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Bogota\" for element index 19",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[2]/div/div/div[2]/div/form/div/div[4]/div/div/div/div/input",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "data-testid": "fsb-origin--text-field",
+              "id": "fsb-origin--text-field",
+              "placeholder": "Enter an origin",
+              "aria-invalid": "false",
+              "role": "combobox",
+              "autocomplete": "off",
+              "aria-autocomplete": "list",
+              "aria-expanded": "false",
+              "type": "text",
+              "aria-label": "Write a city of origin and then select it.",
+              "aria-controls": "fsb-origin--autocomplete__popper",
+              "class": "sc-hZDyAQ dfMsSI sc-ktJbId iTzBMC sc-kbhJrz oAEJH",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered origin city.",
+          "memory": "",
+          "next_goal": "Select origin city from the list."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div[3]/div/div/div/div/ul/li/span",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "span"
+            ],
+            "attributes": {
+              "city": "Bogota",
+              "iata": "BOG",
+              "country": "Colombia",
+              "name": "El Dorado Intl.",
+              "type": "AIRPORT",
+              "class": "sc-brPLxw kLfpAy sc-iMWBiJ bjjUJW",
+              "data-testid": "bog_co_airport--autocomplete__listitem--menuitem__content",
+              "id": "bog_co_airport--autocomplete__listitem--menuitem__content",
+              "position": "default",
+              "tabindex": "-1",
+              "title": "Bogota, BOG - Colombia",
+              "value": "BOG"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected origin city from the list.",
+          "memory": "",
+          "next_goal": "Enter destination city."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 25,
+              "text": "Cali"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Cali\" for element index 25",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[2]/div/div/div[2]/div/form/div/div[4]/div/div[2]/div/div/input",
+            "highlight_index": 25,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "data-testid": "fsb-destination--text-field",
+              "id": "fsb-destination--text-field",
+              "placeholder": "Enter a destination",
+              "aria-invalid": "false",
+              "role": "combobox",
+              "autocomplete": "off",
+              "aria-autocomplete": "list",
+              "aria-expanded": "false",
+              "type": "text",
+              "aria-label": "Write a destination city and then select it.",
+              "aria-controls": "fsb-destination--autocomplete__popper",
+              "class": "sc-hZDyAQ dfMsSI sc-ktJbId iTzBMC sc-kbhJrz oAEJH",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered destination city.",
+          "memory": "",
+          "next_goal": "Select destination city from the list."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div[3]/div/div/div/div/ul/li/span",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "span"
+            ],
+            "attributes": {
+              "city": "Cali",
+              "iata": "CLO",
+              "country": "Colombia",
+              "name": "Alfonso Bonilla Aragon",
+              "type": "AIRPORT",
+              "class": "sc-brPLxw kLfpAy sc-iMWBiJ bjjUJW",
+              "data-testid": "clo_co_airport--autocomplete__listitem--menuitem__content",
+              "id": "clo_co_airport--autocomplete__listitem--menuitem__content",
+              "position": "default",
+              "tabindex": "-1",
+              "title": "Cali, CLO - Colombia",
+              "value": "CLO"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected destination city from the list.",
+          "memory": "",
+          "next_goal": "Open the departure date calendar."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 27
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 27: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[2]/div/div/div[2]/div/form/div[2]/div/div/div/div/div/div/input",
+            "highlight_index": 27,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "data-testid": "fsb-departure--text-field",
+              "id": "fsb-departure--text-field",
+              "aria-invalid": "false",
+              "type": "text",
+              "aria-label": "Choose the outbound date for the trip.",
+              "readonly": "",
+              "class": "sc-hZDyAQ dfMsSI sc-ktJbId iTzBMC sc-kbhJrz oAEJH",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the departure date calendar.",
+          "memory": "",
+          "next_goal": "Select 18 July 2025 as the departure date."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 39
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 39: 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "td",
+            "xpath": "html/body/div/div/div[2]/div/div/div[2]/div/form/div[2]/div/div/div/div/div[3]/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr[3]/td[5]",
+            "highlight_index": 39,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td"
+            ],
+            "attributes": {
+              "class": "CalendarDay CalendarDay_1 CalendarDay__default CalendarDay__default_2",
+              "role": "button",
+              "aria-disabled": "false",
+              "aria-label": "Choose Friday, July 18, 2025 as your departure date. It\u2019s available.",
+              "tabindex": "-1",
+              "style": "width: 44px; height: 43px;"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected 18 July 2025 as the departure date.",
+          "memory": "",
+          "next_goal": "Select 25 July 2025 as the return date."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 51
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 51: 25",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "td",
+            "xpath": "html/body/div/div/div[2]/div/div/div[2]/div/form/div[2]/div/div/div/div/div[3]/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr[4]/td[5]",
+            "highlight_index": 51,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td"
+            ],
+            "attributes": {
+              "class": "CalendarDay CalendarDay_1 CalendarDay__default CalendarDay__default_2",
+              "role": "button",
+              "aria-disabled": "false",
+              "aria-label": "Choose Friday, July 25, 2025 as your return flight date. It\u2019s available.",
+              "tabindex": "-1",
+              "style": "width: 44px; height: 43px;"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected 25 July 2025 as the return date.",
+          "memory": "",
+          "next_goal": "Search flights."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 38 - New tab opened - switching to it",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[2]/div/div/div[2]/div/form/div[2]/div/div/div[5]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "fsb-search-flights--button",
+              "id": "fsb-search-flights",
+              "type": "submit",
+              "aria-label": "Search flights for July 18th, 2025 to July 25th, 2025.",
+              "class": "sc-gEvEer fExXCa sc-dhKdcB SubmitButtonstyles__StyledButton-sc-3dlrv3-0 bOsUiC cMKwVr"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Switched to the new tab with flight offers.",
+          "memory": "",
+          "next_goal": "Wait for the flight options to load."
+        },
+        "action": [
+          {
+            "wait_for_loading": {
+              "seconds": 5.0
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Waited 5.0 seconds. Page appears to be fully loaded.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Waited for the flight options to load.",
+          "memory": "",
+          "next_goal": "Select the cheapest flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 9
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 9: Flight recommended, earlier. Departure time 5:00 AM, from Bogota, airport El Dorado Intl., arrival time 6:07 AM, to Cali, airport Alfonso Bonilla Aragon. Flight direct, with a total duration of 1 hour 7 minutes. Price for an adult from 53,43 Euros. Operated by latam airlines colombia.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div/div/div/div/ol/li/div/div/div",
+            "highlight_index": 9,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ol",
+              "li",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "data-testid": "card-expander-0",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false",
+              "class": "cardFlightstyles__CardExpander-sc__sc-18f0ngu-2 hiLuEp"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the cheapest flight option.",
+          "memory": "",
+          "next_goal": "Click 'Continue with Basic' option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/div/div/div/ol/li/div/ol/li/div/div[3]/div[3]/button",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ol",
+              "li",
+              "div",
+              "ol",
+              "li",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "bundle-detail-0-flight-select",
+              "id": "bundle-detail-0-flight-select",
+              "class": "sc-gFVvzn gVBxkS sc-hwdzOV columnBrandstyle__SelectButton-sc__sc-1e0tr9m-14 hjazRA brand-cta"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the cheapest flight option.",
+          "memory": "",
+          "next_goal": "Click Accept restrictions."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 33
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 33: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[5]/div/div[2]/div[2]/li/div/div[3]/div[2]/button",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "li",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "current-brand-button",
+              "id": "current-brand-button",
+              "class": "sc-gFVvzn gVBxkS sc-hwdzOV brandComparatorByColumnstyles__SelectButton-sc__sc-1orrwn5-11 hjazRA"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked Accept restrictions.",
+          "memory": "",
+          "next_goal": "Choose the return flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 33
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 33",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div[5]/div/div[2]/div[2]/li/div/div[3]/div[2]/div",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "li",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "title": "",
+              "role": "button",
+              "aria-label": "animation",
+              "tabindex": "0",
+              "style": "width: 24px; height: 24px; overflow: hidden; margin: 0px auto; outline: none;"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked Accept restrictions.",
+          "memory": "",
+          "next_goal": "Choose the return flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: Terms",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div[2]/div[3]/div[2]/a[2]",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "iframe",
+              "div",
+              "div",
+              "div",
+              "a"
+            ],
+            "attributes": {
+              "href": "https://www.google.com/intl/en/policies/terms/",
+              "target": "_blank",
+              "browser-user-highlight-id": "playwright-highlight-30"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Clicked the terms link instead of a flight option.",
+          "memory": "",
+          "next_goal": "Choose the return flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 12
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 12: Flight recommended, earlier. Departure time 5:02 AM, from Cali, airport Alfonso Bonilla Aragon, arrival time 6:10 AM, to Bogota, airport El Dorado Intl.. Flight direct, with a total duration of 1 hour 8 minutes. Price for an adult from 52,51 Euros. Operated by latam airlines colombia.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div/div/div/div/ol/li/div/div/div",
+            "highlight_index": 12,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ol",
+              "li",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "data-testid": "card-expander-0",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false",
+              "class": "cardFlightstyles__CardExpander-sc__sc-18f0ngu-2 hiLuEp"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Clicked the terms link instead of a flight option.",
+          "memory": "",
+          "next_goal": "Choose the return flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 19
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 19: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/div/div/div/ol/li/div/ol/li/div/div[3]/div[3]/button",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ol",
+              "li",
+              "div",
+              "ol",
+              "li",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "bundle-detail-0-flight-select",
+              "id": "bundle-detail-0-flight-select",
+              "class": "sc-gFVvzn gVBxkS sc-hwdzOV columnBrandstyle__SelectButton-sc__sc-1e0tr9m-14 hjazRA brand-cta"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the cheapest flight option.",
+          "memory": "",
+          "next_goal": "Click 'Accept restrictions'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 34
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 34: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[5]/div/div[2]/div[2]/li/div/div[3]/div[2]/button",
+            "highlight_index": 34,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "li",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "current-brand-button",
+              "id": "current-brand-button",
+              "class": "sc-gFVvzn gVBxkS sc-hwdzOV brandComparatorByColumnstyles__SelectButton-sc__sc-1orrwn5-11 hjazRA"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the cheapest flight option.",
+          "memory": "",
+          "next_goal": "Click 'Accept restrictions'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 34
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 34",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div[5]/div/div[2]/div[2]/li/div/div[3]/div[2]/div",
+            "highlight_index": 34,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "li",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "title": "",
+              "role": "button",
+              "aria-label": "animation",
+              "tabindex": "0",
+              "style": "width: 24px; height: 24px; overflow: hidden; margin: 0px auto; outline: none;"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the cheapest flight option.",
+          "memory": "",
+          "next_goal": "Click continue with basic."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 24
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 24: Terms",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div[2]/div[3]/div[2]/a[2]",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "iframe",
+              "div",
+              "div",
+              "div",
+              "a"
+            ],
+            "attributes": {
+              "href": "https://www.google.com/intl/en/policies/terms/",
+              "target": "_blank",
+              "browser-user-highlight-id": "playwright-highlight-31"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Clicked the terms link instead of a flight option.",
+          "memory": "",
+          "next_goal": "Click continue with basic."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 17
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 17: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/div/div/div/div[5]/div/button[2]",
+            "highlight_index": 17,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "button9--button",
+              "id": "button9",
+              "class": "sc-gFVvzn bInglf sc-hwdzOV hjazRA"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Clicked the terms link instead of a flight option.",
+          "memory": "",
+          "next_goal": "Click continue with basic."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 17
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 17",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+            "title": "Flight selection | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div/div/div/div/div[5]/div/button[2]/div",
+            "highlight_index": 17,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button",
+              "div"
+            ],
+            "attributes": {
+              "id": "button9--loading",
+              "data-testid": "button9--loading-progress",
+              "role": "progressbar",
+              "aria-label": "progress bar",
+              "class": "sc-fvtFIe kMhBLE sc-jMakVo sc-krNlru khXvrM fSllpH"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf",
+        "title": "Flight selection | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the cheapest flight option.",
+          "memory": "",
+          "next_goal": "Click continue with basic."
+        },
+        "action": [
+          {
+            "wait_for_loading": {
+              "seconds": 5.0
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Waited 5.0 seconds. Page appears to be fully loaded.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/seats-selection?id=LA0451599ASCE",
+            "title": "Seat selection | Buy | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.latamairlines.com/es/en/seats-selection?id=LA0451599ASCE",
+        "title": "Seat selection | Buy | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the cheapest flight option.",
+          "memory": "Navigated to the seat selection page.",
+          "next_goal": "Continue without selecting seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 4
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 4: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/seats-selection?id=LA0451599ASCE&expiration=1751383434848",
+            "title": "Seat selection | Buy | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div[2]/aside/button",
+            "highlight_index": 4,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "aside",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "button-seatmap-leave",
+              "id": "btnSeatMapLeave",
+              "aria-label": "I want to choose seats later and continue with my purchase",
+              "class": "sc-jSguLX lkoWLk sc-pGaPU iIeMZH"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/seats-selection?id=LA0451599ASCE&expiration=1751383434848",
+        "title": "Seat selection | Buy | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the cheapest flight option.",
+          "memory": "Navigated to the seat selection page.",
+          "next_goal": "Continue without selecting seats."
+        },
+        "action": [
+          {
+            "wait_for_loading": {
+              "seconds": 5.0
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Waited 5.0 seconds. Page appears to be fully loaded.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/store?id=LA0451599ASCE",
+            "title": "Shop | Buy | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.latamairlines.com/es/en/store?id=LA0451599ASCE",
+        "title": "Shop | Buy | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the cheapest flight option.",
+          "memory": "Navigated to the seat selection page, and skipped it.",
+          "next_goal": "Continue to passenger details."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 15
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 15: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/store?id=LA0451599ASCE",
+            "title": "Shop | Buy | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div[2]/main/div/div[2]/div/div[2]/div/button",
+            "highlight_index": 15,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "button-cart-confirm--button",
+              "id": "button-cart-confirm",
+              "aria-label": "Continue to the next step to proceed with your purchase",
+              "class": "sc-jSguLX gSlzMv sc-pGaPU iIeMZH"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en/store?id=LA0451599ASCE",
+        "title": "Shop | Buy | LATAM Airlines"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Successfully continued to passenger details.",
+          "memory": "Navigated to the passenger details page.",
+          "next_goal": "Task Completed."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "Successfully navigated to the passenger details page."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "Successfully navigated to the passenger details page.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0",
+            "title": "Booking.com: Hotels in Cali. Book your hotel now!"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.latamairlines.com/es/en/payments/passengers?orderId=LA0451599ASCE",
+            "title": "Add passengers | LATAM Airlines"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.latamairlines.com/es/en/payments/passengers?orderId=LA0451599ASCE",
+        "title": "Add passengers | LATAM Airlines"
+      }
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+
+
+Current url: https://www.easyjet.com/en
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en', title='easyJet | Flights & holidays ✈️ Book low-cost airline tickets')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+_[:]Holidays
+_[:]Manage Bookings
+_[:]Check In
+_[:]Help
+_[:]English
+_[:]Flight Info
+_[:]Holidays
+_[:]Cars/Extras
+_[:]Business
+_[:]Booking.com
+_[:]Sign In
+_[:]Sign in
+_[:]to manage your account and bookings
+_[:]Flights
+_[:]Holidays
+_[:]Cars
+_[:]From
+_[:]To
+_[:]When
+_[:]Who
+_[:]Show flights
+_[:]Fly More, Spend Less
+_[:]FLIGHTS TO SPAIN FROM £29.99
+_[:]Book your next beach break or city adventure but be quick, offer ends 8am 20.06.
+_[:]Book flights
+_[:]SUMMER PRICE DROPS
+_[:]We've dropped the prices of selected June and July package holidays - meaning you can grab a beach holiday from just £329pp.
+_[:]Book package holidays
+_[:]Explore our unbeatable flight deals
+_[:]Berlin Brandenburg
+_[:]From London Luton
+_[:]from
+_[:]£35.99
+_[:]Jul 2025
+_[:]Book now
+_[:]Milan Malpensa
+_[:]From London Luton
+_[:]from
+_[:]£35.99
+_[:]Jul 2025
+_[:]Book now
+_[:]Munich
+_[:]From Manchester
+_[:]from
+_[:]£35.99
+_[:]Aug 2025
+_[:]Book now
+_[:]Majorca Palma
+_[:]From Liverpool
+_[:]from
+_[:]£20.49
+_[:]Jul 2025
+_[:]Book now
+_[:]Lanzarote
+_[:]From Manchester
+_[:]from
+_[:]£47.49
+_[:]Aug 2025
+_[:]Book now
+_[:]Rhodes
+_[:]From Bristol
+_[:]from
+_[:]£57.99
+_[:]Sept 2025
+_[:]Book now
+_[:]Price shown is one-way, inc. taxes with limited availability.
+_[:]DISCOVER YOUR NEXT ADVENTURE
+_[:]With flights and holidays to the best destinations across Europe, we’ve got everything covered for the perfect trip
+0[:]<li tabindex="-1" aria-label=""></li>
+1[:]<a ></a>
+2[:]<img alt=""></img>
+3[:]<label ></label>
+4[:]<li tabindex="-1" aria-label=""></li>
+5[:]<a title="Book package holidays"></a>
+6[:]<img alt=""></img>
+7[:]<label ></label>
+8[:]<li tabindex="-1" aria-label=""></li>
+9[:]<a ></a>
+10[:]<img alt="Milan flights"></img>
+11[:]<label ></label>
+_[:]COOKIES
+_[:]To ensure that our website functions properly, we use strictly necessary cookies.
+_[:]With your consent, which you can withdraw or adjust at any time, we use cookies and cookieless technology to:
+_[:]enhance the performance and functionality of our website;
+_[:]to personalise offers in the advertisements you may see on our website;
+_[:]to analyse the performance of our marketing;
+_[:]to deliver easyJet tailored advertising and marketing content, on and off our site through our advertising partners.
+_[:]You can read more in our
+12[:]<a >Group Cookie Notice</a>
+_[:].
+13[:]<button tabindex="0">Cookie Settings</button>
+14[:]<button tabindex="0">Decline Advertising Cookies</button>
+15[:]<button aria-label="Accept Cookies" tabindex="0">Accept Cookies</button>
+... 3553 pixels below - scroll or extract content to see more ...

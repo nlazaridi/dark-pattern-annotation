@@ -1,0 +1,127 @@
+
+
+Current url: https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266
+Available tabs:
+[TabInfo(page_id=0, url='https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266', title='Turkish Airlines Booking Availability')]
+Interactive elements from current page view:
+... 288 pixels above - scroll or extract content to see more ...
+0[:]<body >29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45</body>
+1[:]<div ></div>
+2[:]<div >INBOUND FLIGHT
+Munich to Çukurova on Friday, 25 July
+Do you need more time to decide? Make your reservation now and hold the price.
+Get refund after ticketing
+Hold the price for up to 7 day(s)
+Guarantee your price
+View offers starting from 1,986.00 TRY only
+More personal space with the extra seat
+Don't miss the extra seat opportunity that will be valid on all your flights!
+Double your comfort
+Increase your baggage allowance for free
+Choose your seat for free
+Extra seat fee
+TRY
+11,039
+.94
+Departure
+COV
+-
+MUC
+•
+18 Jul Fri
+Departure: 14:35
+|
+Arrival: 21:25
+Return
+MUC
+-
+COV
+•
+25 Jul Fri
+Departure: 12:50
+|
+Arrival: 03:35
+Total price for 1 passenger
+TRY
+Turkish Lira
+14,738
+.46</div>
+3[:]<div tabindex="0" role="button"></div>
+4[:]<img alt="THY"></img>
+5[:]<div aria-label="Tab 1 Select flight" role="button" tabindex="0"></div>
+6[:]<div aria-label="Tab 2 Passenger details" role="button" tabindex="0"></div>
+7[:]<div aria-label="Tab 3 Additional services" role="button" tabindex="0"></div>
+8[:]<div aria-label="Tab 4 Payment" role="button" tabindex="0"></div>
+9[:]<label ></label>
+10[:]<input type="text" tabindex="0" aria-label="From" aria-expanded="false" role="combobox" value="Çukurova"></input>
+11[:]<label ></label>
+12[:]<button aria-label="Button for swap the values in the to and from fields" role="button"></button>
+13[:]<label ></label>
+14[:]<input type="text" tabindex="0" aria-label="To" aria-expanded="false" role="combobox" value="Munich"></input>
+15[:]<label ></label>
+16[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+17[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+18[:]<button ></button>
+19[:]<button ></button>
+20[:]<button ></button>
+21[:]<label ></label>
+22[:]<button ></button>
+23[:]<label ></label>
+24[:]<button ></button>
+25[:]<label ></label>
+26[:]<button ></button>
+27[:]<label ></label>
+28[:]<button aria-expanded="false"></button>
+29[:]<div tabindex="0" role="button" aria-label="14:35 - 21:25 Itinerary details">14:35
+COV
+Çukurova
+IST
+21:25
+MUC
+Munich
+Total travel duration
+7h 50m
+ECONOMY EcoFly Y-P</div>
+30[:]<img alt="COV"></img>
+31[:]<img alt="IST"></img>
+32[:]<div role="button" aria-label="Itinerary details: 14:35 - 21:25">Itinerary details</div>
+33[:]<button >Change flight</button>
+34[:]<button aria-expanded="false">Fare rules</button>
+35[:]<div tabindex="0" role="button" aria-label="12:50 - 03:35 Itinerary details">12:50
+MUC
+Munich
+IST
+03:35
+COV
+Çukurova
+Next day
+Total travel duration
+13h 45m
+ECONOMY EcoFly V-Y</div>
+36[:]<img alt="MUC"></img>
+37[:]<img alt="IST"></img>
+38[:]<div role="button" aria-label="Itinerary details: 12:50 - 03:35">Itinerary details</div>
+39[:]<img alt="Offer Banner"></img>
+40[:]<button >Hold the price</button>
+41[:]<img alt="Offer Banner"></img>
+42[:]<a >Terms and Conditions >></a>
+43[:]<button >Add extra seat</button>
+44[:]<a tabindex="0" role="button">Details</a>
+45[:]<button >Continue</button>
+[End of page]

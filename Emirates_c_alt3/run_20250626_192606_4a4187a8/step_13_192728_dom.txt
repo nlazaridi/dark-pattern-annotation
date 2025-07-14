@@ -1,0 +1,112 @@
+
+
+Current url: https://cars.cartrawler.com/emirates/en/book?age=30&clientID=606868&ct=MP&curr=EUR&elID=891750952234188&pickupDateTime=2025-07-18T10%3A00&residenceID=NL&returnDateTime=2025-07-25T10%3A00&countryID=SE&&pickupCountryCode=SE&returnCountryCode=SE&pickupLat=59.3327301&pickupLng=18.0660381&pickupName=Stockholm%2C%20Sweden&returnLat=59.3327301&returnLng=18.0660381&returnName=Stockholm%2C%20Sweden#/vehicle/1694385724
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/nl/english/', title='Emirates | Fly Better'), TabInfo(page_id=1, url='https://cars.cartrawler.com/emirates/en/book?clientID=606868&pickupDateTime=2025-07-18T10%3A00&returnDateTime=2025-07-25T10%3A00&age=30&ct=MP&curr=EUR&elID=891750952234188&&residenceID=NL&vp=59.4025889%2C18.1961109%2C59.2318985%2C17.8987837&pickupLat=59.3327036&pickupLng=18.0656255&pickupName=Stockholm%2C%20Sweden&returnLat=59.3327036&returnLng=18.0656255&returnName=Stockholm%2C%20Sweden#/vehicles', title='Emirates - Book Car Hire'), TabInfo(page_id=2, url='https://cars.cartrawler.com/emirates/en/book?age=30&clientID=606868&ct=MP&curr=EUR&elID=891750952234188&pickupDateTime=2025-07-18T10%3A00&residenceID=NL&returnDateTime=2025-07-25T10%3A00&countryID=SE&&pickupCountryCode=SE&returnCountryCode=SE&pickupLat=59.3327301&pickupLng=18.0660381&pickupName=Stockholm%2C%20Sweden&returnLat=59.3327301&returnLng=18.0660381&returnName=Stockholm%2C%20Sweden#/vehicle/1694385724', title='Emirates - Book Car Hire')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a title="emirates"></a>
+_[:]English
+_[:]EUR
+1[:]<a >Help</a>
+2[:]<a >Manage booking</a>
+3[:]<img ></img>
+4[:]<li tabindex="0" role="link" aria-label="Back to Search Results">Search Results</li>
+5[:]<li tabindex="0" aria-label="Options: Step 3 of 5 to complete your booking">Options</li>
+_[:]Details
+_[:]Confirmation
+_[:]Free cancellation up to 48 hours before pick-up.
+_[:]Prices will rise. Book now to lock in this price.
+6[:]<button >Email Quote</button>
+7[:]<ct-vehicle-block role="tabpanel">Compact
+Volkswagen Golf or similar
+Unlimited Mileage
+Car hire fee
+€ 46.41
+/day
+Total
+€ 324.87</ct-vehicle-block>
+8[:]<img alt="Volkswagen Golf or similar"></img>
+9[:]<div >1.31 km away
+View map</div>
+10[:]<span tabindex="0">Free Cancellation</span>
+11[:]<div role="contentinfo" tabindex="0" aria-label="5 Passenger(s)">5 Seats</div>
+12[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 3 small suitcases">3 Bags</div>
+13[:]<div role="contentinfo" tabindex="0" aria-label="Automatic Transmission">Automatic</div>
+14[:]<div role="contentinfo" tabindex="0" aria-label="This is the best value option. Pick your car up with a full tank of fuel. Then return the car with a full tank.">Full to Full</div>
+15[:]<div role="contentinfo" tabindex="0" aria-label="">Damage & theft coverage</div>
+16[:]<button title="Important information" role="button" tabindex="0">Important Info</button>
+_[:]Optional Extras
+_[:]- Payable at pick-up
+_[:]Additional Driver
+_[:]€ 31.67
+_[:]per hire
+17[:]<button ></button>
+_[:]0
+18[:]<button ></button>
+_[:]GPS
+_[:]€ 135.74
+_[:]per hire
+19[:]<button ></button>
+_[:]0
+20[:]<button ></button>
+_[:]Booster seat
+_[:]€ 31.67
+_[:]per hire
+21[:]<button ></button>
+_[:]0
+22[:]<button ></button>
+_[:]Luggage rack
+_[:]€ 31.67
+_[:]per hire
+_[:]0
+23[:]<div ></div>
+_[:]Insurance Options
+_[:]With Premium Insurance you will be refunded for any incurred excess charges so you won’t be out of pocket if anything goes wrong.
+_[:]Limited Insurance
+_[:]Minimal cover for theft and bodywork damage.
+_[:]You pay for any damages
+_[:]not covered by the limited option.
+_[:]Non refundable excess of up to € 950
+24[:]<span ></span>
+_[:]Premium Insurance
+_[:]Full coverage
+_[:]for your car rental excess. If you have an accident you will be refunded your excess of up to
+_[:]€ 3,000
+_[:].
+25[:]<img alt=""></img>
+_[:]FREE cancellation (Up to 24 hours before pick-up)
+26[:]<span ></span>
+27[:]<ct-dynamic-button tabindex="0"></ct-dynamic-button>
+28[:]<ct-dynamic-button tabindex="0"></ct-dynamic-button>
+_[:]Trip Summary
+_[:]Gyldéngatan 8, 113 29, Stockholm, Sweden
+_[:]Fri, 18 Jul
+_[:]·
+_[:]10:00
+29[:]<span ></span>
+30[:]<span tabindex="0">View pick-up details</span>
+_[:]Gyldéngatan 8, 113 29, Stockholm, Sweden
+_[:]Fri, 25 Jul
+_[:]·
+_[:]10:00
+31[:]<span ></span>
+32[:]<span tabindex="0">View drop-off details</span>
+_[:]Price summary
+33[:]<ct-price-summary-line-item value="price.value">Car hire fee
+€ 324.87</ct-price-summary-line-item>
+34[:]<ct-price-summary-line-item value="price.value">Included charges:</ct-price-summary-line-item>
+35[:]<ct-price-summary-line-item value="price.value">Tax</ct-price-summary-line-item>
+36[:]<ct-price-summary-line-item value="price.value">Total
+€ 324.87</ct-price-summary-line-item>
+_[:]Earn 376 Skywards Miles
+_[:]Great choice
+_[:]!
+_[:]Popular car
+_[:]You picked a frequently booked car in Stockholm, Sweden.
+_[:]Efficient fuel
+_[:]Get a full tank at pick-up and fill it back up on return.
+_[:]Unlimited mileage
+_[:]Drive as much as you want with no extra cost.
+37[:]<button ></button>
+... 595 pixels below - scroll or extract content to see more ...

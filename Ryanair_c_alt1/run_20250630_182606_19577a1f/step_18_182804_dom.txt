@@ -1,0 +1,235 @@
+
+
+Current url: https://ie.hotels.ryanair.com/Hotel-Search?rooms=1&adults=1&destination=Rome%20City%20Centre%2C%20Rome%2C%20Lazio%2C%20Italy&startDate=2025-07-18&endDate=2025-08-01&d1=2025-07-18&d2=2025-08-01&regionId=553248633938945217&latLong=41.89893613158187%2C12.481600476754943&useRewards=false&rate_type=standalone&isInvalidatedDate=false&upsellingNumNightsAdded=&theme=&userIntent=&semdtl=&upsellingDiscountTypeAdded=&categorySearch=&sort=RECOMMENDED
+Available tabs:
+[TabInfo(page_id=0, url='https://ie.hotels.ryanair.com/Hotel-Search?rooms=1&adults=1&destination=Rome%20City%20Centre%2C%20Rome%2C%20Lazio%2C%20Italy&startDate=2025-07-18&endDate=2025-08-01&d1=2025-07-18&d2=2025-08-01&regionId=553248633938945217&latLong=41.89893613158187%2C12.481600476754943&useRewards=false&rate_type=standalone&isInvalidatedDate=false&upsellingNumNightsAdded=&theme=&userIntent=&semdtl=&upsellingDiscountTypeAdded=&categorySearch=&sort=RECOMMENDED', title='Rome City Centre, Rome, Lazio, Italy Hotel Search results')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<body >Skip to Main Content.
+Powered by
+Properties in Rome City Centre, Rome, Lazio, Italy. 18 July 2025 through 1 August 2025
+Where to?
+Dates
+Sort & filter
+Search by property name
+e.g. Marriott
+e.g. Marriott
+Filter by
+Popular filters
+Total price
+Min
+Max
+Stay options
+Stay options
+46 properties
+Sort by
+Search results
+Photo gallery for Mercure Roma Centro Colosseo
+Mercure Roma Centro Colosseo
+Rome City Centre
+Pool
+Stay with Accor in total comfort
+Relax, dream, explore. With Accor, every stay is a promise of comfort, quality, and unforgettable moments.
+8.8
+8.8 out of 10
+Excellent
+excellent
+1,004 reviews
+(1,004 reviews)
+The current price is €3,222
+€3,222
+for 14 nights, 1 room
+€230 per night
+includes taxes & fees
+Photo gallery for Donna Camilla Savelli – VRetreats
+Donna Camilla Savelli – VRetreats
+Rome City Centre
+Your Retreat in Rome
+A Baroque oasis in the heart of Trastevere housed inside a 17th-century convent. A place to find yourself in your Roman retreat.
+9.4
+9.4 out of 10
+Exceptional
+exceptional
+1,004 reviews
+(1,004 reviews)
+We have 3 left at 10% off at
+The current price is €4,556
+€4,556
+for 14 nights, 1 room
+€325 per night
+includes taxes & fees
+Photo gallery for Hotel Imperiale by OMNIA hotels
+Hotel Imperiale by OMNIA hotels
+Rome City Centre
+8.0
+8.0 out of 10
+Very good
+very good
+652 reviews
+(652 reviews)
+29% off
+The current price is €2,805
+€2,805
+for 14 nights, 1 room
+€200 per night
+includes taxes & fees
+Photo gallery for Hotel Regina Giovanna
+Hotel Regina Giovanna
+Rome City Centre
+7.2
+7.2 out of 10
+Good
+good
+507 reviews
+(507 reviews)
+We have 1 left at 10% off at
+The current price is €1,364
+€1,364
+for 14 nights, 1 room
+€97 per night
+includes taxes & fees
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77</body>
+1[:]<a ></a>
+2[:]<img alt="Ryanair Ireland logo"></img>
+3[:]<a >Support</a>
+4[:]<a >Trips</a>
+5[:]<img alt="Expedia logo"></img>
+6[:]<button aria-label="Where to? Rome City Centre, Rome, Lazio, Italy. Results available., Rome City Centre, Rome, Lazio, Italy" aria-expanded="false" type="button">Rome City Centre, Rome, Lazio, Italy</button>
+7[:]<button name="EGDSDateRange-date-selector-trigger" aria-expanded="false" aria-label="Dates, 18 Jul - 1 Aug" type="button">18 Jul - 1 Aug</button>
+8[:]<div >Travellers</div>
+9[:]<button aria-expanded="false" aria-label="Travellers, 1 traveller, 1 room" type="button">1 traveller, 1 room</button>
+10[:]<button type="submit" aria-label="Search"></button>
+11[:]<button type="button" tabindex="-1">static map image</button>
+12[:]<button type="button">View in a map</button>
+13[:]<input type="checkbox" name="compare-toggle-filter" aria-label="Compare properties" value=""></input>
+14[:]<label >Compare properties
+Get a side-by-side view of up to 5 properties.</label>
+15[:]<button aria-label="Search by property name" aria-expanded="false" type="button"></button>
+16[:]<input type="checkbox" name="neighborhood" aria-label="Rome Historic Centre" value="6200441"></input>
+17[:]<label >Rome Historic Centre</label>
+18[:]<input type="checkbox" name="paymentType" aria-label="Reserve now, pay later" value="PAY_LATER"></input>
+19[:]<label >Reserve now, pay later</label>
+20[:]<input type="checkbox" name="lodging" aria-label="Hotel" value="HOTEL"></input>
+21[:]<label >Hotel</label>
+22[:]<input type="checkbox" name="mealPlan" aria-label="Breakfast included" value="FREE_BREAKFAST"></input>
+23[:]<label >Breakfast included</label>
+24[:]<input type="checkbox" name="amenities" aria-label="Pool" value="POOL"></input>
+25[:]<label >Pool</label>
+26[:]<input aria-label="€0, Minimum, Total price" type="text" value="€0"></input>
+27[:]<input aria-label="€9,800 and above, Maximum, Total price" type="text" value="€9,800+"></input>
+28[:]<label ></label>
+29[:]<input type="radio" name="stay_options_group" aria-label="Any" value=""></input>
+30[:]<label ></label>
+31[:]<input type="radio" name="stay_options_group" aria-label="Hotels" value="hotels_option"></input>
+32[:]<label ></label>
+33[:]<input type="radio" name="stay_options_group" aria-label="Homes" value="vacation_rentals_option"></input>
+34[:]<label ></label>
+35[:]<input type="radio" name="neighborhood" aria-label="Rome (and vicinity)" value="179899"></input>
+36[:]<label ></label>
+37[:]<input type="radio" name="neighborhood" aria-label="Rome Historic Centre" value="6200441"></input>
+38[:]<label ></label>
+39[:]<input type="radio" name="neighborhood" aria-label="Trastevere" value="6046256"></input>
+40[:]<label ></label>
+41[:]<input type="radio" name="neighborhood" aria-label="Rome Termini Station" value="6022584"></input>
+42[:]<label ></label>
+43[:]<input type="radio" name="neighborhood" aria-label="Vatican City" value="179952"></input>
+44[:]<label ></label>
+45[:]<input type="radio" name="neighborhood" aria-label="Navona" value="6051981"></input>
+46[:]<label ></label>
+47[:]<input type="radio" name="neighborhood" aria-label="Rome" value="3023"></input>
+48[:]<label ></label>
+49[:]<input type="radio" name="neighborhood" aria-label="Vatican" value="6046253"></input>
+50[:]<label ></label>
+51[:]<input type="radio" name="neighborhood" aria-label="Monti" value="6185346"></input>
+52[:]<label ></label>
+53[:]<input type="radio" name="neighborhood" aria-label="Prati" value="6004847"></input>
+54[:]<label ></label>
+55[:]<input type="radio" name="neighborhood" aria-label="Rome (FCO-Fiumicino - Leonardo da Vinci Intl.)" value="5194566"></input>
+56[:]<select name="sort"></select>
+57[:]<button type="button" aria-label="Opens Mercure Roma Centro Colosseo in new tab">Pool</button>
+58[:]<button type="button"></button>
+59[:]<button type="button"></button>
+60[:]<button type="button">Ad</button>
+61[:]<a >Opens Mercure Roma Centro Colosseo in new tab</a>
+62[:]<button type="button" aria-label="Opens Donna Camilla Savelli – VRetreats in new tab">Reception</button>
+63[:]<button type="button"></button>
+64[:]<button type="button"></button>
+65[:]<button type="button">Ad</button>
+66[:]<button type="button">The previous price was €5,054
+€5,054</button>
+67[:]<a >Opens Donna Camilla Savelli – VRetreats in new tab</a>
+68[:]<button type="button" aria-label="More information about Hotel Imperiale by OMNIA hotels , opens in a new tab">Front of property – evening/night</button>
+69[:]<button type="button"></button>
+70[:]<button type="button"></button>
+71[:]<button type="button">The previous price was €3,975
+€3,975</button>
+72[:]<a >More information about Hotel Imperiale by OMNIA hotels , opens in a new tab</a>
+73[:]<button type="button" aria-label="More information about Hotel Regina Giovanna, opens in a new tab">Staircase</button>
+74[:]<button type="button"></button>
+75[:]<button type="button"></button>
+76[:]<button type="button">The previous price was €1,509
+€1,509</button>
+77[:]<a >More information about Hotel Regina Giovanna, opens in a new tab</a>
+78[:]<img alt="Business centre"></img>
+79[:]<img alt="Interior entrance"></img>
+80[:]<button type="button" aria-label="More information about Casa Santa Sofia Hotel, opens in a new tab"></button>
+81[:]<img alt="Room"></img>
+82[:]<button type="button"></button>
+83[:]<button type="button"></button>
+84[:]<button type="button"></button>
+85[:]<a ></a>
+86[:]<button type="button"></button>
+87[:]<a ></a>
+88[:]<a ></a>
+... 19729 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,116 @@
+
+
+Current url: https://www.emirates.com/us/english/book/featured-fares/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/us/english/book/featured-fares/', title='Featured Fares | Book a flight | Emirates United States')]
+Interactive elements from current page view:
+... 5670 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="Emirates logo"></img>
+2[:]<span tabindex="0" role="tab">Book
+•</span>
+3[:]<span tabindex="0" role="tab">About booking online</span>
+4[:]<a >Search flights</a>
+_[:]Featured fares for all destinations
+5[:]<button aria-label="Filter results Opens a dialog" type="button">Filter results</button>
+6[:]<div ></div>
+7[:]<button aria-label="Fare conditions Kathmandu Opens a dialog" type="button"></button>
+8[:]<a aria-label="Search for flights Kathmandu"></a>
+9[:]<div ></div>
+10[:]<button aria-label="Fare conditions Thiruvananthapuram Opens a dialog" type="button"></button>
+11[:]<a aria-label="Search for flights Thiruvananthapuram"></a>
+12[:]<div tabindex="0" role="tab"></div>
+13[:]<div tabindex="0" role="tab"></div>
+14[:]<button aria-label="Fare conditions Bali Opens a dialog" type="button"></button>
+15[:]<a aria-label="Search for flights Bali"></a>
+16[:]<img alt=""></img>
+_[:]Ahmedabad (AMD)
+_[:]Economy Class
+_[:]Business Class
+_[:]From
+_[:]USD
+_[:]2184*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+17[:]<button aria-label="Fare conditions Ahmedabad Opens a dialog" type="button">Fare conditions</button>
+18[:]<a aria-label="Search for flights Ahmedabad">Search for flights</a>
+19[:]<img alt=""></img>
+_[:]Dubai (DXB)
+_[:]Premium Economy
+_[:]Business Class
+_[:]From
+_[:]USD
+_[:]3025*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+20[:]<button aria-label="Fare conditions Dubai Opens a dialog" type="button">Fare conditions</button>
+21[:]<a aria-label="Search for flights Dubai">Search for flights</a>
+22[:]<img alt=""></img>
+_[:]Bengaluru (Bangalore) (BLR)
+_[:]Premium Economy
+_[:]Business Class
+_[:]From
+_[:]USD
+_[:]3538*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+23[:]<button aria-label="Fare conditions Bengaluru (Bangalore) Opens a dialog" type="button">Fare conditions</button>
+24[:]<a aria-label="Search for flights Bengaluru (Bangalore)">Search for flights</a>
+25[:]<img alt=""></img>
+_[:]Cairo (CAI)
+26[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]4297*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+27[:]<button aria-label="Fare conditions Cairo Opens a dialog" type="button">Fare conditions</button>
+28[:]<a aria-label="Search for flights Cairo">Search for flights</a>
+29[:]<img alt=""></img>
+_[:]Kuwait City (KWI)
+30[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]4335*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+31[:]<button aria-label="Fare conditions Kuwait City Opens a dialog" type="button">Fare conditions</button>
+32[:]<a aria-label="Search for flights Kuwait City">Search for flights</a>
+33[:]<img alt=""></img>
+_[:]Johannesburg (JNB)
+34[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]4985*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+35[:]<button aria-label="Fare conditions Johannesburg Opens a dialog" type="button">Fare conditions</button>
+36[:]<a aria-label="Search for flights Johannesburg">Search for flights</a>
+37[:]<img alt=""></img>
+38[:]<div ></div>
+39[:]<button aria-label="Fare conditions Colombo Opens a dialog" type="button"></button>
+40[:]<a aria-label="Search for flights Colombo"></a>
+41[:]<img alt=""></img>
+42[:]<div ></div>
+43[:]<button aria-label="Fare conditions Riyadh Opens a dialog" type="button"></button>
+44[:]<a aria-label="Search for flights Riyadh"></a>
+45[:]<img alt=""></img>
+46[:]<div ></div>
+47[:]<button aria-label="Fare conditions Chennai (Madras) Opens a dialog" type="button"></button>
+48[:]<a aria-label="Search for flights Chennai (Madras)"></a>
+49[:]<img alt=""></img>
+50[:]<img alt=""></img>
+51[:]<img alt=""></img>
+... 2624 pixels below - scroll or extract content to see more ...

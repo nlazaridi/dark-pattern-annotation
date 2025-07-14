@@ -1,0 +1,231 @@
+
+
+Current url: https://www.united.com/en/us/fsr/choose-flights?st=bestmatches&d=2025-07-18&clm=7&taxng=1&f=DEN&px=1&newHP=True&sc=7%2C7&r=2025-07-25&tqp=R&t=MCO&idx=2&mm=0&cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us/fsr/choose-flights?st=bestmatches&d=2025-07-18&clm=7&taxng=1&f=DEN&px=1&newHP=True&sc=7%2C7&r=2025-07-25&tqp=R&t=MCO&idx=2&mm=0&cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1', title='United Airlines Reservations - Book a Flight on More Than 80 Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<img alt="United logo link to homepage"></img>
+2[:]<button aria-label="Currently in English US	$ enter to change" type="button">English - US	$</button>
+3[:]<a aria-label="Search, opens in a new tab"></a>
+4[:]<button aria-label="Sign in" type="button">Sign in</button>
+5[:]<button aria-label="Main menu" type="button">Main menu
+Menu</button>
+6[:]<label >From</label>
+7[:]<input type="text" placeholder="From" role="combobox" aria-expanded="false" aria-label="From" value="DEN"></input>
+_[:]Denver, CO, US
+8[:]<button type="button">reverse origin and destination</button>
+9[:]<label >To</label>
+10[:]<input type="text" placeholder="To" role="combobox" aria-expanded="false" aria-label="To" value="MCO"></input>
+_[:]Orlando, FL, US
+11[:]<label >Dates</label>
+12[:]<input type="text" placeholder="Departure" value="Jul 18"></input>
+_[:]-
+13[:]<input type="text" placeholder="Return" value="Jul 25"></input>
+14[:]<button aria-expanded="false" type="button">Choose date, from Jul 18 to Jul 25</button>
+15[:]<label >Travelers</label>
+_[:]1 Adult
+16[:]<input type="button" value="1 Adult"></input>
+17[:]<label >Show price in:</label>
+18[:]<select name="FSRSearch.swap0.travelType"></select>
+19[:]<button >Update</button>
+20[:]<button >Advanced Search</button>
+_[:]Flight Search Results
+_[:]Your trip to:
+_[:]Orlando, FL, US (MCO)
+_[:]6:00 AM
+_[:]Departing at 6:00 AM
+_[:]11:45 AM
+_[:]Arriving at 11:45 AM
+_[:]DEN
+_[:]Origin Denver, CO, US (DEN)
+_[:]3H, 45M
+_[:]Duration 3 hours and 45 minutes
+_[:]MCO
+_[:]Destination Orlando, FL, US (MCO)
+_[:]Fri, Jul 18
+_[:]United Economy (N)
+21[:]<button aria-label="Change Flight" type="button">Change Flight</button>
+22[:]<button type="button">Sort
+Sort By,not selected, menu pop up, button.</button>
+23[:]<button type="button">Stops
+Stops,not selected, menu pop up, button.</button>
+24[:]<button type="button">Fare Type
+Fare Type,not selected, menu pop up, button.</button>
+25[:]<button type="button">Duration
+Duration,not selected, menu pop up, button.</button>
+26[:]<button type="button">Connections
+Connections,not selected, menu pop up, button.</button>
+27[:]<button type="button">Refundable fares
+Refundable fares,not selected, menu pop up, button.</button>
+28[:]<button type="button">Aircraft
+Aircraft type,not selected, menu pop up, button.</button>
+29[:]<button type="button">Wheelchair
+Wheel chair,not selected, menu pop up, button.</button>
+30[:]<button >Reset all</button>
+_[:]Return on:
+_[:]July 25
+_[:]departure
+_[:]All fares shown are the total price roundtrip, per person.
+31[:]<a aria-label="Additional bag charges may apply, link opens in a New Tab/Window">Additional bag charges may apply.</a>
+_[:]Fare attributes apply to flights operated by United and United Express
+_[:]®
+_[:]. United flights may be listed first.
+32[:]<button >Compare fare types</button>
+33[:]<button >Show calendar</button>
+34[:]<div role="columnheader" tabindex="-1"></div>
+35[:]<button >Basic Economy
+(most restrictive)
+Link. Select to sort results by Basic Economy (most restrictive) from lowest to highest price.</button>
+36[:]<div role="columnheader" tabindex="-1"></div>
+37[:]<button >Economy
+Link. Select to sort results by Economy  from lowest to highest price.</button>
+38[:]<div role="columnheader" tabindex="-1"></div>
+39[:]<button >Economy
+(fully refundable)
+Link. Select to sort results by Economy (fully refundable) from lowest to highest price.</button>
+40[:]<div role="columnheader" tabindex="-1"></div>
+41[:]<button >Economy Plus
+(extra legroom)
+Link. Select to sort results by Economy Plus (extra legroom) from lowest to highest price.</button>
+42[:]<div role="columnheader" tabindex="-1"></div>
+43[:]<button >Business/First
+Link. Select to sort results by Business/First  from lowest to highest price.</button>
+_[:]Flight details section.
+_[:]Seats details section.
+44[:]<div role="grid">Flight Information
+NONSTOP
+8:00 AM
+Departing at 8:00 AM
+10:06 AM
+Arriving at 10:06 AM
+MCO
+Origin Orlando, FL, US (MCO)
+4H, 6M
+Duration 4 hours and 6 minutes
+DEN
+Destination Denver, CO, US (DEN)
+UA 1758 (Airbus A321neo)
+Flight Number UA 1758. Aircraft Airbus A321neo
+147 kg CO
+2
+Carbon emissions estimate: 147 kilograms. This is a lower emissions flight.
+Flight Information
+NONSTOP
+9:56 AM
+Departing at 9:56 AM
+12:00 PM
+Arriving at 12:00 PM
+MCO
+Origin Orlando, FL, US (MCO)
+4H, 4M
+Duration 4 hours and 4 minutes
+DEN
+Destination Denver, CO, US (DEN)
+UA 1022 (Boeing 757-300)
+Flight Number UA 1022. Aircraft Boeing 757-300
+202 kg CO
+2
+Carbon emissions estimate: 202 kilograms.
+Flight Information
+NONSTOP
+12:51 PM
+Departing at 12:51 PM
+2:57 PM
+Arriving at 2:57 PM</div>
+45[:]<button aria-label="Details for the flight: Depart Orlando, FL, US (MCO) at 8:00 AM and arrive  at 10:06 AM " aria-expanded="false">Details</button>
+46[:]<button aria-label="Seats for the flight: Depart Orlando, FL, US (MCO) at 8:00 AM and arrive  at 10:06 AM " aria-expanded="false">Seats</button>
+47[:]<button >Learn more about carbon emissions</button>
+48[:]<button >Roundtrip
+$356
+United Economy (N)
+Select fare for
+Basic Economy (most restrictive)</button>
+49[:]<button >Roundtrip
+$412
+United Economy (T)
+Select fare for
+Economy</button>
+50[:]<button >Roundtrip
+$492
+United Economy (T)
+Select fare for
+Economy (fully refundable)</button>
+51[:]<button >Roundtrip
+$526
+United Economy (T)
+Select fare for
+Economy Plus (extra legroom)</button>
+52[:]<button >Roundtrip
+$732
+United First (P)
+Select fare for
+Business/First</button>
+53[:]<button aria-label="Details for the flight: Depart Orlando, FL, US (MCO) at 9:56 AM and arrive  at 12:00 PM " aria-expanded="false">Details</button>
+54[:]<button aria-label="Seats for the flight: Depart Orlando, FL, US (MCO) at 9:56 AM and arrive  at 12:00 PM " aria-expanded="false">Seats</button>
+55[:]<button >Learn more about carbon emissions</button>
+56[:]<button >Roundtrip
+$356
+United Economy (N)
+Select fare for
+Basic Economy (most restrictive)</button>
+57[:]<button >Roundtrip
+$415
+United Economy (T)
+Select fare for
+Economy</button>
+58[:]<button >Roundtrip
+$495
+United Economy (T)
+Select fare for
+Economy (fully refundable)</button>
+59[:]<button >Roundtrip
+$529
+United Economy (T)
+Select fare for
+Economy Plus (extra legroom)</button>
+60[:]<button >Roundtrip
+$732
+United First (P)
+Select fare for
+Business/First</button>
+61[:]<button aria-label="Details for the flight: Depart Orlando, FL, US (MCO) at 12:51 PM and arrive  at 2:57 PM " aria-expanded="false"></button>
+62[:]<button aria-label="Seats for the flight: Depart Orlando, FL, US (MCO) at 12:51 PM and arrive  at 2:57 PM " aria-expanded="false"></button>
+63[:]<button ></button>
+64[:]<button >Roundtrip
+$316</button>
+65[:]<button >Roundtrip
+$396</button>
+66[:]<button >Roundtrip
+$476</button>
+67[:]<button >Roundtrip
+$510</button>
+68[:]<button >Roundtrip
+$938</button>
+69[:]<label ></label>
+70[:]<button type="button"></button>
+71[:]<button aria-label="Details for the flight: Depart Orlando, FL, US (MCO) at 3:30 PM and arrive  at 5:51 PM " aria-expanded="false"></button>
+72[:]<button aria-label="Seats for the flight: Depart Orlando, FL, US (MCO) at 3:30 PM and arrive  at 5:51 PM " aria-expanded="false"></button>
+73[:]<button ></button>
+74[:]<button ></button>
+75[:]<button ></button>
+76[:]<button ></button>
+77[:]<button ></button>
+78[:]<button ></button>
+79[:]<label ></label>
+80[:]<button type="button"></button>
+81[:]<button aria-label="Details for the flight: Depart Orlando, FL, US (MCO) at 5:11 PM and arrive  at 7:31 PM " aria-expanded="false"></button>
+82[:]<button aria-label="Seats for the flight: Depart Orlando, FL, US (MCO) at 5:11 PM and arrive  at 7:31 PM " aria-expanded="false"></button>
+83[:]<button ></button>
+84[:]<button ></button>
+85[:]<button ></button>
+86[:]<button ></button>
+87[:]<button ></button>
+88[:]<button ></button>
+89[:]<button ></button>
+90[:]<button ></button>
+91[:]<button ></button>
+92[:]<button ></button>
+93[:]<button ></button>
+... 6839 pixels below - scroll or extract content to see more ...

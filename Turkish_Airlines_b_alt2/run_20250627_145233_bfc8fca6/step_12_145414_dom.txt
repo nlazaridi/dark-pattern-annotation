@@ -1,0 +1,236 @@
+
+
+Current url: https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d
+Available tabs:
+[TabInfo(page_id=0, url='https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d', title='Turkish Airlines Booking Availability')]
+Interactive elements from current page view:
+... 389.3333435058594 pixels above - scroll or extract content to see more ...
+0[:]<body >31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73</body>
+1[:]<div ></div>
+2[:]<div >INBOUND FLIGHT
+Istanbul to Frankfurt on Thursday, 18 September
+Sort by
+Departure
+FRA
+-
+IST
+•
+04 Sep Thu
+Departure: 07:05
+|
+Arrival: 11:20
+Select the return flight
+Continue
+The fares shown in this page are valid for single Adult. The total fare can be seen on the payment page after completing your flight selection. The fare rules displayed on this page are valid for pre-flight.</div>
+3[:]<div tabindex="0" role="button"></div>
+4[:]<img alt="THY"></img>
+5[:]<div aria-label="Tab 1 Select flight" role="button" tabindex="0"></div>
+6[:]<div aria-label="Tab 2 Passenger details" role="button" tabindex="0"></div>
+7[:]<div aria-label="Tab 3 Additional services" role="button" tabindex="0"></div>
+8[:]<div aria-label="Tab 4 Payment" role="button" tabindex="0"></div>
+9[:]<label ></label>
+10[:]<input type="text" tabindex="0" aria-label="From" aria-expanded="false" role="combobox" value="Frankfurt"></input>
+11[:]<label ></label>
+12[:]<button aria-label="Button for swap the values in the to and from fields" role="button"></button>
+13[:]<label ></label>
+14[:]<input type="text" tabindex="0" aria-label="To" aria-expanded="false" role="combobox" value="Istanbul"></input>
+15[:]<label ></label>
+16[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+17[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+18[:]<button ></button>
+19[:]<button ></button>
+20[:]<button ></button>
+21[:]<label ></label>
+22[:]<button ></button>
+23[:]<label ></label>
+24[:]<button ></button>
+25[:]<label ></label>
+26[:]<button ></button>
+27[:]<label ></label>
+28[:]<div tabindex="0" role="button" aria-label="07:05 - 11:20 Itinerary details"></div>
+29[:]<img alt="FRA"></img>
+30[:]<div role="button" aria-label="Itinerary details: 07:05 - 11:20"></div>
+31[:]<div tabindex="0" role="button" aria-label="a11y.Availability.PreviousDay"></div>
+32[:]<div tabindex="0" role="button" aria-label="a11y.Availability.NextDay"></div>
+33[:]<button >Recommended</button>
+34[:]<button >Increasing by price</button>
+35[:]<button >Flight duration</button>
+36[:]<button type="button">+2</button>
+37[:]<div tabindex="0" role="button" aria-label="07:45 - 10:00 Itinerary details">07:45
+IST
+Istanbul
+Direct
+10:00
+FRA
+Frankfurt
+Total travel duration
+3h 15m
+Aircraft type:
+Airbus A330-203 - Wide-body</div>
+38[:]<img alt="IST"></img>
+39[:]<div role="button" aria-label="Itinerary details: 07:45 - 10:00">Itinerary details</div>
+40[:]<div tabindex="0" role="button" aria-expanded="false">Economy
+Best price
+Per passenger
+EUR
+86
+.00</div>
+41[:]<span role="button"></span>
+42[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+EUR
+611
+.00
+4 left at this price</div>
+43[:]<span role="button"></span>
+44[:]<div tabindex="0" role="button" aria-label="11:10 - 13:25 Itinerary details">11:10
+IST
+Istanbul
+Direct
+13:25
+FRA
+Frankfurt
+Total travel duration
+3h 15m
+Aircraft type:
+Airbus A320 - Narrow-body</div>
+45[:]<img alt="IST"></img>
+46[:]<div role="button" aria-label="Itinerary details: 11:10 - 13:25">Itinerary details</div>
+47[:]<div tabindex="0" role="button" aria-expanded="false">Economy
+Best price
+Per passenger
+EUR
+86
+.00</div>
+48[:]<span role="button"></span>
+49[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+EUR
+521
+.00
+4 left at this price</div>
+50[:]<span role="button"></span>
+51[:]<div tabindex="0" role="button" aria-label="11:30 - 13:40 Itinerary details">11:30
+IST
+Istanbul
+Direct
+13:40
+FRA
+Frankfurt
+Total travel duration
+3h 10m
+Aircraft type:
+Airbus A330-203 - Wide-body</div>
+52[:]<img alt="IST"></img>
+53[:]<div role="button" aria-label="Itinerary details: 11:30 - 13:40">Itinerary details</div>
+54[:]<div tabindex="0" role="button" aria-expanded="false">Economy
+Best price
+Per passenger
+EUR
+86
+.00</div>
+55[:]<span role="button"></span>
+56[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+EUR
+521
+.00
+4 left at this price</div>
+57[:]<span role="button"></span>
+58[:]<div tabindex="0" role="button" aria-label="15:20 - 17:30 Itinerary details">15:20
+IST
+Istanbul
+Direct
+17:30
+FRA
+Frankfurt
+Total travel duration
+3h 10m
+Aircraft type:
+Airbus A330-300 - Wide-body</div>
+59[:]<img alt="IST"></img>
+60[:]<div role="button" aria-label="Itinerary details: 15:20 - 17:30">Itinerary details</div>
+61[:]<div tabindex="0" role="button" aria-expanded="false">Economy
+Per passenger
+EUR
+114
+.00</div>
+62[:]<span role="button"></span>
+63[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+EUR
+521
+.00
+4 left at this price</div>
+64[:]<span role="button"></span>
+65[:]<div tabindex="0" role="button" aria-label="18:45 - 21:00 Itinerary details">18:45
+IST
+Istanbul
+Direct
+21:00
+FRA
+Frankfurt
+Total travel duration
+3h 15m
+Aircraft type:
+Airbus A321-200neo - Narrow body</div>
+66[:]<img alt="IST"></img>
+67[:]<div role="button" aria-label="Itinerary details: 18:45 - 21:00">Itinerary details</div>
+68[:]<div tabindex="0" role="button" aria-expanded="false">Economy
+Per passenger
+EUR
+114
+.00</div>
+69[:]<span role="button"></span>
+70[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+EUR
+521
+.00
+4 left at this price</div>
+71[:]<span role="button"></span>
+72[:]<a tabindex="0" role="button">Details</a>
+73[:]<div role="button" tabindex="0">Survey</div>
+... 110.66665649414062 pixels below - scroll or extract content to see more ...

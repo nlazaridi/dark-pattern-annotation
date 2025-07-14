@@ -1,0 +1,2935 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started successfully.",
+          "memory": "",
+          "next_goal": "Go to Emirates website."
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.emirates.com/"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.emirates.com/",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to Emirates website.",
+          "memory": "",
+          "next_goal": "Navigate to Hotels section."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: Hotels",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/main/div[3]/section/div/ul/li/a",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "section",
+              "div",
+              "ul",
+              "li",
+              "a"
+            ],
+            "attributes": {
+              "href": "/nl/english/book/planning-your-trip/hotels/",
+              "class": "product-block__link icon icon-hotels block-is-active",
+              "data-name": "Hotels",
+              "data-url": "/nl/english/book/planning-your-trip/hotels/",
+              "data-description": "Book a hotel for a special fare",
+              "data-target": "",
+              "data-id": "pagebody_ext_icon",
+              "data-link": "Ancillary Product:Hotels"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to Hotels section.",
+          "memory": "",
+          "next_goal": "Search New York."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 17,
+              "text": "New York"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"New York\" for element index 17",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/div/main/div[2]/div/div/div/div[2]/div/div/form/div/div/div/div[2]/span/label",
+            "highlight_index": 17,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "label"
+            ],
+            "attributes": {
+              "for": "book-hotel-suggest-field",
+              "id": "book-hotel-suggest-field_label",
+              "aria-label": "Destination",
+              "class": "input-field__placeholder"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+        "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Inputted New York.",
+          "memory": "",
+          "next_goal": "Click New York suggestion."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: , United States",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[2]/div/div/div[2]/div/div/div/div/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "role": "option",
+              "aria-setsize": "5",
+              "aria-label": "",
+              "aria-selected": "false",
+              "data-prevent-esc": "true",
+              "class": "auto-suggest__item",
+              "data-testid": "options_0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+        "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked New York suggestion.",
+          "memory": "",
+          "next_goal": "Select check in date 18 July 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 122
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 122: 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div/main/div[2]/div/div/div/div[2]/div/div/form/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div[3]/div/table/tbody/tr[3]/td[5]/a",
+            "highlight_index": 122,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "a"
+            ],
+            "attributes": {
+              "class": "CalendarDay__text__default"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+        "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected check in date 18 July 2025.",
+          "memory": "",
+          "next_goal": "Select check out date 25 July 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 42
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 42: 25",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div/main/div[2]/div/div/div/div[2]/div/div/form/div/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div[2]/div[2]/div/div[2]/div/table/tbody/tr[4]/td[5]/a",
+            "highlight_index": 42,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "a"
+            ],
+            "attributes": {
+              "class": "CalendarDay__text__default"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+        "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected check out date 25 July 2025.",
+          "memory": "",
+          "next_goal": "Click Find hotels."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 24
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 24: Find hotels",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/main/div[2]/div/div/div/div[2]/div/div/form/div/button",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "aria-label": "Find hotels Opens an external link in a new tab",
+              "type": "submit",
+              "class": "focusout-button booking-hotel-widget__button call-to-action call-to-action__primary call-to-action--middle call-to-action--submit-multiline"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+        "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked Find hotels.",
+          "memory": "",
+          "next_goal": "Switch to booking.com tab."
+        },
+        "action": [
+          {
+            "switch_tab": {
+              "page_id": 1
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd04  Switched to tab 1",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+        "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Switched to booking.com tab.",
+          "memory": "",
+          "next_goal": "Scroll down to see more properties."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+        "title": "Booking.com: Hotels in New York. Book your hotel now!"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down to see more properties.",
+          "memory": "",
+          "next_goal": "Click See availability for Element Times Square West."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 40
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 40: See availability",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div[4]/div/div[4]/div/div/div[5]/div[2]/div[2]/div/div/div[3]/div[6]/div/div[2]/div/div[2]/div[2]/div/div[3]/a",
+            "highlight_index": 40,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "a"
+            ],
+            "attributes": {
+              "data-testid": "availability-cta-btn",
+              "target": "_blank",
+              "href": "https://www.booking.com/hotel/us/element-times-square.html?label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&aid=905856&ucfs=1&arphpl=1&checkin=2025-07-18&checkout=2025-07-25&dest_id=20088325&dest_type=city&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=2&hapos=2&sr_order=popularity&srpvid=b4257d6d6fb405d4&srepoch=1750960233&all_sr_blocks=25731317_94368970_0_1_0&highlighted_blocks=25731317_94368970_0_1_0&matching_block_id=25731317_94368970_0_1_0&sr_pri_blocks=25731317_94368970_0_1_0__165450&dcs_click=1&from=searchresults#hotelTmpl",
+              "class": "de576f5064 b46cd7aad7 ced67027e5 c295306d66 c7a901b0e7 ca8e0b9533 e4104ef7bb"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+        "title": "Booking.com: Hotels in New York. Book your hotel now!"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked See availability for Element Times Square West.",
+          "memory": "",
+          "next_goal": "Switch to Element Times Square West tab."
+        },
+        "action": [
+          {
+            "switch_tab": {
+              "page_id": 2
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd04  Switched to tab 2",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+        "title": "Booking.com: Hotels in New York. Book your hotel now!"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Switched to Element Times Square West tab.",
+          "memory": "",
+          "next_goal": "Scroll down to find Reserve button."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down to find Reserve button.",
+          "memory": "",
+          "next_goal": "Click I'll reserve button."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 57
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 57: I'll\u00a0reserve",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[14]/div[2]/div[2]/div[5]/button",
+            "highlight_index": 57,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "txp-bui-main-pp bui-button bui-button--primary \nhp_rt_input\npx--fw-cta\njs-reservation-button\n",
+              "type": "submit",
+              "data-title": "Select your accommodations first",
+              "data-bui-component": "Popover",
+              "data-popover-position": "bottom start",
+              "data-popover-no-arrow": "true",
+              "data-popover-z-index": "modal",
+              "data-popover-content-id": "submit_cta_holder_button_tooltip",
+              "tabindex": "0",
+              "data-popover-arrow-navigation": "",
+              "data-popover-stretch": "",
+              "data-et-click": "customGoal:eWHMcCcCcCSYeJdBbFUdWHDXKe:3",
+              "data-et-view": "aaMRYGPZHNNALFUZSIZFNTedcCcEO:1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked I'll reserve button.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 room"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 room' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Get dropdown options for number of rooms."
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 36
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "0: text=\"0\"\n1: text=\"1 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a01,424)\"\n2: text=\"2 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a02,847)\"\n3: text=\"3 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a04,271)\"\n4: text=\"4 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a05,695)\"\n5: text=\"5 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a07,119)\"\nUse the exact text string in select_dropdown_option",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 "
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 ' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731317_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731317",
+              "data-block-id": "25731317_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731317_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731317"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Scroll down to find the select button again."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 "
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 ' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 "
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 ' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 "
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 ' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Click I'll reserve button again."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 40
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 40: I'll\u00a0reserve",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div[2]/div[4]/div[5]/button",
+            "highlight_index": 40,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "txp-bui-main-pp bui-button bui-button--primary  hp_rt_input px--fw-cta js-reservation-button",
+              "type": "submit",
+              "data-title": "Select your accommodations first",
+              "data-bui-component": "Popover",
+              "data-popover-position": "bottom start",
+              "data-popover-no-arrow": "true",
+              "data-popover-z-index": "modal",
+              "data-popover-content-id": "submit_cta_holder_button_tooltip",
+              "tabindex": "0",
+              "data-popover-arrow-navigation": "",
+              "data-popover-stretch": "",
+              "data-et-click": "customGoal:eWHMcCcCcCSYeJdBbFUdWHDXKe:3",
+              "data-et-view": "aaMRYGPZHNNALFUZSIZFNTedcCcEO:1",
+              "aria-describedby": "materialized_tooltip_o5dqo",
+              "id": "b_tt_holder_2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked I'll reserve button again.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 "
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 ' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Click I'll reserve button again."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 40
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 40: I'll\u00a0reserve",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div[2]/div[4]/div[5]/button",
+            "highlight_index": 40,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "txp-bui-main-pp bui-button bui-button--primary  hp_rt_input px--fw-cta js-reservation-button",
+              "type": "submit",
+              "data-title": "Select your accommodations first",
+              "data-bui-component": "Popover",
+              "data-popover-position": "bottom start",
+              "data-popover-no-arrow": "true",
+              "data-popover-z-index": "modal",
+              "data-popover-content-id": "submit_cta_holder_button_tooltip",
+              "tabindex": "0",
+              "data-popover-arrow-navigation": "",
+              "data-popover-stretch": "",
+              "data-et-click": "customGoal:eWHMcCcCcCSYeJdBbFUdWHDXKe:3",
+              "data-et-view": "aaMRYGPZHNNALFUZSIZFNTedcCcEO:1",
+              "aria-describedby": "materialized_tooltip_jkdlv",
+              "id": "b_tt_holder_3"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 "
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 ' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Select 1 room."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t1,424)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t1,424)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Click on the select button next to the last room."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 36
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 36: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[9]/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25731321_94368970_0_1_0",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25731321",
+              "data-block-id": "25731321_94368970_0_1_0",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25731321_94368970_0_1_0",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25731321"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select 1 room.",
+          "memory": "",
+          "next_goal": "Complete the task."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I was unable to select the number of rooms, and therefore could not complete the booking."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I was unable to select the number of rooms, and therefore could not complete the booking.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/book/planning-your-trip/hotels/",
+            "title": "Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&",
+            "title": "Booking.com: Hotels in New York. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+            "title": "Element Times Square West, New York (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl",
+        "title": "Element Times Square West, New York (updated prices 2025)"
+      }
+    }
+  ]
+}

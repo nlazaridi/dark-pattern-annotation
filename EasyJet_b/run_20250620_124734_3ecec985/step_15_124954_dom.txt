@@ -1,0 +1,236 @@
+
+
+Current url: https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles
+Available tabs:
+[TabInfo(page_id=0, url='https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles', title='easyJet.com Car Rentals')]
+Interactive elements from current page view:
+... 204.6666717529297 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<a ></a>
+2[:]<a ></a>
+3[:]<img alt="easyJet"></img>
+4[:]<a ></a>
+5[:]<a ></a>
+6[:]<a ></a>
+7[:]<a ></a>
+8[:]<a ></a>
+9[:]<a ></a>
+10[:]<a aria-label=" Clicking on this link will open easyJet.com in the new tab! "></a>
+11[:]<img alt="easyJet.com"></img>
+12[:]<a aria-label=" Manage Car Booking - The link opens in a new window "></a>
+13[:]<a aria-label=" Manage Car Booking - The link opens in a new window "></a>
+14[:]<button aria-label="Change Language. Page language is currently set to English. Changing the language will cause the page to reload."></button>
+15[:]<img alt="en flag"></img>
+16[:]<button ></button>
+17[:]<li tabindex="0" aria-label="Search Results: Step 2 of 5 to complete your booking"></li>
+_[:]Trip Summary
+18[:]<label >Pick-up</label>
+_[:]Lisbon - Airport
+_[:]17 Jul 2025
+_[:]10:00
+19[:]<label >Drop-off</label>
+_[:]Lisbon - Airport
+_[:]24 Jul 2025
+_[:]10:00
+_[:]Currency:
+_[:]EUR
+20[:]<button tabindex="0">Edit</button>
+_[:]Go to Search Results
+_[:]Go to Category filter
+_[:]Go to Filter
+_[:]Filter
+21[:]<div tabindex="-1"></div>
+22[:]<div tabindex="0">Car Size</div>
+23[:]<ul role="listbox"></ul>
+24[:]<li role="option" tabindex="-1"></li>
+25[:]<div tabindex="0"></div>
+26[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-mini"></input>
+27[:]<label >Mini</label>
+28[:]<li role="option" tabindex="-1"></li>
+29[:]<div tabindex="0"></div>
+30[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-economy"></input>
+31[:]<label >Economy</label>
+32[:]<li role="option" tabindex="-1"></li>
+33[:]<div tabindex="0"></div>
+34[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-compact"></input>
+35[:]<label >Compact</label>
+36[:]<li role="option" tabindex="-1"></li>
+37[:]<div tabindex="0"></div>
+38[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-suv"></input>
+39[:]<label >SUV</label>
+40[:]<li role="option" tabindex="-1"></li>
+41[:]<div tabindex="0"></div>
+42[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-estate"></input>
+43[:]<label >Estate</label>
+44[:]<li role="option" tabindex="-1"></li>
+45[:]<div tabindex="0"></div>
+46[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-standard"></input>
+47[:]<label >Standard</label>
+48[:]<li role="option" tabindex="-1"></li>
+49[:]<div tabindex="0"></div>
+50[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-intermediate"></input>
+51[:]<label >Intermediate</label>
+52[:]<li role="option" tabindex="-1"></li>
+53[:]<div tabindex="0"></div>
+54[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-5seatcarrier"></input>
+55[:]<label >5-seat minivan</label>
+56[:]<li role="option" tabindex="-1"></li>
+57[:]<div tabindex="0"></div>
+58[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-7seatcarrier"></input>
+59[:]<label >7-seat minivan</label>
+60[:]<li role="option" tabindex="-1"></li>
+61[:]<div tabindex="0"></div>
+62[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-9seatcarrier"></input>
+63[:]<label >9-seat minivan</label>
+64[:]<li role="option" tabindex="-1"></li>
+65[:]<div tabindex="0"></div>
+66[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-minivan"></input>
+67[:]<label >Minivan</label>
+68[:]<li role="option" tabindex="-1"></li>
+69[:]<div tabindex="0"></div>
+70[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-fullsize"></input>
+71[:]<label >Fullsize</label>
+72[:]<li role="option" tabindex="-1"></li>
+73[:]<div tabindex="0"></div>
+74[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-luxury"></input>
+75[:]<label >Luxury</label>
+76[:]<li role="option" tabindex="-1"></li>
+77[:]<div tabindex="0"></div>
+78[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-premium"></input>
+79[:]<label >Premium</label>
+80[:]<li role="option" tabindex="-1"></li>
+81[:]<div tabindex="0"></div>
+82[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-cargovan"></input>
+83[:]<label >Cargo van</label>
+84[:]<li role="option" tabindex="-1"></li>
+85[:]<div tabindex="0"></div>
+86[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-convertible"></input>
+87[:]<label >Convertible</label>
+88[:]<div tabindex="0">Price Range</div>
+89[:]<p tabindex="0">The average car price is
+€ 917
+per rental</p>
+90[:]<input aria-label="" type="range"></input>
+91[:]<input aria-label="" type="range"></input>
+92[:]<div tabindex="-1"></div>
+93[:]<div tabindex="0"></div>
+94[:]<ul role="listbox"></ul>
+95[:]<li role="option" tabindex="-1"></li>
+96[:]<div tabindex="0"></div>
+97[:]<input type="checkbox" role="checkbox" tabindex="-1" name="transmission-auto"></input>
+98[:]<label ></label>
+99[:]<li role="option" tabindex="-1"></li>
+100[:]<div tabindex="0"></div>
+101[:]<input type="checkbox" role="checkbox" tabindex="-1" name="transmission-manual"></input>
+102[:]<label ></label>
+103[:]<div tabindex="-1"></div>
+104[:]<div tabindex="0"></div>
+105[:]<ul role="listbox"></ul>
+106[:]<li role="option" tabindex="-1"></li>
+107[:]<div tabindex="0"></div>
+108[:]<input type="checkbox" role="checkbox" tabindex="-1" name="pickUpLocation-terminal"></input>
+109[:]<label ></label>
+110[:]<li role="option" tabindex="-1"></li>
+111[:]<div tabindex="0"></div>
+112[:]<input type="checkbox" role="checkbox" tabindex="-1" name="pickUpLocation-shuttlebus"></input>
+113[:]<label ></label>
+114[:]<li role="option" tabindex="-1"></li>
+115[:]<div tabindex="0"></div>
+116[:]<input type="checkbox" role="checkbox" tabindex="-1" name="pickUpLocation-meetngreet"></input>
+117[:]<label ></label>
+118[:]<div tabindex="-1"></div>
+119[:]<div tabindex="0"></div>
+120[:]<ul role="listbox"></ul>
+121[:]<li role="option" tabindex="-1"></li>
+122[:]<div tabindex="0"></div>
+123[:]<input type="checkbox" role="checkbox" tabindex="-1" name="mileage-limited"></input>
+124[:]<label ></label>
+125[:]<li role="option" tabindex="-1"></li>
+126[:]<div tabindex="0"></div>
+127[:]<input type="checkbox" role="checkbox" tabindex="-1" name="mileage-unlimited"></input>
+_[:]Flexible cancellation with every booking.
+_[:]Demand is high at Lisbon in July. Prices are likely to rise.
+_[:]Find the perfect car for your trip
+_[:]Compare car rental prices in one quick search to get the best deal.
+128[:]<div tabindex="0">Standard
+Collision Damage Waiver and Theft Protection with Liability
+Basic Cover</div>
+129[:]<div tabindex="0">Comfort
+Collision Damage Waiver and Theft Protection without Liability
+Glass and Undercarriage Protection
+Full Cover</div>
+130[:]<img ></img>
+131[:]<div tabindex="0">Worry-free
+Recommended
+Collision Damage Waiver and Theft Protection without Liability
+Glass and Undercarriage Protection
+Unlimited Mileage
+Full to Full fuel policy
+Complete Package</div>
+132[:]<img ></img>
+133[:]<div tabindex="0">661
+cars available
+Sort by:
+Popular destination! Over 150 customers have booked in this location in the last 24 hours
+Mini
+Fiat 500 or similar
+Pick-up location:
+Unlimited Mileage
+Standard
+€ 206.05
+Price for 7 days
+Mini
+Toyota Aygo or similar
+Unlimited Mileage
+Standard
+€ 216.30
+Price for 7 days</div>
+134[:]<button aria-label="Sort by Recommended" role="button" tabindex="0">Recommended</button>
+135[:]<button aria-label="Sort by Price" role="button" tabindex="0">price (low to high)</button>
+136[:]<button aria-label="Sort by Rating" role="button" tabindex="0">Rating</button>
+137[:]<img alt="Fiat 500 or similar"></img>
+138[:]<span role="contentinfo" tabindex="0" aria-label="A free shuttle bus will bring you from the airport terminal to the service desk.">Free Shuttle Bus</span>
+139[:]<span tabindex="0">Free Cancellation</span>
+140[:]<div role="contentinfo" tabindex="0" aria-label="4 Passenger(s)">4 Seats</div>
+141[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 1 small suitcase">1 Bag</div>
+142[:]<div role="contentinfo" tabindex="0" aria-label="Manual Transmission">Manual</div>
+143[:]<div role="contentinfo" tabindex="0" aria-label="You will pick your car up with fuel. Check the amount of fuel before you drive. You will need to return it with the same amount of fuel.">Same to Same</div>
+144[:]<div role="contentinfo" tabindex="0" aria-label="">Damage & theft coverage</div>
+145[:]<button aria-label="8.4,vgood" tabindex="0">8.4
+Very good</button>
+146[:]<img alt="KLASS WAGEN" aria-label="KLASS WAGEN"></img>
+147[:]<button title="Important information" role="button" tabindex="0">Important Info</button>
+148[:]<button tabindex="0">Select</button>
+149[:]<img alt="Toyota Aygo or similar"></img>
+150[:]<span role="contentinfo" tabindex="0" aria-label="A free shuttle bus will bring you from the airport terminal to the service desk."></span>
+151[:]<span tabindex="0">Free Cancellation</span>
+152[:]<div role="contentinfo" tabindex="0" aria-label="4 Passenger(s)">4 Seats</div>
+153[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases">2 Bags</div>
+154[:]<div role="contentinfo" tabindex="0" aria-label="Manual Transmission">Manual</div>
+155[:]<div role="contentinfo" tabindex="0" aria-label="You will pick your car up with fuel. Check the amount of fuel before you drive. You will need to return it with the same amount of fuel.">Same to Same</div>
+156[:]<div role="contentinfo" tabindex="0" aria-label="">Damage & theft coverage</div>
+157[:]<button aria-label="8.4,vgood" tabindex="0"></button>
+158[:]<img alt="KLASS WAGEN" aria-label="KLASS WAGEN"></img>
+159[:]<button title="Important information" role="button" tabindex="0"></button>
+160[:]<button tabindex="0"></button>
+161[:]<img alt="Volkswagen Up or similar"></img>
+162[:]<span role="contentinfo" tabindex="0" aria-label="A free shuttle bus will bring you from the airport terminal to the service desk."></span>
+163[:]<span tabindex="0"></span>
+164[:]<div role="contentinfo" tabindex="0" aria-label="4 Passenger(s)"></div>
+165[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases"></div>
+166[:]<div role="contentinfo" tabindex="0" aria-label="Manual Transmission"></div>
+167[:]<div role="contentinfo" tabindex="0" aria-label="You will pick your car up with fuel. Check the amount of fuel before you drive. You will need to return it with the same amount of fuel."></div>
+168[:]<div role="contentinfo" tabindex="0" aria-label=""></div>
+169[:]<button aria-label="8.4,vgood" tabindex="0"></button>
+170[:]<img alt="KLASS WAGEN" aria-label="KLASS WAGEN"></img>
+171[:]<button title="Important information" role="button" tabindex="0"></button>
+172[:]<button tabindex="0"></button>
+173[:]<img alt="Fiat 500 or similar"></img>
+174[:]<span tabindex="0"></span>
+175[:]<span tabindex="0"></span>
+176[:]<div role="contentinfo" tabindex="0" aria-label="4 Passenger(s)"></div>
+177[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases"></div>
+178[:]<div role="contentinfo" tabindex="0" aria-label="Manual Transmission"></div>
+179[:]<div role="contentinfo" tabindex="0" aria-label="This is the best value option. Pick your car up with a full tank of fuel. Then return the car with a full tank."></div>
+180[:]<div role="contentinfo" tabindex="0" aria-label=""></div>
+... 3882.3333282470703 pixels below - scroll or extract content to see more ...

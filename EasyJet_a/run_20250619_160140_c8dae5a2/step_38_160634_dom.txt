@@ -1,0 +1,147 @@
+
+
+Current url: https://www.easyjet.com/en/buy/bags
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/bags', title='Hold luggage & sports equipment | easyJet.com')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<a ></a>
+1[:]<img alt="easyJet"></img>
+_[:]Hold Luggage & Sports Equipment
+2[:]<button ><
+Back</button>
+3[:]<a aria-label="Bags and sports equipment information"></a>
+4[:]<img alt="information"></img>
+_[:]Tell us what you'd like to bring with you
+5[:]<button aria-label="Skip bags page">Skip bags</button>
+6[:]<a >Pick flights</a>
+7[:]<img ></img>
+8[:]<a >Passenger Details</a>
+9[:]<img ></img>
+10[:]<a >Seat selection</a>
+11[:]<img ></img>
+12[:]<a >Cabin bags</a>
+13[:]<img ></img>
+14[:]<img ></img>
+_[:]Hold luggage
+15[:]<img ></img>
+_[:]Car rental
+16[:]<img ></img>
+_[:]Travel Insurance
+17[:]<img ></img>
+_[:]Checkout
+18[:]<img ></img>
+_[:]Save up to 15%!  Add your hold bags now.
+_[:]On each flight you're taking...
+_[:]Best value for your trip
+19[:]<img alt="15kg hold bag"></img>
+_[:]15kg hold bag
+_[:]£
+_[:]43
+_[:].
+_[:]24
+_[:]£43.24
+_[:]per flight*
+20[:]<input type="image" aria-label="Remove a 15kg bag" alt="minus button"></input>
+_[:]0
+21[:]<input type="image" aria-label="Add a 15kg bag" alt="plus button"></input>
+22[:]<img alt="23kg hold bag"></img>
+_[:]23kg hold bag
+_[:]£
+_[:]49
+_[:].
+_[:]49
+_[:]£49.49
+_[:]per flight*
+23[:]<input type="image" aria-label="Remove a 23kg bag" alt="minus button"></input>
+_[:]0
+24[:]<input type="image" aria-label="Add a 23kg bag" alt="plus button"></input>
+25[:]<img alt="26kg hold bag"></img>
+_[:]26kg hold bag
+_[:]£
+_[:]52
+_[:].
+_[:]49
+_[:]£52.49
+_[:]per flight*
+26[:]<input type="image" aria-label="Remove a 26kg bag" alt="minus button"></input>
+_[:]0
+27[:]<input type="image" aria-label="Add a 26kg bag" alt="plus button"></input>
+28[:]<img alt="different weight bags"></img>
+_[:]Add a different weight bag
+29[:]<button aria-label="View all different weight bag options">View all</button>
+30[:]<img alt="bicycle"></img>
+_[:]Add sports equipment
+31[:]<button aria-label="View sports equipment options">View all</button>
+_[:]Learn more about
+32[:]<a >cabin bags, luggage and sports equipment here</a>
+_[:].
+_[:]*Prices shown are per flight and are averaged across all flights in the basket. Prices may vary if you add bags at a later stage.
+_[:]Your current basket
+_[:]Basket
+_[:]£
+_[:]383
+_[:].
+_[:]69
+_[:]£383.69
+33[:]<button >Price breakdown</button>
+_[:]Edinburgh to Lisbon
+_[:]Flight Number
+_[:]EZY3321
+34[:]<img ></img>
+_[:]Departure
+_[:]06:05
+_[:]Thu 17th Jul
+_[:]Arrival
+_[:]09:20
+_[:]Your fares
+35[:]<button aria-label="Edit Edinburgh to Lisbon flight on 17th July 2025"></button>
+36[:]<img alt="Edit Edinburgh to Lisbon flight on 17th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]216
+_[:].
+_[:]99
+_[:]£216.99
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon to Edinburgh
+_[:]Flight Number
+_[:]EZY3322
+37[:]<img ></img>
+_[:]Departure
+_[:]09:50
+_[:]Thu 24th Jul
+_[:]Arrival
+_[:]13:05
+_[:]Your fares
+38[:]<button aria-label="Edit Lisbon to Edinburgh flight on 24th July 2025"></button>
+39[:]<img alt="Edit Lisbon to Edinburgh flight on 24th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]166
+_[:].
+_[:]70
+_[:]£166.70
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+40[:]<button aria-label="Skip bags page">Skip bags</button>
+_[:]Non-refundable. Changeable subject to
+41[:]<a >fees</a>
+_[:].
+_[:]Price includes all applicable
+42[:]<a >taxes and fees</a>
+_[:].
+_[:]Skip bags
+[End of page]

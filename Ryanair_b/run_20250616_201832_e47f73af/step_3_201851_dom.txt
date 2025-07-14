@@ -1,0 +1,100 @@
+
+
+Current url: https://www.ryanair.com/gb/en
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en', title='Official Ryanair website | Book direct for the lowest fares | Ryanair.com')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<button aria-label="Plan">Plan</button>
+2[:]<ry-tooltip role="tooltip">EXPLORE
+TRAVEL EXTRAS</ry-tooltip>
+3[:]<a aria-label="Fare Finder">Fare Finder</a>
+4[:]<a aria-label="Destinations">Destinations</a>
+5[:]<a aria-label="Timetable">Timetable</a>
+6[:]<a aria-label="Try Somewhere New">Try Somewhere New</a>
+7[:]<a aria-label="Group Travel">Group Travel</a>
+8[:]<a aria-label="Customer Testimonials">Customer Testimonials</a>
+9[:]<a aria-label="Flight Essentials">Flight Essentials</a>
+10[:]<a aria-label="Fare Bundles">Fare Bundles</a>
+11[:]<a aria-label="Search Car Hire">Search Car Hire</a>
+12[:]<a aria-label="Search Rooms">Search Rooms</a>
+13[:]<a aria-label="Search Parking">Search Parking</a>
+14[:]<a aria-label="Search Private Transfers">Search Private Transfers</a>
+15[:]<a aria-label="Search Bus and Train">Search Bus and Train</a>
+16[:]<a aria-label="Ryanair Gift Cards">Ryanair Gift Cards</a>
+17[:]<a aria-label="Onboard Services">Onboard Services</a>
+18[:]<a aria-label="FAQs">FAQs</a>
+19[:]<a aria-label="Assistance"></a>
+20[:]<button >My Bookings</button>
+21[:]<button tabindex="0" aria-label="Open market switcher"></button>
+22[:]<button >Log in</button>
+23[:]<button >myRyanair Portal</button>
+_[:]flights
+_[:]Car Hire
+_[:]hotels
+_[:]Gift cards
+_[:]Verified
+_[:]by Ryanair
+_[:]Return trip
+_[:]One way
+_[:]Apply promo code
+_[:]From
+_[:]To
+_[:]Search
+_[:]Filters:
+_[:]Price range
+_[:]Times
+_[:]Flight cancellations to/from Amman (Fri 13 Jun - Fri 11 Jul)
+_[:]Read more
+_[:]Potential disruptions to/from the UK (Sat 14 Jun) due to thunderstorms.
+_[:]Read more
+_[:]Flight cancellations to/from Tel Aviv (Sun 04 May - Tue 30 Sep)
+_[:]Read more
+_[:]Flight cancellations to/from Amman (Fri 13 Jun - Fri 11 Jul)
+_[:]Read more
+_[:]Potential disruptions to/from the UK (Sat 14 Jun) due to thunderstorms.
+_[:]Read more
+_[:]3 of 3
+_[:]Protect Passengers: Keep EU skies open - Sign petition
+_[:]Read more
+_[:]Our bag policy explained
+24[:]<a aria-label="Read more">Read more</a>
+_[:]Protect Passengers: Keep EU skies open - Sign petition
+_[:]Read more
+_[:]Our bag policy explained
+_[:]Read more
+_[:]2 of 2
+25[:]<hp-deals-sheet-item role="button" tabindex="0"></hp-deals-sheet-item>
+26[:]<a tabindex="0" aria-label="RYANAIR PRIME"></a>
+27[:]<img alt="RYANAIR PRIME"></img>
+_[:]ATC
+28[:]<hp-deals-sheet-item role="button" tabindex="0">fly to the canaries</hp-deals-sheet-item>
+29[:]<a tabindex="0" aria-label="fly to the canaries"></a>
+30[:]<img alt="fly to the canaries"></img>
+31[:]<hp-deals-sheet-item role="button" tabindex="0">summer sale</hp-deals-sheet-item>
+32[:]<hp-deals-sheet-item role="button" tabindex="0">Our bags policy</hp-deals-sheet-item>
+33[:]<a tabindex="0" aria-label="Our bags policy"></a>
+34[:]<img alt="Our bags policy"></img>
+35[:]<hp-deals-sheet-item role="button" tabindex="0">CAR HIRE</hp-deals-sheet-item>
+36[:]<a tabindex="0" aria-label="CAR HIRE"></a>
+37[:]<img alt="CAR HIRE"></img>
+38[:]<a ></a>
+39[:]<img alt="INTRODUCING RYANAIR PRIME"></img>
+40[:]<a ></a>
+41[:]<img alt="CHEAP CAR HIRE"></img>
+42[:]<img alt="CHEAP CAR HIRE"></img>
+43[:]<a ></a>
+44[:]<img alt="PRIVATE TRANSFERS"></img>
+45[:]<img alt="PRIVATE TRANSFERS"></img>
+46[:]<a ></a>
+47[:]<img alt="RYANAIR ROOMS"></img>
+48[:]<img alt="RYANAIR ROOMS"></img>
+_[:]Why are you not subscribed?
+_[:]Subscribe now to get our best deals delivered straight to your inbox and by push notifications in your device. For information on how to unsubscribe (including for push) please see our
+49[:]<a >Privacy Policy</a>
+_[:].
+50[:]<input type="email" name="undefined" placeholder="Email address"></input>
+51[:]<button type="submit" role="button" aria-label="Sign me up!">Sign me up!</button>
+... 1684 pixels below - scroll or extract content to see more ...

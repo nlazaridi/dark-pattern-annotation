@@ -1,0 +1,86 @@
+
+
+Current url: https://www.united.com/en/us
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us', title='United Airlines - Airline Tickets, Travel Deals and Flights')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Welcome to United.com
+0[:]<a ></a>
+1[:]<img alt="United logo link to homepage"></img>
+2[:]<button aria-expanded="false" type="button">Book</button>
+3[:]<button aria-expanded="false" type="button">My trips</button>
+4[:]<button aria-expanded="false" type="button">Travel info</button>
+5[:]<button aria-expanded="false" type="button">MileagePlus</button>
+6[:]<button aria-expanded="true" type="button">Deals</button>
+7[:]<a >Help</a>
+8[:]<h2 tabindex="0">Offers</h2>
+9[:]<a >Current offers and promos</a>
+10[:]<a >Discounts for 18 to 23 year olds</a>
+11[:]<a >WeSalute Discount</a>
+_[:]Destination deals
+12[:]<a >Flights to popular destinations</a>
+13[:]<a >Flights to national parks</a>
+14[:]<a >Flights to San Francisco</a>
+15[:]<a >Flights to New York/Newark</a>
+16[:]<a >Flights to Houston</a>
+17[:]<a >Flights to Chicago</a>
+18[:]<a >Flights to Los Angeles</a>
+19[:]<a >Flights to Orlando</a>
+20[:]<button title="Close Panel" type="button">Close Panel
+Close Panel</button>
+_[:]Book
+_[:]Flight status
+_[:]Check-in
+_[:]My trips
+_[:]Flight
+_[:]Packages
+_[:]Hotel
+_[:]Car
+_[:]Cruise
+_[:]Roundtrip
+_[:]One-way
+_[:]Book with miles
+_[:]Flexible dates
+_[:]From
+_[:]To
+_[:]Dates
+_[:]-
+_[:]Choose date, from Aug 15 to Aug 17
+_[:]1 Adult
+_[:]Travelers
+_[:]Advanced search
+_[:](Certificates, multi-city and upgrades)
+_[:]Changed bag rules
+_[:]and
+_[:]fees for optional services
+_[:]Find flights
+_[:]Find your travel credits
+_[:]Explore destinations
+_[:]Not sure where to go? Use our interactive map to find flights to great destinations.
+_[:]Sorry, no results have been found. Please enter a different origin location or expand your search area.
+_[:]Flying from
+_[:]Search type
+_[:]Dates
+_[:]Flexible dates
+_[:]Use the arrow keys to navigate between days and weeks. Use page up, page down to move between months and years. Press enter to select the date, and escape to close the calendar.
+_[:]Max price
+_[:]Click to choose the maximum price using a slider
+_[:]$
+_[:]Search
+_[:]Refine search
+21[:]<label ></label>
+22[:]<input type="checkbox" name="awards" value=""></input>
+23[:]<label ></label>
+24[:]<input type="checkbox" name="nonStopOnly" value=""></input>
+25[:]<button type="button"></button>
+26[:]<label ></label>
+27[:]<input type="checkbox" value=""></input>
+28[:]<button type="button"></button>
+29[:]<button ></button>
+30[:]<button aria-expanded="false" type="button"></button>
+31[:]<div tabindex="0" aria-label="Map" role="region"></div>
+32[:]<button aria-label="Map camera controls" title="Map camera controls" type="button" aria-expanded="false"></button>
+33[:]<img alt=""></img>
+34[:]<button role="button" aria-expanded="false">Site Feedback</button>
+... 1542 pixels below - scroll or extract content to see more ...

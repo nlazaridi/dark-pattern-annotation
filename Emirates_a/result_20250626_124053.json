@@ -1,0 +1,2551 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started",
+          "memory": "",
+          "next_goal": "Go to Emirates airline website."
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.emirates.com/"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.emirates.com/",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to Emirates airline website.",
+          "memory": "",
+          "next_goal": "Find tickets from Dubai to London Heathrow for 1 passenger (adult)."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 28,
+              "text": "Dubai"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Dubai\" for element index 28",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div/div/div/div/div/div/div/div/input",
+            "highlight_index": 28,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "js-field-input field__input js-dropdown-open field__input--active",
+              "type": "component",
+              "name": "Departure airport",
+              "autocomplete": "off",
+              "autocorrect": "off",
+              "autocapitalize": "off",
+              "id": "field-1b3c4d0c-24b5-472c-90b4-9600b60ba4fd",
+              "aria-autocomplete": "inline",
+              "aria-live": "off",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Inputted Dubai as departure airport.",
+          "memory": "",
+          "next_goal": "Select Dubai, United Arab Emirates Dubai International Airport DXB"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 33
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 33: DXB",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div/div/div/div/div/div/div[2]/section/ol/li/div",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "ol",
+              "li",
+              "div"
+            ],
+            "attributes": {
+              "tabindex": "-1",
+              "role": "option",
+              "class": "dropdown__link js-select-body js-location-link",
+              "aria-label": "Dubai, United Arab Emirates Dubai International Airport DXB Operated by Emirates"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Dubai International Airport DXB",
+          "memory": "",
+          "next_goal": "Input London Heathrow as arrival airport."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 32,
+              "text": "London Heathrow"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"London Heathrow\" for element index 32",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div/div/div/div[2]/div/div/div/div/input",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "js-field-input field__input js-dropdown-open field__input--active",
+              "type": "component",
+              "name": "Arrival airport",
+              "autocomplete": "off",
+              "autocorrect": "off",
+              "autocapitalize": "off",
+              "id": "field-b7bda146-a228-4060-aa56-cc554c69fdc8",
+              "aria-autocomplete": "inline",
+              "aria-live": "off",
+              "style": "",
+              "aria-expanded": "true"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Inputted London Heathrow as arrival airport.",
+          "memory": "",
+          "next_goal": "Select London Heathrow Airport LHR"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 37
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 37: LHR",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div/div/div/div[2]/div/div/div[2]/section/ol/li/div",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "ol",
+              "li",
+              "div"
+            ],
+            "attributes": {
+              "tabindex": "-1",
+              "role": "option",
+              "class": "dropdown__link js-select-body js-location-link",
+              "aria-label": "London, United Kingdom London Heathrow Airport LHR Operated by Emirates"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected London Heathrow Airport LHR",
+          "memory": "",
+          "next_goal": "Open date-picker widget for the departure flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 35
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 35: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div/div[3]/eol-datefield/div/div/input",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "eol-datefield",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "search-flight-date-picker--depart",
+              "type": "text",
+              "aria-required": "true",
+              "autocomplete": "off",
+              "class": "textfield__input textfield__input--start",
+              "readonly": "readonly",
+              "data-heading": "Please choose your departure date",
+              "data-icon": "icon icon-outbound-flight",
+              "aria-describedby": "search-flight-date-picker-depart--message",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened date-picker widget for the departure flight.",
+          "memory": "",
+          "next_goal": "Select July 18, 2025 as the departure date."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July 2025",
+              "search_all": true,
+              "date": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July 2025' \n\u2705 Found date 18 in correct month at index 139. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Verified that July 18, 2025 is available.",
+          "memory": "",
+          "next_goal": "Click on July 18, 2025 as the departure date."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 139
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 139: 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div/div[3]/eol-datefield/eol-calendar/div/div/div[3]/table/tbody/tr[3]/td[5]/button",
+            "highlight_index": 139,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "eol-datefield",
+              "eol-calendar",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "button"
+            ],
+            "attributes": {
+              "data-month": "6",
+              "data-year": "2025",
+              "data-date": "18",
+              "data-string": "1862025",
+              "aria-label": "Friday, 18  July 2025",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected July 18, 2025 as the departure date.",
+          "memory": "",
+          "next_goal": "Open date-picker widget for the return flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 37
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 37: Returning",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div/div[3]/eol-datefield/div/div[2]/label",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "eol-datefield",
+              "div",
+              "div",
+              "label"
+            ],
+            "attributes": {
+              "for": "search-flight-date-picker--return",
+              "class": "textfield__label"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened date-picker widget for the return flight.",
+          "memory": "",
+          "next_goal": "Select July 25, 2025 as the return date."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July 2025",
+              "search_all": true,
+              "date": 25
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July 2025' \n\u2705 Found date 25 in correct month at index 93. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Verified that July 25, 2025 is available.",
+          "memory": "",
+          "next_goal": "Click on July 25, 2025 as the return date."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 93
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 93: 25",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div/div[3]/eol-datefield/eol-calendar/div/div/div[2]/table/tbody/tr[4]/td[5]/button",
+            "highlight_index": 93,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "eol-datefield",
+              "eol-calendar",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "button"
+            ],
+            "attributes": {
+              "data-month": "6",
+              "data-year": "2025",
+              "data-date": "25",
+              "data-string": "2562025",
+              "aria-label": "Friday, 25  July 2025",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected July 25, 2025 as the return date.",
+          "memory": "",
+          "next_goal": "Click Search flights."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 58
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 58: Search flights",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/nl/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/main/div[2]/div/div/div/div/div/div/section/div[4]/div[2]/div[3]/form/button",
+            "highlight_index": 58,
+            "entire_parent_branch_path": [
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "form",
+              "button"
+            ],
+            "attributes": {
+              "class": "cta cta--large cta--primary js-widget-submit ",
+              "type": "submit"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/nl/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked Search flights.",
+          "memory": "",
+          "next_goal": "Select the cheapest flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 18: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+            "title": "Flight search results | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/main/div[3]/div/div[4]/div/div/div/div[3]/div/div/div[2]/div/div/button",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "aria-expanded": "false",
+              "aria-label": "Economy Class  AED  1,470  Lowest price",
+              "aria-disabled": "false",
+              "type": "button",
+              "class": "focusout-button cabin-price-cta--economy call-to-action call-to-action__nostyle call-to-action--xsmall"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+        "title": "Flight search results | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the cheapest flight option.",
+          "memory": "",
+          "next_goal": "Select Saver option for the cheapest flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 34
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 34: Select",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+            "title": "Flight search results | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/main/div[3]/div/div[4]/div/div/div/div[3]/div[2]/div/div[2]/div/table/tbody/tr[7]/td/div/button",
+            "highlight_index": 34,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "translate": "no",
+              "id": "DXB_LHR_EK003_619482660_Y_SAVER",
+              "aria-selected": "false",
+              "aria-label": "Saver Select",
+              "type": "button",
+              "class": "focusout-button call-to-action call-to-action__secondary call-to-action--middle"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+        "title": "Flight search results | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected cheapest outbound flight.",
+          "memory": "",
+          "next_goal": "Select cheapest inbound flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 16
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 16: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+            "title": "Flight search results | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/main/div[3]/div/div[3]/div/div/div/div[3]/div/div/div[2]/div/div/button",
+            "highlight_index": 16,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "aria-expanded": "false",
+              "aria-label": "Economy Class  AED  2,465  Lowest price",
+              "aria-disabled": "false",
+              "type": "button",
+              "class": "focusout-button cabin-price-cta--economy call-to-action call-to-action__nostyle call-to-action--xsmall"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+        "title": "Flight search results | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The previous action failed because the Saver fare was sold out.",
+          "memory": "",
+          "next_goal": "Select cheapest inbound flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 31
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 31: Select",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+            "title": "Flight search results | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/main/div[3]/div/div[3]/div/div/div/div[3]/div[2]/div/div[2]/div/table/tbody/tr[7]/td[2]/div/button",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "translate": "no",
+              "id": "LHR_DXB_EK006_2109028456_Y_FLEX",
+              "aria-selected": "false",
+              "aria-label": "Flex Select",
+              "type": "button",
+              "class": "focusout-button call-to-action call-to-action__secondary call-to-action--middle"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+        "title": "Flight search results | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The previous action failed because the Saver fare was sold out.",
+          "memory": "",
+          "next_goal": "Select cheapest inbound flight."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+            "title": "Flight search results | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+        "title": "Flight search results | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The previous action failed because the Saver fare was sold out.",
+          "memory": "",
+          "next_goal": "Select cheapest inbound flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: Continue to Passengers",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+            "title": "Flight search results | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/main/div[3]/div[2]/div/div/div[2]/button",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "aria-disabled": "false",
+              "type": "button",
+              "class": "focusout-button call-to-action call-to-action__primary call-to-action--middle"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2",
+        "title": "Flight search results | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at the passenger details page.",
+          "memory": "",
+          "next_goal": "Get the options for the title dropdown."
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Custom dropdown options:\n4: text=\"Change search\"\n5: text=\"View summary\"\n6: text=\"Flights\"\n7: text=\"Passengers\"\n8: text=\"Options\"\n9: text=\"Payment\"\n10: text=\"Important information\"\n11: text=\"Read more\"\n12: text=\"Log in to your account to pre-fill your passenger details.\nLogin\"\n15: text=\"Title\"\n16: text=\"First name\"\n17: text=\"Last name\"\n18: text=\"Add frequent flyer membership details (optional)\"\n20: text=\"Contact person\"\nUse these indices with click_element to select an option",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/ul/li/div/div/fieldset/div/div/div/div/div[2]",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-owns": "title_list",
+              "aria-expanded": "false",
+              "aria-haspopup": "true",
+              "data-testid": "combobox_Title"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at the passenger details page.",
+          "memory": "",
+          "next_goal": "Get the options for the title dropdown."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: passenger-info-text",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/ul/li/div/div/fieldset/div/div/div/div/div[2]",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-owns": "title_list",
+              "aria-expanded": "true",
+              "aria-haspopup": "true",
+              "data-testid": "combobox_Title"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the title dropdown.",
+          "memory": "",
+          "next_goal": "Select 'Mr' from the title dropdown."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 14,
+              "text": "Mr"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Selected option 'Mr' from custom dropdown",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/ul/li/div/div/fieldset/div/div/div/div/div[2]",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-owns": "title_list",
+              "aria-expanded": "true",
+              "aria-haspopup": "true",
+              "data-testid": "combobox_Title"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Mr from the title dropdown.",
+          "memory": "",
+          "next_goal": "Enter the first name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 17,
+              "text": "John"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"John\" for element index 17",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/ul/li/div/div/fieldset/div[2]/div/div/span/label",
+            "highlight_index": 17,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "span",
+              "label"
+            ],
+            "attributes": {
+              "for": "firstname",
+              "id": "firstname_label",
+              "class": "input-field__placeholder"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered the first name.",
+          "memory": "",
+          "next_goal": "Enter the last name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 19,
+              "text": "Doe"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Doe\" for element index 19",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/ul/li/div/div/fieldset/div[2]/div[2]/div/span/label",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "span",
+              "label"
+            ],
+            "attributes": {
+              "for": "lastname",
+              "id": "lastname_label",
+              "class": "input-field__placeholder"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered the last name.",
+          "memory": "",
+          "next_goal": "Select the contact person as Mr John (Adult)."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 22,
+              "text": "Mr John (Adult)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not find option 'Mr John (Adult)' in the open dropdown",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div/div/div/div/div[2]",
+            "highlight_index": 22,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-owns": "contact-person_list",
+              "aria-expanded": "false",
+              "aria-haspopup": "true",
+              "data-testid": "combobox_Contact person"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not find option 'Mr John (Adult)' in the open dropdown",
+          "memory": "",
+          "next_goal": "Select the contact person as Mr John (Adult)."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div/div/div/div/div[2]",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-owns": "contact-person_list",
+              "aria-expanded": "true",
+              "aria-haspopup": "true",
+              "data-testid": "combobox_Contact person"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not find option 'Mr John (Adult)\" in the open dropdown",
+          "memory": "",
+          "next_goal": "Select the contact person as Mr John (Adult)."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 37
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 37: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[2]/div/div/div[2]/div/div/div[2]/div/button",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "id": "group-list-button",
+              "type": "button",
+              "role": "option",
+              "aria-setsize": "2",
+              "aria-label": "Mr John Doe (Adult) Selected",
+              "aria-selected": "false",
+              "data-prevent-esc": "true",
+              "class": "auto-suggest__item auto-suggest__highlight-selected-item",
+              "data-testid": "options_0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the contact person as Mr John (Adult).",
+          "memory": "",
+          "next_goal": "Select the contact person as Mr John (Adult)."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 22,
+              "text": "Mr John Doe (Adult)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Cannot select option: Element with index 22 is a input, not a select or combobox",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div/div/div/div/div[2]/span/span/input",
+            "highlight_index": 22,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "span",
+              "input"
+            ],
+            "attributes": {
+              "aria-labelledby": "contact-person_label",
+              "class": "input-field__input ellipsis",
+              "aria-describedby": "",
+              "readonly": "",
+              "id": "contact-person",
+              "aria-autocomplete": "none",
+              "aria-controls": "contact-person_list",
+              "translate": "no",
+              "type": "text",
+              "autocomplete": "off",
+              "value": "Mr John Doe (Adult)",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select contact person correctly",
+          "memory": "",
+          "next_goal": "Select the contact person as Mr John (Adult)."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 22,
+              "text": "Mr John Doe (Adult)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Mr John Doe (Adult)\" for element index 22",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div/div/div/div/div[2]/span/span/input",
+            "highlight_index": 22,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "span",
+              "input"
+            ],
+            "attributes": {
+              "aria-labelledby": "contact-person_label",
+              "class": "input-field__input ellipsis",
+              "aria-describedby": "",
+              "readonly": "",
+              "id": "contact-person",
+              "aria-autocomplete": "none",
+              "aria-controls": "contact-person_list",
+              "translate": "no",
+              "type": "text",
+              "autocomplete": "off",
+              "value": "Mr John Doe (Adult)",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select contact person correctly",
+          "memory": "",
+          "next_goal": "Select the contact person as Mr John (Adult)."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 24,
+              "text": "Netherlands"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "error": "Error executing action input_text: Failed to input text into element: <div role=\"combobox\" aria-owns=\"country-code_list\" aria-expanded=\"false\" aria-haspopup=\"true\" data-testid=\"combobox_Country/territory\"> [interactive, top, highlight:24]. Error: ElementHandle.fill: Error: Element is not an <input>, <textarea> or [contenteditable] element\nCall log:\n    - fill(\"\")\n  -   - attempting fill action\n  -     - waiting for element to be visible, enabled and editable\n",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div[2]/div/div/div/div[2]",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-owns": "country-code_list",
+              "aria-expanded": "false",
+              "aria-haspopup": "true",
+              "data-testid": "combobox_Country/territory"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select contact person correctly",
+          "memory": "",
+          "next_goal": "Select the contact person as Mr John (Adult)."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 24
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 24: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div[2]/div/div/div/div[2]",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-owns": "country-code_list",
+              "aria-expanded": "false",
+              "aria-haspopup": "true",
+              "data-testid": "combobox_Country/territory"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the country code dropdown.",
+          "memory": "",
+          "next_goal": "Select Netherlands from the country code dropdown."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 16
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 16: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div[2]/div/div/div/div[2]",
+            "highlight_index": 16,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "role": "combobox",
+              "aria-owns": "country-code_list",
+              "aria-expanded": "true",
+              "aria-haspopup": "true",
+              "data-testid": "combobox_Country/territory"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the country code dropdown.",
+          "memory": "",
+          "next_goal": "Select Netherlands from the country code dropdown."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the country code dropdown.",
+          "memory": "",
+          "next_goal": "Select Netherlands from the country code dropdown."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[2]/div/div/div[2]/div/div/div/div/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "id": "group-list-button",
+              "type": "button",
+              "role": "option",
+              "aria-setsize": "1",
+              "aria-label": "Netherlands (+31) Selected",
+              "aria-selected": "false",
+              "data-prevent-esc": "true",
+              "data-item": "Netherlands (+31)",
+              "class": "auto-suggest__item countries-field__multi-select-item-wrapper countries-field__multi-select-item auto-suggest__highlight-selected-item",
+              "data-testid": "options_0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the country code dropdown.",
+          "memory": "",
+          "next_goal": "Select Netherlands from the country code dropdown."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 24,
+              "text": "Netherlands"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Netherlands\" for element index 24",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div[2]/div/div/div/div[2]/span/span[2]/input",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "span",
+              "input"
+            ],
+            "attributes": {
+              "aria-labelledby": "country-code_label",
+              "class": "input-field__input input-field__input--shifted ellipsis",
+              "aria-describedby": "",
+              "id": "country-code",
+              "aria-autocomplete": "list",
+              "aria-controls": "country-code_list",
+              "translate": "no",
+              "type": "text",
+              "autocomplete": "off",
+              "value": "Netherlands (+31)",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the country code dropdown.",
+          "memory": "",
+          "next_goal": "Select Netherlands from the country code dropdown."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 39
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 39: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[2]/div/div/div[2]/div/div/div/div/button",
+            "highlight_index": 39,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "id": "group-list-button",
+              "type": "button",
+              "role": "option",
+              "aria-setsize": "1",
+              "aria-label": "Netherlands (+31) Selected",
+              "aria-selected": "false",
+              "data-prevent-esc": "true",
+              "data-item": "Netherlands (+31)",
+              "class": "auto-suggest__item countries-field__multi-select-item-wrapper countries-field__multi-select-item auto-suggest__highlight-selected-item",
+              "data-testid": "options_0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Netherlands from the country code dropdown.",
+          "memory": "",
+          "next_goal": "Enter the mobile number."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 26,
+              "text": "612345678"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"612345678\" for element index 26",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div[2]/div[2]/div/span/label",
+            "highlight_index": 26,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "span",
+              "label"
+            ],
+            "attributes": {
+              "for": "mobile",
+              "id": "mobile_label",
+              "aria-label": "Mobile number",
+              "class": "input-field__placeholder"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered the mobile number.",
+          "memory": "",
+          "next_goal": "Enter the email address."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 28,
+              "text": "test@example.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test@example.com\" for element index 28",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[4]/div/div/div/fieldset/div[3]/div/div/span/label",
+            "highlight_index": 28,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "fieldset",
+              "div",
+              "div",
+              "div",
+              "span",
+              "label"
+            ],
+            "attributes": {
+              "for": "email",
+              "id": "email_label",
+              "aria-label": "Email address",
+              "class": "input-field__placeholder"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered the email address.",
+          "memory": "",
+          "next_goal": "Continue to Options."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 30
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 30: Continue to Options",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/passenger-details/",
+            "title": "Passenger details | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div/div[5]/div/button",
+            "highlight_index": 30,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "id": "btnContinue",
+              "aria-disabled": "false",
+              "type": "button",
+              "class": "focusout-button call-to-action call-to-action__primary call-to-action--middle"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/passenger-details/",
+        "title": "Passenger details | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Continued to Options.",
+          "memory": "",
+          "next_goal": "Continue to Payment."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 18: Continue to Payment",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/booking/choose-options/",
+            "title": "Options | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div[2]/main/div[3]/div/div[2]/div/button",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "id": "btnContinue",
+              "type": "button",
+              "class": "focusout-button call-to-action call-to-action__primary call-to-action--middle"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/booking/choose-options/",
+        "title": "Options | Emirates Netherlands"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Continued to Payment.",
+          "memory": "",
+          "next_goal": "Complete the task."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I have proceeded through all booking steps up to the final \"Payment\" page; I did not submit payment."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I have proceeded through all booking steps up to the final \"Payment\" page; I did not submit payment.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://payment.emirates.com/payment/",
+            "title": "Payment | Emirates Netherlands"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://payment.emirates.com/payment/",
+        "title": "Payment | Emirates Netherlands"
+      }
+    }
+  ]
+}

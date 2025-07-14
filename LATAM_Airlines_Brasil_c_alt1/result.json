@@ -1,0 +1,2861 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started",
+          "memory": "",
+          "next_goal": "Go to the latam airlines website"
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.latamairlines.com/es/en"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.latamairlines.com/es/en",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the website",
+          "memory": "",
+          "next_goal": "Accept cookies"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 8
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 8: Accept all cookies",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[2]/div/div/div/div/div/section/div/button",
+            "highlight_index": 8,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "cookies-politics-button--button",
+              "id": "cookies-politics-button",
+              "class": "sc-gEvEer bblQlP sc-dhKdcB sc-dUYLmH bOsUiC dFhgha"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Accepted cookies",
+          "memory": "",
+          "next_goal": "Close the login banner"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 10
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 10: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div/div/div/button",
+            "highlight_index": 10,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "button-close-login-incentive",
+              "id": "button-close-login-incentive",
+              "aria-label": "Close invitation to log in.",
+              "class": "sc-gEvEer kmphdF sc-dhKdcB sc-kpDqfm bOsUiC giafgX sc-dAlyuH bnGnEl"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Closed the login banner",
+          "memory": "",
+          "next_goal": "Go to accommodation section"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 11
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 11: Accommodations",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div/div[2]/nav/button[2]",
+            "highlight_index": 11,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "nav",
+              "button"
+            ],
+            "attributes": {
+              "id": "id-tab-hotel",
+              "value": "hotel",
+              "aria-controls": "tabpanel-hotel",
+              "role": "tab",
+              "aria-selected": "false",
+              "class": "Tabsstyles__Tab-sc-1n37pta-0 jTHOlE"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to Accommodation section",
+          "memory": "",
+          "next_goal": "Search for Lima in destination input"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 16,
+              "text": "Lima"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Lima\" for element index 16",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div/div[2]/div/div/div[2]/div/div/div/div/input",
+            "highlight_index": 16,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "data-testid": "hotel-searchbox-destination-autocompleteinput",
+              "id": "hotel-searchbox-destination-autocompleteinput--text-field",
+              "aria-invalid": "false",
+              "role": "combobox",
+              "autocomplete": "off",
+              "aria-autocomplete": "list",
+              "aria-expanded": "false",
+              "type": "text",
+              "name": "hotel-searchbox-destination-autocompleteinput",
+              "aria-label": "Enter your destination",
+              "class": "sc-hZDyAQ dfMsSI sc-ktJbId iTzBMC sc-kbhJrz oAEJH",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Input Lima, suggestions appeared",
+          "memory": "",
+          "next_goal": "Select Lima from suggestions"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 13
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 13: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div[3]/div/div/div/div/ul/li[3]/span",
+            "highlight_index": 13,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "span"
+            ],
+            "attributes": {
+              "class": "sc-brPLxw kLfpAy sc-iMWBiJ bjjUJW",
+              "data-testid": "lim--autocomplete__listitem--menuitem__content",
+              "id": "lim--autocomplete__listitem--menuitem__content",
+              "position": "default",
+              "tabindex": "-1",
+              "title": "Lima, LIM - Peru",
+              "value": "Lima LIM Peru"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Lima from suggestions",
+          "memory": "",
+          "next_goal": "Select check-in date"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 18: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/div/div/div/input",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "data-testid": "hotel-searchbox-datepicker-startdate-field--button-input",
+              "id": "hotel-searchbox-datepicker-startdate-field--button-input",
+              "aria-invalid": "false",
+              "type": "button",
+              "name": "hotel-searchbox-datepicker-startdate-field",
+              "aria-label": "Choose a date for your check-in. Activating this button will open the calendar. ",
+              "autocomplete": "off",
+              "required": "",
+              "class": "sc-hZDyAQ dfMsSI sc-ktJbId iTzBMC sc-kbhJrz oAEJH",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Calendar opened",
+          "memory": "",
+          "next_goal": "Select July 18 as check-in date"
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July",
+              "search_all": false,
+              "date": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u274c No calendar month header elements found on the page. Decide if you have to move to the next or previous month and call verify_month again",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Calendar did not have month headers",
+          "memory": "",
+          "next_goal": "Verify month again"
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July",
+              "search_all": false,
+              "date": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u274c No calendar month header elements found on the page. Decide if you have to move to the next or previous month and call verify_month again",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Calendar did not have month headers",
+          "memory": "",
+          "next_goal": "Verify month again"
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July",
+              "search_all": false,
+              "date": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u274c No calendar month header elements found on the page. Decide if you have to move to the next or previous month and call verify_month again",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Calendar did not have month headers",
+          "memory": "",
+          "next_goal": "Verify month again"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 55
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 55: July\n2025",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div[3]/div/div/div/div/div/div/div[2]/div[2]/div/div[3]/div/div/button",
+            "highlight_index": 55,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "July-2025",
+              "id": "July-2025",
+              "class": "sc-fqkvVR iAngxx sc-dhKdcB sc-jxOSlx bOsUiC ldlIUk"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Calendar did not have month headers",
+          "memory": "",
+          "next_goal": "Select July"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 28
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 28: JUL",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div[3]/div/div/div/div/div/button[7]",
+            "highlight_index": 28,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "month-July",
+              "id": "month-July",
+              "data-selected": "true",
+              "tabindex": "0",
+              "class": "sc-fqkvVR iAngxx sc-dhKdcB sc-cWSHoV bOsUiC fHApKJ"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Calendar opened",
+          "memory": "",
+          "next_goal": "Select July 18 as check-in date"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 42
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 42: 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "td",
+            "xpath": "html/body/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div[3]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr[3]/td[5]",
+            "highlight_index": 42,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td"
+            ],
+            "attributes": {
+              "class": "CalendarDay CalendarDay_1 CalendarDay__default CalendarDay__default_2",
+              "role": "button",
+              "aria-disabled": "false",
+              "aria-label": "Select Friday, July 18, 2025 as your check-in date. Currently available.",
+              "tabindex": "-1",
+              "style": "width: 44px; height: 43px;"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Calendar opened",
+          "memory": "",
+          "next_goal": "Select July 18 as check-in date"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 42
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 42: 25",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "td",
+            "xpath": "html/body/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div[3]/div/div/div/div/div/div/div[2]/div[2]/div/div[2]/div/table/tbody/tr[4]/td[5]",
+            "highlight_index": 42,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td"
+            ],
+            "attributes": {
+              "class": "CalendarDay CalendarDay_1 CalendarDay__default CalendarDay__default_2",
+              "role": "button",
+              "aria-disabled": "false",
+              "aria-label": "Select Friday, July 25, 2025 as your check-out date. Currently available.",
+              "tabindex": "-1",
+              "style": "width: 44px; height: 43px;"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected July 18 and July 25",
+          "memory": "",
+          "next_goal": "Click search"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: Search",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div/div/div/div[2]/div/div/div[2]/div[3]/button",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-testid": "hotel-searchbox-button--button",
+              "id": "hotel-searchbox-button",
+              "aria-label": "Search for accommodations on Booking.com. On selection, a new window will open.",
+              "class": "sc-gEvEer fExXCa sc-dhKdcB bOsUiC"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked search, new tab opened",
+          "memory": "",
+          "next_goal": "Switch to the booking.com tab"
+        },
+        "action": [
+          {
+            "switch_tab": {
+              "page_id": 1
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd04  Switched to tab 1",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.latamairlines.com/es/en",
+        "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Switched to booking.com tab",
+          "memory": "",
+          "next_goal": "Click See availability for the first option"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 43
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 43: See availability",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div[4]/div/div[4]/div/div/div[5]/div[2]/div[2]/div/div/div[3]/div[3]/div/div[2]/div/div[3]/div[2]/div/div[3]/a",
+            "highlight_index": 43,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "a"
+            ],
+            "attributes": {
+              "data-testid": "availability-cta-btn",
+              "target": "_blank",
+              "href": "https://sp.booking.com/hotel/pe/los-tallanes-suites.html?label=es_home_searchbox_hotels&aid=1264873&ucfs=1&arphpl=1&checkin=2025-07-18&checkout=2025-07-25&group_adults=2&req_adults=2&no_rooms=1&group_children=0&req_children=0&hpos=1&hapos=1&sr_order=popularity&srpvid=54b44b3dcbeb0e3f&srepoch=1751193729&all_sr_blocks=25218206_91062436_2_1_0_588127&highlighted_blocks=25218206_91062436_2_1_0_588127&matching_block_id=25218206_91062436_2_1_0_588127&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&from=searchresults#hotelTmpl",
+              "class": "de576f5064 b46cd7aad7 ced67027e5 c295306d66 c7a901b0e7 ca8e0b9533 e4104ef7bb"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+        "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked See availability",
+          "memory": "",
+          "next_goal": "Scroll down to see all options"
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+        "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down",
+          "memory": "",
+          "next_goal": "Select 1 room for the first option"
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 42,
+              "text": "1"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[14]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 42,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25218206_91062436_2_1_0_588127",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25218206",
+              "data-block-id": "25218206_91062436_2_1_0_588127",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25218206_91062436_2_1_0_588127",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25218206",
+              "data-et-change": "customGoal:MCIAFKKZaTaTaBcJPGEbfFeTfKUbBcfTRe:2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select rooms",
+          "memory": "",
+          "next_goal": "Get options from the dropdown"
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 42
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "0: text=\"0\"\n1: text=\"1 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a0563)\"\n2: text=\"2 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a01,126)\"\n3: text=\"3 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a01,690)\"\n4: text=\"4 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a02,253)\"\nUse the exact text string in select_dropdown_option",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[14]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 42,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25218206_91062436_2_1_0_588127",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25218206",
+              "data-block-id": "25218206_91062436_2_1_0_588127",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25218206_91062436_2_1_0_588127",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25218206",
+              "data-et-change": "customGoal:MCIAFKKZaTaTaBcJPGEbfFeTfKUbBcfTRe:2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Got options from the dropdown",
+          "memory": "",
+          "next_goal": "Select 1 room"
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 42,
+              "text": "1 \t\t\t\t (\u20ac\t563)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t563)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[14]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 42,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25218206_91062436_2_1_0_588127",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25218206",
+              "data-block-id": "25218206_91062436_2_1_0_588127",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25218206_91062436_2_1_0_588127",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25218206",
+              "data-et-change": "customGoal:MCIAFKKZaTaTaBcJPGEbfFeTfKUbBcfTRe:2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select rooms",
+          "memory": "",
+          "next_goal": "Get options from the dropdown"
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 42,
+              "text": "1 \t\t\t\t(\u20ac\t563)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t(\u20ac\t563)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[14]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 42,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25218206_91062436_2_1_0_588127",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25218206",
+              "data-block-id": "25218206_91062436_2_1_0_588127",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25218206_91062436_2_1_0_588127",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25218206",
+              "data-et-change": "customGoal:MCIAFKKZaTaTaBcJPGEbfFeTfKUbBcfTRe:2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select rooms",
+          "memory": "",
+          "next_goal": "Click I'll reserve anyway"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 57
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 57: I'll\u00a0reserve",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[14]/div[2]/div[2]/div[5]/button",
+            "highlight_index": 57,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "txp-bui-main-pp bui-button bui-button--primary \nhp_rt_input\npx--fw-cta\njs-reservation-button\n",
+              "type": "submit",
+              "data-title": "Select your accommodations first",
+              "data-bui-component": "Popover",
+              "data-popover-position": "bottom start",
+              "data-popover-no-arrow": "true",
+              "data-popover-z-index": "modal",
+              "data-popover-content-id": "submit_cta_holder_button_tooltip",
+              "tabindex": "0",
+              "data-popover-arrow-navigation": "",
+              "data-popover-stretch": "",
+              "data-et-click": "customGoal:eWHMcCcCcCSYeJdBbFUdWHDXKe:3",
+              "data-et-view": "aaMRYGPZHNNALFUZSIZFNTedcCcEO:1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked I'll reserve anyway",
+          "memory": "",
+          "next_goal": "Click Reserve"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 33
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 33: Reserve",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[2]/div/div[2]/div/div[2]/div/div/button",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": " txp-sidebar-cta bui-button bui-button--primary \ncall_to_action--wide\npx--fw-cta\njs-ph__cta\n ",
+              "data-et-click": "customGoal:eWHMcCcCcCSYeJADDbdEcLcDMFae:2 customGoal:eWHMcCcCcCSYeJdBbFUdWHDXKe:2",
+              "aria-description": "Book your hotel now!",
+              "type": "submit"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked Reserve",
+          "memory": "",
+          "next_goal": "Select 1 room from the dropdown"
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t563)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t563)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25218206_91062436_2_1_0_588127",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25218206",
+              "data-block-id": "25218206_91062436_2_1_0_588127",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25218206_91062436_2_1_0_588127",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25218206",
+              "data-et-change": "customGoal:MCIAFKKZaTaTaBcJPGEbfFeTfKUbBcfTRe:2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select rooms",
+          "memory": "",
+          "next_goal": "Get options from the dropdown"
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 36
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "0: text=\"0\"\n1: text=\"1 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a0563)\"\n2: text=\"2 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a01,126)\"\n3: text=\"3 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a01,690)\"\n4: text=\"4 \\u00a0 \\u00a0\\u00a0\\u00a0 (\\u20ac\\u00a02,253)\"\nUse the exact text string in select_dropdown_option",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25218206_91062436_2_1_0_588127",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25218206",
+              "data-block-id": "25218206_91062436_2_1_0_588127",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25218206_91062436_2_1_0_588127",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25218206",
+              "data-et-change": "customGoal:MCIAFKKZaTaTaBcJPGEbfFeTfKUbBcfTRe:2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Got options from the dropdown",
+          "memory": "",
+          "next_goal": "Select 1 room"
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 36,
+              "text": "1 \t\t\t\t (\u20ac\t563)"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Could not select option '1 \t\t\t\t (\u20ac\t563)' in any frame",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr/td[4]/div/select",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "hprt-nos-select js-hprt-nos-select",
+              "name": "nr_rooms_25218206_91062436_2_1_0_588127",
+              "data-component": "hotel/new-rooms-table/select-rooms",
+              "data-room-id": "25218206",
+              "data-block-id": "25218206_91062436_2_1_0_588127",
+              "data-is-fflex-selected": "0",
+              "data-testid": "select-room-trigger",
+              "id": "hprt_nos_select_25218206_91062436_2_1_0_588127",
+              "data-is-cfar-block": "0",
+              "aria-describedby": "room_type_id_25218206",
+              "data-et-change": "customGoal:MCIAFKKZaTaTaBcJPGEbfFeTfKUbBcfTRe:2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not select rooms",
+          "memory": "",
+          "next_goal": "Click I'll reserve anyway"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 58
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 58: I'll\u00a0reserve",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div[2]/div[2]/div[5]/button",
+            "highlight_index": 58,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "txp-bui-main-pp bui-button bui-button--primary  hp_rt_input px--fw-cta js-reservation-button",
+              "type": "submit",
+              "data-title": "Select your accommodations first",
+              "data-bui-component": "Popover",
+              "data-popover-position": "bottom start",
+              "data-popover-no-arrow": "true",
+              "data-popover-z-index": "modal",
+              "data-popover-content-id": "submit_cta_holder_button_tooltip",
+              "tabindex": "0",
+              "data-popover-arrow-navigation": "",
+              "data-popover-stretch": "",
+              "data-et-click": "customGoal:eWHMcCcCcCSYeJdBbFUdWHDXKe:3",
+              "data-et-view": "aaMRYGPZHNNALFUZSIZFNTedcCcEO:1",
+              "aria-describedby": "materialized_tooltip_0dxbg",
+              "id": "b_tt_holder_2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked I'll reserve anyway",
+          "memory": "",
+          "next_goal": "Click I'll reserve anyway"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 58
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 58: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div/table/tbody/tr[3]/td[2]/div/div[2]/div/div/span",
+            "highlight_index": 58,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span"
+            ],
+            "attributes": {
+              "data-bui-component": "Popover",
+              "data-popover-content-id": "c-deals-container__deal-block-id-8784",
+              "data-popover-position": "bottom",
+              "data-popover-z-index": "1001",
+              "tabindex": "0",
+              "aria-label": "40% off. You\u2019re getting a reduced rate because this property is offering a discount.."
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked I'll reserve anyway",
+          "memory": "",
+          "next_goal": "Click I'll reserve anyway"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 54
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 54: I'll\u00a0reserve",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+            "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[4]/main/div/div[4]/div/div[5]/div[4]/div/form/div[13]/div[2]/div[4]/div[5]/button",
+            "highlight_index": 54,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "txp-bui-main-pp bui-button bui-button--primary  hp_rt_input px--fw-cta js-reservation-button",
+              "type": "submit",
+              "data-bui-component": "Popover",
+              "data-popover-position": "bottom start",
+              "data-popover-no-arrow": "true",
+              "data-popover-z-index": "modal",
+              "data-popover-content-id": "submit_cta_holder_button_tooltip",
+              "tabindex": "0",
+              "data-popover-arrow-navigation": "",
+              "data-popover-stretch": "",
+              "data-et-click": "customGoal:eWHMcCcCcCSYeJdBbFUdWHDXKe:3",
+              "data-et-view": "aaMRYGPZHNNALFUZSIZFNTedcCcEO:1",
+              "aria-describedby": "_3qbrysfz6"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://sp.booking.com/hotel/pe/los-tallanes-suites.en-us.html?aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25218206_91062436_2_1_0_588127&checkin=2025-07-18&checkout=2025-07-25&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=25218206_91062436_2_1_0_588127&hpos=1&matching_block_id=25218206_91062436_2_1_0_588127&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25218206_91062436_2_1_0_588127_66000&srepoch=1751193748&srpvid=54b44b3dcbeb0e3f&type=total&ucfs=1&#hotelTmpl",
+        "title": "Los Tallanes Hotel & Suites, Lima (updated prices 2025)"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked I'll reserve anyway",
+          "memory": "",
+          "next_goal": "Switch to the booking details tab"
+        },
+        "action": [
+          {
+            "switch_tab": {
+              "page_id": 2
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd04  Switched to tab 2",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Switched to booking details tab",
+          "memory": "",
+          "next_goal": "Enter first name"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 27,
+              "text": "John"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"John\" for element index 27",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div/div/div/div[3]/div/div/div/input",
+            "highlight_index": 27,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "type": "text",
+              "name": "firstname",
+              "class": "b915b8dc0b",
+              "placeholder": "",
+              "maxlength": "60",
+              "required": "",
+              "autocomplete": "given-name",
+              "form": "mfeBookForm",
+              "data-testid": "user-details-firstname",
+              "id": ":rq:",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered first name",
+          "memory": "",
+          "next_goal": "Enter last name"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 29,
+              "text": "Doe"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Doe\" for element index 29",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div/div/div/div[4]/div/div/div/input",
+            "highlight_index": 29,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "type": "text",
+              "name": "lastname",
+              "class": "b915b8dc0b",
+              "placeholder": "",
+              "maxlength": "60",
+              "required": "",
+              "autocomplete": "family-name",
+              "form": "mfeBookForm",
+              "data-testid": "user-details-lastname",
+              "id": ":rr:",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered last name",
+          "memory": "",
+          "next_goal": "Enter email address"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 31,
+              "text": "test@example.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test@example.com\" for element index 31",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div/div/div/div[5]/div/div/div/input",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "type": "email",
+              "name": "email",
+              "class": "b915b8dc0b",
+              "placeholder": "",
+              "maxlength": "250",
+              "required": "",
+              "form": "mfeBookForm",
+              "data-testid": "user-details-email",
+              "autocomplete": "email",
+              "id": ":rs:",
+              "aria-describedby": ":rs:-note",
+              "value": "",
+              "aria-expanded": "false",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered email address",
+          "memory": "",
+          "next_goal": "Select country code"
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 33,
+              "text": "United States"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "selected option United States with value ['us']",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div/div/div/div[7]/div/div/select",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "class": "ed4d3c8194",
+              "name": "cc1",
+              "required": "",
+              "autocomplete": "country",
+              "form": "mfeBookForm",
+              "data-testid": "user-details-cc1",
+              "id": ":r12:"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected country code",
+          "memory": "",
+          "next_goal": "Enter phone number"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 36,
+              "text": "1234567890"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"1234567890\" for element index 36",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div/div/div/div[9]/div/div/div/div[2]/div/div/div/div/input",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "type": "text",
+              "name": "phoneNumber",
+              "class": "b915b8dc0b",
+              "placeholder": "",
+              "maxlength": "30",
+              "required": "",
+              "autocomplete": "tel-national",
+              "form": "mfeBookForm",
+              "data-testid": "phone-number-input",
+              "id": ":r13:",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered phone number",
+          "memory": "",
+          "next_goal": "Click next"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 58
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 58: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div[4]",
+            "highlight_index": 58,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div"
+            ],
+            "attributes": {
+              "data-capla-component-boundary": "b-checkout-bp-accommodation/AddonContainer/v1/default",
+              "data-capla-hydration": "0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered guest details",
+          "memory": "",
+          "next_goal": "Click book"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 58
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 58: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div[9]/div/div[2]/button",
+            "highlight_index": 58,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "\nbui-button\nbui-button--primary\nbui-button--large\njs-bp-submit-button--next-step e2e-bp-submit-button--next-step\nbp-button\n",
+              "type": "submit",
+              "name": "book",
+              "data-bui-component": "Popover",
+              "data-popover-content-id": "bp-submit-popover",
+              "data-popover-position": "top end"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?hotel_id=252182&occupancy_setup_issue_flags=&aid=1264873&label=es_home_searchbox_hotels&sid=62fb751ed41b8b6b915709a04bbaedb1&room1=A%2CA&aid=1264873&error_url=%2Fhotel%2Fpe%2Flos-tallanes-suites.en-us.html%3Faid%3D1264873%26label%3Des_home_searchbox_hotels%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26srpvid%3D54b44b3dcbeb0e3f%26%26&hostname=sp.booking.com&stage=1&checkin=2025-07-18&interval=7&children_extrabeds=&srpvid=54b44b3dcbeb0e3f&hp_visits_num=1&rt_pos_selected=1&rt_pos_selected_within_room=1&rt_selected_block_position=1&rt_num_blocks=10&rt_num_rooms=5&rt_num_blocks_per_room=%7B%2225218203%22%3A2%2C%2225218204%22%3A2%2C%2225218206%22%3A2%2C%2225218207%22%3A2%2C%2225218201%22%3A2%7D&rt_selected_blocks_info=%7B%2225218206_91062436_2_1_0_588127%22%3A%7B%22rt_selected_block_position_in_rt%22%3A1%2C%22rt_selected_block_position_in_room_group%22%3A0%2C%22count%22%3A1%2C%22rt_room_symmetry_category%22%3A%22asymmetric%22%7D%7D&rt_relevance_metric_id=ad3b6656-160c-4a1e-bd9f-8b1a86c95ed9&rt_pageview_id=42a34b4ca7de0609&rt_pos_final=1.1&rt_selected_total_price=660&rt_cheapest_search_price=660&rt_with_no_dimensions=&from_source=hotel&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&nr_rooms_25218206_91062436_2_1_0_588127=1",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered guest details",
+          "memory": "",
+          "next_goal": "Click book"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 58
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 58: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?aid=1264873&label=es_home_searchbox_hotels&selected_currency=EUR&lang=en-us&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div[3]",
+            "highlight_index": 58,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div"
+            ],
+            "attributes": {
+              "data-capla-component-boundary": "b-checkout-bp-accommodation/AddonContainer/v1/default",
+              "data-capla-hydration": "0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?aid=1264873&label=es_home_searchbox_hotels&selected_currency=EUR&lang=en-us&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered guest details",
+          "memory": "",
+          "next_goal": "Click book"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 56
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 56: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?aid=1264873&label=es_home_searchbox_hotels&selected_currency=EUR&lang=en-us&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div[3]/div[3]/main/form/div[8]/div/div[2]/button",
+            "highlight_index": 56,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "main",
+              "form",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "\nbui-button\nbui-button--primary\nbui-button--large\njs-bp-submit-button--next-step e2e-bp-submit-button--next-step\nbp-button\n",
+              "type": "submit",
+              "name": "book",
+              "data-bui-component": "Popover",
+              "data-popover-content-id": "bp-submit-popover",
+              "data-popover-position": "top end"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://secure.booking.com/book.html?aid=1264873&label=es_home_searchbox_hotels&selected_currency=EUR&lang=en-us&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&",
+        "title": "Booking.com: Your Details"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Reached the final page",
+          "memory": "",
+          "next_goal": "Complete the task"
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I have navigated to the final page, but could not proceed with booking due to errors."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I have navigated to the final page, but could not proceed with booking due to errors.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.latamairlines.com/es/en",
+            "title": "Book Flights, Hotels and Car rentals | LATAM Airlines Spain"
+          },
+          {
+            "page_id": 1,
+            "url": "https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_searchbox_hotels&checkin=2025-07-18&checkout=2025-07-25&iata_orr=1&group_adults=2&group_children=0&no_rooms=1&ss=Lima%2CPeru",
+            "title": "Booking.com: Hotels in Lima. Book your hotel now!"
+          },
+          {
+            "page_id": 2,
+            "url": "https://secure.booking.com/book.html?aid=1264873&label=es_home_searchbox_hotels&selected_currency=EUR&lang=en-us&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&",
+            "title": "Booking.com: Your Details"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://secure.booking.com/book.html?aid=1264873&label=es_home_searchbox_hotels&selected_currency=EUR&lang=en-us&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&basket_id=0c3c26a1-8716-4ca6-a702-0eaf8b0e1bf3&",
+        "title": "Booking.com: Your Details"
+      }
+    }
+  ]
+}

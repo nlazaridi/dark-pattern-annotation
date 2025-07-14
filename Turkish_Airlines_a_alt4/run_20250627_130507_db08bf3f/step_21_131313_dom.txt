@@ -1,0 +1,70 @@
+
+
+Current url: https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266
+Available tabs:
+[TabInfo(page_id=0, url='https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266', title='Turkish Airlines Booking Availability')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<body >Select flight
+Passenger details
+Additional services
+Payment
+From
+Cukurova International Airport
+(
+COV
+)
+To
+Munich Franz Josef Strauss Airport
+(
+MUC
+)
+Departure
+Friday
+18
+Jul
+Return
+Friday
+25
+Jul
+...
+Passengers
+1
+Passenger
+ECO
+Modify search
+OUTBOUND FLIGHT
+Change flight
+Çukurova to Munich on Friday, 18 July
+Select currency
+List
+Monthly price chart
+Table
+14:35
+COV
+Çukurova
+IST
+21:25
+MUC
+Munich
+Total travel duration
+7h 50m
+ECONOMY EcoFly Y-P
+Itinerary details
+Details
+Departure
+COV
+-
+MUC
+•
+18 Jul Fri
+Departure: 14:35
+|
+Arrival: 21:25
+Select the return flight
+Continue
+The fares shown in this page are valid for single Adult. The total fare can be seen on the payment page after completing your flight selection. The fare rules displayed on this page are valid for pre-flight.
+0
+1</body>
+1[:]<img alt="Loading Overlay"></img>
+[End of page]

@@ -1,0 +1,108 @@
+
+
+Current url: https://www.easyjet.com/en/buy/passenger-details
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/passenger-details', title='Passenger Details | easyJet.com')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<a ></a>
+1[:]<img alt="easyJet"></img>
+_[:]Passenger details
+2[:]<button ><
+Back</button>
+_[:]Now tell us who's flying
+3[:]<button aria-label="Continue">Continue</button>
+4[:]<a >Pick flights</a>
+5[:]<img ></img>
+6[:]<img ></img>
+_[:]Passenger Details
+7[:]<img ></img>
+_[:]Seat selection
+8[:]<img ></img>
+_[:]Cabin bags
+9[:]<img ></img>
+_[:]Hold luggage
+10[:]<img ></img>
+_[:]Car rental
+11[:]<img ></img>
+_[:]Travel Insurance
+12[:]<img ></img>
+_[:]Checkout
+_[:]Passenger names (as on passport or photo ID)
+_[:]Adult 1
+13[:]<label aria-label="Adult 1 Title">Title</label>
+14[:]<select name="title-dropdown-adult-1" type="text"></select>
+15[:]<label aria-label="Adult 1 First name">First name</label>
+16[:]<input name="firstname-textbox-adult-1" type="text"></input>
+17[:]<label aria-label="Adult 1 Last name">Last name</label>
+18[:]<input name="lastname-textbox-adult-1" type="text"></input>
+19[:]<label aria-label="Adult 1 Age at time of travel">Age at time of travel</label>
+20[:]<select name="age-dropdown-adult-1" type="text"></select>
+_[:]Your current basket
+_[:]Basket
+_[:]£
+_[:]383
+_[:].
+_[:]69
+_[:]£383.69
+21[:]<button >Price breakdown</button>
+_[:]Edinburgh to Lisbon
+_[:]Flight Number
+_[:]EZY3321
+22[:]<img ></img>
+_[:]Departure
+_[:]06:05
+_[:]Thu 17th Jul
+_[:]Arrival
+_[:]09:20
+_[:]Your fares
+23[:]<button aria-label="Edit Edinburgh to Lisbon flight on 17th July 2025"></button>
+24[:]<img alt="Edit Edinburgh to Lisbon flight on 17th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]216
+_[:].
+_[:]99
+_[:]£216.99
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon to Edinburgh
+_[:]Flight Number
+_[:]EZY3322
+25[:]<img ></img>
+_[:]Departure
+_[:]09:50
+_[:]Thu 24th Jul
+_[:]Arrival
+_[:]13:05
+_[:]Your fares
+26[:]<button aria-label="Edit Lisbon to Edinburgh flight on 24th July 2025"></button>
+27[:]<img alt="Edit Lisbon to Edinburgh flight on 24th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]166
+_[:].
+_[:]70
+_[:]£166.70
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+28[:]<button aria-label="Continue">Continue</button>
+_[:]Non-refundable. Changeable subject to
+29[:]<a >fees</a>
+_[:].
+_[:]Price includes all applicable
+30[:]<a >taxes and fees</a>
+_[:].
+_[:]Continue
+[End of page]

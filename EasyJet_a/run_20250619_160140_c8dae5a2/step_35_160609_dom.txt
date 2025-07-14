@@ -1,0 +1,242 @@
+
+
+Current url: https://www.easyjet.com/en/buy/seats
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/seats', title='Seat selection | easyJet.com')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+_[:]Seat selection
+_[:]optional
+_[:]<
+_[:]Back
+_[:]Where would you like to sit?
+_[:]EDI to LIS, Thu 17th Jul
+_[:]Skip seats
+_[:]Pick flights
+_[:]Passenger Details
+_[:]Seat selection
+_[:]Cabin bags
+_[:]Hold luggage
+_[:]Car rental
+_[:]Travel Insurance
+_[:]Checkout
+_[:]Outbound
+_[:]EDI - LIS
+_[:]Inbound
+_[:]LIS - EDI
+_[:]For each passenger, please select from the available seats.
+_[:]John Doe
+_[:]Next flight
+_[:]If you don't select a seat, we'll automatically allocate your seats when you check in
+_[:]Special Assistance requests & other restrictions
+_[:]easyJet Plus cardholders
+_[:]Travelling with children
+_[:]Extra Legroom
+_[:]Extra Legroom seats - include 1 cabin bag, dedicated Bag Drop and Speedy Boarding
+_[:]£
+_[:]38
+_[:].
+_[:]49
+_[:]£38.49
+_[:]Stretch out and enjoy more space on board
+_[:]Be one of the first to leave the plane
+_[:]1 small cabin bag
+_[:]1
+_[:]Up Front
+_[:]Up Front seats - include 1 cabin bag, dedicated Bag Drop and Speedy Boarding
+_[:]£
+_[:]28
+_[:].
+_[:]49
+_[:]£28.49
+_[:]Be one of the first to leave the plane
+_[:]1 small cabin bag
+_[:]2
+_[:]3
+_[:]4
+_[:]5
+_[:]6
+_[:]Standard
+_[:]Standard seats
+_[:]£
+_[:]11
+_[:].
+_[:]99
+_[:]£11.99
+_[:]Choose where you want to sit, window, middle or aisle
+_[:]1 small cabin bag
+_[:]7
+_[:]8
+_[:]9
+_[:]10
+_[:]11
+_[:]Extra Legroom
+_[:]Extra Legroom seats - include 1 cabin bag, dedicated Bag Drop and Speedy Boarding
+_[:]£
+_[:]30
+_[:].
+_[:]49
+_[:]£30.49
+_[:]Stretch out and enjoy more space on board
+_[:]1 small cabin bag
+_[:]12
+_[:]13
+_[:]Standard
+_[:]Standard seats
+_[:]£
+_[:]7
+_[:].
+_[:]49
+_[:]£7.49
+_[:]Choose where you want to sit, window, middle or aisle
+_[:]1 small cabin bag
+_[:]14
+_[:]15
+_[:]16
+0[:]<button ></button>
+1[:]<button ></button>
+2[:]<button ></button>
+3[:]<button ></button>
+4[:]<button ></button>
+5[:]<button ></button>
+6[:]<button ></button>
+7[:]<button ></button>
+8[:]<button ></button>
+9[:]<button ></button>
+10[:]<button ></button>
+11[:]<button ></button>
+12[:]<button ></button>
+13[:]<button ></button>
+14[:]<button ></button>
+15[:]<button ></button>
+16[:]<button ></button>
+17[:]<button ></button>
+18[:]<button ></button>
+19[:]<button ></button>
+20[:]<button ></button>
+21[:]<button ></button>
+22[:]<button ></button>
+23[:]<button ></button>
+24[:]<button ></button>
+25[:]<button ></button>
+26[:]<button ></button>
+27[:]<button ></button>
+28[:]<button ></button>
+29[:]<button ></button>
+30[:]<button ></button>
+31[:]<button ></button>
+32[:]<button ></button>
+33[:]<button ></button>
+34[:]<button ></button>
+35[:]<button ></button>
+36[:]<button ></button>
+37[:]<button ></button>
+38[:]<button ></button>
+39[:]<button ></button>
+40[:]<button ></button>
+41[:]<button ></button>
+42[:]<button ></button>
+43[:]<button ></button>
+44[:]<button ></button>
+45[:]<button ></button>
+46[:]<button ></button>
+47[:]<button ></button>
+48[:]<button ></button>
+49[:]<button ></button>
+50[:]<button ></button>
+51[:]<button ></button>
+52[:]<button ></button>
+53[:]<button ></button>
+54[:]<button ></button>
+55[:]<button ></button>
+56[:]<button ></button>
+57[:]<button ></button>
+58[:]<button ></button>
+59[:]<button ></button>
+60[:]<button ></button>
+61[:]<button ></button>
+62[:]<button ></button>
+63[:]<button ></button>
+64[:]<button ></button>
+65[:]<button ></button>
+66[:]<button ></button>
+67[:]<button ></button>
+68[:]<button ></button>
+69[:]<button ></button>
+70[:]<button ></button>
+71[:]<button ></button>
+_[:]Your current basket
+_[:]Basket
+_[:]£
+_[:]383
+_[:].
+_[:]69
+_[:]£383.69
+_[:]Price breakdown
+_[:]Edinburgh to Lisbon
+_[:]Flight Number
+_[:]EZY3321
+_[:]Departure
+_[:]06:05
+_[:]Thu 17th Jul
+_[:]Arrival
+_[:]09:20
+_[:]Your fares
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]216
+_[:].
+_[:]99
+_[:]£216.99
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon to Edinburgh
+_[:]Flight Number
+_[:]EZY3322
+_[:]Departure
+_[:]09:50
+_[:]Thu 24th Jul
+_[:]Arrival
+_[:]13:05
+_[:]Your fares
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]166
+_[:].
+_[:]70
+_[:]£166.70
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Skip seats
+_[:]Non-refundable. Changeable subject to
+_[:]fees
+_[:].
+_[:]Price includes all applicable
+_[:]taxes and fees
+_[:].
+_[:]EDI to LIS, Thu 17th Jul
+_[:]Skip seats
+_[:]No seats selected, are you sure?
+72[:]<button title="Close modal - this will bring you back to where you were on the page."></button>
+73[:]<img alt="Orange close icon"></img>
+_[:]If you would like to choose where you sit, you can select your seat now:
+_[:]Select a
+_[:]Standard seat
+_[:]and choose to sit either next to the window, in the middle or next to the aisle
+_[:]Or select an
+_[:]Up Front or Extra Legroom seat
+_[:], and enjoy some extra space or being amongst the first to leave the plane:
+74[:]<button >Select seats</button>
+75[:]<button >Skip seat selection</button>
+... 773 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,4464 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started successfully.",
+          "memory": "",
+          "next_goal": "Go to ryanair.com"
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.ryanair.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.ryanair.com",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to ryanair.com.",
+          "memory": "",
+          "next_goal": "Find tickets from Barcelona to Milan for 1 passenger."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 17,
+              "text": "Barcelona"
+            }
+          },
+          {
+            "input_text": {
+              "index": 19,
+              "text": "Milan"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Barcelona\" for element index 17",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div/div/fsw-input-button/div/div[2]/input",
+            "highlight_index": 17,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-search-widget-container",
+              "hp-search-widget",
+              "div",
+              "hp-flight-search-widget-container",
+              "fsw-flight-search-widget-container",
+              "fsw-flight-search-widget",
+              "div",
+              "fsw-flight-search-widget-controls-container",
+              "fsw-flight-search-widget-content-container",
+              "fsw-flight-search-widget-content",
+              "div",
+              "div",
+              "fsw-input-button",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1885903594": "",
+              "autocomplete": "off",
+              "type": "text",
+              "data-hj-whitelist": "",
+              "class": "input-button__input ng-star-inserted",
+              "id": "input-button__departure",
+              "placeholder": "Departure",
+              "data-ref": "input-button__display-value",
+              "maxlength": "100",
+              "style": ""
+            },
+            "shadow_root": false
+          },
+          {
+            "tag_name": "input",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div/div/div/fsw-input-button/div/div[2]/input",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-search-widget-container",
+              "hp-search-widget",
+              "div",
+              "hp-flight-search-widget-container",
+              "fsw-flight-search-widget-container",
+              "fsw-flight-search-widget",
+              "div",
+              "fsw-flight-search-widget-controls-container",
+              "fsw-flight-search-widget-content-container",
+              "fsw-flight-search-widget-content",
+              "div",
+              "div",
+              "div",
+              "fsw-input-button",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1885903594": "",
+              "autocomplete": "off",
+              "type": "text",
+              "data-hj-whitelist": "",
+              "class": "input-button__input ng-star-inserted",
+              "id": "input-button__destination",
+              "placeholder": "Destination",
+              "data-ref": "input-button__display-value",
+              "maxlength": "100",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Input Barcelona.",
+          "memory": "",
+          "next_goal": "Select the exact match for Barcelona."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 86
+            }
+          },
+          {
+            "input_text": {
+              "index": 19,
+              "text": "Milan"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 86: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "fsw-airport-item",
+            "xpath": "html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-origin-container/fsw-airports/div/fsw-airports-list/div[2]/div/fsw-airport-item",
+            "highlight_index": 86,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "hp-app-controls-tooltips",
+              "fsw-controls-tooltips-container",
+              "fsw-controls-tooltips",
+              "fsw-origin-container",
+              "fsw-airports",
+              "div",
+              "fsw-airports-list",
+              "div",
+              "div",
+              "fsw-airport-item"
+            ],
+            "attributes": {
+              "role": "button",
+              "tabindex": "0",
+              "_nghost-ng-c3181807303": "",
+              "class": "ng-star-inserted"
+            },
+            "shadow_root": false
+          },
+          {
+            "tag_name": "input",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div/div/div/fsw-input-button/div/div[2]/input",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-search-widget-container",
+              "hp-search-widget",
+              "div",
+              "hp-flight-search-widget-container",
+              "fsw-flight-search-widget-container",
+              "fsw-flight-search-widget",
+              "div",
+              "fsw-flight-search-widget-controls-container",
+              "fsw-flight-search-widget-content-container",
+              "fsw-flight-search-widget-content",
+              "div",
+              "div",
+              "div",
+              "fsw-input-button",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1885903594": "",
+              "autocomplete": "off",
+              "type": "text",
+              "data-hj-whitelist": "",
+              "class": "input-button__input ng-star-inserted",
+              "id": "input-button__destination",
+              "placeholder": "Destination",
+              "data-ref": "input-button__display-value",
+              "maxlength": "100",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Input Milan.",
+          "memory": "",
+          "next_goal": "Select the exact match for Milan."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 19,
+              "text": "Milan"
+            }
+          },
+          {
+            "click_element": {
+              "index": 87
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Milan\" for element index 19",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div/div/div/fsw-input-button/div/div[2]/input",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-search-widget-container",
+              "hp-search-widget",
+              "div",
+              "hp-flight-search-widget-container",
+              "fsw-flight-search-widget-container",
+              "fsw-flight-search-widget",
+              "div",
+              "fsw-flight-search-widget-controls-container",
+              "fsw-flight-search-widget-content-container",
+              "fsw-flight-search-widget-content",
+              "div",
+              "div",
+              "div",
+              "fsw-input-button",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1885903594": "",
+              "autocomplete": "off",
+              "type": "text",
+              "data-hj-whitelist": "",
+              "class": "input-button__input ng-star-inserted",
+              "id": "input-button__destination",
+              "placeholder": "Destination",
+              "data-ref": "input-button__display-value",
+              "maxlength": "100",
+              "style": ""
+            },
+            "shadow_root": false
+          },
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Milan.",
+          "memory": "",
+          "next_goal": "Open the departure date-picker."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 91
+            }
+          },
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 91: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "fsw-airport-item",
+            "xpath": "html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-destination-container/fsw-airports/div/fsw-airports-list/div[2]/div/fsw-airport-item",
+            "highlight_index": 91,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "hp-app-controls-tooltips",
+              "fsw-controls-tooltips-container",
+              "fsw-controls-tooltips",
+              "fsw-destination-container",
+              "fsw-airports",
+              "div",
+              "fsw-airports-list",
+              "div",
+              "div",
+              "fsw-airport-item"
+            ],
+            "attributes": {
+              "role": "button",
+              "tabindex": "0",
+              "_nghost-ng-c3181807303": "",
+              "class": "ng-star-inserted"
+            },
+            "shadow_root": false
+          },
+          {
+            "tag_name": "button",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/fsw-trip-type-container/fsw-trip-type/fsw-promo-code-container/fsw-promo-code/button",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-search-widget-container",
+              "hp-search-widget",
+              "div",
+              "hp-flight-search-widget-container",
+              "fsw-flight-search-widget-container",
+              "fsw-flight-search-widget",
+              "fsw-trip-type-container",
+              "fsw-trip-type",
+              "fsw-promo-code-container",
+              "fsw-promo-code",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1972030307": "",
+              "type": "button",
+              "tabindex": "0",
+              "data-ref": "promo-code__button",
+              "class": "promo-code__button ng-star-inserted"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the departure date-picker.",
+          "memory": "",
+          "next_goal": "Select the 18th of July 2025."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "index": 56,
+              "target_month": "July",
+              "search_all": false,
+              "date": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July' \n\u2705 Found date 18 in correct month at index 99. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/month-toggle/div/div[2]/div/div[2]/div[2]",
+            "highlight_index": 56,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "hp-app-controls-tooltips",
+              "fsw-controls-tooltips-container",
+              "fsw-controls-tooltips",
+              "fsw-flexible-datepicker-container",
+              "div",
+              "fsw-datepicker",
+              "ry-datepicker-desktop",
+              "month-toggle",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c368676717": "",
+              "tabindex": "0",
+              "role": "button",
+              "class": "m-toggle__month m-toggle__month--after-selected",
+              "data-ref": "m-toggle-months-item",
+              "data-id": "Jul"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Verified the month and found the 18th of July.",
+          "memory": "",
+          "next_goal": "Click the 18th of July 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 95
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 95: 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/div/calendar[2]/calendar-body/div[4]/div[13]/div",
+            "highlight_index": 95,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "hp-app-controls-tooltips",
+              "fsw-controls-tooltips-container",
+              "fsw-controls-tooltips",
+              "fsw-flexible-datepicker-container",
+              "div",
+              "fsw-datepicker",
+              "ry-datepicker-desktop",
+              "div",
+              "calendar",
+              "calendar-body",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3376735244": "",
+              "class": "calendar-body__cell",
+              "tabindex": "0",
+              "data-id": "2025-07-18",
+              "data-value": "18",
+              "data-type": "day"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Verified the departure date.",
+          "memory": "",
+          "next_goal": "Open the return date-picker."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "fsw-input-button",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div/div[2]/div/fsw-input-button[2]",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-search-widget-container",
+              "hp-search-widget",
+              "div",
+              "hp-flight-search-widget-container",
+              "fsw-flight-search-widget-container",
+              "fsw-flight-search-widget",
+              "div",
+              "fsw-flight-search-widget-controls-container",
+              "fsw-flight-search-widget-content-container",
+              "fsw-flight-search-widget-content",
+              "div",
+              "div",
+              "div",
+              "fsw-input-button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c792183895": "",
+              "tabindex": "0",
+              "role": "button",
+              "uniqueid": "dates-to",
+              "container": "body",
+              "tooltipclass": "fsw-search-tooltip",
+              "triggers": "manual",
+              "class": "flight-widget-content__control flight-widget-content__control--date ng-tns-c792183895-4 ng-trigger ng-trigger-smoothPickerAppear input-button--connected-left ng-star-inserted",
+              "_nghost-ng-c1885903594": "",
+              "style": "",
+              "aria-describedby": "ry-tooltip-11"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the return date-picker.",
+          "memory": "",
+          "next_goal": "Select the 2nd of August 2025."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "index": 56,
+              "target_month": "July",
+              "search_all": false,
+              "date": 2
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July' \n\u274c Date 2 not found in the correct month",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/month-toggle/div/div[2]/div/div[8]/div[2]",
+            "highlight_index": 56,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "hp-app-controls-tooltips",
+              "fsw-controls-tooltips-container",
+              "fsw-controls-tooltips",
+              "fsw-flexible-datepicker-container",
+              "div",
+              "fsw-datepicker",
+              "ry-datepicker-desktop",
+              "month-toggle",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c368676717": "",
+              "tabindex": "0",
+              "role": "button",
+              "class": "m-toggle__month",
+              "data-ref": "m-toggle-months-item",
+              "data-id": "Jan"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Date 2 not found in the correct month, July",
+          "memory": "",
+          "next_goal": "Select the 2nd of August 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 56
+            }
+          },
+          {
+            "verify_month": {
+              "index": 56,
+              "target_month": "August",
+              "search_all": false,
+              "date": 2
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 56: Aug",
+          "include_in_memory": true
+        },
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'August' \n\u2705 Found date 2 in correct month at index 71. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/month-toggle/div/div[2]/div/div[3]/div[2]",
+            "highlight_index": 56,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "hp-app-controls-tooltips",
+              "fsw-controls-tooltips-container",
+              "fsw-controls-tooltips",
+              "fsw-flexible-datepicker-container",
+              "div",
+              "fsw-datepicker",
+              "ry-datepicker-desktop",
+              "month-toggle",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c368676717": "",
+              "tabindex": "0",
+              "role": "button",
+              "class": "m-toggle__month",
+              "data-ref": "m-toggle-months-item",
+              "data-id": "Aug"
+            },
+            "shadow_root": false
+          },
+          {
+            "tag_name": "div",
+            "xpath": "html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/month-toggle/div/div[2]/div/div[3]/div[2]",
+            "highlight_index": 56,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "hp-app-controls-tooltips",
+              "fsw-controls-tooltips-container",
+              "fsw-controls-tooltips",
+              "fsw-flexible-datepicker-container",
+              "div",
+              "fsw-datepicker",
+              "ry-datepicker-desktop",
+              "month-toggle",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c368676717": "",
+              "tabindex": "0",
+              "role": "button",
+              "class": "m-toggle__month",
+              "data-ref": "m-toggle-months-item",
+              "data-id": "Aug"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Changed the month to August.",
+          "memory": "",
+          "next_goal": "Select the 2nd of August 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 70
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 70: 2",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/ry-tooltip/div[2]/hp-app-controls-tooltips/fsw-controls-tooltips-container/fsw-controls-tooltips/fsw-flexible-datepicker-container/div[2]/fsw-datepicker/ry-datepicker-desktop/div/calendar/calendar-body/div[2]/div[16]/div",
+            "highlight_index": 70,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "hp-app-controls-tooltips",
+              "fsw-controls-tooltips-container",
+              "fsw-controls-tooltips",
+              "fsw-flexible-datepicker-container",
+              "div",
+              "fsw-datepicker",
+              "ry-datepicker-desktop",
+              "div",
+              "calendar",
+              "calendar-body",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3376735244": "",
+              "class": "calendar-body__cell calendar-body__cell--weekend",
+              "tabindex": "0",
+              "data-id": "2025-08-02",
+              "data-value": "2",
+              "data-type": "day"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Verified the return date.",
+          "memory": "",
+          "next_goal": "Select number of passengers."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 22
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 22: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "ry-input-button",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div/div[2]/ry-passengers-selector/ry-input-button",
+            "highlight_index": 22,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-search-widget-container",
+              "hp-search-widget",
+              "div",
+              "hp-flight-search-widget-container",
+              "fsw-flight-search-widget-container",
+              "fsw-flight-search-widget",
+              "div",
+              "fsw-flight-search-widget-controls-container",
+              "fsw-flight-search-widget-content-container",
+              "fsw-flight-search-widget-content",
+              "div",
+              "div",
+              "ry-passengers-selector",
+              "ry-input-button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1051668151": "",
+              "uniqueid": "passengers",
+              "container": "body",
+              "triggers": "manual",
+              "tooltipclass": "passengers-selector-tooltip",
+              "_nghost-ng-c2121479409": "",
+              "tabindex": "0",
+              "role": "button",
+              "aria-describedby": "ry-tooltip-12"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened number of passengers.",
+          "memory": "",
+          "next_goal": "Click done."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 66
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 66: Done",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/ry-tooltip/div[2]/ry-passengers-container/ry-passengers/div/button",
+            "highlight_index": 66,
+            "entire_parent_branch_path": [
+              "ry-tooltip",
+              "div",
+              "ry-passengers-container",
+              "ry-passengers",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1303785250": "",
+              "tabindex": "0",
+              "ry-button": "",
+              "color": "anchor-blue",
+              "class": "passengers__confirm-button ry-button--anchor-blue ry-button--anchor",
+              "_nghost-ng-c414200528": "",
+              "aria-label": "Done"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Closed number of passengers.",
+          "memory": "",
+          "next_goal": "Search for flights."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 19
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 19: Search",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-search-widget-container/hp-search-widget/div/hp-flight-search-widget-container/fsw-flight-search-widget-container/fsw-flight-search-widget/div/fsw-flight-search-widget-controls-container/fsw-flight-search-widget-content-container/fsw-flight-search-widget-content/div[2]/div[2]/button",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-search-widget-container",
+              "hp-search-widget",
+              "div",
+              "hp-flight-search-widget-container",
+              "fsw-flight-search-widget-container",
+              "fsw-flight-search-widget",
+              "div",
+              "fsw-flight-search-widget-controls-container",
+              "fsw-flight-search-widget-content-container",
+              "fsw-flight-search-widget-content",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c2866684587": "",
+              "ry-button": "",
+              "data-ref": "flight-search-widget__cta",
+              "class": "flight-search-widget__start-search-cta ng-tns-c2866684587-3 ry-button--gradient-yellow",
+              "_nghost-ng-c414200528": "",
+              "aria-label": "Search"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Searched for flights.",
+          "memory": "",
+          "next_goal": "Select the cheapest flight for the outbound flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 20
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 20: Select",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-summary-container/flights-summary/div/div/journey-container/journey/flight-list/ry-spinner/div/flight-card-new[3]/div/div/div[4]/flight-card-summary/div/div[2]/button",
+            "highlight_index": 20,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-summary-container",
+              "flights-summary",
+              "div",
+              "div",
+              "journey-container",
+              "journey",
+              "flight-list",
+              "ry-spinner",
+              "div",
+              "flight-card-new",
+              "div",
+              "div",
+              "div",
+              "flight-card-summary",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c2969072057": "",
+              "ry-button": "",
+              "color": "gradient-blue",
+              "data-ref": "regular-price-select",
+              "class": "flight-card-summary__select-btn ng-tns-c2969072057-28 ry-button--gradient-blue",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the select flights page.",
+          "memory": "",
+          "next_goal": "Select the cheapest flight for the outbound flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 18: Select",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-summary-container/flights-summary/div/div[2]/journey-container/journey/flight-list/ry-spinner/div/flight-card-new/div/div/div[4]/flight-card-summary/div/div[2]/button",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-summary-container",
+              "flights-summary",
+              "div",
+              "div",
+              "journey-container",
+              "journey",
+              "flight-list",
+              "ry-spinner",
+              "div",
+              "flight-card-new",
+              "div",
+              "div",
+              "div",
+              "flight-card-summary",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c2969072057": "",
+              "ry-button": "",
+              "color": "gradient-blue",
+              "data-ref": "regular-price-select",
+              "class": "flight-card-summary__select-btn ng-tns-c2969072057-14 ry-button--gradient-blue",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the select flights page.",
+          "memory": "",
+          "next_goal": "Select the cheapest flight for the outbound flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 10
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 10: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/fare-selector-container/fare-selector/div/fare-table-new-layout-container/fare-table-new-layout/ry-expansion-panel/div/div/div",
+            "highlight_index": 10,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "fare-selector-container",
+              "fare-selector",
+              "div",
+              "fare-table-new-layout-container",
+              "fare-table-new-layout",
+              "ry-expansion-panel",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1758965478": "",
+              "class": "exp-panel__title ng-tns-c1758965478-38 exp-panel__title--icon-left",
+              "role": "button",
+              "tabindex": "0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the cheapest flight for the outbound flight.",
+          "memory": "",
+          "next_goal": "Select the cheapest flight for the return flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 22
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 22: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "img",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/fare-selector-container/fare-selector/div/fare-table-new-layout-container/fare-table-new-layout/table/thead/tr[2]/th[2]/fare-table-header/div/div/ry-image/picture/img",
+            "highlight_index": 22,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "fare-selector-container",
+              "fare-selector",
+              "div",
+              "fare-table-new-layout-container",
+              "fare-table-new-layout",
+              "table",
+              "thead",
+              "tr",
+              "th",
+              "fare-table-header",
+              "div",
+              "div",
+              "ry-image",
+              "picture",
+              "img"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1268786962": "",
+              "class": "image-wrapper__image",
+              "src": "https://assets.ryanair.com/resources/ui/images/flights-dev/fare-table-header-standard.jpg",
+              "srcset": "https://assets.ryanair.com/resources/ui/images/flights-dev/fare-table-header-standard@1x.jpg 1x, https://assets.ryanair.com/resources/ui/images/flights-dev/fare-table-header-standard@2x.jpg 2x, https://assets.ryanair.com/resources/ui/images/flights-dev/fare-table-header-standard@3x.jpg 3x",
+              "alt": "Image that represents standard fare",
+              "height": "105",
+              "width": "200",
+              "loading": "eager",
+              "fetchpriority": "high",
+              "style": "object-fit: cover;"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the select flights page.",
+          "memory": "",
+          "next_goal": "Select the cheapest flight for the return flight."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 16
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 16: Continue with Basic",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/ry-portal/div/fare-table-upgrade-container/fare-table-upgrade/ry-dialog/div[2]/table/tfoot/tr/td[2]/fare-table-upgrade-footer/button",
+            "highlight_index": 16,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "fare-table-upgrade-container",
+              "fare-table-upgrade",
+              "ry-dialog",
+              "div",
+              "table",
+              "tfoot",
+              "tr",
+              "td",
+              "fare-table-upgrade-footer",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c17503889": "",
+              "ry-button": "",
+              "class": "fare-footer__submit-btn ry-button--outline-light-blue",
+              "_nghost-ng-c414200528": "",
+              "data-e2e": "value"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the cheapest flight for the return flight.",
+          "memory": "",
+          "next_goal": "Choose 'Log in later' when prompted."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 11
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 11: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/ry-login-touchpoint-container/ry-login-touchpoint/div/button",
+            "highlight_index": 11,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "ry-login-touchpoint-container",
+              "ry-login-touchpoint",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c4201361404": "",
+              "color": "anchor-blue",
+              "class": "login-touchpoint__expansion-bar"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the select flights page.",
+          "memory": "",
+          "next_goal": "Choose 'Log in later' when prompted."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 26
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 26: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/ry-login-touchpoint-container/ry-login-touchpoint/div/button",
+            "highlight_index": 26,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "ry-login-touchpoint-container",
+              "ry-login-touchpoint",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c4201361404": "",
+              "color": "anchor-blue",
+              "class": "login-touchpoint__expansion-bar"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the passengers details page.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 27
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "No options found in any frame for dropdown",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/button",
+            "highlight_index": 27,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "div",
+              "div",
+              "div",
+              "pax-app-form-container",
+              "pax-app-form",
+              "form",
+              "pax-passenger-container",
+              "pax-passenger",
+              "div",
+              "pax-passenger-details-container",
+              "pax-passenger-details",
+              "pax-passenger-details-form-container",
+              "pax-details-form",
+              "ry-dropdown",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1298430114": "",
+              "type": "button",
+              "aria-haspopup": "true",
+              "class": "dropdown__toggle body-l-lg body-l-sm",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - No options found in the title dropdown.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - No options found in the title dropdown.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 30
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "No options found in any frame for dropdown",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/button",
+            "highlight_index": 30,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "div",
+              "div",
+              "div",
+              "pax-app-form-container",
+              "pax-app-form",
+              "form",
+              "pax-passenger-container",
+              "pax-passenger",
+              "div",
+              "pax-passenger-details-container",
+              "pax-passenger-details",
+              "pax-passenger-details-form-container",
+              "pax-details-form",
+              "ry-dropdown",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1298430114": "",
+              "type": "button",
+              "aria-haspopup": "true",
+              "class": "dropdown__toggle body-l-lg body-l-sm",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - No options found in the title dropdown.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 30,
+              "text": "Mr"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "Cannot select option: Element with index 30 is a button, not a select or combobox",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/button",
+            "highlight_index": 30,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "div",
+              "div",
+              "div",
+              "pax-app-form-container",
+              "pax-app-form",
+              "form",
+              "pax-passenger-container",
+              "pax-passenger",
+              "div",
+              "pax-passenger-details-container",
+              "pax-passenger-details",
+              "pax-passenger-details-form-container",
+              "pax-details-form",
+              "ry-dropdown",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1298430114": "",
+              "type": "button",
+              "aria-haspopup": "true",
+              "class": "dropdown__toggle body-l-lg body-l-sm",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - No options found in the title dropdown.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 30
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 30: -",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/button",
+            "highlight_index": 30,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "div",
+              "div",
+              "div",
+              "pax-app-form-container",
+              "pax-app-form",
+              "form",
+              "pax-passenger-container",
+              "pax-passenger",
+              "div",
+              "pax-passenger-details-container",
+              "pax-passenger-details",
+              "pax-passenger-details-form-container",
+              "pax-details-form",
+              "ry-dropdown",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1298430114": "",
+              "type": "button",
+              "aria-haspopup": "true",
+              "class": "dropdown__toggle body-l-lg body-l-sm",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - No options found in the title dropdown.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 31
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 31: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/div/div/ry-dropdown-item/button",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "div",
+              "div",
+              "div",
+              "pax-app-form-container",
+              "pax-app-form",
+              "form",
+              "pax-passenger-container",
+              "pax-passenger",
+              "div",
+              "pax-passenger-details-container",
+              "pax-passenger-details",
+              "pax-passenger-details-form-container",
+              "pax-details-form",
+              "ry-dropdown",
+              "div",
+              "div",
+              "div",
+              "ry-dropdown-item",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1210574209": "",
+              "type": "button",
+              "class": "dropdown-item__link dropdown-item__link--highlighted"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - No options found in the title dropdown.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 30
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 30: Mr",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-dropdown/div[2]/button",
+            "highlight_index": 30,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "div",
+              "div",
+              "div",
+              "pax-app-form-container",
+              "pax-app-form",
+              "form",
+              "pax-passenger-container",
+              "pax-passenger",
+              "div",
+              "pax-passenger-details-container",
+              "pax-passenger-details",
+              "pax-passenger-details-form-container",
+              "pax-details-form",
+              "ry-dropdown",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1298430114": "",
+              "type": "button",
+              "aria-haspopup": "true",
+              "class": "dropdown__toggle body-l-lg body-l-sm dropdown__toggle--error dropdown__toggle--selected",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Mr as title.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 35,
+              "text": "John"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"John\" for element index 35",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d/div/input",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "div",
+              "div",
+              "div",
+              "pax-app-form-container",
+              "pax-app-form",
+              "form",
+              "pax-passenger-container",
+              "pax-passenger",
+              "div",
+              "pax-passenger-details-container",
+              "pax-passenger-details",
+              "pax-passenger-details-form-container",
+              "pax-details-form",
+              "ry-input-d",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3512200795": "",
+              "class": "body-l-lg body-l-sm date-placeholder invisible-background",
+              "type": "text",
+              "name": "form.passengers.ADT-0.name",
+              "autocomplete": "given-name",
+              "min": "undefined",
+              "max": "undefined",
+              "pattern": "undefined",
+              "id": "form.passengers.ADT-0.name",
+              "data-hj-suppress": "true",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Input John as first name.",
+          "memory": "",
+          "next_goal": "Fill passenger details separately with realistic dummy data."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 37,
+              "text": "Doe"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Doe\" for element index 37",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/flights-passengers/ry-spinner/pax-app-container/pax-app/ry-spinner/div/div/div[2]/pax-app-form-container/pax-app-form/form/pax-passenger-container/pax-passenger/div/pax-passenger-details-container/pax-passenger-details/pax-passenger-details-form-container/pax-details-form/ry-input-d[2]/div/input",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "flights-passengers",
+              "ry-spinner",
+              "pax-app-container",
+              "pax-app",
+              "ry-spinner",
+              "div",
+              "div",
+              "div",
+              "pax-app-form-container",
+              "pax-app-form",
+              "form",
+              "pax-passenger-container",
+              "pax-passenger",
+              "div",
+              "pax-passenger-details-container",
+              "pax-passenger-details",
+              "pax-passenger-details-form-container",
+              "pax-details-form",
+              "ry-input-d",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3512200795": "",
+              "class": "body-l-lg body-l-sm date-placeholder invisible-background",
+              "type": "text",
+              "name": "form.passengers.ADT-0.surname",
+              "autocomplete": "family-name",
+              "min": "undefined",
+              "max": "undefined",
+              "pattern": "undefined",
+              "id": "form.passengers.ADT-0.surname",
+              "data-hj-suppress": "true",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled first passenger details.",
+          "memory": "",
+          "next_goal": "Click continue."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 39,
+              "text": "Continue"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "error": "Error executing action input_text: Failed to input text into element: <button _ngcontent-ng-c3308219284=\"\" ry-button=\"\" color=\"gradient-yellow\" class=\"continue-flow__button ng-tns-c3308219284-50 ry-button--gradient-yellow\" _nghost-ng-c414200528=\"\"> [interactive, top, highlight:39]. Error: ElementHandle.fill: Error: Element is not an <input>, <textarea> or [contenteditable] element\nCall log:\n    - fill(\"\")\n  -   - attempting fill action\n  -     - waiting for element to be visible, enabled and editable\n",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/ng-component/div/continue-flow-container/continue-flow/div/div/span/button",
+            "highlight_index": 39,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "ng-component",
+              "div",
+              "continue-flow-container",
+              "continue-flow",
+              "div",
+              "div",
+              "span",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3308219284": "",
+              "ry-button": "",
+              "color": "gradient-yellow",
+              "class": "continue-flow__button ng-tns-c3308219284-50 ry-button--gradient-yellow",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled first passenger details.",
+          "memory": "",
+          "next_goal": "Click continue."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 39
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 39: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/flights-root/div/div/div/div/flights-lazy-content/ng-component/div/continue-flow-container/continue-flow/div/div/span/button",
+            "highlight_index": 39,
+            "entire_parent_branch_path": [
+              "app-root",
+              "flights-root",
+              "div",
+              "div",
+              "div",
+              "div",
+              "flights-lazy-content",
+              "ng-component",
+              "div",
+              "continue-flow-container",
+              "continue-flow",
+              "div",
+              "div",
+              "span",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3308219284": "",
+              "ry-button": "",
+              "color": "gradient-yellow",
+              "class": "continue-flow__button ng-tns-c3308219284-50 ry-button--gradient-yellow",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the select flights page.",
+          "memory": "",
+          "next_goal": "Skip seat selection on return flight if prompted."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 8
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 8: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/seats-root/div/div/div[2]/ng-component/seats-container-v2/main/div[2]/div/div/div/button[2]",
+            "highlight_index": 8,
+            "entire_parent_branch_path": [
+              "seats-root",
+              "div",
+              "div",
+              "div",
+              "ng-component",
+              "seats-container-v2",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3281493814": "",
+              "class": "seats-container__button ng-star-inserted"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seat selection on return flight.",
+          "memory": "",
+          "next_goal": "Skip seat selection on return flight if prompted."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 13
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 13: Continue without a seat",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/seats-root/div/div/div[2]/ng-component/seats-container-v2/main/div[2]/div/div/div[2]/div[2]/random-allocation-info/reinforcement-message/div/div[3]/div/button",
+            "highlight_index": 13,
+            "entire_parent_branch_path": [
+              "seats-root",
+              "div",
+              "div",
+              "div",
+              "ng-component",
+              "seats-container-v2",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "random-allocation-info",
+              "reinforcement-message",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1816252473": "",
+              "ry-button": "",
+              "class": "reinforcement-message__button b2 ry-button--gradient-yellow ng-star-inserted",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seat selection on return flight.",
+          "memory": "",
+          "next_goal": "Skip seat selection on return flight if prompted."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 3
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 3: Continue with random allocation",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/seats-root/ry-portal/div/upsell-modal-container/upsell-modal/ry-dialog/div[2]/div[2]/button[2]",
+            "highlight_index": 3,
+            "entire_parent_branch_path": [
+              "seats-root",
+              "ry-portal",
+              "div",
+              "upsell-modal-container",
+              "upsell-modal",
+              "ry-dialog",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3763012523": "",
+              "ry-button": "",
+              "color": "anchor-blue",
+              "class": "upsell-modal__button ry-button--anchor-blue ry-button--anchor",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the select flights page.",
+          "memory": "",
+          "next_goal": "Skip seat selection on return flight if prompted."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 10
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 10: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/bags-root/bags-booking-container/div/main/div/section/div/bags-cabin-lazy-bag/bags-cabin-bag-section/bags-bag-layout/div/div[3]/div[2]/bags-pax-table-journey-container/div/div[2]/bags-cabin-bag-table-controls-container/bags-cabin-bag-table-controls/div/bags-small-bag-pax-control/div/bags-product-selector/div/div/div/ry-radio-button/label",
+            "highlight_index": 10,
+            "entire_parent_branch_path": [
+              "bags-root",
+              "bags-booking-container",
+              "div",
+              "main",
+              "div",
+              "section",
+              "div",
+              "bags-cabin-lazy-bag",
+              "bags-cabin-bag-section",
+              "bags-bag-layout",
+              "div",
+              "div",
+              "div",
+              "bags-pax-table-journey-container",
+              "div",
+              "div",
+              "bags-cabin-bag-table-controls-container",
+              "bags-cabin-bag-table-controls",
+              "div",
+              "bags-small-bag-pax-control",
+              "div",
+              "bags-product-selector",
+              "div",
+              "div",
+              "div",
+              "ry-radio-button",
+              "label"
+            ],
+            "attributes": {
+              "class": "ry-radio-circle-button__label",
+              "for": "ry-radio-button--0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the bags page.",
+          "memory": "",
+          "next_goal": "Select the small bag option; then select 'Continue'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 9
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 9: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/bags-root/bags-booking-container/div/main/div/section/div/bags-cabin-lazy-bag/bags-cabin-bag-section/bags-bag-layout/div/div[3]/div[2]/bags-pax-table-journey-container/div/div[2]/bags-cabin-bag-table-controls-container/bags-cabin-bag-table-controls/div/bags-small-bag-pax-control/div/bags-product-selector/div/div/div/ry-radio-button/label",
+            "highlight_index": 9,
+            "entire_parent_branch_path": [
+              "bags-root",
+              "bags-booking-container",
+              "div",
+              "main",
+              "div",
+              "section",
+              "div",
+              "bags-cabin-lazy-bag",
+              "bags-cabin-bag-section",
+              "bags-bag-layout",
+              "div",
+              "div",
+              "div",
+              "bags-pax-table-journey-container",
+              "div",
+              "div",
+              "bags-cabin-bag-table-controls-container",
+              "bags-cabin-bag-table-controls",
+              "div",
+              "bags-small-bag-pax-control",
+              "div",
+              "bags-product-selector",
+              "div",
+              "div",
+              "div",
+              "ry-radio-button",
+              "label"
+            ],
+            "attributes": {
+              "class": "ry-radio-circle-button__label",
+              "for": "ry-radio-button--0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the bags page.",
+          "memory": "",
+          "next_goal": "Select the small bag option; then select 'Continue'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 11
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 11: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/bags-root/bags-booking-container/div/main/div/section/div/bags-cabin-lazy-bag/bags-cabin-bag-section/bags-bag-layout/div/div[3]/div[2]/bags-pax-table-journey-container/div/div[2]/bags-cabin-bag-table-controls-container/bags-cabin-bag-table-controls/div[2]/bags-priority-boarding-pax-control/div/bags-product-selector/div/div/div/ry-radio-button/label",
+            "highlight_index": 11,
+            "entire_parent_branch_path": [
+              "bags-root",
+              "bags-booking-container",
+              "div",
+              "main",
+              "div",
+              "section",
+              "div",
+              "bags-cabin-lazy-bag",
+              "bags-cabin-bag-section",
+              "bags-bag-layout",
+              "div",
+              "div",
+              "div",
+              "bags-pax-table-journey-container",
+              "div",
+              "div",
+              "bags-cabin-bag-table-controls-container",
+              "bags-cabin-bag-table-controls",
+              "div",
+              "bags-priority-boarding-pax-control",
+              "div",
+              "bags-product-selector",
+              "div",
+              "div",
+              "div",
+              "ry-radio-button",
+              "label"
+            ],
+            "attributes": {
+              "class": "ry-radio-circle-button__label",
+              "for": "ry-radio-button--1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the bags page.",
+          "memory": "",
+          "next_goal": "Select the small bag option; then select 'Continue'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 16
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 16: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/bags-root/bags-booking-container/div/main/div/section[2]/bags-checkin-bag/bags-bag-layout/div/div[2]/div[2]/bags-pax-table-journey-container/div/div[2]/bags-checkin-bag-table-controls/div/bags-ten-kg-bags-container/bags-ten-kg-bags/div/div/bags-product-selector/div/div/div/div/button",
+            "highlight_index": 16,
+            "entire_parent_branch_path": [
+              "bags-root",
+              "bags-booking-container",
+              "div",
+              "main",
+              "div",
+              "section",
+              "bags-checkin-bag",
+              "bags-bag-layout",
+              "div",
+              "div",
+              "div",
+              "bags-pax-table-journey-container",
+              "div",
+              "div",
+              "bags-checkin-bag-table-controls",
+              "div",
+              "bags-ten-kg-bags-container",
+              "bags-ten-kg-bags",
+              "div",
+              "div",
+              "bags-product-selector",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ryanair-cabin-bags-c2468670980": "",
+              "ry-button": "",
+              "pax-item-selection": "",
+              "color": "anchor-blue",
+              "size": "medium",
+              "class": "content-plus-tag__button ry-button--anchor-blue ry-button--medium ry-button--anchor",
+              "_nghost-ryanair-cabin-bags-c414200528": "",
+              "data-ref": "product.add",
+              "data-at": "both-0-CBAG-add"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the bags page.",
+          "memory": "",
+          "next_goal": "Select the small bag option; then select 'Continue'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/bags-root/bags-booking-container/div/main/div/section[4]/bags-continue-flow-container/bags-continue-flow/button",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "bags-root",
+              "bags-booking-container",
+              "div",
+              "main",
+              "div",
+              "section",
+              "bags-continue-flow-container",
+              "bags-continue-flow",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ryanair-cabin-bags-c1909820740": "",
+              "ry-button": "",
+              "color": "gradient-yellow",
+              "data-ref": "bags-continue-button",
+              "_nghost-ryanair-cabin-bags-c414200528": "",
+              "class": "ry-button--gradient-yellow"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 22
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 22: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/airport-and-flight-container/div[2]/div/big-card-insurance-container/big-card-insurance-content/big-card-insurance-table/table/tbody/tr[8]/td[4]/div/button",
+            "highlight_index": 22,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "airport-and-flight-container",
+              "div",
+              "div",
+              "big-card-insurance-container",
+              "big-card-insurance-content",
+              "big-card-insurance-table",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1251300304": "",
+              "ry-button": "",
+              "_nghost-ng-c414200528": "",
+              "data-ref": "insurance-main-card__button__ANNUAL2",
+              "class": "ry-button--gradient-blue ry-button--full"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 27
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 27: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/app-root/ry-portal/div/insurance-date-modal/ry-dialog/div[3]",
+            "highlight_index": 27,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "insurance-date-modal",
+              "ry-dialog",
+              "div"
+            ],
+            "attributes": {
+              "tabindex": "0",
+              "class": "cdk-visually-hidden cdk-focus-trap-anchor",
+              "aria-hidden": "true"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Choose per passenger."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: Choose per passenger",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/airport-and-flight-container/div[2]/div/big-card-insurance-container/big-card-insurance-content/button",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "airport-and-flight-container",
+              "div",
+              "div",
+              "big-card-insurance-container",
+              "big-card-insurance-content",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1272464459": "",
+              "ry-button": "",
+              "color": "anchor-blue",
+              "class": "big-card-insurance-content__footer ry-button--full ry-button--anchor-blue ry-button--anchor",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Choose per passenger."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 15
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 15: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "ry-radio-button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/airport-and-flight-container/div[2]/div/big-card-insurance-container/big-card-insurance-content/div[2]/pax-table/div/div/div[2]/div/div/div[2]/ry-radio-group/div/div/ry-radio-button",
+            "highlight_index": 15,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "airport-and-flight-container",
+              "div",
+              "div",
+              "big-card-insurance-container",
+              "big-card-insurance-content",
+              "div",
+              "pax-table",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ry-radio-group",
+              "div",
+              "div",
+              "ry-radio-button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1664270574": "",
+              "inputtype": "circle",
+              "tabindex": "0",
+              "class": "ry-radio-circle-button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Choose per passenger."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/airport-and-flight-container/div[2]/div/big-card-insurance-container/big-card-insurance-content/div[2]/pax-table/div/div/div[2]/div/div/div[2]/ry-radio-group/div/div/ry-radio-button/label",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "airport-and-flight-container",
+              "div",
+              "div",
+              "big-card-insurance-container",
+              "big-card-insurance-content",
+              "div",
+              "pax-table",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ry-radio-group",
+              "div",
+              "div",
+              "ry-radio-button",
+              "label"
+            ],
+            "attributes": {
+              "class": "ry-radio-circle-button__label",
+              "for": "ry-radio-button--6"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 10
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 10: Agree and add",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/airport-and-flight-container/div[2]/div/big-card-insurance-container/big-card-insurance-content/big-card-insurance-table/table/tbody/tr[8]/td[2]/div/button",
+            "highlight_index": 10,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "airport-and-flight-container",
+              "div",
+              "div",
+              "big-card-insurance-container",
+              "big-card-insurance-content",
+              "big-card-insurance-table",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1251300304": "",
+              "ry-button": "",
+              "_nghost-ng-c414200528": "",
+              "data-ref": "insurance-main-card__button__RYAN31",
+              "class": "ry-button--gradient-light-blue ry-button--full"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 18: Agree and add",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/airport-and-flight-container/div[2]/div/big-card-insurance-container/big-card-insurance-content/big-card-insurance-table/table/tbody/tr[8]/td[3]/div/button",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "airport-and-flight-container",
+              "div",
+              "div",
+              "big-card-insurance-container",
+              "big-card-insurance-content",
+              "big-card-insurance-table",
+              "table",
+              "tbody",
+              "tr",
+              "td",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1251300304": "",
+              "ry-button": "",
+              "_nghost-ng-c414200528": "",
+              "disabled": "",
+              "data-ref": "insurance-main-card__button__GADGET",
+              "class": "ry-button--gradient-yellow ry-button--full"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Choose per passenger."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "ry-radio-button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/airport-and-flight-container/div[2]/div/big-card-insurance-container/big-card-insurance-content/div[2]/pax-table/div/div/div[2]/div/div/div[2]/ry-radio-group/div/div/ry-radio-button",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "airport-and-flight-container",
+              "div",
+              "div",
+              "big-card-insurance-container",
+              "big-card-insurance-content",
+              "div",
+              "pax-table",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ry-radio-group",
+              "div",
+              "div",
+              "ry-radio-button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1664270574": "",
+              "inputtype": "circle",
+              "tabindex": "0",
+              "class": "ry-radio-circle-button ry-radio-circle-button--checked"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 27
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 27: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/airport-and-flight-container/button",
+            "highlight_index": 27,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "airport-and-flight-container",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3571494245": "",
+              "ry-button": "",
+              "size": "large",
+              "color": "gradient-yellow",
+              "class": "airport-and-flight__cta ry-button--gradient-yellow ry-button--large",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras/transport?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras/transport?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 76
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 76: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras/transport?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/ng-component/div[2]/transfer-card-container/transfer-card/div/div/transfers-tabs-container/transfers-tabs/transfers-tab[2]/transfer-item/div[2]/ry-expansion-panel/div/div[2]/div/transfer-form-container/transfer-form/div/div[2]/button",
+            "highlight_index": 76,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "ng-component",
+              "div",
+              "transfer-card-container",
+              "transfer-card",
+              "div",
+              "div",
+              "transfers-tabs-container",
+              "transfers-tabs",
+              "transfers-tab",
+              "transfer-item",
+              "div",
+              "ry-expansion-panel",
+              "div",
+              "div",
+              "div",
+              "transfer-form-container",
+              "transfer-form",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1526390789": "",
+              "type": "submit",
+              "ry-button": "",
+              "color": "gradient-blue",
+              "size": "medium",
+              "class": "transfer-form__add ry-button--gradient-blue ry-button--medium ng-star-inserted",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras/transport?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 75
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 75: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/trip/flights/extras/transport?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/ng-component/div/div/div/main/div/ng-component/button",
+            "highlight_index": 75,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ng-component",
+              "div",
+              "div",
+              "div",
+              "main",
+              "div",
+              "ng-component",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c1244901433": "",
+              "ry-button": "",
+              "size": "large",
+              "color": "gradient-yellow",
+              "class": "transport__cta ry-button--gradient-yellow ry-button--large",
+              "_nghost-ng-c414200528": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/trip/flights/extras/transport?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the payment page.",
+          "memory": "",
+          "next_goal": "Fill contact details."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 26,
+              "text": "test@test.com"
+            }
+          },
+          {
+            "input_text": {
+              "index": 28,
+              "text": "test@test.com"
+            }
+          },
+          {
+            "click_element": {
+              "index": 32
+            }
+          },
+          {
+            "input_text": {
+              "index": 33,
+              "text": "123456789"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "error": "Error executing action input_text: Element index 26 does not exist - retry or use alternative actions",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Email field was not found.",
+          "memory": "",
+          "next_goal": "Fill contact details."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 33,
+              "text": "test@test.com"
+            }
+          },
+          {
+            "input_text": {
+              "index": 35,
+              "text": "test@test.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test@test.com\" for element index 33",
+          "include_in_memory": true
+        },
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test@test.com\" for element index 35",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/app-root/div/kyc-login/kyc-common-wrapper/ry-spinner/div/ry-login/form/ry-auth-email/ry-input-d/div/input",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "ry-auth-popup-container",
+              "div",
+              "ry-auth-popup",
+              "div",
+              "ry-kyc-iframe",
+              "iframe",
+              "app-root",
+              "div",
+              "kyc-login",
+              "kyc-common-wrapper",
+              "ry-spinner",
+              "div",
+              "ry-login",
+              "form",
+              "ry-auth-email",
+              "ry-input-d",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3512200795": "",
+              "class": "body-l-lg body-l-sm date-placeholder invisible-background",
+              "type": "email",
+              "name": "email",
+              "autocomplete": "email",
+              "min": "undefined",
+              "max": "undefined",
+              "pattern": "undefined",
+              "data-hj-suppress": "true",
+              "placeholder": "email@email.com",
+              "style": ""
+            },
+            "shadow_root": false
+          },
+          {
+            "tag_name": "input",
+            "xpath": "html/body/app-root/div/kyc-login/kyc-common-wrapper/ry-spinner/div/ry-login/form/ry-auth-password/ry-input-d/div/input",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "ry-auth-popup-container",
+              "div",
+              "ry-auth-popup",
+              "div",
+              "ry-kyc-iframe",
+              "iframe",
+              "app-root",
+              "div",
+              "kyc-login",
+              "kyc-common-wrapper",
+              "ry-spinner",
+              "div",
+              "ry-login",
+              "form",
+              "ry-auth-password",
+              "ry-input-d",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3512200795": "",
+              "class": "body-l-lg body-l-sm date-placeholder invisible-background",
+              "type": "password",
+              "name": "password",
+              "autocomplete": "password",
+              "min": "undefined",
+              "max": "undefined",
+              "pattern": "undefined",
+              "data-hj-suppress": "true",
+              "placeholder": "Password",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Email field was not found.",
+          "memory": "",
+          "next_goal": "Fill contact details."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 33,
+              "text": "test@test.com"
+            }
+          },
+          {
+            "input_text": {
+              "index": 35,
+              "text": "test@test.com"
+            }
+          },
+          {
+            "click_element": {
+              "index": 39
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test@test.com\" for element index 33",
+          "include_in_memory": true
+        },
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test@test.com\" for element index 35",
+          "include_in_memory": true
+        },
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 39: Log in",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/app-root/div/kyc-login/kyc-common-wrapper/ry-spinner/div/ry-login/form/ry-auth-email/ry-input-d/div/input",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "ry-auth-popup-container",
+              "div",
+              "ry-auth-popup",
+              "div",
+              "ry-kyc-iframe",
+              "iframe",
+              "app-root",
+              "div",
+              "kyc-login",
+              "kyc-common-wrapper",
+              "ry-spinner",
+              "div",
+              "ry-login",
+              "form",
+              "ry-auth-email",
+              "ry-input-d",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3512200795": "",
+              "class": "body-l-lg body-l-sm invisible-background _has-value",
+              "type": "email",
+              "name": "email",
+              "autocomplete": "email",
+              "min": "undefined",
+              "max": "undefined",
+              "pattern": "undefined",
+              "data-hj-suppress": "true",
+              "placeholder": "email@email.com",
+              "style": "",
+              "browser-user-highlight-id": "playwright-highlight-33"
+            },
+            "shadow_root": false
+          },
+          {
+            "tag_name": "input",
+            "xpath": "html/body/app-root/div/kyc-login/kyc-common-wrapper/ry-spinner/div/ry-login/form/ry-auth-password/ry-input-d/div/input",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "ry-auth-popup-container",
+              "div",
+              "ry-auth-popup",
+              "div",
+              "ry-kyc-iframe",
+              "iframe",
+              "app-root",
+              "div",
+              "kyc-login",
+              "kyc-common-wrapper",
+              "ry-spinner",
+              "div",
+              "ry-login",
+              "form",
+              "ry-auth-password",
+              "ry-input-d",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3512200795": "",
+              "class": "body-l-lg body-l-sm invisible-background _has-value",
+              "type": "password",
+              "name": "password",
+              "autocomplete": "password",
+              "min": "undefined",
+              "max": "undefined",
+              "pattern": "undefined",
+              "data-hj-suppress": "true",
+              "placeholder": "Password",
+              "style": "",
+              "browser-user-highlight-id": "playwright-highlight-35"
+            },
+            "shadow_root": false
+          },
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/div/kyc-login/kyc-common-wrapper/ry-spinner/div/ry-login/form/ry-auth-submit/button",
+            "highlight_index": 39,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "ry-auth-popup-container",
+              "div",
+              "ry-auth-popup",
+              "div",
+              "ry-kyc-iframe",
+              "iframe",
+              "app-root",
+              "div",
+              "kyc-login",
+              "kyc-common-wrapper",
+              "ry-spinner",
+              "div",
+              "ry-login",
+              "form",
+              "ry-auth-submit",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3614143887": "",
+              "ry-button": "",
+              "color": "gradient-yellow",
+              "type": "submit",
+              "class": "auth-submit__button ry-button--gradient-yellow",
+              "_nghost-ng-c414200528": "",
+              "browser-user-highlight-id": "playwright-highlight-39"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Get the verification code."
+        },
+        "action": [
+          {
+            "retrieve_proton_verification_code": {
+              "email": "test@test.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the extras page.",
+          "memory": "",
+          "next_goal": "Skip extras."
+        },
+        "action": [
+          {
+            "send_keys": {
+              "keys": "12345678"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "error": "Error executing action send_keys: Keyboard.press: Unknown key: \"12345678\"",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not fill the code directly.",
+          "memory": "",
+          "next_goal": "Get the verification code."
+        },
+        "action": [
+          {
+            "retrieve_proton_verification_code": {
+              "email": "test@test.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the payment page, waiting for verification code.",
+          "memory": "",
+          "next_goal": "Get the verification code."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the payment page, waiting for verification code.",
+          "memory": "",
+          "next_goal": "Get the verification code."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 30,
+              "text": "12345678"
+            }
+          },
+          {
+            "click_element": {
+              "index": 33
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"12345678\" for element index 30",
+          "include_in_memory": true
+        },
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 33: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/app-root/div/kyc-email-verify/kyc-common-wrapper/ry-spinner/div/div/form/ry-input-d/div/input",
+            "highlight_index": 30,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "ry-auth-popup-container",
+              "div",
+              "ry-auth-popup",
+              "div",
+              "ry-kyc-iframe",
+              "iframe",
+              "app-root",
+              "div",
+              "kyc-email-verify",
+              "kyc-common-wrapper",
+              "ry-spinner",
+              "div",
+              "div",
+              "form",
+              "ry-input-d",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c3512200795": "",
+              "class": "body-l-lg body-l-sm date-placeholder invisible-background",
+              "type": "text",
+              "name": "undefined",
+              "autocomplete": "off",
+              "min": "undefined",
+              "max": "undefined",
+              "pattern": "undefined",
+              "maxlength": "8",
+              "browser-user-highlight-id": "playwright-highlight-30",
+              "style": ""
+            },
+            "shadow_root": false
+          },
+          {
+            "tag_name": "button",
+            "xpath": "html/body/app-root/div/kyc-email-verify/kyc-common-wrapper/ry-spinner/div/div[2]/button",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "app-root",
+              "ry-portal",
+              "div",
+              "ry-auth-popup-container",
+              "div",
+              "ry-auth-popup",
+              "div",
+              "ry-kyc-iframe",
+              "iframe",
+              "app-root",
+              "div",
+              "kyc-email-verify",
+              "kyc-common-wrapper",
+              "ry-spinner",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c2544171720": "",
+              "data-ref": "email-verification-continue",
+              "ry-button": "",
+              "class": "email-verify__continue-cta ry-button--gradient-blue",
+              "_nghost-ng-c414200528": "",
+              "browser-user-highlight-id": "playwright-highlight-33"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the payment page, waiting for verification code.",
+          "memory": "",
+          "next_goal": "Get the verification code."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - On the payment page, waiting for verification code.",
+          "memory": "",
+          "next_goal": "Task Completed."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I have found tickets from Barcelona to Milan for 1 passenger, from 18th of July 2025 to 2nd of August 2025. I have selected the cheapest flights and proceeded up to the payment page. The total price is 203.96 EUR."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I have found tickets from Barcelona to Milan for 1 passenger, from 18th of July 2025 to 2nd of August 2025. I have selected the cheapest flights and proceeded up to the payment page. The total price is 203.96 EUR.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+            "title": "Ryanair"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP",
+        "title": "Ryanair"
+      }
+    }
+  ]
+}

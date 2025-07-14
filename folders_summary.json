@@ -1,0 +1,510 @@
+{
+  "total_folders": 84,
+  "created_at": "C:\\Users\\lazar\\OneDrive\\\u03a5\u03c0\u03bf\u03bb\u03bf\u03b3\u03b9\u03c3\u03c4\u03ae\u03c2\\Thesis Project\\Code\\Personalised-Dark-Pattern-Detection",
+  "folders": [
+    {
+      "airline": "United Airlines",
+      "task_id": "a",
+      "task_title": "Flight booking New York \u2192 San Francisco, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_a"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "a_alt1",
+      "task_title": "Flight booking Denver \u2192 Orlando, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_a_alt1"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "a_alt2",
+      "task_title": "Flight booking Houston \u2192 Las Vegas, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_a_alt2"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "a_alt3",
+      "task_title": "Flight booking Washington D.C. \u2192 Boston, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_a_alt3"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "a_alt4",
+      "task_title": "Flight booking Miami \u2192 Atlanta, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_a_alt4"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "b",
+      "task_title": "View ongoing deals",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_b"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "c",
+      "task_title": "Car rental in San Francisco, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_c"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "c_alt1",
+      "task_title": "Car rental in Orlando, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_c_alt1"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "c_alt2",
+      "task_title": "Car rental in Las Vegas, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_c_alt2"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "c_alt3",
+      "task_title": "Car rental in Boston, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_c_alt3"
+    },
+    {
+      "airline": "United Airlines",
+      "task_id": "c_alt4",
+      "task_title": "Car rental in Atlanta, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\United_Airlines_c_alt4"
+    },
+    {
+      "airline": "American Airlines",
+      "task_id": "a",
+      "task_title": "Flight booking Chicago \u2192 London, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\American_Airlines_a"
+    },
+    {
+      "airline": "American Airlines",
+      "task_id": "a_alt1",
+      "task_title": "Flight booking Dallas \u2192 Mexico City, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\American_Airlines_a_alt1"
+    },
+    {
+      "airline": "American Airlines",
+      "task_id": "a_alt2",
+      "task_title": "Flight booking Miami \u2192 Rio de Janeiro, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\American_Airlines_a_alt2"
+    },
+    {
+      "airline": "American Airlines",
+      "task_id": "a_alt3",
+      "task_title": "Flight booking New York \u2192 Paris, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\American_Airlines_a_alt3"
+    },
+    {
+      "airline": "American Airlines",
+      "task_id": "a_alt4",
+      "task_title": "Flight booking Los Angeles \u2192 Sydney, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\American_Airlines_a_alt4"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "a",
+      "task_title": "Flight booking Dublin \u2192 Amsterdam, 18 July - 2 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_a"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "a_alt1",
+      "task_title": "Flight booking Berlin \u2192 Rome, 18 July - 2 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_a_alt1"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "a_alt2",
+      "task_title": "Flight booking Barcelona \u2192 Milan, 18 July - 2 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_a_alt2"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "a_alt3",
+      "task_title": "Flight booking Warsaw \u2192 Lisbon, 18 July - 2 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_a_alt3"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "a_alt4",
+      "task_title": "Flight booking Athens \u2192 Budapest, 28 July - 2 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_a_alt4"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "b",
+      "task_title": "Explore Europe page",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_b"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "c",
+      "task_title": "Hotel booking in Amsterdam, 18 July - 1 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_c"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "c_alt1",
+      "task_title": "Hotel booking in Rome, 18 July - 1 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_c_alt1"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "c_alt2",
+      "task_title": "Hotel booking in Milan, 18 July - 1 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_c_alt2"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "c_alt3",
+      "task_title": "Hotel booking in Lisbon, 18 July - 1 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_c_alt3"
+    },
+    {
+      "airline": "Ryanair",
+      "task_id": "c_alt4",
+      "task_title": "Hotel booking in Budapest, 18 July - 1 August 2025",
+      "folder_path": "diverse_searchers_task_folders\\Ryanair_c_alt4"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "a",
+      "task_title": "Flight booking London \u2192 Amsterdam, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_a"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "a_alt1",
+      "task_title": "Flight booking Manchester \u2192 Faro, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_a_alt1"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "a_alt2",
+      "task_title": "Flight booking Bristol \u2192 Palma de Mallorca, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_a_alt2"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "a_alt3",
+      "task_title": "Flight booking Geneva \u2192 Nice, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_a_alt3"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "a_alt4",
+      "task_title": "Flight booking Milan \u2192 Berlin, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_a_alt4"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "b",
+      "task_title": "Car hire in Amsterdam, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_b"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "b_alt1",
+      "task_title": "Car hire in Faro, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_b_alt1"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "b_alt2",
+      "task_title": "Car hire in Palma de Mallorca, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_b_alt2"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "b_alt3",
+      "task_title": "Car hire in Nice, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_b_alt3"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "b_alt4",
+      "task_title": "Car hire in Berlin, 17\u201324 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_b_alt4"
+    },
+    {
+      "airline": "EasyJet",
+      "task_id": "c",
+      "task_title": "Explore unbeatable flight deals destination check",
+      "folder_path": "diverse_searchers_task_folders\\EasyJet_c"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "a",
+      "task_title": "Flight booking Dubai \u2192 New York, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_a"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "a_alt1",
+      "task_title": "Flight booking London \u2192 Singapore, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_a_alt1"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "a_alt2",
+      "task_title": "Flight booking Sydney \u2192 Auckland, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_a_alt2"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "a_alt3",
+      "task_title": "Flight booking Tokyo \u2192 Stockholm, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_a_alt3"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "a_alt4",
+      "task_title": "Flight booking Johannesburg \u2192 Dubai, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_a_alt4"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "b",
+      "task_title": "Visit featured destinations",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_b"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "c",
+      "task_title": "Car hire in New York, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_c"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "c_alt1",
+      "task_title": "Car hire in Singapore, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_c_alt1"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "c_alt2",
+      "task_title": "Car hire in Auckland, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_c_alt2"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "c_alt3",
+      "task_title": "Car hire in Stockholm, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_c_alt3"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "c_alt4",
+      "task_title": "Car hire in Dubai, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_c_alt4"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "d",
+      "task_title": "Hotel booking in New York, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_d"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "d_alt1",
+      "task_title": "Hotel booking in Singapore, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_d_alt1"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "d_alt2",
+      "task_title": "Hotel booking in Auckland, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_d_alt2"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "d_alt3",
+      "task_title": "Hotel booking in Stockholm, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_d_alt3"
+    },
+    {
+      "airline": "Emirates",
+      "task_id": "d_alt4",
+      "task_title": "Hotel booking in Dubai, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Emirates_d_alt4"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "a",
+      "task_title": "Flight booking, Istanbul \u2192 Rome, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_a"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "a_alt1",
+      "task_title": "Flight booking, Ankara \u2192 Paris, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_a_alt1"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "a_alt2",
+      "task_title": "Flight booking, Antalya \u2192 Frankfurt, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_a_alt2"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "a_alt3",
+      "task_title": "Flight booking, Izmir \u2192 Vienna, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_a_alt3"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "a_alt4",
+      "task_title": "Flight booking, Adana \u2192 Munich, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_a_alt4"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "b",
+      "task_title": "Check Flight Offers",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_b"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "b_alt1",
+      "task_title": "Check Flight Offers",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_b_alt1"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "b_alt2",
+      "task_title": "Check Flight Offers",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_b_alt2"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "b_alt3",
+      "task_title": "Check Flight Offers",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_b_alt3"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "b_alt4",
+      "task_title": "Check Flight Offers",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_b_alt4"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "c",
+      "task_title": "Hotel booking in Rome, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_c"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "c_alt1",
+      "task_title": "Hotel booking in Paris, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_c_alt1"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "c_alt2",
+      "task_title": "Hotel booking in Frankfurt, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_c_alt2"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "c_alt3",
+      "task_title": "Hotel booking in Vienna, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_c_alt3"
+    },
+    {
+      "airline": "Turkish Airlines",
+      "task_id": "c_alt4",
+      "task_title": "Hotel booking in Munich, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\Turkish_Airlines_c_alt4"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "a",
+      "task_title": "Flight booking S\u00e3o Paulo \u2192 Buenos Aires, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_a"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "a_alt1",
+      "task_title": "Flight booking Santiago \u2192 Lima, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_a_alt1"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "a_alt2",
+      "task_title": "Flight booking Lima \u2192 Quito, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_a_alt2"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "a_alt3",
+      "task_title": "Flight booking Bogot\u00e1 \u2192 Cali, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_a_alt3"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "a_alt4",
+      "task_title": "Flight booking Rio de Janeiro \u2192 Santiago, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_a_alt4"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "b",
+      "task_title": "Find Your Next Trip",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_b"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "b_alt1",
+      "task_title": "Find Your Next Trip",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_b_alt1"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "b_alt2",
+      "task_title": "Find Your Next Trip",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_b_alt2"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "b_alt3",
+      "task_title": "Find Your Next Trip",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_b_alt3"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "b_alt4",
+      "task_title": "Find Your Next Trip",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_b_alt4"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "c",
+      "task_title": "Accommodation booking in Buenos Aires, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_c"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "c_alt1",
+      "task_title": "Accommodation booking in Lima, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_c_alt1"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "c_alt2",
+      "task_title": "Accommodation booking in Quito, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_c_alt2"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "c_alt3",
+      "task_title": "Accommodation booking in Cali, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_c_alt3"
+    },
+    {
+      "airline": "LATAM Airlines Brasil",
+      "task_id": "c_alt4",
+      "task_title": "Accommodation booking in Rio de Janeiro, 18\u201325 July 2025",
+      "folder_path": "diverse_searchers_task_folders\\LATAM_Airlines_Brasil_c_alt4"
+    }
+  ]
+}

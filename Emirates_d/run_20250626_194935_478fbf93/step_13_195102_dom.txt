@@ -1,0 +1,196 @@
+
+
+Current url: https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/nl/english/book/planning-your-trip/hotels/', title='Hotel bookings | Plan your trip | Book a flight | Emirates Netherlands'), TabInfo(page_id=1, url='https://www.booking.com/searchresults.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&checkin=2025-07-18&checkout=2025-07-25&class_interval=1&dest_id=20088325&dest_type=city&dtdisc=0&group_adults=2&group_children=0&inac=0&index_postcard=0&keep_landing=1&label_click=undef&lang=en-us&lang_changed=1&no_rooms=1&offset=0&postcard=0&raw_dest_type=city&room1=A%2CA&sb_price_type=total&shw_aparth=1&slp_r_match=0&ss_all=0&ssb=empty&sshis=0&', title='Booking.com: Hotels in New York. Book your hotel now!'), TabInfo(page_id=2, url='https://www.booking.com/hotel/us/element-times-square.en-us.html?aid=905856&label=ek-landingpage-lp-sb&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=25731317_94368970_0_1_0&checkin=2025-07-18&checkout=2025-07-25&dcs_click=1&dest_id=20088325&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=2&highlighted_blocks=25731317_94368970_0_1_0&hpos=2&matching_block_id=25731317_94368970_0_1_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=popularity&sr_pri_blocks=25731317_94368970_0_1_0__165450&srepoch=1750960242&srpvid=b4257d6d6fb405d4&type=total&ucfs=1&#hotelTmpl', title='Element Times Square West, New York (updated prices 2025)')]
+Interactive elements from current page view:
+... 1140.6666259765625 pixels above - scroll or extract content to see more ...
+0[:]<body >Property highlights
+Perfect for a 1-week stay!
+Located in the heart of New York, this hotel has an excellent location score of 9.2
+Want a great night's sleep? This hotel was highly-rated for its very comfy beds.
+Breakfast Info
+Continental, American, Buffet
+Rooms with:
+City view
+Select your option
+Filter by:
+Room type
+Number of guests
+Price for 1 week
+Your options
+Select Rooms
+1 king bed
+Free crib available on request
+1 room
+28 m²
+Private kitchen
+Attached bathroom
+City view
+Air conditioning
+Dishwasher
+Flat-screen TV
+Soundproof
+Coffee machine
+Free Wifi
+Free toiletries
+Kitchen
+Safe
+Toilet
+Bathtub or shower
+Towels
+Linens
+Desk
+Sitting area
+TV
+Refrigerator
+Telephone
+Ironing facilities
+Tea/Coffee maker
+Iron
+Radio
+Microwave
+Heating
+Hairdryer
+Kitchenware
+Kitchenette
+DVD player
+Cable channels
+Wake-up service
+Alarm clock
+Max. people: 2
+€ 1,424
+Price
+€ 1,424
+Includes taxes and fees
+Earn 1212 Skywards Miles
+Good breakfast
+included
+Non-refundable
+•
+Pay online
+•
+Only 5 rooms left on our site
+Select Rooms
+Max. people: 2
+€ 1,680
+Price
+€ 1,680
+Includes taxes and fees
+Earn 1435 Skywards Miles
+Good breakfast
+included
+Free cancellation
+before July 15, 2025
+No prepayment needed
+– pay at the property
+•
+Only 5 rooms left on our site
+Select Rooms
+You won't be charged yet
+In partnership with
+22
+23
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+57</body>
+1[:]<button type="submit"></button>
+2[:]<div ></div>
+3[:]<button type="button"></button>
+4[:]<div ></div>
+5[:]<button type="button"></button>
+6[:]<img alt="a view of the front of a building with an american flag at Element Times Square West in New York"></img>
+7[:]<button type="button"></button>
+8[:]<img alt="a bathroom with a shower and a toilet and a sink at Element Times Square West in New York"></img>
+9[:]<button type="button"></button>
+10[:]<img alt="a cafeteria with tables and chairs and windows at Element Times Square West in New York"></img>
+11[:]<button type="button"></button>
+12[:]<img alt="a hotel room with a bed and a desk and a television at Element Times Square West in New York"></img>
+13[:]<button type="button"></button>
+14[:]<img alt="a table and chairs on a balcony with a city skyline at Element Times Square West in New York"></img>
+15[:]<button type="button"></button>
+16[:]<img alt="a conference room with a long table and chairs at Element Times Square West in New York"></img>
+17[:]<button type="button"></button>
+18[:]<img alt="a hotel room with a large bed and a window at Element Times Square West in New York +20 photos"></img>
+19[:]<span ></span>
+20[:]<div ></div>
+21[:]<div >Distance in property description is calculated using © OpenStreetMap</div>
+22[:]<div >Most popular facilities
+Non-smoking rooms
+Fitness center
+Facilities for disabled guests
+Parking
+Free Wifi
+24-hour front desk
+Elevator
+Laundry
+Heating</div>
+23[:]<button type="button">Good Breakfast</button>
+24[:]<div ></div>
+25[:]<button type="submit">Reserve</button>
+26[:]<div ></div>
+27[:]<button type="button">We Price Match</button>
+28[:]<div >Prices converted to EUR</div>
+29[:]<button type="button"></button>
+30[:]<div ></div>
+31[:]<div role="none">—</div>
+32[:]<button type="button">Fri, Jul 18</button>
+33[:]<button type="button">Fri, Jul 25</button>
+34[:]<button aria-expanded="false" aria-label="Number of travelers and rooms. Currently selected: 2 adults · 0 children · 1 room" type="button">2 adults · 0 children · 1 room</button>
+35[:]<button type="submit">Change search</button>
+36[:]<label >Rooms</label>
+37[:]<label >Studios</label>
+38[:]<a >Guest Room, 1 King</a>
+39[:]<img alt="Emirates"></img>
+40[:]<button aria-label="More details on meals, cancellation, and prepayment policies" type="button"></button>
+41[:]<select name="nr_rooms_25731317_94368970_0_1_0"></select>
+42[:]<img alt="Emirates"></img>
+43[:]<button aria-label="More details on meals, cancellation, and prepayment policies" type="button"></button>
+44[:]<select name="nr_rooms_25731317_397792254_0_1_0"></select>
+45[:]<a ></a>
+46[:]<button aria-label="Show more amenities"></button>
+47[:]<img alt="Emirates"></img>
+48[:]<button aria-label="More details on meals, cancellation, and prepayment policies" type="button"></button>
+49[:]<select name="nr_rooms_25731318_94368970_0_1_0"></select>
+50[:]<img alt="Emirates"></img>
+51[:]<button aria-label="More details on meals, cancellation, and prepayment policies" type="button"></button>
+52[:]<select name="nr_rooms_25731318_397792254_0_1_0"></select>
+53[:]<a ></a>
+54[:]<img alt="Emirates"></img>
+55[:]<button aria-label="More details on meals, cancellation, and prepayment policies" type="button"></button>
+56[:]<select name="nr_rooms_25731324_94368970_0_1_0"></select>
+57[:]<button type="submit" tabindex="0">I'll reserve</button>
+58[:]<div tabindex="0"></div>
+59[:]<a tabindex="0">Skip to main content</a>
+60[:]<a aria-label="Booking.com Online Hotel Reservations"></a>
+61[:]<button type="button">EUR
+Choose your currency.
+Your current currency is Euro</button>
+62[:]<button type="button">Choose your language.
+Your current language is English (US)</button>
+63[:]<img alt=""></img>
+64[:]<a >Get help with your reservation</a>
+65[:]<a >List your property</a>
+66[:]<a >Register</a>
+67[:]<a >Sign in</a>
+68[:]<a ></a>
+69[:]<img alt="Trusted Affiliate"></img>
+... 6390.3333740234375 pixels below - scroll or extract content to see more ...

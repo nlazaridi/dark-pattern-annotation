@@ -1,0 +1,206 @@
+
+
+Current url: https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d
+Available tabs:
+[TabInfo(page_id=0, url='https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d', title='Turkish Airlines Booking Availability')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<body >0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+76</body>
+1[:]<div ></div>
+2[:]<div >From
+Frankfurt Airport
+(
+FRA
+)
+To
+Istanbul Airport
+(
+IST
+)
+OUTBOUND FLIGHT
+Frankfurt to Istanbul on Thursday, 4 September
+Sort by
+You can receive a full refund within 24 hours for tickets purchased on our website or mobile application. In order to receive a full refund, your flights must be at least 7 days before the departure date. Additional services you have purchased are not refundable. You can find detailed information on our free ticket cancellation within 24 hours page.
+Package details
+1 piece X 8 kg cabin baggage
+Baggage allowance
+Standard seat selection
+Preferred seat selection
+Change without fee (class fare difference may be charged)
+Change to an earlier flight on the same day
+Full refund
+Miles
+Fast track (where available)
+Meal service
+WiFi: Unlimited text messaging (if available)
+EcoFly
+U Class
+290 Miles
+ExtraFly
+U Class
+23 kg
+60.00 EUR deduction
+290 Miles
+FlexFly
+U Class
+Recommended
+23 kg
+90.00 EUR deduction
+363 Miles
+PrimeFly
+U Class
+30 kg
+435 Miles</div>
+3[:]<div tabindex="0" role="button"></div>
+4[:]<img alt="THY"></img>
+5[:]<div aria-label="Tab 1 Select flight" role="button" tabindex="0">Select flight</div>
+6[:]<div aria-label="Tab 2 Passenger details" role="button" tabindex="0">Passenger details</div>
+7[:]<div aria-label="Tab 3 Additional services" role="button" tabindex="0">Additional services</div>
+8[:]<div aria-label="Tab 4 Payment" role="button" tabindex="0">Payment</div>
+9[:]<input type="text" tabindex="0" aria-label="From" aria-expanded="false" role="combobox" value="Frankfurt"></input>
+10[:]<button aria-label="Button for swap the values in the to and from fields" role="button"></button>
+11[:]<input type="text" tabindex="0" aria-label="To" aria-expanded="false" role="combobox" value="Istanbul"></input>
+12[:]<div tabindex="0" role="button" aria-expanded="false">Departure
+Thursday
+04
+Sep
+Return
+Thursday
+18
+Sep
+...</div>
+13[:]<div tabindex="0" role="button" aria-expanded="false">Passengers
+1
+Passenger
+ECO</div>
+14[:]<button >Modify search</button>
+15[:]<div tabindex="0" role="button" aria-label="a11y.Availability.PreviousDay"></div>
+16[:]<div tabindex="0" role="button" aria-label="a11y.Availability.NextDay"></div>
+17[:]<button ></button>
+18[:]<label >Select currency</label>
+19[:]<button ></button>
+20[:]<label >List</label>
+21[:]<button ></button>
+22[:]<label >Monthly price chart</label>
+23[:]<button ></button>
+24[:]<label >Table</label>
+25[:]<button >Recommended</button>
+26[:]<button >Increasing by price</button>
+27[:]<button >Flight duration</button>
+28[:]<button type="button">+2</button>
+29[:]<div tabindex="0" role="button" aria-label="07:05 - 11:20 Itinerary details">07:05
+FRA
+Frankfurt
+Direct
+11:20
+IST
+Istanbul
+Total travel duration
+3h 15m
+Aircraft type:
+Airbus A320 - Narrow-body</div>
+30[:]<img alt="FRA"></img>
+31[:]<div role="button" aria-label="Itinerary details: 07:05 - 11:20">Itinerary details</div>
+32[:]<div tabindex="0" role="button" aria-expanded="true">Economy
+Best price
+Per passenger
+EUR
+119
+.09</div>
+33[:]<span role="button"></span>
+34[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+EUR
+566
+.09
+4 left at this price</div>
+35[:]<span role="button"></span>
+36[:]<img alt=""></img>
+37[:]<img alt=""></img>
+38[:]<img alt=""></img>
+39[:]<img alt=""></img>
+40[:]<img alt=""></img>
+41[:]<img alt=""></img>
+42[:]<img alt=""></img>
+43[:]<img alt=""></img>
+44[:]<img alt=""></img>
+45[:]<img alt=""></img>
+46[:]<img alt=""></img>
+47[:]<button type="button" aria-label="EcoFly - 119.09 EUR"></button>
+48[:]<button type="button" aria-label="ExtraFly - 137.09 EUR"></button>
+49[:]<button type="button" aria-label="FlexFly - 152.09 EUR"></button>
+50[:]<button type="button" aria-label="PrimeFly - 170.09 EUR"></button>
+51[:]<div tabindex="0" role="button" aria-label="11:25 - 15:35 Itinerary details"></div>
+52[:]<img alt="FRA"></img>
+53[:]<div role="button" aria-label="Itinerary details: 11:25 - 15:35"></div>
+54[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+55[:]<span role="button"></span>
+56[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+57[:]<span role="button"></span>
+58[:]<div tabindex="0" role="button" aria-label="14:25 - 18:35 Itinerary details"></div>
+59[:]<img alt="FRA"></img>
+60[:]<div role="button" aria-label="Itinerary details: 14:25 - 18:35"></div>
+61[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+62[:]<span role="button"></span>
+63[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+64[:]<span role="button"></span>
+65[:]<div tabindex="0" role="button" aria-label="15:05 - 19:15 Itinerary details"></div>
+66[:]<img alt="FRA"></img>
+67[:]<div role="button" aria-label="Itinerary details: 15:05 - 19:15"></div>
+68[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+69[:]<span role="button"></span>
+70[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+71[:]<span role="button"></span>
+72[:]<div tabindex="0" role="button" aria-label="18:55 - 23:05 Itinerary details"></div>
+73[:]<div role="button" aria-label="Itinerary details: 18:55 - 23:05"></div>
+74[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+75[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+76[:]<div role="button" tabindex="0">Survey</div>
+... 860 pixels below - scroll or extract content to see more ...

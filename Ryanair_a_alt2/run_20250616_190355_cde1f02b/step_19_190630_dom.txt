@@ -1,0 +1,135 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<a aria-label="Fees">Fees</a>
+2[:]<a aria-label="FAQs">FAQs</a>
+3[:]<button >My bookings</button>
+4[:]<button >Log in</button>
+5[:]<button >myRyanair Portal</button>
+_[:]Barcelona
+_[:](All airports)
+_[:]Milan
+_[:](All airports)
+_[:]Return
+_[:]17 Jul
+_[:]- 1 Aug
+_[:]1
+6[:]<button >Edit search</button>
+_[:]Flights
+_[:]Seats
+_[:]Bags
+_[:]Extras
+_[:]Review & Pay
+_[:]Barcelona (All airports) to
+ Milan (All airports)
+7[:]<button >Sort flights by</button>
+8[:]<button aria-label="Search previous dates"></button>
+9[:]<button >16
+Jul
+Wednesday
+€
+21
+.
+99</button>
+10[:]<button >17
+Jul
+Thursday
+€
+20
+.
+00</button>
+11[:]<button >18
+Jul
+Friday
+€
+21
+.
+99</button>
+12[:]<button >19
+Jul
+Saturday
+€
+43
+.
+72</button>
+13[:]<button >20
+Jul
+Sunday
+€
+64
+.
+58</button>
+14[:]<button aria-label="Search next dates"></button>
+15[:]<div tabindex="0">Ryanair
+08:35
+Barcelona
+FR 3143
+1h 45m
+10:20
+Milan Bergamo
+Basic Fare
+€24.99
+4 seats left at this price</div>
+16[:]<button >Select</button>
+17[:]<div tabindex="0">Ryanair
+11:30
+Barcelona
+FR 269
+1h 45m
+13:15
+Milan Malpensa
+Basic Fare
+€25.19
+1 seats left at this price</div>
+18[:]<button >Select</button>
+19[:]<div tabindex="0">Ryanair
+16:35
+Barcelona
+FR 7541
+1h 45m
+18:20
+Milan Malpensa
+Basic Fare
+€21.99
+5 seats left at this price</div>
+20[:]<button >Select</button>
+21[:]<div tabindex="0">Ryanair
+16:40
+Barcelona
+FR 7713
+1h 45m
+18:25
+Milan Bergamo
+Basic Fare
+€43.89</div>
+22[:]<button >Select</button>
+23[:]<div tabindex="0">Ryanair
+18:25
+Barcelona
+FR 3320
+1h 45m
+20:10
+Milan Bergamo
+Basic Fare
+€39.50
+2 seats left at this price</div>
+24[:]<button >Select</button>
+25[:]<div tabindex="0"></div>
+26[:]<button ></button>
+27[:]<button ></button>
+28[:]<button aria-label="Search previous dates"></button>
+29[:]<button ></button>
+30[:]<button ></button>
+31[:]<button ></button>
+32[:]<button ></button>
+33[:]<button ></button>
+34[:]<button aria-label="Search next dates"></button>
+35[:]<div tabindex="0"></div>
+36[:]<button ></button>
+... 521 pixels below - scroll or extract content to see more ...

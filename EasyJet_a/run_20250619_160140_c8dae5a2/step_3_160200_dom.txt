@@ -1,0 +1,127 @@
+
+
+Current url: https://www.easyjet.com/en
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en', title='easyJet | Flights & holidays ✈️ Book low-cost airline tickets')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<button aria-label="easyJet holidays" type="button">Holidays</button>
+1[:]<button aria-label="Manage Bookings" type="button">Manage Bookings</button>
+2[:]<button aria-label="Check In" type="button">Check In</button>
+3[:]<button type="button" aria-label="Help">Help</button>
+4[:]<button type="button">English</button>
+5[:]<img alt=""></img>
+6[:]<a title=""></a>
+7[:]<img alt="easyJet logo"></img>
+8[:]<li role="menuitem" aria-expanded="false"></li>
+9[:]<button aria-label="Flight Info" type="button">Flight Info</button>
+10[:]<li role="menuitem" aria-expanded="false"></li>
+11[:]<a ></a>
+12[:]<button aria-label="Holidays" type="button">Holidays</button>
+13[:]<li role="menuitem" aria-expanded="false"></li>
+14[:]<button aria-label="Cars and Extras" type="button">Cars/Extras</button>
+15[:]<li role="menuitem" aria-expanded="false"></li>
+16[:]<button aria-label="Business" type="button">Business</button>
+17[:]<li role="menuitem" aria-expanded="false"></li>
+18[:]<button aria-label="Booking.com" type="button">Booking.com</button>
+19[:]<button type="button" aria-label="Sign In">Sign In</button>
+20[:]<li >Flights</li>
+21[:]<img alt=""></img>
+22[:]<li ></li>
+23[:]<a >Holidays</a>
+24[:]<img alt=""></img>
+25[:]<li ></li>
+26[:]<a >Cars</a>
+27[:]<img alt=""></img>
+28[:]<label >From</label>
+29[:]<i role="button" tabindex="-1"></i>
+30[:]<img alt=""></img>
+31[:]<input name="from" type="text" placeholder="Country, city, airport" value="Amsterdam (AMS)"></input>
+32[:]<button tabindex="-1" aria-label="Clear selected departure airport"></button>
+33[:]<img alt=""></img>
+34[:]<label >To</label>
+35[:]<i role="button" tabindex="-1"></i>
+36[:]<img alt=""></img>
+37[:]<input name="to" type="text" placeholder="Country, city, airport" value=""></input>
+38[:]<label >When</label>
+39[:]<i role="button" tabindex="-1"></i>
+40[:]<img alt=""></img>
+41[:]<input name="when" type="text" placeholder="Choose your dates" aria-label="Clear selected travel date" value=""></input>
+42[:]<label >Who</label>
+43[:]<i role="button" tabindex="-1"></i>
+44[:]<img alt=""></img>
+45[:]<input name="who" type="text" value="1 adult"></input>
+46[:]<button type="submit">Show flights</button>
+_[:]Fly More, Spend Less
+_[:]FLIGHTS TO SPAIN FROM £29.99
+_[:]Book your next beach break or city adventure but be quick, offer ends 8am 20.06.
+47[:]<a >Book flights</a>
+_[:]SUMMER PRICE DROPS
+_[:]We've dropped the prices of selected June and July package holidays - meaning you can grab a beach holiday from just £329pp.
+48[:]<a aria-label="Search and book package holidays">Book package holidays</a>
+_[:]Explore our unbeatable flight deals
+49[:]<li tabindex="-1" aria-label="carousel block"></li>
+50[:]<a >Berlin Brandenburg
+From London Luton
+from
+£35.99
+Jul 2025
+Book now</a>
+51[:]<img alt=""></img>
+52[:]<li tabindex="-1" aria-label="carousel block"></li>
+53[:]<a >Milan Malpensa
+From London Luton
+from
+£35.99
+Jul 2025
+Book now</a>
+54[:]<img alt=""></img>
+55[:]<li tabindex="-1" aria-label="carousel block"></li>
+56[:]<a >Munich
+From Manchester
+from
+£35.99
+Aug 2025
+Book now</a>
+57[:]<img alt=""></img>
+58[:]<li tabindex="-1" aria-label="carousel block"></li>
+59[:]<a >Majorca Palma
+From Liverpool
+from
+£20.49
+Jul 2025
+Book now</a>
+60[:]<img alt="NBE-Tunisia-Enfidha-Hammamet"></img>
+61[:]<li tabindex="-1" aria-label="carousel block"></li>
+62[:]<a >Lanzarote
+From Manchester
+from
+£47.49
+Aug 2025
+Book now</a>
+63[:]<img alt="FUE-Spain-Fuerteventura"></img>
+64[:]<li tabindex="-1" aria-label="carousel block"></li>
+65[:]<a >Rhodes
+From Bristol
+from
+£57.99
+Sept 2025
+Book now</a>
+66[:]<img alt="AGP-Spain-Malaga"></img>
+67[:]<label >Price shown is one-way, inc. taxes with limited availability.</label>
+_[:]DISCOVER YOUR NEXT ADVENTURE
+_[:]With flights and holidays to the best destinations across Europe, we’ve got everything covered for the perfect trip
+68[:]<li tabindex="-1" aria-label=""></li>
+69[:]<a ></a>
+70[:]<img alt=""></img>
+71[:]<label ></label>
+72[:]<li tabindex="-1" aria-label=""></li>
+73[:]<a title="Book package holidays"></a>
+74[:]<img alt=""></img>
+75[:]<label ></label>
+76[:]<li tabindex="-1" aria-label=""></li>
+77[:]<a ></a>
+78[:]<img alt="Milan flights"></img>
+79[:]<label ></label>
+... 3555 pixels below - scroll or extract content to see more ...

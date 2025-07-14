@@ -1,0 +1,213 @@
+
+
+Current url: https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d
+Available tabs:
+[TabInfo(page_id=0, url='https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=92ccacb4-6aa6-4b5a-ab0b-c47165b2c23d', title='Turkish Airlines Booking Availability')]
+Interactive elements from current page view:
+... 585.3333129882812 pixels above - scroll or extract content to see more ...
+0[:]<body >Package details
+1 piece X 8 kg cabin baggage
+Baggage allowance
+Standard seat selection
+Preferred seat selection
+Change without fee (class fare difference may be charged)
+Change to an earlier flight on the same day
+Full refund
+Miles
+Fast track (where available)
+Meal service
+WiFi: Unlimited text messaging (if available)
+EcoFly
+U Class
+290 Miles
+EUR
+119
+.09
+ExtraFly
+U Class
+23 kg
+60.00 EUR deduction
+290 Miles
+EUR
+137
+.09
+FlexFly
+U Class
+Recommended
+23 kg
+90.00 EUR deduction
+363 Miles
+EUR
+152
+.09
+PrimeFly
+U Class
+30 kg
+435 Miles
+EUR
+170
+.09
+11:25
+FRA
+Frankfurt
+Direct
+15:35
+IST
+Istanbul
+Total travel duration
+3h 10m
+Aircraft type:
+Airbus A330-300 - Wide-body
+Itinerary details
+Economy
+Best price
+Per passenger
+EUR
+119
+.09
+Business
+Per passenger
+EUR
+566
+.09
+4 left at this price
+14:25
+FRA
+Frankfurt
+Direct
+18:35
+IST
+Istanbul
+Total travel duration
+3h 10m
+Aircraft type:
+Airbus A320 - Narrow-body
+Itinerary details
+Economy
+Best price
+Per passenger
+EUR
+119
+.09
+Business
+Per passenger
+EUR
+566
+.09
+4 left at this price
+15:05
+FRA
+Frankfurt
+Direct
+19:15
+IST
+Istanbul
+Total travel duration
+3h 10m
+Aircraft type:
+Airbus A330-300 - Wide-body
+Itinerary details
+Economy
+Best price
+Per passenger
+EUR
+119
+.09
+Business
+Per passenger
+EUR
+566
+.09
+4 left at this price
+18:55
+FRA
+Frankfurt
+Direct
+23:05
+IST
+Istanbul
+Total travel duration
+3h 10m
+Aircraft type:
+Airbus A330-300 - Wide-body
+Itinerary details
+Economy
+Best price
+Per passenger
+EUR
+119
+.09
+Business
+Per passenger
+EUR
+566
+.09
+4 left at this price
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41</body>
+1[:]<label ></label>
+2[:]<input type="text" tabindex="0" aria-label="From" aria-expanded="false" role="combobox" value="Frankfurt"></input>
+3[:]<label ></label>
+4[:]<button aria-label="Button for swap the values in the to and from fields" role="button"></button>
+5[:]<label ></label>
+6[:]<input type="text" tabindex="0" aria-label="To" aria-expanded="false" role="combobox" value="Istanbul"></input>
+7[:]<label ></label>
+8[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+9[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+10[:]<button ></button>
+11[:]<div tabindex="0" role="button" aria-label="a11y.Availability.PreviousDay"></div>
+12[:]<div tabindex="0" role="button" aria-label="a11y.Availability.NextDay"></div>
+13[:]<button ></button>
+14[:]<label ></label>
+15[:]<button ></button>
+16[:]<label ></label>
+17[:]<button ></button>
+18[:]<label ></label>
+19[:]<button ></button>
+20[:]<label ></label>
+21[:]<button ></button>
+22[:]<button ></button>
+23[:]<button ></button>
+24[:]<button type="button"></button>
+25[:]<div tabindex="0" role="button" aria-label="07:05 - 11:20 Itinerary details"></div>
+26[:]<img alt="FRA"></img>
+27[:]<div role="button" aria-label="Itinerary details: 07:05 - 11:20"></div>
+28[:]<div tabindex="0" role="button" aria-expanded="true"></div>
+29[:]<span role="button"></span>
+30[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+31[:]<span role="button"></span>
+32[:]<div role="button" tabindex="0">Survey</div>
+33[:]<div tabindex="0" role="button">The EcoFly package you have selected includes only cabin baggage allowance.
+Would you like to upgrade your package to FlexFly with checked baggage allowance?
+You can upgrade your package to FlexFly with just
+33.00 EUR
+for one way and one person.
+Additional services
+EcoFly
+FlexFly
+Checked baggage (23 kg)
+23 KG baggage
+Seat selection
+Change
+Refund
+Refund with a 90.00 EUR deduction
+Miles
+290 Miles
+363 Miles</div>
+34[:]<div role="button" tabindex="0" aria-label="Close"></div>
+35[:]<img alt="checked_baggage icon"></img>
+36[:]<img alt="seat_selection icon"></img>
+37[:]<img alt="reissue icon"></img>
+38[:]<img alt="refund icon"></img>
+39[:]<img alt="bonus_mile icon"></img>
+40[:]<button >Stay on EcoFly</button>
+41[:]<button >Upgrade to FlexFly</button>
+... 276.66668701171875 pixels below - scroll or extract content to see more ...

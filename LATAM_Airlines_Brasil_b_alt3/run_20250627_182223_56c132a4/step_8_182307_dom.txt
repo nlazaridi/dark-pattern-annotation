@@ -1,0 +1,115 @@
+
+
+Current url: https://www.latamairlines.com/es/en
+Available tabs:
+[TabInfo(page_id=0, url='https://www.latamairlines.com/es/en', title='Book Flights, Hotels and Car rentals | LATAM Airlines Spain')]
+Interactive elements from current page view:
+... 1044.6666259765625 pixels above - scroll or extract content to see more ...
+0[:]<body >On sale
+Beach destinations
+City adventures
+Nightlife
+Natural retreats
+South American Gems
+Made for you
+Flight with connection
+Goiania
+Departure
+09/14/25
+·
+Return
+09/22/25
+Economy
+Earn
+miles
+Price starting at
+EUR
+764.36
+Taxes included
+Made for you
+Flight with connection
+Porto Alegre
+Departure
+09/17/25
+·
+Return
+09/25/25
+Economy
+Earn
+miles
+Price starting at
+EUR
+727.79
+Taxes included
+Made for you
+Flight with connection
+Buenos Aires
+Departure
+09/01/25
+·
+Return
+09/08/25
+Economy
+Earn
+miles
+Price starting at
+EUR
+1,097.05
+Taxes included
+Made for you
+Flight with connection
+Belo Horizonte
+Departure
+09/16/25
+·
+Return
+09/24/25
+Economy
+Earn
+miles
+Price starting at
+EUR
+674.07
+Taxes included
+Direct flight
+São Paulo
+Departure
+10/09/25
+·
+Return
+10/19/25
+Economy
+Earn
+miles
+Price starting at
+EUR
+652.98
+Taxes included
+Still can’t find an offer for your destination?
+See more flights
+Learn about our terms and conditions for recommended flights.
+General terms and conditions
+Book your accommodations
+9
+10
+11
+12
+13
+16</body>
+1[:]<a aria-label="Discover more"></a>
+2[:]<img alt="Image Alt Text"></img>
+3[:]<a aria-label="You are on link 1 of 4: xp_home_web_service_link_trip, a new tab will open."></a>
+4[:]<a aria-label="You are on link 2 of 4: xp_home_web_service_link_ticket_refund, a new tab will open."></a>
+5[:]<a aria-label="You are on link 3 of 4: xp_home_web_service_link_fee_info, a new tab will open."></a>
+6[:]<a aria-label="You are on link 4 of 4: xp_home_web_service_link_baggage, a new tab will open."></a>
+7[:]<span role="combobox" aria-expanded="false" tabindex="0"></span>
+8[:]<label ></label>
+9[:]<a aria-label="Hotel in Punta Cana, República Dominicana: CARIBBEAN Paradise TROPICAL HOTEL with VIEW Los Corales WiFi Beach CLUB & SPA, 5 stars. It has a score of 10, excepcional. Reserve on Booking.com, partner of LATAM, for a final price of 604.39EUR For 7 nights for 2 adults. A new tab will open.">Hotel</a>
+10[:]<img alt="CARIBBEAN Paradise TROPICAL HOTEL with VIEW Los Corales WiFi Beach CLUB & SPA"></img>
+11[:]<a aria-label="Hotel in Cancun, México: Royal Select at Grand Park Royal Cancún - All Inclusive - Adults Only, 5 stars. It has a score of 8.5, muito bom. Reserve on Booking.com, partner of LATAM, for a final price of 2,728.68EUR For 7 nights for 2 adults. A new tab will open.">Hotel</a>
+12[:]<img alt="Royal Select at Grand Park Royal Cancún - All Inclusive - Adults Only"></img>
+13[:]<a ></a>
+14[:]<img alt=""></img>
+15[:]<img ></img>
+16[:]<div ></div>
+... 3055.3333740234375 pixels below - scroll or extract content to see more ...

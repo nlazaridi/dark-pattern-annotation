@@ -1,0 +1,366 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started successfully.",
+          "memory": "",
+          "next_goal": "Go to ryanair.com"
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.ryanair.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.ryanair.com",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - navigated to ryanair.com.",
+          "memory": "",
+          "next_goal": "Navigate to the EXPLORE section"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 1
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 1: Plan",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-header/ry-common-header-desktop/header/div[2]/div/ry-common-header-section/ry-common-header-section-item/button",
+            "highlight_index": 1,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-header",
+              "ry-common-header-desktop",
+              "header",
+              "div",
+              "div",
+              "ry-common-header-section",
+              "ry-common-header-section-item",
+              "button"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c2789343842": "",
+              "triggers": "click",
+              "class": "section-item body-xl-lg ng-star-inserted",
+              "data-ref": "dropdown-header-section-item__Plan",
+              "aria-label": "Plan"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on Plan.",
+          "memory": "",
+          "next_goal": "Click Destinations."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 4
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 4: Destinations",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/gb/en",
+            "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/hp-app-root/hp-home-container/hp-home/hp-header/ry-common-header-desktop/header/div[2]/div/ry-common-header-section/ry-common-header-section-item/ry-tooltip/div[2]/ry-common-header-tooltip-content/div/div/div/ul/li[2]/a",
+            "highlight_index": 4,
+            "entire_parent_branch_path": [
+              "hp-app-root",
+              "hp-home-container",
+              "hp-home",
+              "hp-header",
+              "ry-common-header-desktop",
+              "header",
+              "div",
+              "div",
+              "ry-common-header-section",
+              "ry-common-header-section-item",
+              "ry-tooltip",
+              "div",
+              "ry-common-header-tooltip-content",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "a"
+            ],
+            "attributes": {
+              "_ngcontent-ng-c391232791": "",
+              "rel": "noopener noreferrer",
+              "target": "_self",
+              "class": "tooltip-content__column-items-link body-l-lg",
+              "href": "https://www.ryanair.com/flights/gb/en",
+              "aria-label": "Destinations"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/gb/en",
+        "title": "Official Ryanair website | Book direct for the lowest fares | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - clicked on Destinations.",
+          "memory": "",
+          "next_goal": "Scroll down to the bottom of the page."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/flights/gb/en",
+            "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/flights/gb/en",
+        "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to the bottom of the page."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/flights/gb/en",
+            "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/flights/gb/en",
+        "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to the bottom of the page."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/flights/gb/en",
+            "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/flights/gb/en",
+        "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to the bottom of the page."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 168
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 168: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/flights/gb/en",
+            "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div[5]/div[2]/span",
+            "highlight_index": 168,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "span"
+            ],
+            "attributes": {
+              "class": "cookie-popup__close-icon"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.ryanair.com/flights/gb/en",
+        "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on a link on the page.",
+          "memory": "Navigated to ryanair.com, clicked on EXPLORE -> Destinations, and scrolled to the bottom of the page.",
+          "next_goal": "Complete the task."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "Successfully navigated to ryanair.com, clicked on EXPLORE -> Destinations, and scrolled to the bottom of the page."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "Successfully navigated to ryanair.com, clicked on EXPLORE -> Destinations, and scrolled to the bottom of the page.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.ryanair.com/flights/gb/en",
+            "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.ryanair.com/flights/gb/en",
+        "title": "Cheap flights in Europe | Low-cost European flights | Ryanair.com"
+      }
+    }
+  ]
+}

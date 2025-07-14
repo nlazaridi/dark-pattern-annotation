@@ -1,0 +1,169 @@
+
+
+Current url: https://www.booking.com/hotel/tr/kadikoy-alex-5k.en-us.html?aid=1320040&label=standalone&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=1220774801_394232491_4_0_0&checkin=2025-07-18&checkout=2025-07-25&dest_id=-755070&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1220774801_394232491_4_0_0&hpos=1&matching_block_id=1220774801_394232491_4_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=price_from_high_to_low&sr_pri_blocks=1220774801_394232491_4_0_0__3118500&srepoch=1751199045&srpvid=3fbf5582de1808c2&type=total&ucfs=1&#hotelTmpl
+Available tabs:
+[TabInfo(page_id=0, url='https://www.booking.com/searchresults.en-us.html?label=standalone&sid=62fb751ed41b8b6b915709a04bbaedb1&aid=1320040&sb=1&sb_lp=1&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.en-us.html%3Faid%3D1320040%26label%3Dstandalone%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26sb_price_type%3Dtotal%26&ss=Istanbul%2C+Marmara+Region%2C+Turkey&is_ski_area=&checkin_year=2025&checkin_month=7&checkin_monthday=18&checkout_year=2025&checkout_month=7&checkout_monthday=25&flex_window=0&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Istanbul&ac_position=0&ac_langcode=en&ac_click_type=b&dest_id=-755070&dest_type=city&iata=IST&place_id_lat=41.00817&place_id_lon=28.974445&search_pageview_id=d5b2557886d80862&search_selected=true&search_pageview_id=d5b2557886d80862&ac_suggestion_list_length=5&ac_suggestion_theme_list_length=0&order=price_from_high_to_low', title='Booking.com: Hotels in Istanbul. Book your hotel now!'), TabInfo(page_id=1, url='https://www.booking.com/hotel/tr/kadikoy-alex-5k.en-us.html?aid=1320040&label=standalone&sid=62fb751ed41b8b6b915709a04bbaedb1&all_sr_blocks=1220774801_394232491_4_0_0&checkin=2025-07-18&checkout=2025-07-25&dest_id=-755070&dest_type=city&dist=0&group_adults=2&group_children=0&hapos=1&highlighted_blocks=1220774801_394232491_4_0_0&hpos=1&matching_block_id=1220774801_394232491_4_0_0&no_rooms=1&req_adults=2&req_children=0&room1=A%2CA&sb_price_type=total&sr_order=price_from_high_to_low&sr_pri_blocks=1220774801_394232491_4_0_0__3118500&srepoch=1751199045&srpvid=3fbf5582de1808c2&type=total&ucfs=1&#hotelTmpl', title='Kadıköy ALEX 5K, Istanbul (updated prices 2025)')]
+Interactive elements from current page view:
+... 857 pixels above - scroll or extract content to see more ...
+0[:]<body >Property highlights
+Perfect for a 1-week stay!
+Top Location: Highly rated by recent guests (10.0)
+Select your option
+Apartment Type
+Number of guests
+Price for 1 week
+Your options
+Select an Apartment
+Bedroom 1:
+1 full bed
+Living room:
+1 sofa bed
+Free crib available on request
+Entire apartment
+45 m²
+Private kitchen
+Private bathroom
+Air conditioning
+Flat-screen TV
+Free Wifi
+Kitchen
+Desk
+Iron
+Heating
+Hairdryer
+Max. people: 4
+€ 31,185
+Price
+€ 31,185
+Includes taxes and fees
+Earn 62370 Miles
+Non-refundable
+•
+Pay online
+Select Rooms
+You won't be charged yet
+Limited supply in Istanbul for your dates:
+30 apartments like this are already unavailable on our site
+In partnership with
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57</body>
+1[:]<input type="search" name="ss" placeholder="Istanbul" value="Istanbul"></input>
+2[:]<label ></label>
+3[:]<label ></label>
+4[:]<div tabindex="0"></div>
+5[:]<label role="button" aria-expanded="false"></label>
+6[:]<label ></label>
+7[:]<label ></label>
+8[:]<button type="submit"></button>
+9[:]<div ></div>
+10[:]<button type="button"></button>
+11[:]<div ></div>
+12[:]<button type="button"></button>
+13[:]<img alt="a living room with a couch and a table at Kadıköy ALEX 5K in Istanbul"></img>
+14[:]<button type="button"></button>
+15[:]<img alt="a wooden tray with a coffee maker and snacks at Kadıköy ALEX 5K in Istanbul"></img>
+16[:]<button type="button"></button>
+17[:]<img alt="a bathroom with a shower with a glass door at Kadıköy ALEX 5K in Istanbul"></img>
+18[:]<button type="button"></button>
+19[:]<img alt="a bathroom with a sink and a shower at Kadıköy ALEX 5K in Istanbul"></img>
+20[:]<button type="button"></button>
+21[:]<img alt="a bathroom with a sink and a toilet and a mirror at Kadıköy ALEX 5K in Istanbul"></img>
+22[:]<button type="button"></button>
+23[:]<img alt="a bedroom with a desk with a chair next to a bed at Kadıköy ALEX 5K in Istanbul"></img>
+24[:]<button type="button"></button>
+25[:]<img alt="a bedroom with a bed with two towels on it at Kadıköy ALEX 5K in Istanbul"></img>
+26[:]<button type="button"></button>
+27[:]<img alt="a small bedroom with a bed and a television at Kadıköy ALEX 5K in Istanbul +37 photos"></img>
+28[:]<span ></span>
+29[:]<a ></a>
+30[:]<div ></div>
+31[:]<div ></div>
+32[:]<div >Apartments
+Private bathroom
+Free Wifi
+Air conditioning
+Kitchen
+Flat-screen TV</div>
+33[:]<div >About this property
+Comfortable Living Space:
+Kadıköy ALEX 5K offers a spacious apartment in Kadıköy, Turkey. The property features a private bathroom, air-conditioning, and a fully equipped kitchen.
+Modern Amenities:
+Guests enjoy free WiFi, a work desk, TV, and a hairdryer. The apartment ensures a comfortable and convenient stay with all necessary facilities.
+Convenient Location:
+Located 18 mi from Istanbul Sabiha Gokcen International Airport, the apartment is close to attractions such as Maiden's Tower (4.3 mi), 15 July Martyrs Bridge (5.6 mi), and the Spice Bazaar (8.1 mi). Reception staff speak English, Russian, and Turkish.
+Distance in property description is calculated using © OpenStreetMap</div>
+34[:]<div >Most popular facilities
+Free Wifi
+Air conditioning</div>
+35[:]<button type="submit">Reserve</button>
+36[:]<div ></div>
+37[:]<button type="button">We Price Match</button>
+38[:]<div >2
+0
+1</div>
+39[:]<div role="none">—</div>
+40[:]<button type="button">Fri, Jul 18</button>
+41[:]<button type="button">Fri, Jul 25</button>
+42[:]<button aria-expanded="true" aria-label="Number of travelers and rooms. Currently selected: 2 adults · 0 children · 1 room" type="button">2 adults · 0 children · 1 room</button>
+43[:]<label >Adults</label>
+44[:]<button tabindex="-1" type="button"></button>
+45[:]<button tabindex="-1" type="button"></button>
+46[:]<label >Children</label>
+47[:]<button tabindex="-1" type="button"></button>
+48[:]<button tabindex="-1" type="button"></button>
+49[:]<label >Rooms</label>
+50[:]<button tabindex="-1" type="button"></button>
+51[:]<button tabindex="-1" type="button"></button>
+52[:]<button type="button">Done</button>
+53[:]<button type="submit">Change search</button>
+54[:]<a >One-Bedroom Apartment</a>
+55[:]<button aria-label="More details on meals, cancellation, and prepayment policies" type="button"></button>
+56[:]<select name="nr_rooms_1220774801_394232491_4_0_0"></select>
+57[:]<button type="submit" tabindex="0">I'll reserve</button>
+58[:]<div ></div>
+59[:]<button type="button"></button>
+60[:]<button type="button"></button>
+61[:]<span ></span>
+62[:]<button type="button"></button>
+63[:]<button type="button"></button>
+64[:]<button type="button"></button>
+65[:]<button type="button"></button>
+66[:]<div tabindex="0"></div>
+67[:]<a tabindex="0">Skip to main content</a>
+68[:]<a aria-label="Booking.com Online Hotel Reservations"></a>
+69[:]<button type="button">EUR
+Choose your currency.
+Your current currency is Euro</button>
+70[:]<button type="button">Choose your language.
+Your current language is English (US)</button>
+71[:]<img alt=""></img>
+72[:]<a >Get help with your reservation</a>
+73[:]<a >List your property</a>
+74[:]<a >Register</a>
+75[:]<a >Sign in</a>
+76[:]<a ></a>
+77[:]<img alt="Trusted Affiliate"></img>
+... 4324 pixels below - scroll or extract content to see more ...

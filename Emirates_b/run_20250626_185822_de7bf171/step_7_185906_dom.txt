@@ -1,0 +1,105 @@
+
+
+Current url: https://www.emirates.com/us/english/book/featured-fares/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/us/english/book/featured-fares/', title='Featured Fares | Book a flight | Emirates United States')]
+Interactive elements from current page view:
+... 2835 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="Emirates logo"></img>
+2[:]<span tabindex="0" role="tab">Book
+•</span>
+3[:]<span tabindex="0" role="tab">About booking online</span>
+4[:]<a >Search flights</a>
+_[:]Featured fares for all destinations
+5[:]<button aria-label="Filter results Opens a dialog" type="button">Filter results</button>
+6[:]<button aria-label="Fare conditions Amman Opens a dialog" type="button"></button>
+7[:]<a aria-label="Search for flights Amman"></a>
+8[:]<button aria-label="Fare conditions Beirut Opens a dialog" type="button"></button>
+9[:]<a aria-label="Search for flights Beirut"></a>
+10[:]<button aria-label="Fare conditions Lahore Opens a dialog" type="button"></button>
+11[:]<a aria-label="Search for flights Lahore"></a>
+12[:]<img alt=""></img>
+13[:]<div ></div>
+_[:]From
+_[:]USD
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+_[:]Fare conditions
+14[:]<a aria-label="Search for flights Karachi">Search for flights</a>
+15[:]<img alt=""></img>
+16[:]<div ></div>
+_[:]From
+_[:]USD
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+_[:]Fare conditions
+17[:]<a aria-label="Search for flights Tel Aviv">Search for flights</a>
+18[:]<img alt=""></img>
+19[:]<div tabindex="0" role="tab"></div>
+20[:]<div tabindex="0" role="tab"></div>
+_[:]From
+_[:]USD
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+_[:]Fare conditions
+21[:]<a aria-label="Search for flights Nairobi">Search for flights</a>
+22[:]<img alt=""></img>
+_[:]Tehran (IKA)
+23[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1051*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+24[:]<button aria-label="Fare conditions Tehran Opens a dialog" type="button">Fare conditions</button>
+25[:]<a aria-label="Search for flights Tehran">Search for flights</a>
+26[:]<img alt=""></img>
+_[:]Kochi (Cochin) (COK)
+27[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1089*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+28[:]<button aria-label="Fare conditions Kochi (Cochin) Opens a dialog" type="button">Fare conditions</button>
+29[:]<a aria-label="Search for flights Kochi (Cochin)">Search for flights</a>
+30[:]<img alt=""></img>
+_[:]Beijing (PEK)
+31[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1157*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+32[:]<button aria-label="Fare conditions Beijing Opens a dialog" type="button">Fare conditions</button>
+33[:]<a aria-label="Search for flights Beijing">Search for flights</a>
+34[:]<img alt=""></img>
+35[:]<div tabindex="0" role="tab"></div>
+36[:]<div tabindex="0" role="tab"></div>
+37[:]<button aria-label="Fare conditions Hyderabad Opens a dialog" type="button"></button>
+38[:]<a aria-label="Search for flights Hyderabad"></a>
+39[:]<img alt=""></img>
+40[:]<div ></div>
+41[:]<button aria-label="Fare conditions Kolkata Opens a dialog" type="button"></button>
+42[:]<a aria-label="Search for flights Kolkata"></a>
+43[:]<img alt=""></img>
+44[:]<div ></div>
+45[:]<button aria-label="Fare conditions Guangzhou Opens a dialog" type="button"></button>
+46[:]<a aria-label="Search for flights Guangzhou"></a>
+47[:]<img alt=""></img>
+48[:]<img alt=""></img>
+49[:]<img alt=""></img>
+... 5459 pixels below - scroll or extract content to see more ...

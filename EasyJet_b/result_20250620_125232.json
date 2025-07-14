@@ -1,0 +1,1989 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started successfully.",
+          "memory": "",
+          "next_goal": "Go to the website https://cars.easyjet.com/#/searchcars"
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://cars.easyjet.com/#/searchcars"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://cars.easyjet.com/#/searchcars",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to the website.",
+          "memory": "",
+          "next_goal": "Set language to English."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/nav[2]/div[2]/div/div/nav/div/ul/li[3]/div/button",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "nav",
+              "div",
+              "div",
+              "div",
+              "nav",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "aq-lang-dropdown-topmenu dtc v-mid link pa1 fw3 tc lh-solid white f5 rounded-book bg-transparent bn",
+              "aria-label": "Change Language. Page language is currently set to English. Changing the language will cause the page to reload."
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the language button.",
+          "memory": "",
+          "next_goal": "Select English language."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 17
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 17: English",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/nav[2]/div[2]/div/div/nav/div/ul/li[3]/div/ul/li/a",
+            "highlight_index": 17,
+            "entire_parent_branch_path": [
+              "nav",
+              "div",
+              "div",
+              "div",
+              "nav",
+              "div",
+              "ul",
+              "li",
+              "div",
+              "ul",
+              "li",
+              "a"
+            ],
+            "attributes": {
+              "href": "https://cars.easyjet.com/en/?",
+              "class": "dtc nowrap relative pointer tl no-underline white f6 rounded-book w4",
+              "role": "menuitem",
+              "aria-label": "English."
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected English language.",
+          "memory": "",
+          "next_goal": "Type Lisbon into the pick-up location input."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 18,
+              "text": "Lisbon"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Lisbon\" for element index 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/div/section/div/div/div/div[2]/div/div/div/form/div[2]/div[4]/div/div/div/input",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "pickupLocation",
+              "class": "ct-input ng-pristine ng-untouched ng-valid ng-empty",
+              "ng-class": "{\n          'ct-error': !validated,\n          'ct-no-icon': hideClose,\n          'ct-warning': validationType === 'warning',\n        }",
+              "ng-readonly": "readOnly",
+              "ng-model": "value",
+              "ct-tracking": "?",
+              "focus": "",
+              "ng-attr-placeholder": "{{ ::placeholder }}",
+              "ct-submit-form": "true",
+              "autocomplete": "off",
+              "spellcheck": "false",
+              "placeholder": "Pick-up location",
+              "name": "pickupLocation",
+              "aria-describedby": "dd-desc-0",
+              "aria-autocomplete": "list",
+              "role": "listbox",
+              "aria-owns": "div-options-id-0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed Lisbon into the pick-up location input.",
+          "memory": "",
+          "next_goal": "Click on the suggestion 'Lisbon - Airport (LIS)'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 21
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 21: - Airport (LIS)",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "li",
+            "xpath": "html/body/article/div/div/section/div/div/div/div[2]/div/div/div/form/div[2]/div[4]/div/div/div/div/div/ul/li/ul/li",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "ul",
+              "li"
+            ],
+            "attributes": {
+              "ng-repeat": "item in group.items",
+              "role": "listitem option",
+              "id": "item-0-0",
+              "class": "ct-drop-down-option ",
+              "ng-click": "select(item.index)",
+              "ng-mouseover": "setHighlightedElement(item.index)"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the suggestion 'Lisbon - Airport (LIS)'.",
+          "memory": "",
+          "next_goal": "Open the pick-up date calendar."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 22
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 22: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/div/section/div/div/div/div[2]/div/div/div/form/div[2]/div[12]/div/div/div/div/div/div/div/input",
+            "highlight_index": 22,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "pickupDate",
+              "data-comp-id": "ct-date-picker-input",
+              "class": "ct-input ct-pointer",
+              "ng-class": "{\n        'ct-error': !validated,\n        'ct-datepicker-input__prism': hasPrismStyle,\n        'ct-dynamic-caldendar--expanded': calendarVisible,\n      }",
+              "ng-value": "selectedDate | toFormat:'date-full-abbr'",
+              "placeholder": "Start date",
+              "aria-label": "Start date",
+              "ct-tracking": "?",
+              "readonly": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the pick-up date calendar.",
+          "memory": "",
+          "next_goal": "Select 17 July 2025 as the pick-up date."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July",
+              "search_all": false,
+              "date": 17
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July' \n\u2705 Found date 17 in correct month at index 48. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Found matching month 'July' and date 17.",
+          "memory": "",
+          "next_goal": "Click on the 17th of July to select it as the pick-up date."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 48
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 48: 17",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "td",
+            "xpath": "html/body/article/div/div/section/div/div/div/div[2]/div/div/div/form/div[2]/div[12]/div/div/div/div/div/div/div[2]/div/div/div[2]/table/tbody/tr[4]/td[4]",
+            "highlight_index": 48,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td"
+            ],
+            "attributes": {
+              "dynamic-calendar-cell": "cell.attributes",
+              "ng-repeat": "cell in week track by $index",
+              "ng-click": "onClickDate(cell)",
+              "ng-mouseover": "onHoverDate(cell.attributes)",
+              "a11y-key-nav-avail": "",
+              "id": "day-20250717",
+              "class": "ct-datepicker-cell ct-calendar__month__date notranslate    ",
+              "style": "visibility:visible",
+              "data-comp-id": "ct-calendar-date-true",
+              "data-enabled": "true",
+              "tabindex": "-1",
+              "data-date": "2025,7,17",
+              "data-date-formatted": "2025-07-17",
+              "aria-label": "17 July 2025"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on the 17th of July to select it as the pick-up date.",
+          "memory": "",
+          "next_goal": "Open the drop-off date calendar."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 54
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 54: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/div/section/div/div/div/div[2]/div/div/div/form/div[2]/div[12]/div[2]/div/div/div/div/div/div/input",
+            "highlight_index": 54,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "returnDate",
+              "data-comp-id": "ct-date-picker-input",
+              "class": "ct-input ct-pointer",
+              "ng-class": "{\n        'ct-error': !validated,\n        'ct-datepicker-input__prism': hasPrismStyle,\n        'ct-dynamic-caldendar--expanded': calendarVisible,\n      }",
+              "ng-value": "selectedDate | toFormat:'date-full-abbr'",
+              "placeholder": "End date",
+              "aria-label": "End date",
+              "ct-tracking": "?",
+              "readonly": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the drop-off date calendar.",
+          "memory": "",
+          "next_goal": "Select 24 July 2025 as the drop-off date."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July",
+              "search_all": false,
+              "date": 24
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July' \n\u2705 Found date 24 in correct month at index 24. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Found matching month 'July' and date 24.",
+          "memory": "",
+          "next_goal": "Click on the 24th of July to select it as the drop-off date."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 24
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 24: 24",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "td",
+            "xpath": "html/body/article/div/div/section/div/div/div/div[2]/div/div/div/form/div[2]/div[12]/div[2]/div/div/div/div/div/div[2]/div/div/div/table/tbody/tr[5]/td[4]",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "table",
+              "tbody",
+              "tr",
+              "td"
+            ],
+            "attributes": {
+              "dynamic-calendar-cell": "cell.attributes",
+              "ng-repeat": "cell in week track by $index",
+              "ng-click": "onClickDate(cell)",
+              "ng-mouseover": "onHoverDate(cell.attributes)",
+              "a11y-key-nav-avail": "",
+              "id": "day-20250724",
+              "class": "ct-datepicker-cell ct-calendar__month__date notranslate    ",
+              "style": "visibility:visible",
+              "data-comp-id": "ct-calendar-date-true",
+              "data-enabled": "true",
+              "tabindex": "-1",
+              "data-date": "2025,7,24",
+              "data-date-formatted": "2025-07-24",
+              "aria-label": "24 July 2025"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the 24th of July as the drop-off date.",
+          "memory": "",
+          "next_goal": "Click the search button."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 60
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 60: Search",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/?#/searchcars",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/article/div/div/section/div/div/div/div[2]/div/div/div/form/div[2]/div[12]/ct-search-button/div/button",
+            "highlight_index": 60,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "ct-search-button",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "ng-disabled": "$ctrl.isDisabled",
+              "data-auto-id": "searchCarsSearchButton",
+              "class": "ct-btn ct-btn-p ct-btn-spinner ct-form-valid",
+              "name": "searchCarsFormBtn",
+              "ct-search-form-valid-class": "$ctrl.data",
+              "ct-submit-form": "true",
+              "ng-click": "$ctrl.clickHandler({$event})",
+              "ct-accessibility": "",
+              "ct-tracking": "searchBtn",
+              "ng-bind": "$ctrl.displaySpinner ? '' : $ctrl.labelSearch",
+              "tabindex": "0",
+              "id": "searchCarsFormBtn-searchcars"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/?#/searchcars",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the search button.",
+          "memory": "",
+          "next_goal": "Scroll down to find the sort options."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down to find the sort options.",
+          "memory": "",
+          "next_goal": "Sort results by price (low to high)."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 118
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 118: price (low to high)",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div[3]/div[2]/div[7]/div[2]/ct-availability-list-header/div/div/ct-availability-list-sorting/div/div/div[2]/button[2]",
+            "highlight_index": 118,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-availability-list-header",
+              "div",
+              "div",
+              "ct-availability-list-sorting",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "ng-repeat": "option in ::$ctrl.buttonOptions track by $index",
+              "class": "ctc-button ctc-button--secondary ct-sort-buttons__unselected",
+              "ng-class": "$ctrl.sortProp === option.value ? 'ctc-button--primary' : 'ctc-button--secondary ct-sort-buttons__unselected'",
+              "data-auto-id": "Sort by Price",
+              "ct-accessibility": "{\n        ariaLabel: option.name,\n        role: 'button',\n      }",
+              "ng-click": "$ctrl.sortBy(option.value)",
+              "allow-box-shadow": "",
+              "aria-label": "Sort by Price",
+              "role": "button",
+              "tabindex": "0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Sorted results by price (low to high).",
+          "memory": "",
+          "next_goal": "Select the cheapest car."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 148
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 148: Select",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div[3]/div[2]/div[7]/div[4]/div/div/div/div[2]/div/ct-vehicle-block/div/div/div[3]/div[2]/ct-vehicle-block-buttons/div/button",
+            "highlight_index": 148,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-vehicle-block",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-vehicle-block-buttons",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "tabindex": "0",
+              "ng-click": "$ctrl.clickOnVehicle()",
+              "ct-tracking": "book_btn",
+              "ct-tracking-value": "MBMR",
+              "class": "ct-btn ct-fill ct-btn-p ct-margin-top ct-btn-spinner--xl ct-select-btn ct-xlarge",
+              "ng-class": "{'ct-xlarge': !$ctrl.isNTO}",
+              "data-auto-id": "bookButton",
+              "ct-accessibility": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the cheapest car.",
+          "memory": "",
+          "next_goal": "Scroll down the page."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicle/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicle/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down the page.",
+          "memory": "",
+          "next_goal": "Click the button to continue with Premium cover."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 19
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 19: Continue with Premium cover",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicle/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "ct-dynamic-button",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[7]/div[2]/div[2]/div/div[2]/div/ct-dynamic-button",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-dynamic-button"
+            ],
+            "attributes": {
+              "ng-if": "::!isPostBookingPages",
+              "class": "ct-btn ct-margin ct-btn-p ct-btn-add-insurance",
+              "ct-accessibility": "",
+              "ng-click": "onAddInsurance()",
+              "data-auto-id": "btnBookWithInsurance1",
+              "ct-tracking": "ins_cta1",
+              "ct-tracking-value": "1",
+              "ng-bind-html": ":: addInsuranceBtnText",
+              "tabindex": "0",
+              "style": "font-size: 16px;"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicle/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the button to continue with Premium cover.",
+          "memory": "",
+          "next_goal": "Enter first name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 20,
+              "text": "John"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"John\" for element index 20",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div/form/div/div[2]/div/div/ct-prism-input/div/div/input",
+            "highlight_index": 20,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-prism-input",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "ng-if": "::!$ctrl.obfuscatedValue",
+              "class": "ctc-form__control notranslate  ng-empty ng-valid-pattern ng-invalid ng-invalid-required ng-valid-maxlength",
+              "ng-class": "{\n        'ct-input--active': $ctrl.isActive,\n        'has-clear-button': $ctrl.clearButton,\n        'ct-has-value': !!$ctrl.model || $ctrl.model === 0,\n        'ctc-form__control--nolabel': $ctrl.hideLabel,\n        'ctc-form__control--inheritLineHeight': $ctrl.inheritLineHeight,\n        'ct-form-control-dropdown': $ctrl.isDropdown,\n      }",
+              "ng-model": "$ctrl.model",
+              "ng-model-options": "$ctrl.modelOptions",
+              "name": "firstname",
+              "type": "{{::$ctrl.type}}",
+              "min": "",
+              "max": "",
+              "pattern": "",
+              "ct-tracking": "?",
+              "ct-tracking-value": "",
+              "autocomplete": "off",
+              "spellcheck": "false",
+              "maxlength": "200",
+              "ng-click": "$ctrl.onClick({$event: $event});",
+              "ng-change": "$ctrl.onUpdate({$event: $event, $model: $ctrl.model});",
+              "ng-focus": "$ctrl.onFocus({$event: $event});",
+              "ng-blur": "$ctrl.onBlur({$event: $event});",
+              "ng-paste": "$ctrl.onPaste({$event: $event});",
+              "ng-disabled": "$ctrl.ngDisabled",
+              "ng-keyup": "$ctrl.onKeyup({$event: $event});",
+              "ng-attr-placeholder": "{{::$ctrl.placeholder}}",
+              "ct-read-only": "$ctrl.readOnly",
+              "ng-attr-id": "{{::$ctrl.inputId}}",
+              "data-comp-id": "firstname",
+              "aria-describedby": "ct-val-err4",
+              "aria-label": "",
+              "ng-required": "true",
+              "id": "firstname",
+              "required": "required"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered first name.",
+          "memory": "",
+          "next_goal": "Enter surname."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 21,
+              "text": "Doe"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Doe\" for element index 21",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div/form/div/div[2]/div/div[2]/ct-prism-input/div/div/input",
+            "highlight_index": 21,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-prism-input",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "ng-if": "::!$ctrl.obfuscatedValue",
+              "class": "ctc-form__control notranslate  ng-empty ng-valid-pattern ng-invalid ng-invalid-required ng-valid-maxlength",
+              "ng-class": "{\n        'ct-input--active': $ctrl.isActive,\n        'has-clear-button': $ctrl.clearButton,\n        'ct-has-value': !!$ctrl.model || $ctrl.model === 0,\n        'ctc-form__control--nolabel': $ctrl.hideLabel,\n        'ctc-form__control--inheritLineHeight': $ctrl.inheritLineHeight,\n        'ct-form-control-dropdown': $ctrl.isDropdown,\n      }",
+              "ng-model": "$ctrl.model",
+              "ng-model-options": "$ctrl.modelOptions",
+              "name": "surname",
+              "type": "{{::$ctrl.type}}",
+              "min": "",
+              "max": "",
+              "pattern": "",
+              "ct-tracking": "?",
+              "ct-tracking-value": "",
+              "autocomplete": "off",
+              "spellcheck": "false",
+              "maxlength": "200",
+              "ng-click": "$ctrl.onClick({$event: $event});",
+              "ng-change": "$ctrl.onUpdate({$event: $event, $model: $ctrl.model});",
+              "ng-focus": "$ctrl.onFocus({$event: $event});",
+              "ng-blur": "$ctrl.onBlur({$event: $event});",
+              "ng-paste": "$ctrl.onPaste({$event: $event});",
+              "ng-disabled": "$ctrl.ngDisabled",
+              "ng-keyup": "$ctrl.onKeyup({$event: $event});",
+              "ng-attr-placeholder": "{{::$ctrl.placeholder}}",
+              "ct-read-only": "$ctrl.readOnly",
+              "ng-attr-id": "{{::$ctrl.inputId}}",
+              "data-comp-id": "surname",
+              "aria-describedby": "ct-val-err5",
+              "aria-label": "",
+              "ng-required": "true",
+              "id": "surname",
+              "required": "required",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered surname.",
+          "memory": "",
+          "next_goal": "Enter email."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 22,
+              "text": "test@example.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test@example.com\" for element index 22",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div/form/div/div[2]/div/div[4]/ct-prism-input/div/div/input",
+            "highlight_index": 22,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-prism-input",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "ng-if": "::!$ctrl.obfuscatedValue",
+              "class": "ctc-form__control notranslate  ng-empty ng-valid-pattern ng-invalid ng-invalid-required ng-valid-maxlength",
+              "ng-class": "{\n        'ct-input--active': $ctrl.isActive,\n        'has-clear-button': $ctrl.clearButton,\n        'ct-has-value': !!$ctrl.model || $ctrl.model === 0,\n        'ctc-form__control--nolabel': $ctrl.hideLabel,\n        'ctc-form__control--inheritLineHeight': $ctrl.inheritLineHeight,\n        'ct-form-control-dropdown': $ctrl.isDropdown,\n      }",
+              "ng-model": "$ctrl.model",
+              "ng-model-options": "$ctrl.modelOptions",
+              "name": "email",
+              "type": "{{::$ctrl.type}}",
+              "min": "",
+              "max": "",
+              "pattern": "",
+              "ct-tracking": "email1",
+              "ct-tracking-value": "",
+              "autocomplete": "off",
+              "spellcheck": "false",
+              "maxlength": "200",
+              "ng-click": "$ctrl.onClick({$event: $event});",
+              "ng-change": "$ctrl.onUpdate({$event: $event, $model: $ctrl.model});",
+              "ng-focus": "$ctrl.onFocus({$event: $event});",
+              "ng-blur": "$ctrl.onBlur({$event: $event});",
+              "ng-paste": "$ctrl.onPaste({$event: $event});",
+              "ng-disabled": "$ctrl.ngDisabled",
+              "ng-keyup": "$ctrl.onKeyup({$event: $event});",
+              "ng-attr-placeholder": "{{::$ctrl.placeholder}}",
+              "ct-read-only": "$ctrl.readOnly",
+              "ng-attr-id": "{{::$ctrl.inputId}}",
+              "data-comp-id": "email",
+              "aria-describedby": "ct-val-err9",
+              "aria-label": "",
+              "ng-required": "true",
+              "id": "email",
+              "required": "required",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered email.",
+          "memory": "",
+          "next_goal": "Select country code."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 23,
+              "text": "(+351) Portugal"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "selected option (+351) Portugal with value ['PT']",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div/form/div/div[2]/div/div[5]/div/div/ct-prism-select/div/div/select",
+            "highlight_index": 23,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-prism-select",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "ct-accessibility": "",
+              "class": "ctc-form__control  ng-not-empty ct-has-value",
+              "ng-class": "{\n        'ct-select--active': $ctrl.isActive,\n        'ct-has-value': !!$ctrl.model,\n      }",
+              "ng-model": "$ctrl.model",
+              "name": "contactPrefix",
+              "ct-tracking": "phonecc",
+              "ct-tracking-value": "",
+              "ng-focus": "$ctrl.onFocus({$event: $event});",
+              "ng-disabled": "$ctrl.ngDisabled",
+              "ng-blur": "$ctrl.onBlur({$event: $event});",
+              "ng-attr-placeholder": "{{::$ctrl.placeholder}}",
+              "id": "contactPrefix",
+              "aria-describedby": "ct-val-err11",
+              "ng-transclude": "",
+              "data-auto-id": "select-control",
+              "tabindex": "0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected country code.",
+          "memory": "",
+          "next_goal": "Enter phone number."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 24,
+              "text": "123456789"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"123456789\" for element index 24",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div/form/div/div[2]/div/div[5]/div/div/ct-prism-input/div/div/input",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-prism-input",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "ng-if": "::!$ctrl.obfuscatedValue",
+              "class": "ctc-form__control notranslate  ng-empty ng-valid-pattern ng-invalid ng-invalid-required ng-valid-maxlength",
+              "ng-class": "{\n        'ct-input--active': $ctrl.isActive,\n        'has-clear-button': $ctrl.clearButton,\n        'ct-has-value': !!$ctrl.model || $ctrl.model === 0,\n        'ctc-form__control--nolabel': $ctrl.hideLabel,\n        'ctc-form__control--inheritLineHeight': $ctrl.inheritLineHeight,\n        'ct-form-control-dropdown': $ctrl.isDropdown,\n      }",
+              "ng-model": "$ctrl.model",
+              "ng-model-options": "$ctrl.modelOptions",
+              "name": "contactNo",
+              "type": "{{::$ctrl.type}}",
+              "min": "",
+              "max": "",
+              "pattern": "",
+              "ct-tracking": "?",
+              "ct-tracking-value": "",
+              "autocomplete": "off",
+              "spellcheck": "false",
+              "maxlength": "100",
+              "ng-click": "$ctrl.onClick({$event: $event});",
+              "ng-change": "$ctrl.onUpdate({$event: $event, $model: $ctrl.model});",
+              "ng-focus": "$ctrl.onFocus({$event: $event});",
+              "ng-blur": "$ctrl.onBlur({$event: $event});",
+              "ng-paste": "$ctrl.onPaste({$event: $event});",
+              "ng-disabled": "$ctrl.ngDisabled",
+              "ng-keyup": "$ctrl.onKeyup({$event: $event});",
+              "ng-attr-placeholder": "{{::$ctrl.placeholder}}",
+              "ct-read-only": "$ctrl.readOnly",
+              "ng-attr-id": "{{::$ctrl.inputId}}",
+              "data-comp-id": "contactNo",
+              "aria-describedby": "ct-val-err6",
+              "aria-label": "",
+              "ng-required": "true",
+              "id": "contactNo",
+              "required": "required",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered phone number.",
+          "memory": "",
+          "next_goal": "Select country."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 26,
+              "text": "Switzerland"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "selected option Switzerland with value ['CH']",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div/form/div[2]/div/div/div/ct-prism-select/div/div/select",
+            "highlight_index": 26,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-prism-select",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "ct-accessibility": "",
+              "class": "ctc-form__control  ng-not-empty ct-has-value",
+              "ng-class": "{\n        'ct-select--active': $ctrl.isActive,\n        'ct-has-value': !!$ctrl.model,\n      }",
+              "ng-model": "$ctrl.model",
+              "name": "country",
+              "ct-tracking": "country",
+              "ct-tracking-value": "",
+              "ng-focus": "$ctrl.onFocus({$event: $event});",
+              "ng-disabled": "$ctrl.ngDisabled",
+              "ng-blur": "$ctrl.onBlur({$event: $event});",
+              "ng-attr-placeholder": "{{::$ctrl.placeholder}}",
+              "id": "country",
+              "aria-describedby": "ct-val-err10",
+              "ng-transclude": "",
+              "data-auto-id": "select-control",
+              "tabindex": "0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected country.",
+          "memory": "",
+          "next_goal": "Enter city."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 27,
+              "text": "test"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test\" for element index 27",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div/form/div[2]/div/div/div[2]/ct-prism-input/div/div/input",
+            "highlight_index": 27,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-prism-input",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "ng-if": "::!$ctrl.obfuscatedValue",
+              "class": "ctc-form__control notranslate  ng-empty ng-valid-pattern ng-invalid ng-invalid-required ng-valid-maxlength",
+              "ng-class": "{\n        'ct-input--active': $ctrl.isActive,\n        'has-clear-button': $ctrl.clearButton,\n        'ct-has-value': !!$ctrl.model || $ctrl.model === 0,\n        'ctc-form__control--nolabel': $ctrl.hideLabel,\n        'ctc-form__control--inheritLineHeight': $ctrl.inheritLineHeight,\n        'ct-form-control-dropdown': $ctrl.isDropdown,\n      }",
+              "ng-model": "$ctrl.model",
+              "ng-model-options": "$ctrl.modelOptions",
+              "name": "city",
+              "type": "{{::$ctrl.type}}",
+              "min": "",
+              "max": "",
+              "pattern": "",
+              "ct-tracking": "city",
+              "ct-tracking-value": "",
+              "autocomplete": "off",
+              "spellcheck": "false",
+              "maxlength": "60",
+              "ng-click": "$ctrl.onClick({$event: $event});",
+              "ng-change": "$ctrl.onUpdate({$event: $event, $model: $ctrl.model});",
+              "ng-focus": "$ctrl.onFocus({$event: $event});",
+              "ng-blur": "$ctrl.onBlur({$event: $event});",
+              "ng-paste": "$ctrl.onPaste({$event: $event});",
+              "ng-disabled": "$ctrl.ngDisabled",
+              "ng-keyup": "$ctrl.onKeyup({$event: $event});",
+              "ng-attr-placeholder": "{{::$ctrl.placeholder}}",
+              "ct-read-only": "$ctrl.readOnly",
+              "ng-attr-id": "{{::$ctrl.inputId}}",
+              "data-comp-id": "city",
+              "aria-describedby": "ct-val-err7",
+              "aria-label": "",
+              "ng-required": "true",
+              "id": "city",
+              "required": "required",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered city.",
+          "memory": "",
+          "next_goal": "Enter address."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 28,
+              "text": "test"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test\" for element index 28",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/article/div/section/div/div/div/div/div/div/div[3]/div/div[4]/div/div/div/form/div[2]/div/div/div[3]/ct-prism-input/div/div/input",
+            "highlight_index": 28,
+            "entire_parent_branch_path": [
+              "article",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ct-prism-input",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "ng-if": "::!$ctrl.obfuscatedValue",
+              "class": "ctc-form__control notranslate  ng-empty ng-valid-pattern ng-invalid ng-invalid-required ng-valid-maxlength",
+              "ng-class": "{\n        'ct-input--active': $ctrl.isActive,\n        'has-clear-button': $ctrl.clearButton,\n        'ct-has-value': !!$ctrl.model || $ctrl.model === 0,\n        'ctc-form__control--nolabel': $ctrl.hideLabel,\n        'ctc-form__control--inheritLineHeight': $ctrl.inheritLineHeight,\n        'ct-form-control-dropdown': $ctrl.isDropdown,\n      }",
+              "ng-model": "$ctrl.model",
+              "ng-model-options": "$ctrl.modelOptions",
+              "name": "address1",
+              "type": "{{::$ctrl.type}}",
+              "min": "",
+              "max": "",
+              "pattern": "",
+              "ct-tracking": "address1",
+              "ct-tracking-value": "",
+              "autocomplete": "off",
+              "spellcheck": "false",
+              "maxlength": "200",
+              "ng-click": "$ctrl.onClick({$event: $event});",
+              "ng-change": "$ctrl.onUpdate({$event: $event, $model: $ctrl.model});",
+              "ng-focus": "$ctrl.onFocus({$event: $event});",
+              "ng-blur": "$ctrl.onBlur({$event: $event});",
+              "ng-paste": "$ctrl.onPaste({$event: $event});",
+              "ng-disabled": "$ctrl.ngDisabled",
+              "ng-keyup": "$ctrl.onKeyup({$event: $event});",
+              "ng-attr-placeholder": "{{::$ctrl.placeholder}}",
+              "ct-read-only": "$ctrl.readOnly",
+              "ng-attr-id": "{{::$ctrl.inputId}}",
+              "data-comp-id": "address1",
+              "aria-describedby": "ct-val-err8",
+              "aria-label": "",
+              "ng-required": "true",
+              "id": "address1",
+              "required": "required",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered address.",
+          "memory": "https://cars.easyjet.com/#/searchcars, language to English, car in Lisbon Airport from 17 July 2025 to 24 July 2025, sorted the results by price, selected the cheapest option, and filled out the driver details to get to the payment page.",
+          "next_goal": "Complete the task."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I have navigated to https://cars.easyjet.com/#/searchcars, set the language to English, searched for a car in Lisbon Airport from 17 July 2025 to 24 July 2025, sorted the results by price, selected the cheapest option, and filled out the driver details to get to the payment page."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I have navigated to https://cars.easyjet.com/#/searchcars, set the language to English, searched for a car in Lisbon Airport from 17 July 2025 to 24 July 2025, sorted the results by price, selected the cheapest option, and filled out the driver details to get to the payment page.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles",
+            "title": "easyJet.com Car Rentals"
+          },
+          {
+            "page_id": 1,
+            "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+            "title": "easyJet.com Car Rentals"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765",
+        "title": "easyJet.com Car Rentals"
+      }
+    }
+  ]
+}

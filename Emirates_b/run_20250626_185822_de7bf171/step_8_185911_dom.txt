@@ -1,0 +1,111 @@
+
+
+Current url: https://www.emirates.com/us/english/book/featured-fares/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/us/english/book/featured-fares/', title='Featured Fares | Book a flight | Emirates United States')]
+Interactive elements from current page view:
+... 3780 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="Emirates logo"></img>
+2[:]<span tabindex="0" role="tab">Book
+•</span>
+3[:]<span tabindex="0" role="tab">About booking online</span>
+4[:]<a >Search flights</a>
+_[:]Featured fares for all destinations
+5[:]<button aria-label="Filter results Opens a dialog" type="button">Filter results</button>
+6[:]<img alt=""></img>
+7[:]<div ></div>
+8[:]<button aria-label="Fare conditions Tehran Opens a dialog" type="button"></button>
+9[:]<a aria-label="Search for flights Tehran"></a>
+10[:]<img alt=""></img>
+11[:]<div ></div>
+12[:]<button aria-label="Fare conditions Kochi (Cochin) Opens a dialog" type="button"></button>
+13[:]<a aria-label="Search for flights Kochi (Cochin)"></a>
+14[:]<img alt=""></img>
+15[:]<div ></div>
+16[:]<button aria-label="Fare conditions Beijing Opens a dialog" type="button"></button>
+17[:]<a aria-label="Search for flights Beijing"></a>
+_[:]Hyderabad (HYD)
+18[:]<div tabindex="0" role="tab">Economy Class</div>
+19[:]<div tabindex="0" role="tab">Business Class</div>
+_[:]From
+_[:]USD
+_[:]1172*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+20[:]<button aria-label="Fare conditions Hyderabad Opens a dialog" type="button">Fare conditions</button>
+21[:]<a aria-label="Search for flights Hyderabad">Search for flights</a>
+_[:]Kolkata (CCU)
+22[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1274*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+23[:]<button aria-label="Fare conditions Kolkata Opens a dialog" type="button">Fare conditions</button>
+24[:]<a aria-label="Search for flights Kolkata">Search for flights</a>
+_[:]Guangzhou (CAN)
+25[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1327*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+26[:]<button aria-label="Fare conditions Guangzhou Opens a dialog" type="button">Fare conditions</button>
+27[:]<a aria-label="Search for flights Guangzhou">Search for flights</a>
+28[:]<img alt=""></img>
+_[:]Shanghai (PVG)
+29[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1357*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+30[:]<button aria-label="Fare conditions Shanghai Opens a dialog" type="button">Fare conditions</button>
+31[:]<a aria-label="Search for flights Shanghai">Search for flights</a>
+32[:]<img alt=""></img>
+_[:]Kuala Lumpur (KUL)
+33[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1394*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+34[:]<button aria-label="Fare conditions Kuala Lumpur Opens a dialog" type="button">Fare conditions</button>
+35[:]<a aria-label="Search for flights Kuala Lumpur">Search for flights</a>
+36[:]<img alt=""></img>
+_[:]Dhaka (DAC)
+37[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1405*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+38[:]<button aria-label="Fare conditions Dhaka Opens a dialog" type="button">Fare conditions</button>
+39[:]<a aria-label="Search for flights Dhaka">Search for flights</a>
+40[:]<img alt=""></img>
+41[:]<div ></div>
+42[:]<button aria-label="Fare conditions Kathmandu Opens a dialog" type="button"></button>
+43[:]<a aria-label="Search for flights Kathmandu"></a>
+44[:]<img alt=""></img>
+45[:]<div ></div>
+46[:]<button aria-label="Fare conditions Thiruvananthapuram Opens a dialog" type="button"></button>
+47[:]<a aria-label="Search for flights Thiruvananthapuram"></a>
+48[:]<img alt=""></img>
+49[:]<div tabindex="0" role="tab"></div>
+50[:]<div tabindex="0" role="tab"></div>
+51[:]<button aria-label="Fare conditions Bali Opens a dialog" type="button"></button>
+52[:]<a aria-label="Search for flights Bali"></a>
+... 4514 pixels below - scroll or extract content to see more ...

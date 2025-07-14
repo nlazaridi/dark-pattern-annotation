@@ -1,0 +1,1073 @@
+
+
+Current url: https://www.united.com/en-us/flights-from-chicago
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en-us/flights-from-chicago', title='United Cheap Flights from Chicago from $ 125\xa0| United Airlines')]
+Interactive elements from current page view:
+... 945 pixels above - scroll or extract content to see more ...
+0[:]<div ></div>
+1[:]<div ></div>
+2[:]<div ></div>
+3[:]<div ></div>
+4[:]<div ></div>
+5[:]<div ></div>
+6[:]<div ></div>
+7[:]<div ></div>
+8[:]<div ></div>
+9[:]<div ></div>
+10[:]<div ></div>
+11[:]<div ></div>
+12[:]<input aria-label="fc-booking-origin-aria-label" placeholder="From" role="combobox" type="text" aria-expanded="false" value=""></input>
+13[:]<button aria-label="fc-booking-location-selector-clear-button" type="button"></button>
+14[:]<div ></div>
+15[:]<div ></div>
+16[:]<div ></div>
+17[:]<div ></div>
+18[:]<div ></div>
+19[:]<div ></div>
+20[:]<div ></div>
+21[:]<input aria-label="fc-booking-destination-aria-label" placeholder="To" role="combobox" type="text" aria-expanded="false" value=""></input>
+22[:]<div ></div>
+23[:]<div ></div>
+24[:]<div ></div>
+25[:]<div ></div>
+26[:]<div role="none" aria-expanded="false"></div>
+27[:]<div ></div>
+28[:]<div ></div>
+29[:]<div ></div>
+30[:]<div ></div>
+31[:]<div ></div>
+32[:]<div ></div>
+33[:]<button aria-expanded="false" type="button"></button>
+34[:]<div ></div>
+35[:]<div ></div>
+36[:]<div role="none" aria-expanded="false"></div>
+37[:]<div ></div>
+38[:]<div ></div>
+39[:]<div ></div>
+40[:]<div ></div>
+41[:]<div ></div>
+42[:]<div ></div>
+43[:]<button aria-expanded="false" type="button"></button>
+44[:]<div ></div>
+45[:]<button type="button"></button>
+46[:]<a ></a>
+47[:]<a ></a>
+48[:]<a ></a>
+49[:]<a ></a>
+50[:]<a ></a>
+51[:]<a ></a>
+52[:]<label ></label>
+53[:]<div ></div>
+54[:]<input role="combobox" aria-expanded="false" placeholder="Origin City" aria-label="Input origin" value="Chicago, IL, US (ORD)"></input>
+55[:]<button type="button" aria-label="Clear filter"></button>
+56[:]<label ></label>
+57[:]<div ></div>
+58[:]<input role="combobox" aria-expanded="false" placeholder="Destination City" aria-label="Input destination" value=""></input>
+59[:]<label ></label>
+60[:]<div ></div>
+61[:]<input name="" type="text" placeholder="Max budget" tabindex="0" aria-label="Max budget" value=""></input>
+62[:]<label ></label>
+63[:]<div ></div>
+64[:]<input tabindex="0" aria-expanded="false" aria-label="Select Cabin Class" role="combobox" value="" type="button"></input>
+65[:]<button type="button" tabindex="-1">keyboard_arrow_left</button>
+66[:]<li >Chicago (ORD)
+to
+New York/Newark (LGA)
+08/27/25 - 08/30/25
+from
+$ 140
+*
+Viewed: 15 hours ago
+Roundtrip
+|
+Economy
+Chicago (ORD)
+to
+Tokyo (HND)
+07/15/25 - 07/29/25
+from
+$ 1,680
+*
+Viewed: 3 hours ago
+Roundtrip
+|
+Economy
+Chicago (ORD)
+to
+San Francisco (SFO)
+07/01/25 - 07/04/25
+from
+$ 179
+*
+Viewed: 12 hours ago
+Roundtrip
+|
+Economy
+Chicago (ORD)
+to
+Los Angeles (LAX)
+08/19/25 - 08/23/25
+from
+$ 197
+*
+Viewed: 15 hours ago
+Roundtrip
+|
+Economy</li>
+67[:]<img alt=""></img>
+68[:]<div >or from</div>
+69[:]<a >$
+21
+/mo</a>
+70[:]<button type="button" aria-label="Book Now Chicago ORD to New York/Newark LGA 08/27/25 - 08/30/25 from $ 140 Viewed: 15 hours ago Roundtrip Economy" tabindex="0">Book Now</button>
+71[:]<img alt=""></img>
+72[:]<div >or from</div>
+73[:]<a >$
+150
+/mo</a>
+74[:]<button type="button" aria-label="Book Now Chicago ORD to Tokyo HND 07/15/25 - 07/29/25 from $ 1,680 Viewed: 3 hours ago Roundtrip Economy" tabindex="0">Book Now</button>
+75[:]<img alt=""></img>
+76[:]<div >or from</div>
+77[:]<a >$
+27
+/mo</a>
+78[:]<button type="button" aria-label="Book Now Chicago ORD to San Francisco SFO 07/01/25 - 07/04/25 from $ 179 Viewed: 12 hours ago Roundtrip Economy" tabindex="0">Book Now</button>
+79[:]<img alt=""></img>
+80[:]<div >or from</div>
+81[:]<a >$
+30
+/mo</a>
+82[:]<button type="button" aria-label="Book Now Chicago ORD to Los Angeles LAX 08/19/25 - 08/23/25 from $ 197 Viewed: 15 hours ago Roundtrip Economy" tabindex="0">Book Now</button>
+83[:]<li ></li>
+84[:]<button type="button" tabindex="0">keyboard_arrow_right</button>
+85[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 1">Showing cmp-pagination-showing-cards 1 To 4</button>
+86[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 2">Showing cmp-pagination-showing-cards 5 To 8</button>
+87[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 3">Showing cmp-pagination-showing-cards 9 To 12</button>
+88[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 4">Showing cmp-pagination-showing-cards 13 To 16</button>
+89[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 5">Showing cmp-pagination-showing-cards 17 To 20</button>
+_[:]*Prices have been available for round trips within the last 48 hours and may not be currently available. For Economy class, fares listed may be Basic Economy, which is our most restrictive fare option and subject to
+_[:]additional restrictions
+_[:]. Additional
+90[:]<a >baggage charges</a>
+_[:]and fees for other optional service may apply. Other terms and conditions may apply. Schedules are subject to change without notice.
+91[:]<a ></a>
+92[:]<img alt=""></img>
+_[:]United popular flights from Chicago (ORD)
+93[:]<label ></label>
+94[:]<div ></div>
+95[:]<input role="combobox" aria-expanded="false" placeholder="Origin City" aria-label="Input origin" value="Chicago, IL, US (ORD)"></input>
+96[:]<button type="button" aria-label="Clear filter"></button>
+97[:]<label ></label>
+98[:]<div ></div>
+99[:]<input role="combobox" aria-expanded="false" placeholder="Destination City" aria-label="Input destination" value=""></input>
+100[:]<label ></label>
+101[:]<div ></div>
+102[:]<input name="" type="text" placeholder="Max budget" tabindex="0" aria-label="Max budget" value=""></input>
+103[:]<label ></label>
+104[:]<div ></div>
+105[:]<input tabindex="0" aria-expanded="false" aria-label="Select Cabin Class" role="combobox" value="" type="button"></input>
+106[:]<tr role="row"></tr>
+107[:]<tr tabindex="0" role="button"></tr>
+108[:]<a ></a>
+109[:]<tr tabindex="0" role="button"></tr>
+110[:]<a ></a>
+111[:]<tr tabindex="0" role="button"></tr>
+112[:]<a ></a>
+113[:]<tr tabindex="0" role="button"></tr>
+_[:]Vacation Packages from Chicago
+114[:]<button type="button" aria-label="Where to and from?" aria-expanded="false">Where to and from?</button>
+115[:]<button type="button" aria-expanded="false" aria-label="Depart ">Departure</button>
+116[:]<button type="button" aria-expanded="false" aria-label="Budget ">Budget</button>
+117[:]<button type="button" aria-expanded="false">Advanced</button>
+118[:]<button aria-label="cmp-secondary-filter-clear-button-accessibility-message" type="button">Clear</button>
+119[:]<button type="button" aria-expanded="false" aria-label="cmp-travel-class-filter-label-selected-item cmp-location-selector-label-flight-type Popularity ">Sort by: Popularity</button>
+120[:]<button aria-label="Previous arrow" type="button"></button>
+121[:]<div ></div>
+122[:]<div >cmp-carousel-container-explain
+1/30
+3
+Night(s) Trip
+Horseshoe Las Vegas
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$273
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+123[:]<label ></label>
+124[:]<label ></label>
+125[:]<label ></label>
+126[:]<label ></label>
+127[:]<label ></label>
+128[:]<button type="button">Book now</button>
+129[:]<div ></div>
+130[:]<div >2/30
+3
+Night(s) Trip
+New York New York
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$309
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+131[:]<label ></label>
+132[:]<label ></label>
+133[:]<label ></label>
+134[:]<label ></label>
+135[:]<label ></label>
+136[:]<button type="button">Book now</button>
+137[:]<div ></div>
+138[:]<div >3/30
+3
+Night(s) Trip
+The STRAT Hotel, Casino & Tower
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$262
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+139[:]<label ></label>
+140[:]<label ></label>
+141[:]<label ></label>
+142[:]<label ></label>
+143[:]<label ></label>
+144[:]<button type="button">Book now</button>
+145[:]<div ></div>
+146[:]<div >4/30
+3
+Night(s) Trip
+The Linq Hotel And Casino
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$273
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+147[:]<label ></label>
+148[:]<label ></label>
+149[:]<label ></label>
+150[:]<label ></label>
+151[:]<label ></label>
+152[:]<button type="button">Book now</button>
+153[:]<div ></div>
+154[:]<div >5/30
+3
+Night(s) Trip
+Westgate Las Vegas Resort & Casino
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$278
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+155[:]<label ></label>
+156[:]<label ></label>
+157[:]<label ></label>
+158[:]<label ></label>
+159[:]<label ></label>
+160[:]<button type="button" tabindex="-1">Book now</button>
+161[:]<div ></div>
+162[:]<div >6/30
+3
+Night(s) Trip
+Planet Hollywood Resort And Casino
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$286
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+163[:]<label ></label>
+164[:]<label ></label>
+165[:]<label ></label>
+166[:]<label ></label>
+167[:]<label ></label>
+168[:]<button type="button" tabindex="-1">Book now</button>
+169[:]<div ></div>
+170[:]<div >7/30
+3
+Night(s) Trip
+Golden Nugget Hotel & Casino Las Vegas
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$295
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+171[:]<label ></label>
+172[:]<label ></label>
+173[:]<label ></label>
+174[:]<label ></label>
+175[:]<label ></label>
+176[:]<button type="button" tabindex="-1">Book now</button>
+177[:]<div ></div>
+178[:]<div >8/30
+3
+Night(s) Trip
+Treasure Island - TI Las Vegas Hotel & Casino
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$299
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+179[:]<label ></label>
+180[:]<label ></label>
+181[:]<label ></label>
+182[:]<label ></label>
+183[:]<label ></label>
+184[:]<button type="button" tabindex="-1">Book now</button>
+185[:]<div ></div>
+186[:]<div >9/30
+3
+Night(s) Trip
+Plaza Hotel & Casino
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$300
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+187[:]<label ></label>
+188[:]<label ></label>
+189[:]<label ></label>
+190[:]<label ></label>
+191[:]<label ></label>
+192[:]<button type="button" tabindex="-1">Book now</button>
+193[:]<div ></div>
+194[:]<div >10/30
+3
+Night(s) Trip
+SAHARA Las Vegas
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$302
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+195[:]<label ></label>
+196[:]<label ></label>
+197[:]<label ></label>
+198[:]<label ></label>
+199[:]<label ></label>
+200[:]<button type="button" tabindex="-1">Book now</button>
+201[:]<div ></div>
+202[:]<div >11/30
+3
+Night(s) Trip
+Paris Las Vegas
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$326
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+203[:]<label ></label>
+204[:]<label ></label>
+205[:]<label ></label>
+206[:]<label ></label>
+207[:]<label ></label>
+208[:]<button type="button" tabindex="-1">Book now</button>
+209[:]<div ></div>
+210[:]<div >12/30
+3
+Night(s) Trip
+Virgin Hotels Las Vegas, Curio Collection by Hilton
+07/30/25
+July 30, 2025
+|
+08/02/25
+August 2, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$327
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+211[:]<label ></label>
+212[:]<label ></label>
+213[:]<label ></label>
+214[:]<label ></label>
+215[:]<label ></label>
+216[:]<button type="button" tabindex="-1">Book now</button>
+217[:]<div ></div>
+218[:]<div >13/30
+3
+Night(s) Trip
+MGM Grand
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$327
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+219[:]<label ></label>
+220[:]<label ></label>
+221[:]<label ></label>
+222[:]<label ></label>
+223[:]<label ></label>
+224[:]<button type="button" tabindex="-1">Book now</button>
+225[:]<div ></div>
+226[:]<div >14/30
+3
+Night(s) Trip
+Caesars Palace Las Vegas
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$359
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+227[:]<label ></label>
+228[:]<label ></label>
+229[:]<label ></label>
+230[:]<label ></label>
+231[:]<label ></label>
+232[:]<button type="button" tabindex="-1">Book now</button>
+233[:]<div ></div>
+234[:]<div >15/30
+3
+Night(s) Trip
+Las Vegas Hilton at Resorts World
+07/13/25
+July 13, 2025
+|
+07/16/25
+July 16, 2025
+ORD
+-
+LAS
+Flights
++
+Hotel
+from
+$360
+*
+Price subject to change
+Viewed:
+16 hours
+ago</div>
+235[:]<label ></label>
+236[:]<label ></label>
+237[:]<label ></label>
+238[:]<label ></label>
+239[:]<label ></label>
+240[:]<button type="button" tabindex="-1">Book now</button>
+241[:]<div ></div>
+242[:]<div >16/30
+2
+Night(s) Trip
+DoubleTree by Hilton Hotel Orlando at SeaWorld
+08/16/25
+August 16, 2025
+|
+08/18/25
+August 18, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$327
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+243[:]<label ></label>
+244[:]<label ></label>
+245[:]<label ></label>
+246[:]<label ></label>
+247[:]<label ></label>
+248[:]<button type="button" tabindex="-1">Book now</button>
+249[:]<div ></div>
+250[:]<div >17/30
+2
+Night(s) Trip
+Delta Hotels by Marriott Orlando Lake Buena Vista
+08/16/25
+August 16, 2025
+|
+08/18/25
+August 18, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$327
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+251[:]<label ></label>
+252[:]<label ></label>
+253[:]<label ></label>
+254[:]<label ></label>
+255[:]<label ></label>
+256[:]<button type="button" tabindex="-1">Book now</button>
+257[:]<div ></div>
+258[:]<div >18/30
+2
+Night(s) Trip
+Doubletree By Hilton Hotel At The Entrance To Universal
+08/16/25
+August 16, 2025
+|
+08/18/25
+August 18, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$334
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+259[:]<label ></label>
+260[:]<label ></label>
+261[:]<label ></label>
+262[:]<label ></label>
+263[:]<label ></label>
+264[:]<button type="button" tabindex="-1">Book now</button>
+265[:]<div ></div>
+266[:]<div >19/30
+2
+Night(s) Trip
+Hotel Landy Orlando Universal Blvd., a Tribute Portfolio Hotel
+08/16/25
+August 16, 2025
+|
+08/18/25
+August 18, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$343
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+267[:]<label ></label>
+268[:]<label ></label>
+269[:]<label ></label>
+270[:]<label ></label>
+271[:]<label ></label>
+272[:]<button type="button" tabindex="-1">Book now</button>
+273[:]<div ></div>
+274[:]<div >20/30
+2
+Night(s) Trip
+Avanti Resort
+08/16/25
+August 16, 2025
+|
+08/18/25
+August 18, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$344
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+275[:]<label ></label>
+276[:]<label ></label>
+277[:]<label ></label>
+278[:]<label ></label>
+279[:]<label ></label>
+280[:]<button type="button" tabindex="-1">Book now</button>
+281[:]<div ></div>
+282[:]<div >21/30
+3
+Night(s) Trip
+Sheraton Vistana Resort Villas, Lake Buena Vista/Orlando
+08/24/25
+August 24, 2025
+|
+08/27/25
+August 27, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$347
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+283[:]<label ></label>
+284[:]<label ></label>
+285[:]<label ></label>
+286[:]<label ></label>
+287[:]<label ></label>
+288[:]<button type="button" tabindex="-1">Book now</button>
+289[:]<div ></div>
+290[:]<div >22/30
+2
+Night(s) Trip
+Westgate Lakes Resort And Spa
+08/16/25
+August 16, 2025
+|
+08/18/25
+August 18, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$351
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+291[:]<label ></label>
+292[:]<label ></label>
+293[:]<label ></label>
+294[:]<label ></label>
+295[:]<label ></label>
+296[:]<button type="button" tabindex="-1">Book now</button>
+297[:]<div ></div>
+298[:]<div >23/30
+2
+Night(s) Trip
+Sheraton Orlando Lake Buena Vista Resort
+08/16/25
+August 16, 2025
+|
+08/18/25
+August 18, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$353
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+299[:]<label ></label>
+300[:]<label ></label>
+301[:]<label ></label>
+302[:]<label ></label>
+303[:]<label ></label>
+304[:]<button type="button" tabindex="-1">Book now</button>
+305[:]<div ></div>
+306[:]<div >24/30
+1
+Night(s) Trip
+Marriott's Grande Vista
+07/10/25
+July 10, 2025
+|
+07/11/25
+July 11, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$323
+*
+Price subject to change
+Viewed:
+15 hours
+ago</div>
+307[:]<label ></label>
+308[:]<label ></label>
+309[:]<label ></label>
+310[:]<label ></label>
+311[:]<label ></label>
+312[:]<button type="button" tabindex="-1">Book now</button>
+313[:]<div ></div>
+314[:]<div >25/30
+1
+Night(s) Trip
+Sheraton Vistana Villages Resort Villas, I-Drive Orlando
+07/10/25
+July 10, 2025
+|
+07/11/25
+July 11, 2025
+ORD
+-
+MCO
+Flights
++
+Hotel
+from
+$324
+*
+Price subject to change
+Viewed:
+15 hours
+ago</div>
+315[:]<label ></label>
+316[:]<label ></label>
+317[:]<label ></label>
+318[:]<label ></label>
+319[:]<label ></label>
+320[:]<button type="button" tabindex="-1">Book now</button>
+321[:]<div ></div>
+322[:]<div >26/30
+3
+Night(s) Trip
+Riviera South Beach Hotel
+08/11/25
+August 11, 2025
+|
+08/14/25
+August 14, 2025
+ORD
+-
+MIA
+Flights
++
+Hotel
+from
+$285
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+323[:]<label ></label>
+324[:]<label ></label>
+325[:]<label ></label>
+326[:]<label ></label>
+327[:]<label ></label>
+328[:]<button type="button" tabindex="-1">Book now</button>
+329[:]<div ></div>
+330[:]<div >27/30
+3
+Night(s) Trip
+Hotel Trouvail Miami Beach
+08/11/25
+August 11, 2025
+|
+08/14/25
+August 14, 2025
+ORD
+-
+MIA
+Flights
++
+Hotel
+from
+$302
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+331[:]<label ></label>
+332[:]<label ></label>
+333[:]<label ></label>
+334[:]<label ></label>
+335[:]<label ></label>
+336[:]<button type="button" tabindex="-1">Book now</button>
+337[:]<div ></div>
+338[:]<div >28/30
+3
+Night(s) Trip
+Hotel Croydon
+08/11/25
+August 11, 2025
+|
+08/14/25
+August 14, 2025
+ORD
+-
+MIA
+Flights
++
+Hotel
+from
+$307
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+339[:]<label ></label>
+340[:]<label ></label>
+341[:]<label ></label>
+342[:]<label ></label>
+343[:]<label ></label>
+344[:]<button type="button" tabindex="-1">Book now</button>
+345[:]<div ></div>
+346[:]<div >29/30
+3
+Night(s) Trip
+The Fairwind Hotel
+08/11/25
+August 11, 2025
+|
+08/14/25
+August 14, 2025
+ORD
+-
+MIA
+Flights
++
+Hotel
+from
+$320
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+347[:]<label ></label>
+348[:]<label ></label>
+349[:]<label ></label>
+350[:]<label ></label>
+351[:]<label ></label>
+352[:]<button type="button" tabindex="-1">Book now</button>
+353[:]<div ></div>
+354[:]<div >30/30
+3
+Night(s) Trip
+The Plymouth South Beach
+08/11/25
+August 11, 2025
+|
+08/14/25
+August 14, 2025
+ORD
+-
+MIA
+Flights
++
+Hotel
+from
+$347
+*
+Price subject to change
+Viewed:
+a day
+ago</div>
+355[:]<label ></label>
+356[:]<label ></label>
+357[:]<label ></label>
+358[:]<label ></label>
+359[:]<label ></label>
+360[:]<button type="button" tabindex="-1">Book now</button>
+361[:]<div ></div>
+362[:]<div ></div>
+363[:]<button aria-label="Next arrow" type="button"></button>
+_[:]cmp-carousel-slide 1 cmp-carousel-of 8
+364[:]<button aria-label="cmp-carousel-dot 1" type="button" tabindex="-1"></button>
+365[:]<button aria-label="cmp-carousel-dot 2" type="button" tabindex="-1"></button>
+366[:]<button aria-label="cmp-carousel-dot 3" type="button" tabindex="-1"></button>
+367[:]<button aria-label="cmp-carousel-dot 4" type="button" tabindex="-1"></button>
+368[:]<button aria-label="cmp-carousel-dot 5" type="button" tabindex="-1"></button>
+369[:]<button aria-label="cmp-carousel-dot 6" type="button" tabindex="-1"></button>
+370[:]<button aria-label="cmp-carousel-dot 7" type="button" tabindex="-1"></button>
+371[:]<button aria-label="cmp-carousel-dot 8" type="button" tabindex="-1"></button>
+_[:]*Average total price per person based on round trip flights and double occupancy hotel stays. Fares displayed have been collected within the last 48hrs and may no longer be available at time of booking. Additional fees and charges for optional products and services may apply.
+372[:]<a >packages.united.com</a>
+_[:].
+373[:]<button role="button" aria-expanded="false">Site Feedback</button>
+... 2023 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,26 @@
+
+
+Current url: https://cars.cartrawler.com/emirates/en/book?clientID=606868&pickupDateTime=2025-07-18T10%3A00&returnDateTime=2025-07-25T10%3A00&age=30&ct=MP&curr=EUR&elID=891750952234188&&residenceID=NL&vp=59.4025889%2C18.1961109%2C59.2318985%2C17.8987837&pickupLat=59.3327036&pickupLng=18.0656255&pickupName=Stockholm%2C%20Sweden&returnLat=59.3327036&returnLng=18.0656255&returnName=Stockholm%2C%20Sweden#/vehicles
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/nl/english/', title='Emirates | Fly Better'), TabInfo(page_id=1, url='https://cars.cartrawler.com/emirates/en/book?clientID=606868&pickupDateTime=2025-07-18T10%3A00&returnDateTime=2025-07-25T10%3A00&age=30&ct=MP&curr=EUR&elID=891750952234188&&residenceID=NL&vp=59.4025889%2C18.1961109%2C59.2318985%2C17.8987837&pickupLat=59.3327036&pickupLng=18.0656255&pickupName=Stockholm%2C%20Sweden&returnLat=59.3327036&returnLng=18.0656255&returnName=Stockholm%2C%20Sweden#/vehicles', title='Emirates - Book Car Hire')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a title="emirates"></a>
+_[:]English
+_[:]EUR
+1[:]<a >Help</a>
+2[:]<a >Manage booking</a>
+_[:]Searching for your perfect car
+3[:]<img alt="alamo"></img>
+4[:]<img alt="europcar"></img>
+5[:]<img alt="budget"></img>
+6[:]<img alt="avis"></img>
+_[:]Free Cancellation
+_[:]Our car rentals offer cancellation terms as flexible as booking directly with the supplier.
+_[:]More Than Savings
+_[:]Superior pricing with great terms, and award-winning customer support.
+_[:]Connecting You To The Best
+_[:]Supplier relationships set us apart – we're not a middleman; we're your car rental partner.
+_[:]Our Rental Partners
+_[:]From pick-up to drop-off, we work hand-in-hand with trusted car rental suppliers.
+[End of page]

@@ -1,0 +1,95 @@
+
+
+Current url: https://www.emirates.com/us/english/book/featured-fares/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/us/english/book/featured-fares/', title='Featured Fares | Book a flight | Emirates United States')]
+Interactive elements from current page view:
+... 4725 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="Emirates logo"></img>
+2[:]<span tabindex="0" role="tab">Book
+•</span>
+3[:]<span tabindex="0" role="tab">About booking online</span>
+4[:]<a >Search flights</a>
+_[:]Featured fares for all destinations
+5[:]<button aria-label="Filter results Opens a dialog" type="button">Filter results</button>
+6[:]<a aria-label="Search for flights Hyderabad"></a>
+7[:]<a aria-label="Search for flights Kolkata"></a>
+8[:]<a aria-label="Search for flights Guangzhou"></a>
+9[:]<img alt=""></img>
+10[:]<div ></div>
+_[:]Search for flights
+11[:]<img alt=""></img>
+12[:]<div ></div>
+_[:]Search for flights
+13[:]<img alt=""></img>
+14[:]<div ></div>
+_[:]Search for flights
+15[:]<img alt=""></img>
+_[:]Kathmandu (KTM)
+16[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1419*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+17[:]<button aria-label="Fare conditions Kathmandu Opens a dialog" type="button">Fare conditions</button>
+18[:]<a aria-label="Search for flights Kathmandu">Search for flights</a>
+19[:]<img alt=""></img>
+_[:]Thiruvananthapuram (TRV)
+20[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1439*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+21[:]<button aria-label="Fare conditions Thiruvananthapuram Opens a dialog" type="button">Fare conditions</button>
+22[:]<a aria-label="Search for flights Thiruvananthapuram">Search for flights</a>
+23[:]<img alt=""></img>
+_[:]Bali (DPS)
+24[:]<div tabindex="0" role="tab">Economy Class</div>
+25[:]<div tabindex="0" role="tab">Business Class</div>
+_[:]From
+_[:]USD
+_[:]1575*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+26[:]<button aria-label="Fare conditions Bali Opens a dialog" type="button">Fare conditions</button>
+27[:]<a aria-label="Search for flights Bali">Search for flights</a>
+28[:]<img alt=""></img>
+_[:]Ahmedabad (AMD)
+29[:]<div tabindex="0" role="tab">Economy Class</div>
+30[:]<div tabindex="0" role="tab">Business Class</div>
+_[:]From
+_[:]USD
+_[:]2184*
+31[:]<button aria-label="Fare conditions Ahmedabad Opens a dialog" type="button"></button>
+32[:]<a aria-label="Search for flights Ahmedabad"></a>
+33[:]<img alt=""></img>
+_[:]Dubai (DXB)
+34[:]<div tabindex="0" role="tab">Premium Economy</div>
+35[:]<div tabindex="0" role="tab">Business Class</div>
+_[:]From
+_[:]USD
+_[:]3025*
+36[:]<button aria-label="Fare conditions Dubai Opens a dialog" type="button"></button>
+37[:]<a aria-label="Search for flights Dubai"></a>
+38[:]<img alt=""></img>
+_[:]Bengaluru (Bangalore) (BLR)
+39[:]<div tabindex="0" role="tab">Premium Economy</div>
+40[:]<div tabindex="0" role="tab">Business Class</div>
+_[:]From
+_[:]USD
+_[:]3538*
+41[:]<button aria-label="Fare conditions Bengaluru (Bangalore) Opens a dialog" type="button"></button>
+42[:]<a aria-label="Search for flights Bengaluru (Bangalore)"></a>
+43[:]<img alt=""></img>
+44[:]<img alt=""></img>
+45[:]<img alt=""></img>
+... 3569 pixels below - scroll or extract content to see more ...

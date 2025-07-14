@@ -1,0 +1,246 @@
+
+
+Current url: https://cars.united.com/en-us/book?pickupDateTime=2025-07-18T10%3A00&returnDateTime=2025-07-25T10%3A00&age=30&clientID=561989&ct=MP&curr=USD&elID=1491750069482124&&residenceID=NL&vp=28.61442%2C-81.1778421%2C28.348044%2C-81.5077461&pickupLat=28.5383832&pickupLng=-81.3789269&pickupName=Orlando%2C%20FL%2C%20USA&returnLat=28.5383832&returnLng=-81.3789269&returnName=Orlando%2C%20FL%2C%20USA#/vehicles
+Available tabs:
+[TabInfo(page_id=0, url='https://cars.united.com/en-us/book?pickupDateTime=2025-07-18T10%3A00&returnDateTime=2025-07-25T10%3A00&age=30&clientID=561989&ct=MP&curr=USD&elID=1491750069482124&&residenceID=NL&vp=28.61442%2C-81.1778421%2C28.348044%2C-81.5077461&pickupLat=28.5383832&pickupLng=-81.3789269&pickupName=Orlando%2C%20FL%2C%20USA&returnLat=28.5383832&returnLng=-81.3789269&returnName=Orlando%2C%20FL%2C%20USA#/vehicles', title='United Airlines - Airline Tickets, Travel Deals and Flights')]
+Interactive elements from current page view:
+... 4.666666507720947 pixels above - scroll or extract content to see more ...
+0[:]<a title="Home"></a>
+1[:]<img alt="united-airlines-white logo"></img>
+2[:]<div tabindex="0">English (US)</div>
+3[:]<div tabindex="0">USD</div>
+4[:]<a >Help</a>
+5[:]<a >Manage reservation</a>
+6[:]<a >Sign In</a>
+_[:]Not a member?
+7[:]<a >Join now</a>
+8[:]<li tabindex="0" aria-label="Search Results: Step 2 of 4 to complete your booking">Search Results</li>
+_[:]Details
+_[:]Confirmation
+_[:]Trip Summary
+9[:]<label >Pick-up</label>
+_[:]Orlando, FL, USA
+_[:]18 Jul 2025
+_[:]10:00
+10[:]<label >Drop-off</label>
+_[:]Orlando, FL, USA
+_[:]25 Jul 2025
+_[:]10:00
+_[:]Currency:
+_[:]USD
+11[:]<button tabindex="0">Edit</button>
+_[:]Go to Search Results
+_[:]Go to Category filter
+_[:]Go to Filter
+_[:]Promo/discount codes
+_[:]Codes added may affect the price of the results displayed
+12[:]<img ></img>
+13[:]<img ></img>
+14[:]<label aria-label="">Apply discounted rates</label>
+15[:]<button >Add new code</button>
+_[:]Filter
+16[:]<div tabindex="0">Price Range</div>
+17[:]<p tabindex="0">The average car price is
+$ 77
+per day</p>
+18[:]<input aria-label="" type="range"></input>
+_[:]$ 24
+_[:]$ 112+
+19[:]<div tabindex="-1"></div>
+20[:]<div tabindex="0">Supplier</div>
+21[:]<ul role="listbox"></ul>
+22[:]<li role="option" tabindex="-1"></li>
+23[:]<div tabindex="0"></div>
+24[:]<input type="checkbox" role="checkbox" tabindex="-1" name="supplier-avis"></input>
+25[:]<label >Avis</label>
+26[:]<img ></img>
+27[:]<li role="option" tabindex="-1"></li>
+28[:]<div tabindex="0"></div>
+29[:]<input type="checkbox" role="checkbox" tabindex="-1" name="supplier-budget"></input>
+30[:]<label ></label>
+31[:]<img ></img>
+32[:]<div tabindex="-1"></div>
+33[:]<div tabindex="0"></div>
+34[:]<ul role="listbox"></ul>
+35[:]<li role="option" tabindex="-1"></li>
+36[:]<div tabindex="0"></div>
+37[:]<input type="checkbox" role="checkbox" tabindex="-1" name="mileage-limited"></input>
+38[:]<label ></label>
+39[:]<li role="option" tabindex="-1"></li>
+40[:]<div tabindex="0"></div>
+41[:]<input type="checkbox" role="checkbox" tabindex="-1" name="mileage-unlimited"></input>
+42[:]<label ></label>
+43[:]<div tabindex="-1"></div>
+44[:]<div tabindex="0"></div>
+45[:]<ul role="listbox"></ul>
+46[:]<li role="option" tabindex="-1"></li>
+47[:]<div tabindex="0"></div>
+48[:]<input type="checkbox" role="checkbox" tabindex="-1" name="ecoCar-electric"></input>
+49[:]<label ></label>
+50[:]<li role="option" tabindex="-1"></li>
+51[:]<div tabindex="0"></div>
+52[:]<input type="checkbox" role="checkbox" tabindex="-1" name="ecoCar-hybrid"></input>
+53[:]<label ></label>
+54[:]<div tabindex="-1"></div>
+55[:]<div tabindex="0"></div>
+56[:]<ul role="listbox"></ul>
+57[:]<li role="option" tabindex="-1"></li>
+58[:]<div tabindex="0"></div>
+59[:]<input type="checkbox" role="checkbox" tabindex="-1" name="carSpecifications-aircon"></input>
+60[:]<label ></label>
+61[:]<div tabindex="-1"></div>
+62[:]<div tabindex="0"></div>
+63[:]<ct-supplier-benefits-apply-banner >Get the best rates
+Apply special discounts from our exclusive rental car partners Avis and Budget.</ct-supplier-benefits-apply-banner>
+64[:]<img ></img>
+65[:]<img ></img>
+66[:]<button >Apply now</button>
+_[:]Flexible cancellation with every booking.
+67[:]<div tabindex="0">Economy
+5
+2
+From
+$ 310.73</div>
+68[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+69[:]<div tabindex="0">Compact
+5
+3
+From
+$ 314.19</div>
+70[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+71[:]<div tabindex="0">SUV
+5
+3
+From
+$ 325.74</div>
+72[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+73[:]<div tabindex="0">Midsize
+5
+3
+From
+$ 316.50</div>
+74[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+75[:]<div tabindex="0">Standard
+5
+4
+From
+$ 321.13</div>
+76[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+77[:]<div tabindex="0">Full-size
+5
+4
+From
+$ 321.13</div>
+78[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+_[:]Minivan
+_[:]7
+_[:]3
+_[:]From
+_[:]$ 589.86
+_[:]Premium
+_[:]5
+_[:]3
+_[:]From
+_[:]$ 340.76
+_[:]Special
+_[:]5
+_[:]3
+_[:]From
+_[:]$ 429.05
+79[:]<div tabindex="0">Truck
+5
+5
+From
+$ 399.23</div>
+80[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+81[:]<div tabindex="0">Convertible
+4
+2
+From
+$ 576.02</div>
+82[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+83[:]<div tabindex="0">Luxury
+5
+5
+From
+$ 421.62</div>
+84[:]<img alt="${$ctrl.item.vehicle.name}"></img>
+85[:]<div ></div>
+86[:]<div tabindex="0">208
+cars available
+Sort by:
+Earn 500 MileagePlus Miles
+Economy
+Kia Rio
+or similar
+Pick-up location:
+Mileage:
+$ 44.39
+/day
+Total
+$ 310.73
+(incl. tax)
+Earn 500 MileagePlus Miles
+Economy
+Kia Rio
+or similar
+5
+2
+4
+Pick-up location:
+Mileage:
+Terms and Conditions
+$ 44.39
+/day
+Total
+$ 310.73
+(incl. tax)
+Book Now
+Pay later</div>
+87[:]<button aria-label="Sort by Recommended" role="button" tabindex="0">Recommended</button>
+88[:]<button aria-label="Sort by Price" role="button" tabindex="0">price (low to high)</button>
+89[:]<button aria-label="Sort by Distance" role="button" tabindex="0">Distance</button>
+90[:]<img alt="Kia Rio or similar"></img>
+91[:]<li role="contentinfo" tabindex="0" aria-label="5 Passenger(s)">5</li>
+92[:]<li role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases">2</li>
+93[:]<li role="contentinfo" tabindex="0" aria-label="4 doors">4</li>
+94[:]<a >7.55km</a>
+95[:]<div role="button" tabindex="0">View map</div>
+96[:]<img alt="View Map" title="View Map" aria-label="View Map"></img>
+97[:]<span role="contentinfo" tabindex="0" aria-label="There is no limit to the distance you can drive with this car">Unlimited</span>
+98[:]<div tabindex="0" role="button" aria-label=","></div>
+99[:]<img alt="BUDGET" aria-label="BUDGET"></img>
+100[:]<li aria-label="<strong>Cancel or change your booking for free</strong><br />Book now to secure the best price." role="contentinfo" tabindex="0">Free Cancellation</li>
+101[:]<li aria-label="No additional charge for any changes made to your booking online or over the phone up to 48 hours before time of pick-up. Any changes will be subject to live pricing." role="contentinfo" tabindex="0">Free Changes</li>
+102[:]<li aria-label="Pay for your car rental and any extras at the desk when you pick up your car." role="contentinfo" tabindex="0">Pay at counter</li>
+103[:]<a tabindex="0" role="link" title="Terms and Conditions">Terms and Conditions</a>
+104[:]<button tabindex="0">Book Now
+Pay later</button>
+105[:]<img alt="Kia Rio or similar"></img>
+106[:]<a >13.95km</a>
+107[:]<div role="button" tabindex="0">View map</div>
+108[:]<img alt="View Map" title="View Map" aria-label="View Map"></img>
+109[:]<span role="contentinfo" tabindex="0" aria-label="There is no limit to the distance you can drive with this car">Unlimited</span>
+110[:]<li aria-label="<strong>Cancel or change your booking for free</strong><br />Book now to secure the best price." role="contentinfo" tabindex="0">Free Cancellation</li>
+111[:]<li aria-label="No additional charge for any changes made to your booking online or over the phone up to 48 hours before time of pick-up. Any changes will be subject to live pricing." role="contentinfo" tabindex="0">Free Changes</li>
+112[:]<li aria-label="Pay for your car rental and any extras at the desk when you pick up your car." role="contentinfo" tabindex="0">Pay at counter</li>
+113[:]<div ></div>
+114[:]<button ></button>
+115[:]<button ></button>
+116[:]<img alt="Kia Rio or similar"></img>
+117[:]<li role="contentinfo" tabindex="0" aria-label="5 Passenger(s)"></li>
+118[:]<li role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases"></li>
+119[:]<li role="contentinfo" tabindex="0" aria-label="4 doors"></li>
+120[:]<a ></a>
+121[:]<div role="button" tabindex="0"></div>
+122[:]<img alt="View Map" title="View Map" aria-label="View Map"></img>
+123[:]<span role="contentinfo" tabindex="0" aria-label="There is no limit to the distance you can drive with this car"></span>
+124[:]<div tabindex="0" role="button" aria-label=","></div>
+125[:]<img alt="BUDGET" aria-label="BUDGET"></img>
+126[:]<li aria-label="<strong>Cancel or change your booking for free</strong><br />Book now to secure the best price." role="contentinfo" tabindex="0"></li>
+127[:]<li aria-label="No additional charge for any changes made to your booking online or over the phone up to 48 hours before time of pick-up. Any changes will be subject to live pricing." role="contentinfo" tabindex="0"></li>
+128[:]<li aria-label="Pay for your car rental and any extras at the desk when you pick up your car." role="contentinfo" tabindex="0"></li>
+129[:]<a tabindex="0" role="link" title="Terms and Conditions"></a>
+130[:]<button tabindex="0"></button>
+131[:]<li aria-label="<strong>Cancel or change your booking for free</strong><br />Book now to secure the best price." role="contentinfo" tabindex="0"></li>
+... 3960.333333492279 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,7 @@
+
+
+Current url: https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Ryanair')]
+Interactive elements from current page view:
+empty page

@@ -1,0 +1,181 @@
+
+
+Current url: https://www.united.com/en-us/flights-from-chicago
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en-us/flights-from-chicago', title='United Cheap Flights from Chicago from $ 125\xa0| United Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<a ></a>
+2[:]<a >Help</a>
+3[:]<a >Search</a>
+4[:]<button type="button" aria-label="label--region-language United States English" aria-expanded="false">United States
+-
+English
+keyboard_arrow_down</button>
+5[:]<a ></a>
+6[:]<img alt="United Airlines"></img>
+7[:]<a >Book</a>
+8[:]<a >My Trip</a>
+9[:]<a >Travel info</a>
+10[:]<a >MileagePlus® Program</a>
+11[:]<a >Deals</a>
+12[:]<a >Help</a>
+_[:]Flights from Chicago (ORD) starting at
+13[:]<span tabindex="0" role="button">$ 77</span>
+_[:]*
+_[:]or from
+_[:]$
+_[:]20
+_[:]/mo
+14[:]<div ></div>
+15[:]<div ></div>
+16[:]<div >and</div>
+17[:]<div ></div>
+18[:]<div ></div>
+19[:]<div ></div>
+20[:]<div ></div>
+21[:]<div ></div>
+22[:]<div ></div>
+23[:]<div >expand_more</div>
+24[:]<div ></div>
+25[:]<div ></div>
+26[:]<button aria-label="fc-booking-journey-type-aria-label, Roundtrip" type="button" aria-expanded="false">Roundtrip</button>
+27[:]<div ></div>
+28[:]<div ></div>
+29[:]<div ></div>
+30[:]<div ></div>
+31[:]<div >expand_more</div>
+32[:]<div ></div>
+33[:]<div ></div>
+34[:]<button aria-label="fc-booking-passengers-button-description, 1 Passenger, Economy" type="button" aria-expanded="false">1 Passenger, Economy</button>
+35[:]<div ></div>
+36[:]<div ></div>
+37[:]<div ></div>
+38[:]<div ></div>
+39[:]<div >expand_more</div>
+40[:]<div ></div>
+41[:]<div ></div>
+42[:]<button aria-label="fc-booking-promo-code-button-description " type="button" aria-expanded="false">Promotion Code</button>
+43[:]<div ></div>
+44[:]<div ></div>
+45[:]<div ></div>
+46[:]<div ></div>
+47[:]<div ></div>
+48[:]<div >expand_more</div>
+49[:]<div ></div>
+50[:]<div ></div>
+51[:]<button aria-label="fc-booking-use-miles-aria-label, Book with money" type="button" aria-expanded="false">Book with money</button>
+52[:]<div ></div>
+53[:]<div ></div>
+54[:]<div ></div>
+55[:]<div ></div>
+56[:]<div ></div>
+57[:]<div ></div>
+58[:]<div ></div>
+59[:]<div ></div>
+60[:]<div ></div>
+61[:]<label >From</label>
+62[:]<input aria-label="fc-booking-origin-aria-label" placeholder="From" role="combobox" type="text" aria-expanded="false" value=""></input>
+63[:]<button aria-label="fc-booking-location-selector-clear-button" type="button">close</button>
+64[:]<div ></div>
+65[:]<div ></div>
+66[:]<div ></div>
+67[:]<div ></div>
+68[:]<div ></div>
+69[:]<div ></div>
+70[:]<div ></div>
+71[:]<label >To</label>
+72[:]<input aria-label="fc-booking-destination-aria-label" placeholder="To" role="combobox" type="text" aria-expanded="false" value=""></input>
+73[:]<div ></div>
+74[:]<div ></div>
+75[:]<div ></div>
+76[:]<div ></div>
+77[:]<div role="none" aria-expanded="false"></div>
+78[:]<div ></div>
+79[:]<div ></div>
+80[:]<div ></div>
+81[:]<div >today</div>
+82[:]<div ></div>
+83[:]<div >fc-booking-departure-date-aria-label</div>
+84[:]<label >Departure</label>
+85[:]<button aria-expanded="false" type="button">06/23/25</button>
+86[:]<div ></div>
+87[:]<div ></div>
+88[:]<div role="none" aria-expanded="false"></div>
+89[:]<div ></div>
+90[:]<div ></div>
+91[:]<div ></div>
+92[:]<div >today</div>
+93[:]<div ></div>
+94[:]<div >fc-booking-return-date-aria-label</div>
+95[:]<label >Return</label>
+96[:]<button aria-expanded="false" type="button">06/30/25</button>
+97[:]<div ></div>
+98[:]<button type="button">Search flights</button>
+99[:]<a >Changed bag rules</a>
+100[:]<a >optional services</a>
+101[:]<a >Cruise
+open_in_new</a>
+102[:]<a >Packages
+open_in_new</a>
+103[:]<a >Home</a>
+104[:]<a >United flights</a>
+_[:]Flights from Chicago
+_[:]Fly from Chicago and get United's best fares
+105[:]<label >Input departure airport</label>
+106[:]<div >flight_takeoff</div>
+107[:]<input role="combobox" aria-expanded="false" placeholder="Origin City" aria-label="Input origin" value="Chicago, IL, US (ORD)"></input>
+108[:]<button type="button" aria-label="Clear filter">close</button>
+109[:]<label >Input arrival airport</label>
+110[:]<div >flight_land</div>
+111[:]<input role="combobox" aria-expanded="false" placeholder="Destination City" aria-label="Input destination" value=""></input>
+112[:]<label >Input your budget</label>
+113[:]<div >$</div>
+114[:]<input name="" type="text" placeholder="Max budget" tabindex="0" aria-label="Max budget" value=""></input>
+115[:]<label >Select Cabin Class</label>
+116[:]<div >Select Cabin Class option undefined Selected
+Select travel class
+keyboard_arrow_down</div>
+117[:]<button type="button" tabindex="-1">keyboard_arrow_left</button>
+118[:]<li >Chicago (ORD)
+to
+New York/Newark (LGA)
+Chicago (ORD)
+to
+Tokyo (HND)
+Chicago (ORD)
+to
+San Francisco (SFO)
+Chicago (ORD)
+to
+Los Angeles (LAX)</li>
+119[:]<img alt=""></img>
+120[:]<div ></div>
+121[:]<a ></a>
+122[:]<button type="button" aria-label="Book Now Chicago ORD to New York/Newark LGA 08/27/25 - 08/30/25 from $ 140 Viewed: 15 hours ago Roundtrip Economy" tabindex="0"></button>
+123[:]<img alt=""></img>
+124[:]<div ></div>
+125[:]<a ></a>
+126[:]<button type="button" aria-label="Book Now Chicago ORD to Tokyo HND 07/15/25 - 07/29/25 from $ 1,680 Viewed: 3 hours ago Roundtrip Economy" tabindex="0"></button>
+127[:]<img alt=""></img>
+128[:]<div ></div>
+129[:]<a ></a>
+130[:]<button type="button" aria-label="Book Now Chicago ORD to San Francisco SFO 07/01/25 - 07/04/25 from $ 179 Viewed: 12 hours ago Roundtrip Economy" tabindex="0"></button>
+131[:]<img alt=""></img>
+132[:]<div ></div>
+133[:]<a ></a>
+134[:]<button type="button" aria-label="Book Now Chicago ORD to Los Angeles LAX 08/19/25 - 08/23/25 from $ 197 Viewed: 15 hours ago Roundtrip Economy" tabindex="0"></button>
+135[:]<li ></li>
+136[:]<button type="button" tabindex="0">keyboard_arrow_right</button>
+137[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 1"></button>
+138[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 2"></button>
+139[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 3"></button>
+140[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 4"></button>
+141[:]<button type="button" role="tab" aria-label="cmp-fare-carousel-slide 5"></button>
+142[:]<a ></a>
+143[:]<a ></a>
+144[:]<a ></a>
+145[:]<img alt=""></img>
+146[:]<button role="button" aria-expanded="false">Site Feedback</button>
+... 1161 pixels below - scroll or extract content to see more ...

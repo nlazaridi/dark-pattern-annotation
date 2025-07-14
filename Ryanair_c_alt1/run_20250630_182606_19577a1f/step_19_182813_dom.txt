@@ -1,0 +1,316 @@
+
+
+Current url: https://ie.hotels.ryanair.com/Hotel-Search?rooms=1&adults=1&destination=Rome%20City%20Centre%2C%20Rome%2C%20Lazio%2C%20Italy&startDate=2025-07-18&endDate=2025-08-01&d1=2025-07-18&d2=2025-08-01&regionId=553248633938945217&latLong=41.89893613158187%2C12.481600476754943&useRewards=false&rate_type=standalone&isInvalidatedDate=false&upsellingNumNightsAdded=&theme=&userIntent=&semdtl=&upsellingDiscountTypeAdded=&categorySearch=&sort=RECOMMENDED
+Available tabs:
+[TabInfo(page_id=0, url='https://ie.hotels.ryanair.com/Hotel-Search?rooms=1&adults=1&destination=Rome%20City%20Centre%2C%20Rome%2C%20Lazio%2C%20Italy&startDate=2025-07-18&endDate=2025-08-01&d1=2025-07-18&d2=2025-08-01&regionId=553248633938945217&latLong=41.89893613158187%2C12.481600476754943&useRewards=false&rate_type=standalone&isInvalidatedDate=false&upsellingNumNightsAdded=&theme=&userIntent=&semdtl=&upsellingDiscountTypeAdded=&categorySearch=&sort=RECOMMENDED', title='Rome City Centre, Rome, Lazio, Italy Hotel Search results')]
+Interactive elements from current page view:
+... 944.6666870117188 pixels above - scroll or extract content to see more ...
+0[:]<body >Stay options
+Stay options
+Neighbourhood
+Neighbourhood
+Payment type
+7.2
+7.2 out of 10
+Good
+good
+507 reviews
+(507 reviews)
+We have 1 left at 10% off at
+The current price is €1,364
+€1,364
+for 14 nights, 1 room
+€97 per night
+includes taxes & fees
+Photo gallery for Casa Santa Sofia Hotel
+Casa Santa Sofia Hotel
+Rome City Centre
+8.8
+8.8 out of 10
+Excellent
+excellent
+695 reviews
+(695 reviews)
+We have 1 left at 10% off at
+The current price is €1,810
+€1,810
+for 14 nights, 1 room
+€129 per night
+includes taxes & fees
+Photo gallery for Hotel Nardizzi Americana
+Hotel Nardizzi Americana
+Rome City Centre
+8.0
+8.0 out of 10
+Very good
+very good
+443 reviews
+(443 reviews)
+10% off
+The current price is €1,478
+€1,478
+for 14 nights, 1 room
+€106 per night
+includes taxes & fees
+Photo gallery for Leonardo Boutique Hotel Rome Monti
+Leonardo Boutique Hotel Rome Monti
+Rome City Centre
+8.8
+8.8 out of 10
+Excellent
+excellent
+604 reviews
+(604 reviews)
+We have 6 left at
+The current price is €2,763
+€2,763
+for 14 nights, 1 room
+€197 per night
+includes taxes & fees
+Photo gallery for Baglioni Hotel Regina - The Leading Hotels of the World
+Baglioni Hotel Regina - The Leading Hotels of the World
+Rome City Centre
+Breakfast included
+Your stay in the heart of Rome
+Book Now in Baglioni Hotel Regina and save Big. Enjoy Free Breakfast + Kids & Teens Free + Acqua di Parma premium amenities.
+9.0
+9.0 out of 10
+Wonderful
+wonderful
+459 reviews
+(459 reviews)
+29% off
+The current price is €9,007
+€9,007
+for 14 nights, 1 room
+€643 per night
+includes taxes & fees
+Photo gallery for Bocca di Leone Luxury Suite
+Bocca di Leone Luxury Suite
+Rome City Centre
+Breakfast included
+We have 1 left at
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+112
+113
+114
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139</body>
+1[:]<label ></label>
+2[:]<button aria-label="Search by property name" aria-expanded="false" type="button"></button>
+3[:]<label ></label>
+4[:]<input type="checkbox" name="neighborhood" aria-label="Rome Historic Centre" value="6200441"></input>
+5[:]<label ></label>
+6[:]<input type="checkbox" name="paymentType" aria-label="Reserve now, pay later" value="PAY_LATER"></input>
+7[:]<label ></label>
+8[:]<input type="checkbox" name="lodging" aria-label="Hotel" value="HOTEL"></input>
+9[:]<label ></label>
+10[:]<input type="checkbox" name="mealPlan" aria-label="Breakfast included" value="FREE_BREAKFAST"></input>
+11[:]<label ></label>
+12[:]<input type="checkbox" name="amenities" aria-label="Pool" value="POOL"></input>
+13[:]<label ></label>
+14[:]<label ></label>
+15[:]<input aria-label="€0, Minimum, Total price" type="text" value="€0"></input>
+16[:]<label ></label>
+17[:]<input aria-label="€9,800 and above, Maximum, Total price" type="text" value="€9,800+"></input>
+18[:]<label >Any</label>
+19[:]<input type="radio" name="stay_options_group" aria-label="Any" value=""></input>
+20[:]<label >Hotels</label>
+21[:]<input type="radio" name="stay_options_group" aria-label="Hotels" value="hotels_option"></input>
+22[:]<label >Homes</label>
+23[:]<input type="radio" name="stay_options_group" aria-label="Homes" value="vacation_rentals_option"></input>
+24[:]<label >Rome (and vicinity)</label>
+25[:]<input type="radio" name="neighborhood" aria-label="Rome (and vicinity)" value="179899"></input>
+26[:]<label >Rome Historic Centre</label>
+27[:]<input type="radio" name="neighborhood" aria-label="Rome Historic Centre" value="6200441"></input>
+28[:]<label >Trastevere</label>
+29[:]<input type="radio" name="neighborhood" aria-label="Trastevere" value="6046256"></input>
+30[:]<label >Rome Termini Station</label>
+31[:]<input type="radio" name="neighborhood" aria-label="Rome Termini Station" value="6022584"></input>
+32[:]<label >Vatican City</label>
+33[:]<input type="radio" name="neighborhood" aria-label="Vatican City" value="179952"></input>
+34[:]<label >Navona</label>
+35[:]<input type="radio" name="neighborhood" aria-label="Navona" value="6051981"></input>
+36[:]<label >Rome</label>
+37[:]<input type="radio" name="neighborhood" aria-label="Rome" value="3023"></input>
+38[:]<label >Vatican</label>
+39[:]<input type="radio" name="neighborhood" aria-label="Vatican" value="6046253"></input>
+40[:]<label >Monti</label>
+41[:]<input type="radio" name="neighborhood" aria-label="Monti" value="6185346"></input>
+42[:]<label >Prati</label>
+43[:]<input type="radio" name="neighborhood" aria-label="Prati" value="6004847"></input>
+44[:]<label >Rome (FCO-Fiumicino - Leonardo da Vinci Intl.)</label>
+45[:]<input type="radio" name="neighborhood" aria-label="Rome (FCO-Fiumicino - Leonardo da Vinci Intl.)" value="5194566"></input>
+46[:]<label >Fiumicino</label>
+47[:]<input type="radio" name="neighborhood" aria-label="Fiumicino" value="179111"></input>
+48[:]<label >Lido di Ostia</label>
+49[:]<input type="radio" name="neighborhood" aria-label="Lido di Ostia" value="55019"></input>
+50[:]<label >Ciampino</label>
+51[:]<input type="radio" name="neighborhood" aria-label="Ciampino" value="179145"></input>
+52[:]<label >Castel Gandolfo</label>
+53[:]<input type="radio" name="neighborhood" aria-label="Castel Gandolfo" value="6049748"></input>
+54[:]<label >Frascati</label>
+55[:]<input type="radio" name="neighborhood" aria-label="Frascati" value="179112"></input>
+56[:]<label >Ostia Antica</label>
+57[:]<input type="radio" name="neighborhood" aria-label="Ostia Antica" value="6051982"></input>
+58[:]<label >San Giovanni</label>
+59[:]<input type="radio" name="neighborhood" aria-label="San Giovanni" value="6145023"></input>
+60[:]<label >Rome City Centre</label>
+61[:]<input type="radio" name="neighborhood" aria-label="Rome City Centre" value="553248633938945217"></input>
+62[:]<label >Trieste</label>
+63[:]<input type="radio" name="neighborhood" aria-label="Trieste" value="553248634717494379"></input>
+64[:]<button type="button" aria-label="See less: Neighbourhood" aria-expanded="true">See less</button>
+65[:]<input type="checkbox" name="paymentType" aria-label="Reserve now, pay later" value="PAY_LATER"></input>
+66[:]<label >Reserve now, pay later</label>
+67[:]<input type="checkbox" name="paymentType" aria-label="Fully refundable property" value="FREE_CANCELLATION"></input>
+68[:]<label ></label>
+69[:]<input type="checkbox" name="lodging" aria-label="Hotel" value="HOTEL"></input>
+70[:]<label ></label>
+71[:]<input type="checkbox" name="lodging" aria-label="Apartment" value="APARTMENT"></input>
+72[:]<label ></label>
+73[:]<input type="checkbox" name="lodging" aria-label="Aparthotel" value="APART_HOTEL"></input>
+74[:]<label ></label>
+75[:]<button type="button" aria-label="See more: Property type" aria-expanded="false"></button>
+76[:]<label ></label>
+77[:]<input aria-label="Pool" name="amenities" type="checkbox" value="POOL"></input>
+78[:]<label ></label>
+79[:]<input aria-label="Kitchen" name="amenities" type="checkbox" value="KITCHEN_KITCHENETTE"></input>
+80[:]<label ></label>
+81[:]<input aria-label="Air conditioned" name="amenities" type="checkbox" value="AIR_CONDITIONING"></input>
+82[:]<label ></label>
+83[:]<input aria-label="WiFi included" name="amenities" type="checkbox" value="WIFI"></input>
+84[:]<label ></label>
+85[:]<input aria-label="Washer and dryer" name="amenities" type="checkbox" value="WASHER_DRYER"></input>
+86[:]<label ></label>
+87[:]<input aria-label="Gym" name="amenities" type="checkbox" value="GYM"></input>
+88[:]<img alt="Room"></img>
+89[:]<img alt="Pool"></img>
+90[:]<button type="button" aria-label="Opens Mercure Roma Centro Colosseo in new tab"></button>
+91[:]<img alt="Bar (on property)"></img>
+92[:]<button type="button"></button>
+93[:]<a ></a>
+94[:]<img alt="Room"></img>
+95[:]<img alt="Reception"></img>
+96[:]<button type="button" aria-label="Opens Donna Camilla Savelli – VRetreats in new tab"></button>
+97[:]<img alt="Front of property"></img>
+98[:]<button type="button"></button>
+99[:]<button type="button"></button>
+100[:]<button type="button"></button>
+101[:]<button type="button"></button>
+102[:]<a ></a>
+103[:]<img alt="Interior"></img>
+104[:]<img alt="Front of property – evening/night"></img>
+105[:]<button type="button" aria-label="More information about Hotel Imperiale by OMNIA hotels , opens in a new tab"></button>
+106[:]<img alt="Staircase"></img>
+107[:]<button type="button"></button>
+108[:]<button type="button"></button>
+109[:]<button type="button"></button>
+110[:]<a ></a>
+111[:]<button type="button" aria-label="More information about Hotel Regina Giovanna, opens in a new tab">Staircase</button>
+112[:]<button type="button"></button>
+113[:]<button type="button"></button>
+114[:]<button type="button">The previous price was €1,509
+€1,509</button>
+115[:]<a ></a>
+116[:]<button type="button" aria-label="More information about Casa Santa Sofia Hotel, opens in a new tab">Interior entrance</button>
+117[:]<button type="button"></button>
+118[:]<button type="button"></button>
+119[:]<button type="button">The previous price was €2,004
+€2,004</button>
+120[:]<a >More information about Casa Santa Sofia Hotel, opens in a new tab</a>
+121[:]<button type="button" aria-label="More information about Hotel Nardizzi Americana, opens in a new tab">Restaurant</button>
+122[:]<button type="button"></button>
+123[:]<button type="button"></button>
+124[:]<button type="button">The previous price was €1,649
+€1,649</button>
+125[:]<a >More information about Hotel Nardizzi Americana, opens in a new tab</a>
+126[:]<button type="button" aria-label="More information about Leonardo Boutique Hotel Rome Monti, opens in a new tab">Room</button>
+127[:]<button type="button"></button>
+128[:]<button type="button"></button>
+129[:]<a >More information about Leonardo Boutique Hotel Rome Monti, opens in a new tab</a>
+130[:]<button type="button" aria-label="Opens Baglioni Hotel Regina - The Leading Hotels of the World in new tab">Exterior</button>
+131[:]<button type="button"></button>
+132[:]<button type="button"></button>
+133[:]<button type="button">Ad</button>
+134[:]<button type="button">The previous price was €12,644
+€12,644</button>
+135[:]<a >Opens Baglioni Hotel Regina - The Leading Hotels of the World in new tab</a>
+136[:]<button type="button" aria-label="More information about Bocca di Leone Luxury Suite, opens in a new tab">Room</button>
+137[:]<button type="button"></button>
+138[:]<button type="button"></button>
+139[:]<a >More information about Bocca di Leone Luxury Suite, opens in a new tab</a>
+140[:]<button type="button"></button>
+141[:]<a ></a>
+142[:]<a ></a>
+143[:]<a ></a>
+... 18784.33331298828 pixels below - scroll or extract content to see more ...

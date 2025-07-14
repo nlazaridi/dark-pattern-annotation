@@ -1,0 +1,331 @@
+
+
+Current url: https://www.easyjet.com/en/buy/flights?isOneWay=off
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/flights?isOneWay=off', title='Pick Flights')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+_[:]easyJet home
+_[:]outbound flight in basket replaced by new standard fare
+_[:]Pick flights
+_[:]All flights selected?
+_[:]Continue
+0[:]<button type="button" tabindex="-1">Show basket</button>
+_[:]Your current basket
+_[:]Basket
+_[:]£383.69
+_[:]Change currency
+_[:]>
+_[:]Price breakdown
+_[:]>
+_[:]Edinburgh
+_[:]to
+_[:]Lisbon
+_[:]Flight Number
+_[:]EZY
+_[:]3321
+_[:]Departure
+_[:]06:05 Thu 17th Jul
+_[:]Arrival
+_[:]09:20
+_[:]Your Fares
+_[:]Item
+_[:]Price
+_[:]Adult
+_[:]1 x £216.99
+_[:]Included in your fare
+_[:]Included item
+_[:]Included item details
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon
+_[:]to
+_[:]Edinburgh
+_[:]Flight Number
+_[:]EZY
+_[:]3322
+_[:]Departure
+_[:]09:50 Thu 24th Jul
+_[:]Arrival
+_[:]13:05
+_[:]Your Fares
+_[:]Item
+_[:]Price
+_[:]Adult
+_[:]1 x £166.70
+_[:]Included in your fare
+_[:]Included item
+_[:]Included item details
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Add more flights
+_[:]Continue
+_[:]Non-refundable. Changeable subject to
+_[:]fees
+_[:].
+_[:]Price includes all applicable
+_[:]taxes and fees
+_[:].
+_[:]What do our fares include?
+_[:]What do our fares include?
+_[:]fare item
+_[:]Standard
+_[:]Flight fare and taxes
+_[:]included
+_[:]✔
+_[:]Small cabin bag
+_[:]included
+_[:]✔
+_[:]Large cabin bag
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Hold luggage
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Seat selection
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Speedy Boarding
+_[:]not included
+_[:]✘
+_[:]easyJet Plus bag drop
+_[:]not included
+_[:]✘
+_[:]Fast Track Security
+_[:]not included
+_[:]✘
+_[:]Date changes +/-1 day
+_[:]not included
+_[:]✘
+_[:]Free route changes
+_[:]not included
+_[:]✘
+_[:]No payment fees
+_[:]included
+_[:]✔
+_[:]CAFE. Meal Deal
+_[:]not included
+_[:]✘
+_[:]Pick flights
+_[:]Passenger details
+_[:]Seat selection
+_[:]Cabin bags
+_[:]Hold luggage
+_[:]Car rental
+_[:]Travel Insurance
+_[:]Checkout
+_[:]Flight search options
+_[:]Change search
+_[:]>
+_[:]1 recent search
+_[:]>
+_[:]Outbound
+_[:]Flight calendar
+_[:]Edinburgh
+_[:]to
+_[:]Lisbon
+_[:]9 people currently looking
+_[:]Tuesday
+_[:]15
+_[:]July
+_[:]No flights available
+_[:]Wednesday
+_[:]16
+_[:]July
+_[:]No flights available
+_[:]Thursday
+_[:]17
+_[:]July
+_[:]Departure
+_[:]06:05
+_[:]Arrival
+_[:]09:20
+_[:]LOWEST FARE
+_[:]£216
+_[:].99
+_[:]2
+_[:]seats left at
+_[:]Skip to basket
+_[:]Friday
+_[:]18
+_[:]July
+_[:]No flights available
+_[:]Saturday
+_[:]19
+_[:]July
+_[:]No flights available
+_[:]Inbound
+_[:]Flight calendar
+_[:]Lisbon
+_[:]to
+_[:]Edinburgh
+_[:]10 people currently looking
+_[:]Tuesday
+_[:]22
+_[:]July
+_[:]No flights available
+_[:]Wednesday
+_[:]23
+_[:]July
+_[:]No flights available
+_[:]Thursday
+_[:]24
+_[:]July
+_[:]Departure
+_[:]09:50
+_[:]Arrival
+_[:]13:05
+_[:]LOWEST FARE
+_[:]£166
+_[:].70
+_[:]Skip to basket
+_[:]Friday
+_[:]25
+_[:]July
+_[:]No flights available
+_[:]Saturday
+_[:]26
+_[:]July
+_[:]No flights available
+_[:]Departing 17 July for 7 nights for 1 person
+1[:]<li >1
+/
+89
+Lisbon City, Lisbon, Portugal
+1,112 reviews
+Hotel
+Flights
+Small under seat bag
+£1,484
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+2[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+3[:]<button type="button" aria-label="Next" tabindex="0"></button>
+4[:]<img alt=""></img>
+5[:]<img alt=""></img>
+6[:]<a tabindex="0">Vila Gale Opera</a>
+7[:]<img alt=""></img>
+8[:]<img alt=""></img>
+9[:]<img alt=""></img>
+10[:]<button type="button" tabindex="0">Click for more details</button>
+11[:]<a tabindex="0">View Holiday</a>
+12[:]<li >1
+/
+35
+Lisbon City, Lisbon, Portugal
+7,169 reviews
+Hotel
+Flights
+Small under seat bag
+£1,834
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+13[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+14[:]<button type="button" aria-label="Next" tabindex="0"></button>
+15[:]<img alt=""></img>
+16[:]<img alt=""></img>
+17[:]<a tabindex="0">Corinthia Hotel Lisbon</a>
+18[:]<img alt=""></img>
+19[:]<img alt=""></img>
+20[:]<img alt=""></img>
+21[:]<button type="button" tabindex="0">Click for more details</button>
+22[:]<a tabindex="0">View Holiday</a>
+23[:]<li >1
+/
+17
+Lisbon City, Lisbon, Portugal
+611 reviews
+Hotel
+Flights
+Small under seat bag
+£1,588
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+24[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+25[:]<button type="button" aria-label="Next" tabindex="0"></button>
+26[:]<img alt=""></img>
+27[:]<img alt=""></img>
+28[:]<a tabindex="0">Olissippo Castelo</a>
+29[:]<img alt=""></img>
+30[:]<img alt=""></img>
+31[:]<img alt=""></img>
+32[:]<button type="button" tabindex="0">Click for more details</button>
+33[:]<a tabindex="0">View Holiday</a>
+34[:]<li >1
+/
+11
+Lisbon City, Lisbon, Portugal
+1,019 reviews
+Hotel
+Flights
+Small under seat bag
+£1,264
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+35[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+36[:]<button type="button" aria-label="Next" tabindex="0"></button>
+37[:]<img alt=""></img>
+38[:]<img alt=""></img>
+39[:]<a tabindex="0">Zenit Lisboa</a>
+40[:]<img alt=""></img>
+41[:]<img alt=""></img>
+42[:]<img alt=""></img>
+43[:]<button type="button" tabindex="0">Click for more details</button>
+44[:]<a tabindex="0">View Holiday</a>
+45[:]<li >1
+/
+24
+Lisbon City, Lisbon, Portugal
+124 reviews
+Hotel
+Flights
+Small under seat bag
+£1,419
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+46[:]<button type="button" aria-label="Previous" tabindex="-1"></button>
+47[:]<button type="button" aria-label="Next" tabindex="-1"></button>
+48[:]<img alt=""></img>
+49[:]<img alt=""></img>
+50[:]<a tabindex="-1">The Editory Riverside Santa Apolonia Hotel</a>
+51[:]<img alt=""></img>
+52[:]<img alt=""></img>
+53[:]<img alt=""></img>
+54[:]<button type="button" tabindex="-1">Click for more details</button>
+55[:]<a tabindex="-1">View Holiday</a>
+56[:]<li >Not found what you looked for?</li>
+57[:]<a tabindex="-1">View all holidays</a>
+58[:]<button ></button>
+59[:]<button aria-label="Go to slide 1"></button>
+60[:]<button aria-label="Go to slide 2"></button>
+61[:]<button aria-label="Go to slide 3"></button>
+62[:]<a >Show all holiday deals from £1,021</a>
+_[:]ATOL protected
+63[:]<a ></a>
+64[:]<a ></a>
+65[:]<a ></a>
+66[:]<a ></a>
+67[:]<a ></a>
+68[:]<a ></a>
+_[:]Select a bundle
+69[:]<button type="button" aria-label="Close bundle modal"></button>
+_[:]Standard
+_[:]Travel light
+_[:]One small under seat cabin bag (max 45 x 36 x 20 cm)
+70[:]<button type="button" aria-label="Continue with Standard fare for total price of £383.69">Continue with Standard fare</button>
+_[:]Standard Plus
+_[:]Perfect for short trips
+_[:]One small under seat cabin bag (max 45 x 36 x 20 cm)
+_[:]One large cabin bag (max 56 x 45 x 25 cm)
+_[:]Up Front seat
+_[:]Speedy Boarding
+_[:]LIMITED AVAILABILITY
+71[:]<button type="button" aria-label="Select Standard Plus fare for £59.48 per person per flight">+ £59.48 per person, per flight</button>
+_[:]Recommended
+_[:]Essentials
+_[:]Great for holidays
+_[:]One small under seat cabin bag (max 45 x 36 x 20 cm)
+_[:]23kg hold bag
+_[:]Standard seat
+72[:]<button type="button" aria-label="Select Essentials fare for £61.98 per person per flight">+ £61.98 per person, per flight</button>
+... 883 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,209 @@
+
+
+Current url: https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles
+Available tabs:
+[TabInfo(page_id=0, url='https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles', title='easyJet.com Car Rentals')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Welcome
+0[:]<a >Sign in</a>
+_[:]or
+1[:]<a >Register</a>
+2[:]<a ></a>
+3[:]<img alt="easyJet"></img>
+4[:]<a >Flight info</a>
+5[:]<a >Holidays</a>
+6[:]<a >Hotels</a>
+7[:]<a >Cars/Transfers</a>
+8[:]<a >Business</a>
+9[:]<a >My easyJet</a>
+10[:]<a aria-label=" Clicking on this link will open easyJet.com in the new tab! "></a>
+11[:]<img alt="easyJet.com"></img>
+12[:]<a aria-label=" Manage Car Booking - The link opens in a new window ">Manage My Booking</a>
+13[:]<a aria-label=" Manage Car Booking - The link opens in a new window ">Help</a>
+14[:]<button aria-label="Change Language. Page language is currently set to English. Changing the language will cause the page to reload."></button>
+15[:]<img alt="en flag"></img>
+16[:]<button >€
+|
+EUR</button>
+17[:]<li tabindex="0" aria-label="Search Results: Step 2 of 5 to complete your booking">Search Results</li>
+_[:]Options
+_[:]Details
+_[:]Confirmation
+_[:]Trip Summary
+18[:]<label >Pick-up</label>
+_[:]Lisbon - Airport
+_[:]17 Jul 2025
+_[:]10:00
+19[:]<label >Drop-off</label>
+_[:]Lisbon - Airport
+_[:]24 Jul 2025
+_[:]10:00
+_[:]Currency:
+_[:]EUR
+20[:]<button tabindex="0">Edit</button>
+_[:]Go to Search Results
+_[:]Go to Category filter
+_[:]Go to Filter
+_[:]Filter
+21[:]<div tabindex="-1"></div>
+22[:]<div tabindex="0">Car Size</div>
+23[:]<ul role="listbox"></ul>
+24[:]<li role="option" tabindex="-1"></li>
+25[:]<div tabindex="0"></div>
+26[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-mini"></input>
+27[:]<label >Mini</label>
+28[:]<li role="option" tabindex="-1"></li>
+29[:]<div tabindex="0"></div>
+30[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-economy"></input>
+31[:]<label >Economy</label>
+32[:]<li role="option" tabindex="-1"></li>
+33[:]<div tabindex="0"></div>
+34[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-compact"></input>
+35[:]<label >Compact</label>
+36[:]<li role="option" tabindex="-1"></li>
+37[:]<div tabindex="0"></div>
+38[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-suv"></input>
+39[:]<label >SUV</label>
+40[:]<li role="option" tabindex="-1"></li>
+41[:]<div tabindex="0"></div>
+42[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-estate"></input>
+43[:]<label >Estate</label>
+44[:]<li role="option" tabindex="-1"></li>
+45[:]<div tabindex="0"></div>
+46[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-standard"></input>
+47[:]<label >Standard</label>
+48[:]<li role="option" tabindex="-1"></li>
+49[:]<div tabindex="0"></div>
+50[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-intermediate"></input>
+51[:]<label >Intermediate</label>
+52[:]<li role="option" tabindex="-1"></li>
+53[:]<div tabindex="0"></div>
+54[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-5seatcarrier"></input>
+55[:]<label >5-seat minivan</label>
+56[:]<li role="option" tabindex="-1"></li>
+57[:]<div tabindex="0"></div>
+58[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-7seatcarrier"></input>
+59[:]<label >7-seat minivan</label>
+60[:]<li role="option" tabindex="-1"></li>
+61[:]<div tabindex="0"></div>
+62[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-9seatcarrier"></input>
+63[:]<label >9-seat minivan</label>
+64[:]<li role="option" tabindex="-1"></li>
+65[:]<div tabindex="0"></div>
+66[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-minivan"></input>
+67[:]<label >Minivan</label>
+68[:]<li role="option" tabindex="-1"></li>
+69[:]<div tabindex="0"></div>
+70[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-fullsize"></input>
+71[:]<label >Fullsize</label>
+72[:]<li role="option" tabindex="-1"></li>
+73[:]<div tabindex="0"></div>
+74[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-luxury"></input>
+75[:]<label >Luxury</label>
+76[:]<li role="option" tabindex="-1"></li>
+77[:]<div tabindex="0"></div>
+78[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-premium"></input>
+79[:]<label >Premium</label>
+80[:]<li role="option" tabindex="-1"></li>
+81[:]<div tabindex="0"></div>
+82[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-cargovan"></input>
+83[:]<label ></label>
+84[:]<li role="option" tabindex="-1"></li>
+85[:]<div tabindex="0"></div>
+86[:]<input type="checkbox" role="checkbox" tabindex="-1" name="size-convertible"></input>
+87[:]<label ></label>
+88[:]<div tabindex="0"></div>
+89[:]<p tabindex="0"></p>
+90[:]<input aria-label="" type="range"></input>
+91[:]<input aria-label="" type="range"></input>
+92[:]<div tabindex="-1"></div>
+93[:]<div tabindex="0"></div>
+94[:]<ul role="listbox"></ul>
+95[:]<li role="option" tabindex="-1"></li>
+96[:]<div tabindex="0"></div>
+97[:]<input type="checkbox" role="checkbox" tabindex="-1" name="transmission-auto"></input>
+98[:]<label ></label>
+99[:]<li role="option" tabindex="-1"></li>
+100[:]<div tabindex="0"></div>
+101[:]<input type="checkbox" role="checkbox" tabindex="-1" name="transmission-manual"></input>
+102[:]<label ></label>
+103[:]<div tabindex="-1"></div>
+104[:]<div tabindex="0"></div>
+105[:]<ul role="listbox"></ul>
+106[:]<li role="option" tabindex="-1"></li>
+107[:]<div tabindex="0"></div>
+108[:]<input type="checkbox" role="checkbox" tabindex="-1" name="pickUpLocation-terminal"></input>
+_[:]Flexible cancellation with every booking.
+_[:]Demand is high at Lisbon in July. Prices are likely to rise.
+_[:]Find the perfect car for your trip
+_[:]Compare car rental prices in one quick search to get the best deal.
+109[:]<div tabindex="0">Standard
+Collision Damage Waiver and Theft Protection with Liability
+Basic Cover</div>
+110[:]<div tabindex="0">Comfort
+Collision Damage Waiver and Theft Protection without Liability
+Glass and Undercarriage Protection
+Full Cover</div>
+111[:]<img ></img>
+112[:]<div tabindex="0">Worry-free
+Recommended
+Collision Damage Waiver and Theft Protection without Liability
+Glass and Undercarriage Protection
+Unlimited Mileage
+Full to Full fuel policy
+Complete Package</div>
+113[:]<img ></img>
+114[:]<div tabindex="0">661
+cars available
+Sort by:
+Popular destination! Over 150 customers have booked in this location in the last 24 hours
+Economy
+Volkswagen Polo or similar
+Pick-up location:
+Unlimited Mileage
+Standard
+€ 267.23
+Price for 7 days</div>
+115[:]<span ></span>
+116[:]<span tabindex="0">Commission received affects the Recommended order.</span>
+117[:]<button aria-label="Sort by Recommended" role="button" tabindex="0">Recommended</button>
+118[:]<button aria-label="Sort by Price" role="button" tabindex="0">price (low to high)</button>
+119[:]<button aria-label="Sort by Rating" role="button" tabindex="0">Rating</button>
+120[:]<img alt="Volkswagen Polo or similar"></img>
+121[:]<span role="contentinfo" tabindex="0" aria-label="A free shuttle bus will bring you from the airport terminal to the service desk.">Free Shuttle Bus</span>
+122[:]<span tabindex="0">Free Cancellation</span>
+123[:]<div role="contentinfo" tabindex="0" aria-label="5 Passenger(s)">5 Seats</div>
+124[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases">2 Bags</div>
+125[:]<div role="contentinfo" tabindex="0" aria-label="Manual Transmission">Manual</div>
+126[:]<div role="contentinfo" tabindex="0" aria-label="You will pick your car up with fuel. Check the amount of fuel before you drive. You will need to return it with the same amount of fuel.">Same to Same</div>
+127[:]<div role="contentinfo" tabindex="0" aria-label="">Damage & theft coverage</div>
+128[:]<button aria-label="8.4,vgood" tabindex="0">8.4
+Very good</button>
+129[:]<img alt="KLASS WAGEN" aria-label="KLASS WAGEN"></img>
+130[:]<button title="Important information" role="button" tabindex="0">Important Info</button>
+131[:]<button tabindex="0">Select</button>
+132[:]<img alt="Opel Corsa or similar"></img>
+133[:]<span role="contentinfo" tabindex="0" aria-label="A representative from the car hire supplier will meet you in the airport terminal and direct you to the service desk."></span>
+134[:]<span tabindex="0"></span>
+135[:]<span tabindex="0"></span>
+136[:]<div role="contentinfo" tabindex="0" aria-label="5 Passenger(s)"></div>
+137[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases"></div>
+138[:]<div role="contentinfo" tabindex="0" aria-label="Automatic Transmission"></div>
+139[:]<div role="contentinfo" tabindex="0" aria-label="You will pick your car up with fuel. Check the amount of fuel before you drive. You will need to return it with the same amount of fuel."></div>
+140[:]<div role="contentinfo" tabindex="0" aria-label=""></div>
+141[:]<button aria-label="8.6,vgood" tabindex="0"></button>
+142[:]<img alt="DRIVE ON HOLIDAYS" aria-label="DRIVE ON HOLIDAYS"></img>
+143[:]<button title="Important information" role="button" tabindex="0"></button>
+144[:]<button tabindex="0"></button>
+145[:]<img alt="Seat Ibiza or similar"></img>
+146[:]<span tabindex="0"></span>
+147[:]<div role="contentinfo" tabindex="0" aria-label="5 Passenger(s)"></div>
+148[:]<div role="contentinfo" tabindex="0" aria-label="This car can fit 2 small suitcases"></div>
+149[:]<div role="contentinfo" tabindex="0" aria-label="Manual Transmission"></div>
+150[:]<div role="contentinfo" tabindex="0" aria-label="This is the best value option. Pick your car up with a full tank of fuel. Then return the car with a full tank."></div>
+151[:]<div role="contentinfo" tabindex="0" aria-label=""></div>
+152[:]<button aria-label="7.8,good" tabindex="0"></button>
+153[:]<button title="Important information" role="button" tabindex="0"></button>
+154[:]<button tabindex="0"></button>
+... 3490 pixels below - scroll or extract content to see more ...

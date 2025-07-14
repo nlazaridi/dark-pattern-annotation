@@ -1,0 +1,55 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<a aria-label="Fees">Fees</a>
+2[:]<a aria-label="FAQs">FAQs</a>
+3[:]<button >My bookings</button>
+4[:]<button >Log in</button>
+5[:]<button >myRyanair Portal</button>
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Flights
+_[:]Seats
+_[:]Bags
+_[:]Extras
+_[:]Review & Pay
+_[:]Choose your seat preference
+6[:]<button >Option 1: Sit where you want</button>
+7[:]<img alt="undefined"></img>
+_[:]or
+8[:]<button >Option 2: Select seats later</button>
+9[:]<img alt="undefined"></img>
+_[:]Before continuing without a seat please be advised
+_[:]If you don't choose seats you will only be able to check-in 24 hours prior to departure where we will randomly allocate you a seat.
+10[:]<img alt="undefined"></img>
+_[:]Avoid middle seat
+_[:]Most of our passengers choose their seat so we have less window and aisle seats to allocate at check in.
+11[:]<img alt="undefined"></img>
+_[:]Seat availability
+_[:]The longer you wait the less likely you'll get the seat that you want.
+12[:]<img alt="undefined"></img>
+_[:]Best price now
+_[:]Our cheapest seats are most likely to sell out quickly. Select seats now to avail of the best price.
+13[:]<button >Continue without a seat</button>
+14[:]<button >Select seats now</button>
+_[:]2025 © Ryanair DAC. All rights reserved.
+_[:]A card payment processing fee may be applied to your booking. This fee will be reflected in the total price once the card number has been entered. Please see our
+15[:]<a >GTCC</a>
+_[:]for more details.
+16[:]<a tabindex="0">General terms & conditions of carriage</a>
+17[:]<a tabindex="0">Terms of Use</a>
+18[:]<a tabindex="0">Privacy Policy</a>
+19[:]<a tabindex="0">Cookies</a>
+20[:]<a tabindex="0">Contact us</a>
+21[:]<button >Cookie preferences</button>
+_[:]Verified
+_[:]by Ryanair
+[End of page]

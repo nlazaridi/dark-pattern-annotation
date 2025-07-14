@@ -1,0 +1,103 @@
+
+
+Current url: https://www.emirates.com/us/english/book/featured-fares/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/us/english/book/featured-fares/', title='Featured Fares | Book a flight | Emirates United States')]
+Interactive elements from current page view:
+... 6615 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="Emirates logo"></img>
+2[:]<span tabindex="0" role="tab">Book
+•</span>
+3[:]<span tabindex="0" role="tab">About booking online</span>
+4[:]<a >Search flights</a>
+_[:]Featured fares for all destinations
+5[:]<button aria-label="Filter results Opens a dialog" type="button">Filter results</button>
+6[:]<img alt=""></img>
+7[:]<div ></div>
+8[:]<button aria-label="Fare conditions Cairo Opens a dialog" type="button"></button>
+9[:]<a aria-label="Search for flights Cairo"></a>
+10[:]<img alt=""></img>
+11[:]<div ></div>
+12[:]<button aria-label="Fare conditions Kuwait City Opens a dialog" type="button"></button>
+13[:]<a aria-label="Search for flights Kuwait City"></a>
+14[:]<img alt=""></img>
+15[:]<div ></div>
+16[:]<button aria-label="Fare conditions Johannesburg Opens a dialog" type="button"></button>
+17[:]<a aria-label="Search for flights Johannesburg"></a>
+_[:]Colombo (CMB)
+18[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]5128*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+19[:]<button aria-label="Fare conditions Colombo Opens a dialog" type="button">Fare conditions</button>
+20[:]<a aria-label="Search for flights Colombo">Search for flights</a>
+_[:]Riyadh (RUH)
+21[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]5173*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+22[:]<button aria-label="Fare conditions Riyadh Opens a dialog" type="button">Fare conditions</button>
+23[:]<a aria-label="Search for flights Riyadh">Search for flights</a>
+_[:]Chennai (Madras) (MAA)
+24[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]5501*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+25[:]<button aria-label="Fare conditions Chennai (Madras) Opens a dialog" type="button">Fare conditions</button>
+26[:]<a aria-label="Search for flights Chennai (Madras)">Search for flights</a>
+27[:]<img alt=""></img>
+_[:]Malé (MLE)
+28[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]5795*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+29[:]<button aria-label="Fare conditions Malé Opens a dialog" type="button">Fare conditions</button>
+30[:]<a aria-label="Search for flights Malé"></a>
+31[:]<img alt=""></img>
+_[:]Bangkok (BKK)
+32[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]6150*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+33[:]<button aria-label="Fare conditions Bangkok Opens a dialog" type="button">Fare conditions</button>
+34[:]<a aria-label="Search for flights Bangkok"></a>
+35[:]<img alt=""></img>
+_[:]Phuket (HKT)
+36[:]<div >Business Class</div>
+_[:]From
+_[:]USD
+_[:]6150*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+37[:]<button aria-label="Fare conditions Phuket Opens a dialog" type="button">Fare conditions</button>
+38[:]<a aria-label="Search for flights Phuket"></a>
+39[:]<img alt=""></img>
+40[:]<div ></div>
+41[:]<img alt=""></img>
+42[:]<div ></div>
+43[:]<img alt=""></img>
+44[:]<div ></div>
+... 1679 pixels below - scroll or extract content to see more ...

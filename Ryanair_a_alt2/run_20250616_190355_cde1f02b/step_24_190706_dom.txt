@@ -1,0 +1,80 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<a aria-label="Fees">Fees</a>
+2[:]<a aria-label="FAQs">FAQs</a>
+3[:]<button >My bookings</button>
+4[:]<button >Log in</button>
+5[:]<button >myRyanair Portal</button>
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Barcelona
+_[:](All airports)
+_[:]Milan
+_[:](All airports)
+_[:]Return
+_[:]17 Jul
+_[:]- 1 Aug
+_[:]1
+6[:]<button >Edit search</button>
+_[:]Flights
+_[:]Seats
+_[:]Bags
+_[:]Extras
+_[:]Review & Pay
+_[:]Your selected flights
+7[:]<a tabindex="0">Edit flights</a>
+8[:]<div tabindex="0">18
+JUL
+16:35
+Barcelona
+FR 7541
+1h 45m
+18:20
+Milan Malpensa</div>
+9[:]<div tabindex="0">02
+AUG
+06:15
+Milan Malpensa
+FR 270
+1h 40m
+· Operated by Malta Air
+07:55
+Barcelona</div>
+_[:]Your selected fare
+10[:]<a tabindex="0">Edit fare</a>
+_[:]Basic
+_[:]Travel light
+_[:]€127.98
+11[:]<button >Log in later</button>
+_[:]Log in to
+_[:]myRyanair
+_[:]to proceed with your booking
+_[:]Checkout easily
+_[:]Retrieve saved companion and payment details
+_[:]Manage your booking
+12[:]<button >Sign up</button>
+13[:]<button >Log in</button>
+_[:]Passengers
+14[:]<button type="button" aria-expanded="false"></button>
+15[:]<input type="text" name="form.passengers.ADT-0.name"></input>
+16[:]<label ></label>
+17[:]<input type="text" name="form.passengers.ADT-0.surname"></input>
+18[:]<label ></label>
+19[:]<label ></label>
+20[:]<button ></button>
+21[:]<a ></a>
+22[:]<input type="email" name="undefined" placeholder="Email"></input>
+23[:]<button ></button>
+24[:]<label ></label>
+25[:]<input type="checkbox" tabindex="0"></input>
+26[:]<a ></a>
+... 519 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,121 @@
+
+
+Current url: https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2', title='Flight search results | Emirates Netherlands')]
+Interactive elements from current page view:
+... 425 pixels above - scroll or extract content to see more ...
+0[:]<div tabindex="0"></div>
+1[:]<a aria-label="Skip to the main content" tabindex="0"></a>
+2[:]<a ></a>
+3[:]<img alt="Emirates logo"></img>
+4[:]<button aria-label="Navigate to previous flight selection" type="button"></button>
+5[:]<button aria-label="Change search opens a modal" type="button"></button>
+6[:]<button aria-label="View summary Opens a dialog" type="button"></button>
+7[:]<button aria-expanded="false" type="button"></button>
+8[:]<span ></span>
+9[:]<button aria-label="Economy Selected" type="button"></button>
+10[:]<button aria-label="Premium Economy" type="button"></button>
+11[:]<button aria-label="Business" type="button"></button>
+12[:]<button aria-label="First" type="button"></button>
+13[:]<button aria-expanded="false" aria-label="Sort Lowest price filter Selected " type="button"></button>
+14[:]<div >Fri 25 Jul
+22:15
+Sat 26 Jul
+08:05
+6 hrs 50 mins
+LHR
+London Heathrow
+DXB
+Dubai
+Lowest price
+A380
+EK006</div>
+15[:]<button aria-label="Non-stop London Heathrow to Dubai Opens a dialog" type="button">Non-stop
+Opens a dialog</button>
+16[:]<button aria-expanded="true" aria-label="Economy Class  AED  2,465  Lowest price" type="button">Economy Class
+from
+AED
+2,465</button>
+17[:]<img alt="Operated by Emirates"></img>
+18[:]<button aria-label="Economy from AED 2,465." role="tab" tabindex="0" type="button">Economy
+from
+AED
+2,465</button>
+19[:]<button aria-label="Premium Economy from AED 4,545." role="tab" tabindex="-1" type="button">Premium Economy
+from
+AED
+4,545</button>
+20[:]<button aria-label="Business from AED 11,145." role="tab" tabindex="-1" type="button">Business
+from
+AED
+11,145</button>
+21[:]<button aria-label="First from AED 28,605." role="tab" tabindex="-1" type="button">First
+from
+AED
+28,605</button>
+_[:]Economy
+_[:]Fare benefits (per person)
+22[:]<button aria-label="Compare all services Opens a dialog" type="button">Compare all services</button>
+_[:]Saver
+_[:]Sold out
+_[:]Flex
+_[:]AED
+_[:]2,465
+_[:]Lowest price
+_[:]Flex Plus
+_[:]AED
+_[:]3,205
+_[:]Regular seat selection
+_[:]-
+23[:]<button aria-expanded="false" type="button">Complimentary</button>
+24[:]<button aria-expanded="false" type="button">Complimentary</button>
+_[:]Baggage
+_[:]-
+25[:]<button aria-expanded="false" type="button">30kg</button>
+26[:]<button aria-expanded="false" type="button">35kg</button>
+_[:]Change fee
+_[:]-
+27[:]<button aria-expanded="false" type="button">AED 240</button>
+28[:]<button aria-expanded="false" type="button">Complimentary</button>
+_[:]Refund fee
+_[:]-
+_[:]AED 370
+_[:]Complimentary
+_[:]Skywards Miles
+_[:]-
+_[:]3,400 Miles
+_[:]4,400 Miles
+_[:]Upgrade to Business
+_[:]-
+29[:]<button aria-expanded="false" type="button">Eligible</button>
+_[:]50,700 Miles
+30[:]<button aria-expanded="false" type="button">Eligible</button>
+_[:]39,000 Miles
+31[:]<button aria-label="Flex Select" type="button">Select</button>
+32[:]<button aria-label="Flex Plus Select" type="button">Select</button>
+33[:]<div >Fri 25 Jul
+16:50
+Sat 26 Jul
+02:45
+6 hrs 55 mins
+LHR
+London Heathrow
+DXB
+Dubai
+Lowest price</div>
+34[:]<button aria-label="Non-stop London Heathrow to Dubai Opens a dialog" type="button">Non-stop
+Opens a dialog</button>
+35[:]<button aria-expanded="false" aria-label="Economy Class  AED  2,465  Lowest price" type="button">Economy Class
+from
+AED
+2,465</button>
+36[:]<img alt="Operated by Emirates"></img>
+37[:]<div ></div>
+38[:]<button aria-label="Non-stop London Heathrow to Dubai Opens a dialog" type="button"></button>
+39[:]<button aria-expanded="false" aria-label="Economy Class  AED  2,465  Lowest price" type="button"></button>
+40[:]<img alt="Operated by Emirates"></img>
+41[:]<div ></div>
+42[:]<button aria-label="Non-stop London Heathrow to Dubai Opens a dialog" type="button"></button>
+43[:]<button aria-expanded="false" aria-label="Economy Class  AED  2,675  " type="button"></button>
+... 1317 pixels below - scroll or extract content to see more ...

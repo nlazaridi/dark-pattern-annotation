@@ -1,0 +1,60 @@
+
+
+Current url: https://www.emirates.com/booking/choose-options/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/booking/choose-options/', title='Options | Emirates Netherlands')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a aria-label="Skip to the main content"></a>
+1[:]<a ></a>
+2[:]<img alt="Emirates logo"></img>
+_[:]Dubai (DXB) to London Heathrow (LHR)
+_[:]Dubai (DXB)
+_[:]London Heathrow (LHR)
+_[:]Return
+_[:]1 passenger
+3[:]<button aria-label="Change search opens a modal" type="button">Change search</button>
+_[:]Cost
+_[:]AED
+_[:]3,935
+4[:]<button aria-label="View summary Opens a dialog" type="button">View summary</button>
+5[:]<a >Flights</a>
+6[:]<a >Passengers</a>
+7[:]<a >Options</a>
+8[:]<a >Payment</a>
+_[:]Enhance your travel experience
+9[:]<div role="button" tabindex="0">Upgrade flights
+From
+AED
+2,080
+Premium Economy Flex Plus</div>
+10[:]<img ></img>
+11[:]<button type="button">Choose seats
+From
+Complimentary
+For a Regular seat</button>
+12[:]<img ></img>
+13[:]<button type="button">Add additional baggage
+From
+AED
+230
+For an additional 5 kg</button>
+14[:]<img alt=""></img>
+15[:]<button type="button">Protect your trip
+AED
+201
+For standard travel insurance</button>
+16[:]<img ></img>
+17[:]<img ></img>
+18[:]<button type="button">Continue to Payment</button>
+19[:]<a role="link">Back to Passengers</a>
+20[:]<a >Book a Flight</a>
+21[:]<a >Manage a booking</a>
+22[:]<a >Online check-in</a>
+23[:]<a ></a>
+24[:]<a ></a>
+25[:]<a ></a>
+26[:]<a ></a>
+27[:]<a ></a>
+28[:]<img alt="emirates-footer-logo"></img>
+... 83 pixels below - scroll or extract content to see more ...

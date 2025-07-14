@@ -1,0 +1,363 @@
+
+
+Current url: https://www.easyjet.com/en/buy/seats
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/seats', title='Seat selection | easyJet.com')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<a ></a>
+1[:]<img alt="easyJet"></img>
+_[:]Seat selection
+_[:]optional
+2[:]<button ><
+Back</button>
+3[:]<a aria-label="Seats information - Why select a seat ?"></a>
+4[:]<img alt="information"></img>
+_[:]Where would you like to sit?
+_[:]EDI to LIS, Thu 17th Jul
+5[:]<button aria-label="Skip seats page">Skip seats</button>
+6[:]<a >Pick flights</a>
+7[:]<img ></img>
+8[:]<a >Passenger Details</a>
+9[:]<img ></img>
+10[:]<img ></img>
+_[:]Seat selection
+11[:]<img ></img>
+_[:]Cabin bags
+12[:]<img ></img>
+_[:]Hold luggage
+13[:]<img ></img>
+_[:]Car rental
+14[:]<img ></img>
+_[:]Travel Insurance
+15[:]<img ></img>
+_[:]Checkout
+16[:]<button aria-label="Select to choose seats for your outbound flight">Outbound
+EDI - LIS</button>
+17[:]<button aria-label="Select to choose seats for your inbound flight">Inbound
+LIS - EDI</button>
+_[:]For each passenger, please select from the available seats.
+18[:]<button aria-label="John Doe is selected. No seat has been assigned to this passenger">John Doe</button>
+19[:]<img alt=" "></img>
+20[:]<span ></span>
+21[:]<button >Next flight</button>
+_[:]If you don't select a seat, we'll automatically allocate your seats when you check in
+22[:]<button >Special Assistance requests & other restrictions</button>
+23[:]<button >easyJet Plus cardholders</button>
+24[:]<button >Travelling with children</button>
+25[:]<img alt=""></img>
+_[:]Extra Legroom
+_[:]Extra Legroom seats - include 1 cabin bag, dedicated Bag Drop and Speedy Boarding
+_[:]£
+_[:]38
+_[:].
+_[:]49
+_[:]£38.49
+26[:]<button aria-label="Why select a seat?"></button>
+27[:]<img alt=""></img>
+_[:]Stretch out and enjoy more space on board
+28[:]<img alt=""></img>
+_[:]Be one of the first to leave the plane
+29[:]<img alt=""></img>
+_[:]1 small cabin bag
+30[:]<button ></button>
+31[:]<button ></button>
+32[:]<button ></button>
+_[:]1
+33[:]<button ></button>
+34[:]<button ></button>
+35[:]<button ></button>
+_[:]Up Front
+_[:]Up Front seats - include 1 cabin bag, dedicated Bag Drop and Speedy Boarding
+_[:]£
+_[:]28
+_[:].
+_[:]49
+_[:]£28.49
+36[:]<button aria-label="Why select a seat?"></button>
+37[:]<img alt=""></img>
+_[:]Be one of the first to leave the plane
+38[:]<img alt=""></img>
+_[:]1 small cabin bag
+39[:]<button ></button>
+40[:]<button ></button>
+41[:]<button ></button>
+_[:]2
+42[:]<button ></button>
+43[:]<button ></button>
+44[:]<button ></button>
+45[:]<button ></button>
+46[:]<button ></button>
+47[:]<button ></button>
+_[:]3
+48[:]<button ></button>
+49[:]<button ></button>
+50[:]<button ></button>
+51[:]<button ></button>
+52[:]<button ></button>
+53[:]<button ></button>
+_[:]4
+54[:]<button ></button>
+55[:]<button ></button>
+56[:]<button ></button>
+57[:]<button ></button>
+58[:]<button ></button>
+59[:]<button ></button>
+_[:]5
+60[:]<button ></button>
+61[:]<button ></button>
+62[:]<button ></button>
+63[:]<button ></button>
+64[:]<button ></button>
+65[:]<button ></button>
+_[:]6
+66[:]<button ></button>
+67[:]<button ></button>
+68[:]<button ></button>
+_[:]Standard
+_[:]Standard seats
+_[:]£
+_[:]11
+_[:].
+_[:]99
+_[:]£11.99
+69[:]<button aria-label="Why select a seat?"></button>
+70[:]<img alt=""></img>
+_[:]Choose where you want to sit, window, middle or aisle
+71[:]<img alt=""></img>
+_[:]1 small cabin bag
+72[:]<button ></button>
+73[:]<button ></button>
+74[:]<button ></button>
+_[:]7
+75[:]<button ></button>
+76[:]<button ></button>
+77[:]<button ></button>
+78[:]<button ></button>
+79[:]<button ></button>
+80[:]<button ></button>
+_[:]8
+81[:]<button ></button>
+82[:]<button ></button>
+83[:]<button ></button>
+84[:]<button ></button>
+85[:]<button ></button>
+86[:]<button ></button>
+_[:]9
+87[:]<button ></button>
+88[:]<button ></button>
+89[:]<button ></button>
+90[:]<button ></button>
+91[:]<button ></button>
+92[:]<button ></button>
+_[:]10
+93[:]<button ></button>
+94[:]<button ></button>
+95[:]<button ></button>
+96[:]<button ></button>
+97[:]<button ></button>
+98[:]<button ></button>
+_[:]11
+99[:]<button ></button>
+100[:]<button ></button>
+101[:]<button ></button>
+_[:]Extra Legroom
+_[:]Extra Legroom seats - include 1 cabin bag, dedicated Bag Drop and Speedy Boarding
+_[:]£
+_[:]30
+_[:].
+_[:]49
+_[:]£30.49
+102[:]<button aria-label="Why select a seat?"></button>
+103[:]<img alt=""></img>
+_[:]Stretch out and enjoy more space on board
+104[:]<img alt=""></img>
+_[:]1 small cabin bag
+105[:]<button ></button>
+106[:]<button ></button>
+107[:]<button ></button>
+_[:]12
+108[:]<button ></button>
+109[:]<button ></button>
+110[:]<button ></button>
+111[:]<button ></button>
+112[:]<button ></button>
+113[:]<button ></button>
+_[:]13
+114[:]<button ></button>
+115[:]<button ></button>
+116[:]<button ></button>
+_[:]Standard
+_[:]Standard seats
+_[:]£
+_[:]7
+_[:].
+_[:]49
+_[:]£7.49
+117[:]<button aria-label="Why select a seat?"></button>
+118[:]<img alt=""></img>
+_[:]Choose where you want to sit, window, middle or aisle
+119[:]<img alt=""></img>
+_[:]1 small cabin bag
+120[:]<button ></button>
+121[:]<button ></button>
+122[:]<button ></button>
+_[:]14
+123[:]<button ></button>
+124[:]<button ></button>
+125[:]<button ></button>
+126[:]<button ></button>
+127[:]<button ></button>
+128[:]<button ></button>
+_[:]15
+129[:]<button ></button>
+130[:]<button ></button>
+131[:]<button ></button>
+132[:]<button ></button>
+133[:]<button ></button>
+134[:]<button ></button>
+_[:]16
+135[:]<button ></button>
+136[:]<button ></button>
+137[:]<button ></button>
+138[:]<button ></button>
+139[:]<button ></button>
+140[:]<button ></button>
+141[:]<button ></button>
+142[:]<button ></button>
+143[:]<button ></button>
+144[:]<button ></button>
+145[:]<button ></button>
+146[:]<button ></button>
+147[:]<button ></button>
+148[:]<button ></button>
+149[:]<button ></button>
+150[:]<button ></button>
+151[:]<button ></button>
+152[:]<button ></button>
+153[:]<button ></button>
+154[:]<button ></button>
+155[:]<button ></button>
+156[:]<button ></button>
+157[:]<button ></button>
+158[:]<button ></button>
+159[:]<button ></button>
+160[:]<button ></button>
+161[:]<button ></button>
+162[:]<button ></button>
+163[:]<button ></button>
+164[:]<button ></button>
+165[:]<button ></button>
+166[:]<button ></button>
+167[:]<button ></button>
+168[:]<button ></button>
+169[:]<button ></button>
+170[:]<button ></button>
+171[:]<button ></button>
+172[:]<button ></button>
+173[:]<button ></button>
+174[:]<button ></button>
+175[:]<button ></button>
+176[:]<button ></button>
+177[:]<button ></button>
+178[:]<button ></button>
+179[:]<button ></button>
+180[:]<button ></button>
+181[:]<button ></button>
+182[:]<button ></button>
+183[:]<button ></button>
+184[:]<button ></button>
+185[:]<button ></button>
+186[:]<button ></button>
+187[:]<button ></button>
+188[:]<button ></button>
+189[:]<button ></button>
+190[:]<button ></button>
+191[:]<button ></button>
+192[:]<button ></button>
+193[:]<button ></button>
+194[:]<button ></button>
+195[:]<button ></button>
+196[:]<button ></button>
+197[:]<button ></button>
+198[:]<button ></button>
+199[:]<button ></button>
+200[:]<button ></button>
+201[:]<button ></button>
+202[:]<button ></button>
+203[:]<button ></button>
+204[:]<button ></button>
+205[:]<button ></button>
+206[:]<button ></button>
+207[:]<button ></button>
+208[:]<button ></button>
+209[:]<button ></button>
+_[:]Your current basket
+_[:]Basket
+_[:]£
+_[:]383
+_[:].
+_[:]69
+_[:]£383.69
+210[:]<button >Price breakdown</button>
+_[:]Edinburgh to Lisbon
+_[:]Flight Number
+_[:]EZY3321
+211[:]<img ></img>
+_[:]Departure
+_[:]06:05
+_[:]Thu 17th Jul
+_[:]Arrival
+_[:]09:20
+_[:]Your fares
+212[:]<button aria-label="Edit Edinburgh to Lisbon flight on 17th July 2025"></button>
+213[:]<img alt="Edit Edinburgh to Lisbon flight on 17th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]216
+_[:].
+_[:]99
+_[:]£216.99
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon to Edinburgh
+_[:]Flight Number
+_[:]EZY3322
+214[:]<img ></img>
+_[:]Departure
+_[:]09:50
+_[:]Thu 24th Jul
+_[:]Arrival
+_[:]13:05
+_[:]Your fares
+215[:]<button aria-label="Edit Lisbon to Edinburgh flight on 24th July 2025"></button>
+216[:]<img alt="Edit Lisbon to Edinburgh flight on 24th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]166
+_[:].
+_[:]70
+_[:]£166.70
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+217[:]<button aria-label="Skip seats page">Skip seats</button>
+_[:]Non-refundable. Changeable subject to
+218[:]<a >fees</a>
+_[:].
+_[:]Price includes all applicable
+219[:]<a >taxes and fees</a>
+_[:].
+_[:]EDI to LIS, Thu 17th Jul
+_[:]Skip seats
+... 773 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,90 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/bags?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<a aria-label="Fees">Fees</a>
+2[:]<a aria-label="FAQs">FAQs</a>
+3[:]<button >My bookings</button>
+4[:]<button >Log in</button>
+5[:]<button >myRyanair Portal</button>
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Flights
+_[:]Seats
+_[:]Bags
+_[:]Extras
+_[:]Review & Pay
+_[:]Please select what type of bags you want to bring onboard*
+_[:]*Mandatory selection
+_[:]Cabin Bags
+_[:]Priority & 2 Cabin Bags
+_[:]Be the first on board
+_[:]10kg Cabin Bag & 1 Small Bag
+_[:]Small Bag only
+_[:]Standard queue
+_[:]Must fit under the seat
+6[:]<img alt="1 Small Bag"></img>
+7[:]<img alt="Priority & 2 Cabin Bags"></img>
+_[:]60
+_[:]50
+_[:]40
+_[:]30
+_[:]20
+_[:]10
+_[:]0
+_[:]40 x 20 x 25 cm
+8[:]<bags-more-info-bullet tabindex="0" role="button"></bags-more-info-bullet>
+_[:]1 Small Bag
+_[:]fits under your seat
+_[:]or
+_[:]40 x 20 x 25 cm and 55 x 40 x 20 cm
+9[:]<bags-more-info-bullet tabindex="0" role="button"></bags-more-info-bullet>
+_[:]Priority & 2 Cabin Bags
+_[:]Up to 50% cheaper if you buy now
+_[:]JD
+_[:]John  Doe
+10[:]<label ></label>
+_[:]1 Small Bag only
+_[:]Included with fare
+11[:]<label ></label>
+_[:]From
+_[:]€
+_[:]20
+_[:].
+_[:]00
+_[:]€
+_[:]22
+_[:].
+_[:]00
+_[:]Per flight
+_[:]Different for return flight?
+12[:]<label ></label>
+_[:]Need to check in any bags?
+_[:]Check-in Bags
+_[:]Leave them at the check-in desk
+_[:]Board hands-free
+_[:]Best price if you buy it now
+13[:]<bags-more-info-bullet tabindex="0" role="button">More info</bags-more-info-bullet>
+14[:]<img alt="10kg Check-in Bag"></img>
+15[:]<img alt="20kg Check-in Bag"></img>
+_[:]55 x 40 x 20 cm
+_[:]10kg Check-in Bag
+_[:]1 bag per passenger
+_[:]120 x 120 x 80 cm
+_[:]20kg Check-in Bag
+_[:]Up to 3 bags per passenger
+16[:]<button ></button>
+17[:]<div role="button" tabindex="0"></div>
+18[:]<label ></label>
+19[:]<div role="button" tabindex="0"></div>
+20[:]<img alt="equipment-title"></img>
+21[:]<button ></button>
+22[:]<a ></a>
+... 583 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,190 @@
+
+
+Current url: https://www.easyjet.com/en/buy/travel-insurance
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/travel-insurance', title='Travel insurance')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<a ></a>
+1[:]<img alt="easyJet"></img>
+_[:]Travel insurance
+2[:]<a aria-label="Travel insurance information"></a>
+3[:]<img alt="information"></img>
+_[:]Get covered and travel stress-free
+4[:]<button aria-label="Skip travel insurance page">I don’t need insurance</button>
+5[:]<a >Pick flights</a>
+6[:]<img ></img>
+7[:]<a >Passenger Details</a>
+8[:]<img ></img>
+9[:]<a >Seat selection</a>
+10[:]<img ></img>
+11[:]<a >Cabin bags</a>
+12[:]<img ></img>
+13[:]<a >Hold luggage</a>
+14[:]<img ></img>
+15[:]<a >Car rental</a>
+16[:]<img ></img>
+17[:]<img ></img>
+_[:]Travel Insurance
+18[:]<img ></img>
+_[:]Checkout
+19[:]<img alt=""></img>
+_[:]Choose the right cover for you..
+_[:]Comprehensive plus cancellation cover
+_[:]From
+_[:]£
+_[:]21
+_[:].
+_[:]53
+_[:]£21.53
+_[:]Tailored for your trip
+_[:]Policy includes
+_[:]Cancellation -
+_[:]£
+_[:]3,000
+_[:].
+_[:]00
+_[:]£3,000.00
+_[:]Medical Expenses -
+_[:]£
+_[:]10,000,000
+_[:].
+_[:]00
+_[:]£10,000,000.00
+_[:]Personal Possessions -
+_[:]£
+_[:]1,500
+_[:].
+_[:]00
+_[:]£1,500.00
+20[:]<a >View IPID></a>
+21[:]<button >More policy details
+></button>
+_[:]Optional extras
+22[:]<label >✓
+Enhanced Gadget Cover</label>
+23[:]<a aria-label="Enhanced Gadget Cover details button" tabindex="0">Details
+></a>
+_[:]£
+_[:]8
+_[:].
+_[:]00
+_[:]£8.00
+24[:]<label >✓
+Natural emergency including volcanic ash cover</label>
+25[:]<a aria-label="Natural emergency including volcanic ash cover details button" tabindex="0">Details
+></a>
+_[:]£
+_[:]11
+_[:].
+_[:]05
+_[:]£11.05
+26[:]<label >✓
+Sports Activity pack</label>
+27[:]<a aria-label="Sports Activity pack details button" tabindex="0">Details
+></a>
+_[:]£
+_[:]6
+_[:].
+_[:]48
+_[:]£6.48
+_[:]Total cost of policy
+_[:]£
+_[:]21
+_[:].
+_[:]53
+_[:]£21.53
+28[:]<button >Select this policy</button>
+_[:]Important Information
+_[:]Things you need to know
+_[:]Why buy travel insurance with us?
+_[:]You'll get immediate cover for cancellation but also medical expenses, lost baggage, travel delay and more whilst on your trip.
+_[:]Am I eligible?
+_[:]You must be a resident of the UK. There is no cover for claims linked to any existing medical conditions.
+_[:]Where can I see more information?
+_[:]Please click on the available links for the IPID (policy summary) and/or the policy wording link below.
+_[:]All passengers are United Kingdom residents and will be purchasing insurance
+29[:]<button role="button">Change insured passenger details
+></button>
+_[:]Your policy documentation will be sent via email
+30[:]<button role="button">Change delivery to post
+></button>
+_[:]No passengers are over 64 years old
+31[:]<button role="button">Change insured passenger details
+></button>
+_[:]Policies do not provide cover for pre-existing medical conditions. This means any medical condition which has occurred prior to the purchase of this policy where treatment is on-going, continuous medication is taken or check-ups are required. The MoneyHelper directory has providers that specialise in providing cover for pre-existing conditions. Visit www.moneyhelper.org.uk/en/everyday-money/insurance/travel-insurance-directory or call 0800 138 7777.
+_[:]Important Information
+_[:]Where the trip ends within four months of taking out this insurance, cover is only available to persons who are in the UK at the time of purchase. Where the trip ends more than four months after taking out this insurance, cover is only available to persons who are residents of the UK. Cover is only available to persons aged 18 or over if travelling independently, and children travelling with an insured person aged 18 years or older. 
+
+easyJet Travel Insurance is underwritten by Collinson Insurance, a trading name of Astrenska Insurance Limited and is arranged by easyJet Airline Company Limited and Collinson Insurance Services Limited. easyJet Airline Company Limited is an Appointed Representative of Collinson Insurance Services Limited which is authorised and regulated by the Financial Conduct Authority with firm reference number 311883.
+32[:]<a >IPID and Terms of Business
+></a>
+33[:]<a ></a>
+_[:]Your current basket
+_[:]Basket
+_[:]£
+_[:]383
+_[:].
+_[:]69
+_[:]£383.69
+34[:]<button >Price breakdown</button>
+_[:]Edinburgh to Lisbon
+_[:]Flight Number
+_[:]EZY3321
+35[:]<img ></img>
+_[:]Departure
+_[:]06:05
+_[:]Thu 17th Jul
+_[:]Arrival
+_[:]09:20
+_[:]Your fares
+36[:]<button aria-label="Edit Edinburgh to Lisbon flight on 17th July 2025"></button>
+37[:]<img alt="Edit Edinburgh to Lisbon flight on 17th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]216
+_[:].
+_[:]99
+_[:]£216.99
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon to Edinburgh
+_[:]Flight Number
+_[:]EZY3322
+38[:]<img ></img>
+_[:]Departure
+_[:]09:50
+_[:]Thu 24th Jul
+_[:]Arrival
+_[:]13:05
+_[:]Your fares
+39[:]<button aria-label="Edit Lisbon to Edinburgh flight on 24th July 2025"></button>
+40[:]<img alt="Edit Lisbon to Edinburgh flight on 24th July 2025"></img>
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]166
+_[:].
+_[:]70
+_[:]£166.70
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+41[:]<button aria-label="Skip travel insurance page">Skip</button>
+_[:]Non-refundable. Changeable subject to
+42[:]<a >fees</a>
+_[:].
+_[:]Price includes all applicable
+43[:]<a >taxes and fees</a>
+_[:].
+_[:]I don’t need insurance
+... 91 pixels below - scroll or extract content to see more ...

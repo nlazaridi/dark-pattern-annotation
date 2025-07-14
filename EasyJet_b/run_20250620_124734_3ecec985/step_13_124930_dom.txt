@@ -1,0 +1,41 @@
+
+
+Current url: https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles
+Available tabs:
+[TabInfo(page_id=0, url='https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles', title='easyJet.com Car Rentals')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Welcome
+_[:]Sign in
+_[:]or
+_[:]Register
+_[:]Flight info
+_[:]Holidays
+_[:]Hotels
+_[:]Cars/Transfers
+_[:]Business
+_[:]My easyJet
+_[:]Manage My Booking
+_[:]Help
+_[:]€
+_[:]|
+_[:]EUR
+_[:]© easyJet
+_[:]2025 All Rights Reserved.
+_[:]Terms and Conditions
+_[:]Cookies Policy
+_[:]Privacy policy
+_[:]Searching for your perfect car
+0[:]<img alt="guerin_car_rentals"></img>
+1[:]<img alt="flizzr"></img>
+2[:]<img alt="sixt"></img>
+3[:]<img alt="avis"></img>
+_[:]Free Cancellation
+_[:]Our car rentals offer cancellation terms as flexible as booking directly with the supplier.
+_[:]More Than Savings
+_[:]Superior pricing with great terms, and award-winning customer support.
+_[:]Connecting You To The Best
+_[:]Supplier relationships set us apart – we're not a middleman; we're your car rental partner.
+_[:]Our Rental Partners
+_[:]From pick-up to drop-off, we work hand-in-hand with trusted car rental suppliers.
+[End of page]

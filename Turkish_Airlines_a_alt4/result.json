@@ -1,0 +1,3998 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started",
+          "memory": "",
+          "next_goal": "Go to Turkish Airlines website."
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.turkishairlines.com/"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.turkishairlines.com/",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened Turkish Airlines website",
+          "memory": "",
+          "next_goal": "Find tickets from Adana to Munich"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 31,
+              "text": "Adana"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "error": "Error executing action input_text: Failed to input text into element: <input class=\"hm__style_booker-input__7lsdw hm__RoundAndOneWayTab_input__Xf__k\" type=\"text\" tabindex=\"0\" id=\"fromPort\" aria-label=\"From\" aria-autocomplete=\"list\" aria-expanded=\"false\" role=\"combobox\" value=\"Amsterdam\"> [interactive, top, highlight:31]. Error: ElementHandle.type: Element is not attached to the DOM\nCall log:\n  - elementHandle.type(\"Adana\")\n",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/input",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "hm__style_booker-input__7lsdw hm__RoundAndOneWayTab_input__Xf__k",
+              "type": "text",
+              "tabindex": "0",
+              "id": "fromPort",
+              "aria-label": "From",
+              "aria-autocomplete": "list",
+              "aria-expanded": "false",
+              "role": "combobox",
+              "value": "Amsterdam"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Could not type in the origin city input field",
+          "memory": "",
+          "next_goal": "Type Adana in the origin city input field again"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 31,
+              "text": "Adana"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Adana\" for element index 31",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div/input",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "hm__style_booker-input__7lsdw hm__RoundAndOneWayTab_input__Xf__k",
+              "type": "text",
+              "tabindex": "0",
+              "id": "fromPort",
+              "aria-label": "From",
+              "aria-autocomplete": "list",
+              "aria-expanded": "false",
+              "role": "combobox",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed Adana in the origin city input field",
+          "memory": "",
+          "next_goal": "Select Adana from the suggested list"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 33
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 33: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "li",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div[2]/ul/li",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li"
+            ],
+            "attributes": {
+              "class": "hm__style_clickable__WDRZn hm__style_booker-input-list-item__DMYvQ",
+              "tabindex": "0",
+              "role": "button",
+              "aria-label": "Cukurova International Airport"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Adana as origin city",
+          "memory": "",
+          "next_goal": "Type Munich in the destination city input field"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 33,
+              "text": "Munich"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Munich\" for element index 33",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div/input",
+            "highlight_index": 33,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "hm__style_booker-input__7lsdw hm__RoundAndOneWayTab_input__Xf__k",
+              "type": "text",
+              "tabindex": "0",
+              "id": "toPort",
+              "aria-label": "To",
+              "aria-autocomplete": "list",
+              "aria-expanded": "false",
+              "role": "combobox",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed Munich in the destination city input field",
+          "memory": "",
+          "next_goal": "Select Munich from the suggested list"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 35
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 35: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "li",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div[2]/ul/li",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li"
+            ],
+            "attributes": {
+              "class": "hm__style_clickable__WDRZn hm__style_booker-input-list-item__DMYvQ",
+              "tabindex": "0",
+              "role": "button",
+              "aria-label": "Munich Franz Josef Strauss Airport"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Munich as destination city, calendar opened",
+          "memory": "",
+          "next_goal": "Select 18 of July 2025 as departure date"
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July 2025",
+              "search_all": true,
+              "date": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July 2025' \n\u2705 Found date 18 in correct month at index 112. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Found the 18th of July in the calendar",
+          "memory": "",
+          "next_goal": "Click the 18th of July to select it as departure date"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 112
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 112: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div[2]/button[18]/span",
+            "highlight_index": 112,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button",
+              "span"
+            ],
+            "attributes": {
+              "data-tooltip": "Fri Jul 18 2025",
+              "class": "hm__style_tooltip-container__anss3",
+              "aria-label": "Fri Jul 18 2025",
+              "aria-selected": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected 18 of July as departure date",
+          "memory": "",
+          "next_goal": "Select 25 of July 2025 as return date"
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July 2025",
+              "search_all": true,
+              "date": 25
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July 2025' \n\u2705 Found date 25 in correct month at index 127. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Found the 25th of July in the calendar",
+          "memory": "",
+          "next_goal": "Click the 25th of July to select it as return date"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 127
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 127: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div[2]/div/div/div/div/div/div[2]/div[2]/div[2]/div/div[2]/div/div/div[2]/button[25]/span",
+            "highlight_index": 127,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button",
+              "span"
+            ],
+            "attributes": {
+              "data-tooltip": "Fri Jul 25 2025",
+              "class": "hm__style_tooltip-container__anss3",
+              "aria-label": "Fri Jul 25 2025",
+              "aria-selected": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected 25 of July as return date",
+          "memory": "",
+          "next_goal": "Click Search flights"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 128
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 128: Search flights",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div[3]/button",
+            "highlight_index": 128,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "hm__style_thy-button__ZfnOU hm__RoundAndOneWayTab_searchButton__vpLcA"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked Search flights",
+          "memory": "",
+          "next_goal": "Open passengers selector"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 127
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 127",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/",
+            "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div/div[2]/div/div/div/div[2]/div/div/div/div[2]/div/div[2]/div[2]/div/div",
+            "highlight_index": 127,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "hm__style_clickable__WDRZn hm__style_booker-pax-picker-container__0snRN hm__RoundAndOneWayTab_paxpickerInput__gDAXx",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/",
+        "title": "Turkish Airlines \u00ae\ufe0f | Flying to the Most Countries\u200e"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked Search flights",
+          "memory": "",
+          "next_goal": "Open passengers selector"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 13
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 13: Passengers\n1\nPassenger",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/section/div/div/div/div/div[2]/div/div[2]/div/div",
+            "highlight_index": 13,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_booker-pax-picker-container__0snRN av__BookerPaxPicker_paxpicker__P2KjG",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Increase the number of adults to 1"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 19
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 19: +",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div/div/main/section/div/div/div/div/div[2]/div/div[2]/div/div[2]/div[3]/div/div[2]/a[2]",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "a"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_booker-pax-picker-item-count-button__sM5lX",
+              "tabindex": "0",
+              "role": "button",
+              "id": "bookerFlightPaxPickerPlusAdult",
+              "aria-label": "a11y.PaxPicker.IncreaseButton"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: Economy",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/section/div/div/div/div/div[2]/div/div[2]/div/div[2]/div[2]/div",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_booker-pax-picker-dropdown-cabin__DoxZO av__style_booker-pax-picker-dropdown-cabin-eco__lqlZb",
+              "tabindex": "0",
+              "role": "button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 35
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 35: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div/div/main/div[2]/div/div/div[5]/div[3]/div/div/div[2]/div/div[2]/span/span",
+            "highlight_index": 35,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "span"
+            ],
+            "attributes": {
+              "class": "av__style_metro-radio-checkbox__DXKTE",
+              "role": "button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 36
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 36: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div/div/main/div[2]/div/div/div[5]/div[3]/div[2]/div/div[2]/div/div[2]/span/span",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "span"
+            ],
+            "attributes": {
+              "class": "av__style_metro-radio-checkbox__DXKTE",
+              "role": "button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 46
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 46: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "span",
+            "xpath": "html/body/div/div/main/div[2]/div/div/div[5]/div[3]/div[4]/div/div[2]/div/div[2]/span/span",
+            "highlight_index": 46,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "span",
+              "span"
+            ],
+            "attributes": {
+              "class": "av__style_metro-radio-checkbox__DXKTE",
+              "role": "button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 32
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 32: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[2]/div/div/div[5]/div[3]/div[4]/div[2]/div/div/div[2]/div/div[3]/button",
+            "highlight_index": 32,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "av__style_thy-button__ZfnOU av__style_package-card-footer-button__nBjN2",
+              "type": "button",
+              "aria-label": "EcoFly - 6289.71 TRY"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 63
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 63: Stay on EcoFly",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[7]/div/div[2]/div/div[4]/button",
+            "highlight_index": 63,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "av__style_thy-button__ZfnOU av__style_transparent__gOlC3 av__UpgradeModal_button__8e_PV av__UpgradeModal_transparentButton__zTVDb"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected first flight",
+          "memory": "",
+          "next_goal": "Select return flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 0,
+              "xpath": "/html/body"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 0: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 45
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 45: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div[13]/div/div[2]/div",
+            "highlight_index": 45,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_price-col___DtQ9",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 71
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 71: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div[13]/div/div[2]/div",
+            "highlight_index": 71,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_price-col___DtQ9",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "true"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 71
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 71: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div[13]/div/div[2]/div",
+            "highlight_index": 71,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_price-col___DtQ9",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 71
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 71: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div[13]/div/div[2]/div",
+            "highlight_index": 71,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_price-col___DtQ9",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "true"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 71
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 71: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div[11]/div/div[2]/div",
+            "highlight_index": 71,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_price-col___DtQ9",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 71
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 71: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div[11]/div/div[2]/div",
+            "highlight_index": 71,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_price-col___DtQ9",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "true"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 50
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 50: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div[16]/div/div[2]/div",
+            "highlight_index": 50,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "av__style_clickable__WDRZn av__style_price-col___DtQ9",
+              "tabindex": "0",
+              "role": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 83
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 83: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[2]/div/div[2]/div[4]/div/div[2]/div[16]/div[2]/div/div/div[2]/div/div[3]/button",
+            "highlight_index": 83,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "av__style_thy-button__ZfnOU av__style_package-card-footer-button__nBjN2",
+              "type": "button",
+              "aria-label": "EcoFly - 8448.75 TRY"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 45
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 45: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[2]/div/div[4]/div/div/div/div[4]/button",
+            "highlight_index": 45,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "av__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened flight selection page",
+          "memory": "",
+          "next_goal": "Select first flight"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 27
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 27",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Turkish Airlines Booking Availability"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "img",
+            "xpath": "html/body/div[7]/img",
+            "highlight_index": 27,
+            "entire_parent_branch_path": [
+              "div",
+              "img"
+            ],
+            "attributes": {
+              "src": "/common/img/loading-overlay.gif",
+              "alt": "Loading Overlay"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Turkish Airlines Booking Availability"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at passenger details page",
+          "memory": "",
+          "next_goal": "Select Mr. as title"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 14: Mr.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "div",
+            "xpath": "html/body/div/div/main/div/div/div[2]/div/div[2]/form/div[2]/div/div",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div"
+            ],
+            "attributes": {
+              "class": "pr__style_clickable__WDRZn pr__PassengerInformation_titleOption__hmVBS",
+              "tabindex": "0",
+              "role": "button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Mr. as title",
+          "memory": "",
+          "next_goal": "Type First name"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 18,
+              "text": "DummyName"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"DummyName\" for element index 18",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div/div[2]/div/div[2]/form/div[2]/div[2]/div/input",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "pr__style_input__RKfIk",
+              "placeholder": "",
+              "id": "passengerName",
+              "type": "text",
+              "maxlength": "43",
+              "data-testid": "name-input",
+              "aria-required": "true",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed First name",
+          "memory": "",
+          "next_goal": "Type Last name"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 19,
+              "text": "DummySurname"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"DummySurname\" for element index 19",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div/div[2]/div/div[2]/form/div[2]/div[3]/div/input",
+            "highlight_index": 19,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "pr__style_input__RKfIk",
+              "placeholder": "",
+              "id": "passengerSurname",
+              "type": "text",
+              "maxlength": "43",
+              "data-testid": "surname-input",
+              "aria-required": "true",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed Last name",
+          "memory": "",
+          "next_goal": "Type Date of birth"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 20,
+              "text": "25/11/1997"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"25/11/1997\" for element index 20",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div/div[2]/div/div[2]/form/div[3]/div/div/input",
+            "highlight_index": 20,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "pr__style_input__RKfIk",
+              "placeholder": "",
+              "inputmode": "numeric",
+              "id": "passengerBirthDate",
+              "data-testid": "birth-date-input",
+              "aria-required": "true",
+              "type": "text",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed Date of birth",
+          "memory": "",
+          "next_goal": "Type email address"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 24,
+              "text": "test@test.com"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"test@test.com\" for element index 24",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div/div[3]/div/form/div/div/div/div/input",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "pr__style_input__RKfIk",
+              "placeholder": "",
+              "id": "email",
+              "type": "email",
+              "maxlength": "50",
+              "data-testid": "contact-detail-email",
+              "aria-required": "true",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed email address",
+          "memory": "",
+          "next_goal": "Get the dropdown options for the phone code"
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 25
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "No options found in any frame for dropdown",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/div/div[3]/div/form/div/div[2]/div/div/div/button",
+            "highlight_index": 25,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "pr__style_thy-button__ZfnOU pr__style_button__QxvpK pr__ContactPhoneCode_dropdownButton__AVOds pr__ContactPhoneCode_dropdownMobileButton__l8ttQ",
+              "type": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed email address",
+          "memory": "",
+          "next_goal": "Get the dropdown options for the phone code"
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed email address",
+          "memory": "",
+          "next_goal": "Get the dropdown options for the phone code"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 29,
+              "text": "306949364098"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"306949364098\" for element index 29",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div/div[3]/div/form/div/div[2]/div[2]/div/input",
+            "highlight_index": 29,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "pr__style_input__RKfIk pr__ContactDetails_phoneNumber__v3Xdh",
+              "placeholder": "",
+              "inputmode": "numeric",
+              "id": "phoneNumber",
+              "autocomplete": "off",
+              "data-testid": "contact-detail-phone",
+              "aria-label": "Mobile number",
+              "aria-required": "true",
+              "type": "tel",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed email address",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 41
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 41: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 41,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at passenger details page",
+          "memory": "",
+          "next_goal": "Select Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at passenger details page",
+          "memory": "",
+          "next_goal": "Select Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at passenger details page",
+          "memory": "",
+          "next_goal": "Select Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at passenger details page",
+          "memory": "",
+          "next_goal": "Select Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click the country code dropdown"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 25
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 25: Select",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/div/div[3]/div/form/div/div[2]/div/div/div/button",
+            "highlight_index": 25,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "pr__style_thy-button__ZfnOU pr__style_button__QxvpK pr__ContactPhoneCode_dropdownButton__AVOds pr__ContactPhoneCode_dropdownMobileButton__l8ttQ pr__ContactPhoneCode_errorDropdown__mrXdZ",
+              "type": "button",
+              "aria-expanded": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at passenger details page",
+          "memory": "",
+          "next_goal": "Select Continue"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 26,
+              "text": "Greece"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Greece\" for element index 26",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div/div[3]/div/form/div/div[2]/div/div/div/div/div/input",
+            "highlight_index": 26,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "pr__style_input__RKfIk pr__Search_searchInput__iBvpC",
+              "placeholder": "Search",
+              "formnovalidate": "",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Typed Greece",
+          "memory": "",
+          "next_goal": "Select Greece"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 27
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 27: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/div/div[3]/div/form/div/div[2]/div/div/div/div/div[2]/button",
+            "highlight_index": 27,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "pr__style_thy-button__ZfnOU pr__ContactPhoneCode_dropdownItem__wl5RP",
+              "data-testid": "phone-code-0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Greece as country code",
+          "memory": "",
+          "next_goal": "Type phone number"
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 26,
+              "text": "6949364098"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"6949364098\" for element index 26",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/main/div/div/div[3]/div/form/div/div[2]/div[2]/div/input",
+            "highlight_index": 26,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "class": "pr__style_input__RKfIk pr__ContactDetails_phoneNumber__v3Xdh",
+              "placeholder": "",
+              "inputmode": "numeric",
+              "id": "phoneNumber",
+              "autocomplete": "off",
+              "data-testid": "contact-detail-phone",
+              "aria-label": "Mobile number",
+              "aria-required": "true",
+              "type": "tel",
+              "value": "",
+              "style": "",
+              "data-gtm-form-interact-field-id": "4"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 38: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div/span[2]/div/div/div/div/div[4]/button",
+            "highlight_index": 38,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "span",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "cm__style_thy-button__ZfnOU undefined undefined"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Filled passenger details",
+          "memory": "",
+          "next_goal": "Click Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 38
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "error": "Error executing action click_element: Element with index 38 does not exist - retry or use alternative actions",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Clicked Continue",
+          "memory": "",
+          "next_goal": "Find Continue button and click"
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/passenger-details?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Passenger Details | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - Clicked Continue",
+          "memory": "",
+          "next_goal": "Find Continue button and click"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 6
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 6: Continue without seat selection",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/additional-services/seat-selection/seatselectiontys.html?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Additional Services | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div[2]/div/section/div/div/div/div[2]/div[4]/a",
+            "highlight_index": 6,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "a"
+            ],
+            "attributes": {
+              "class": "w-100 d-flex align-items-center",
+              "role": "button",
+              "tabindex": "0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/additional-services/seat-selection/seatselectiontys.html?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Additional Services | Booking | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at passenger details page",
+          "memory": "",
+          "next_goal": "Select Continue"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 100
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 100",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/additional-services/additionalservicestys.html?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Additional Services | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/div[2]/div/div/div/div/div[2]/div[2]/div[2]/div[3]/div/div[3]/div/div[21]/ul[12]/li/a",
+            "highlight_index": 100,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "a"
+            ],
+            "attributes": {
+              "class": "seat standart",
+              "role": "button",
+              "data-bind": "attr:{'aria-label': (planeSeat().seatNumber() + ' ' + (planeSeat().occupied() == true ? i18n.get('TextField-OCI-328') : planeSeat().standard() == true ? i18n.get('TextField-OCI-328') : planeSeat().exit() ? i18n.get('TextField-OCI-330') : planeSeat().basinet() ? i18n.get('TextField-OCI-329') : planeSeat().largeSpace() ? i18n.get('TextField-OCI-331') : i18n.get('TextField-OCI-328'))), 'aria-selected': planeSeat().passenger() != null ? true : false}, css:(planeSeat().occupied() ? 'filled': planeSeat().exit() ? 'emergency': planeSeat().basinet() ? 'baby': planeSeat().largeSpace() ? 'extra': planeSeat().preferred() ? 'preferred': 'standart')",
+              "aria-label": "20K Standard seat"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/additional-services/additionalservicestys.html?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Additional Services | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped additional services",
+          "memory": "",
+          "next_goal": "Click Continue on additional services page"
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 34
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 34: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/additional-services/additionalservicestys.html?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Additional Services | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[2]/div/fixed-price-bar-general/div/div/div[2]/div[4]/div/button",
+            "highlight_index": 34,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "fixed-price-bar-general",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "btn btn-danger onclickdisable complete-availability-button",
+              "data-bind": "disable: disableFooterButton() || (!fareBreakdown() && !standaloneContinueButton), click: completeButton.action"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/additional-services/additionalservicestys.html?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Additional Services | Turkish Airlines \u00ae"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at payment page",
+          "memory": "",
+          "next_goal": "Task Complete"
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I have successfully navigated to the payments page but did not make a payment."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I have successfully navigated to the payments page but did not make a payment.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.turkishairlines.com/en-int/flights/booking/payments/?cId=8a33e407-94c8-4a63-af43-8de615172266",
+            "title": "Payments | Booking | Turkish Airlines \u00ae"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.turkishairlines.com/en-int/flights/booking/payments/?cId=8a33e407-94c8-4a63-af43-8de615172266",
+        "title": "Payments | Booking | Turkish Airlines \u00ae"
+      }
+    }
+  ]
+}

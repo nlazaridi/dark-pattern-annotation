@@ -1,0 +1,203 @@
+
+
+Current url: https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf
+Available tabs:
+[TabInfo(page_id=0, url='https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0', title='Booking.com: Hotels in Cali. Book your hotel now!'), TabInfo(page_id=1, url='https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf', title='Flight selection | LATAM Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<body >Skip to main content.
+Bogota
+Cali
+Fri, Jul 18 - Fri, Jul 25
+1
+Passenger
+Economy
+Change search
+Choose a departure flight
+Airbus A320
+includes
+xp_sales_web_air_offers_amenitiesInfo_tooltips_alternativeText
+xp_sales_web_air_offers_amenitiesInfo_tooltips_alternativeText
+xp_sales_web_air_offers_amenitiesInfo_tooltips_alternativeText
+xp_sales_web_air_offers_amenitiesInfo_tooltips_alternativeText
+xp_sales_web_air_offers_amenitiesInfo_tooltips_alternativeText
+4 Available fares
+4 Available fares
+Close
+Close fare list.
+Basic
+Handbag
+Change with fee + difference in price
+Benefits do not apply for member categories
+eur 53.43
+Per passenger
+Includes taxes and fees
+More details
+Choose the BASIC fare and skip to the next flight
+Continue with Basic
+Light
+Handbag
+Carry-on bag 12 kg
+Change with fee + difference in price
+Request for UPG with segments
+eur 53.43
++
+eur 14.38
+Per passenger
+Includes taxes and fees
+More details
+Choose the LIGHT fare and skip to the next flight
+Choose
+Full
+Handbag
+Carry-on bag 12 kg
+1 checked bag 23 kg
+Fee-free change + price difference
+Refund before the departure of your first flight
+Standard seat selection
+Request for UPG with segments
+eur 53.43
++
+eur 34.61
+Per passenger
+Includes taxes and fees
+More details
+Choose the FULL fare and skip to the next flight
+Choose
+Cabin Premium Economy
+Premium Economy
+Handbag
+Carry-on bag 16 kg
+1 checked bag 23 kg
+Fee-free change + price difference
+Refund before the departure of your first flight
+Middle seat blocked
+Better gastronomic offer
+More legroom
+Priority boarding and disembarkation
+eur 53.43
++
+eur 42.94
+Per passenger
+Includes taxes and fees
+More details
+Choose the PREMIUM ECONOMY fare and skip to the next flight
+Choose
+Flight . Departure time 6:02 AM, from Bogota, airport El Dorado Intl., arrival time 7:09 AM, to Cali, airport Alfonso Bonilla Aragon. Flight direct, with a total duration of 1 hour 7 minutes. Price for an adult from 53,43 Euros. Operated by latam airlines colombia.
+6:02 AM
+BOG
+Duration
+1h 7m
+7:09 AM
+CLO
+Per passenger from
+eur 53.43
+Includes taxes and fees
+Direct
+Operated by
+LATAM Airlines Colombia
+Flight . Departure time 7:00 AM, from Bogota, airport El Dorado Intl., arrival time 8:07 AM, to Cali, airport Alfonso Bonilla Aragon. Flight direct, with a total duration of 1 hour 7 minutes. Price for an adult from 53,43 Euros. Operated by latam airlines colombia.
+7:00 AM
+BOG
+Duration
+1h 7m
+8:07 AM
+CLO
+Per passenger from
+eur 53.43
+Includes taxes and fees
+Direct
+Operated by
+LATAM Airlines Colombia
+Flight . Departure time 9:45 AM, from Bogota, airport El Dorado Intl., arrival time 10:52 AM, to Cali, airport Alfonso Bonilla Aragon. Flight direct, with a total duration of 1 hour 7 minutes. Price for an adult from 53,43 Euros. Operated by latam airlines colombia.
+9:45 AM
+BOG
+Duration
+1h 7m
+10:52 AM
+CLO
+Per passenger from
+eur 53.43
+Includes taxes and fees
+Direct
+Operated by
+LATAM Airlines Colombia
+protected by
+reCAPTCHA
+-
+-
+-
+protected by
+reCAPTCHA
+-
+Are you sure?
+The Basic fare does not include a carry-on bag or hold baggage, nor does it include seat selection.
+0
+29
+30
+31
+32
+33
+34
+35</body>
+1[:]<a aria-label="Go to Home page."></a>
+2[:]<img alt="logo"></img>
+3[:]<button ></button>
+4[:]<button role="link"></button>
+5[:]<button aria-expanded="false" role="button" title="Recommended"></button>
+6[:]<div tabindex="-1" role="none" aria-expanded="true"></div>
+7[:]<a tabindex="0"></a>
+8[:]<img alt=""></img>
+9[:]<img alt="LATAM Airlines Colombia"></img>
+10[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight"></div>
+11[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+12[:]<a tabindex="0"></a>
+13[:]<img alt=""></img>
+14[:]<img alt="LATAM Airlines Colombia"></img>
+15[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight"></div>
+16[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+17[:]<a tabindex="0"></a>
+18[:]<img alt=""></img>
+19[:]<img alt="LATAM Airlines Colombia"></img>
+20[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight"></div>
+21[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+22[:]<a tabindex="0"></a>
+23[:]<img alt=""></img>
+24[:]<img alt="LATAM Airlines Colombia"></img>
+25[:]<div role="" aria-expanded="false" aria-label="See fare options of this flight"></div>
+26[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+27[:]<a >Privacy</a>
+28[:]<a >Terms</a>
+29[:]<a >Privacy</a>
+30[:]<a >Terms</a>
+31[:]<button aria-label="Exit and continue to view fares" type="button"></button>
+32[:]<li tabindex="0" role="button">Basic
+Handbag
+Carry-on bag 12 kg
+checked baggage 23 kg
+Change with fee + difference in price
+Refund before the departure of your first flight
+Standard seat selection
+Benefits do not apply for member categories
+eur 53.43
+Per passenger
+Includes taxes and fees</li>
+33[:]<button >Choose the Basic fare and skip to the next flight
+Accept restrictions</button>
+34[:]<li tabindex="0" role="button">Light fare. Best option.
+Best option
+Light
+Handbag
+Carry-on bag 12 kg
+checked baggage 23 kg
+Change with fee + difference in price
+Refund before the departure of your first flight
+Standard seat selection
+eur 53.43
++
+eur 14.38
+Per passenger
+Includes taxes and fees</li>
+35[:]<button >Choose the Light fare and skip to the next flight
+Switch to Light</button>
+... 633 pixels below - scroll or extract content to see more ...

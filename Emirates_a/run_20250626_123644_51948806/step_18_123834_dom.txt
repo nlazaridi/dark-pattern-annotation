@@ -1,0 +1,92 @@
+
+
+Current url: https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/booking/search-results/?pub=%2Fnl%2Fenglish&refreshId=8721e2', title='Flight search results | Emirates Netherlands')]
+Interactive elements from current page view:
+... 370 pixels above - scroll or extract content to see more ...
+0[:]<div tabindex="0"></div>
+1[:]<a aria-label="Skip to the main content" tabindex="0"></a>
+2[:]<a ></a>
+3[:]<img alt="Emirates logo"></img>
+4[:]<button aria-label="Change search opens a modal" type="button"></button>
+5[:]<button aria-label="View summary Opens a dialog" type="button"></button>
+_[:]Fri 18 Jul
+_[:]14:15
+_[:]Fri 18 Jul
+_[:]18:40
+_[:]7 hrs 25 mins
+6[:]<button aria-label="Non-stop Dubai to London Heathrow Opens a dialog" type="button">Non-stop
+Opens a dialog</button>
+_[:]DXB
+_[:]Dubai
+_[:]LHR
+_[:]London Heathrow
+_[:]Economy Saver
+_[:]AED
+_[:]1,470
+_[:]Lowest price
+7[:]<img alt="Operated by Emirates"></img>
+_[:]A380
+_[:]EK003
+_[:]Dubai to London Heathrow
+_[:]What’s included with your flight
+_[:]Economy Class
+_[:]Economy Class seats
+_[:]Our spacious Economy Class seats have generous legroom, adjustable headrests, a pillow for extra comfort and a blanket on selected flights. Recline with a drink under the glow of the ambient mood lighting and enjoy entertainment on your 13.3-inch TV.
+_[:]Inflight entertainment
+_[:]Choose from up to 6,500 channels of entertainment in multiple languages, from movies to TV shows, documentaries and more. Kids stay entertained with over 250 children’s channels, and you can catch up on live news and sport on nearly all our flights.
+_[:]Economy Class dining
+_[:]Choose from a menu of delicious dishes from the region you're travelling in. We use local ingredients wherever possible to create authentic global meals and we tailor our menus to the route. Enjoy a wide range of complimentary drinks and mixers throughout your flight.
+_[:]Stay connected
+_[:]Connect to family and friends as you fly. Choose a great value Wi-Fi plan to suit what you want to do, whether it's sending a few messages or catching up on work throughout your flight. You can also explore our free Wi-Fi options for Emirates Skywards members.
+_[:]Images and features displayed pertain exclusively to Emirates aircrafts, they are for illustrative purposes only and do not guarantee availability on your flight.
+8[:]<button aria-expanded="false" aria-label="View cabin class features" type="button">View cabin class features</button>
+9[:]<button aria-label="Change selection  flight from Dubai to London Heathrow" type="button">Change selection</button>
+_[:]Inbound flight from London Heathrow to Dubai
+_[:]Friday, 25 July 2025
+_[:]Fri 25 Jul
+_[:]22:15
+_[:]Sat 26 Jul
+_[:]08:05
+_[:]6 hrs 50 mins
+10[:]<button aria-label="Non-stop London Heathrow to Dubai Opens a dialog" type="button">Non-stop
+Opens a dialog</button>
+_[:]LHR
+_[:]London Heathrow
+_[:]DXB
+_[:]Dubai
+_[:]Economy Flex
+_[:]AED
+_[:]2,465
+_[:]Lowest price
+11[:]<img alt="Operated by Emirates"></img>
+_[:]A380
+_[:]EK006
+_[:]London Heathrow to Dubai
+_[:]What’s included with your flight
+_[:]Economy Class
+12[:]<button aria-expanded="false" aria-label="View cabin class features" type="button">View cabin class features</button>
+13[:]<button aria-label="Change selection  flight from London Heathrow to Dubai" type="button">Change selection</button>
+_[:]Total to be paid
+_[:]Total for 1 passenger (Inclusive of airfare, taxes, fees and carrier imposed charges)
+_[:]Total to be paid
+_[:]AED
+_[:]3,935
+_[:]You’ve chosen the lowest price available
+14[:]<button type="button">Continue to Passengers</button>
+15[:]<a >Book a Flight</a>
+16[:]<a >Manage a booking</a>
+17[:]<a >Online check-in</a>
+18[:]<a >Accessibility
+Accessibility Opens an external link in a new tab</a>
+19[:]<a >Contact us
+Contact us Opens an external link in a new tab</a>
+20[:]<a >Privacy policy
+Privacy policy Opens an external link in a new tab</a>
+21[:]<a >Terms and conditions
+Terms and conditions Opens an external link in a new tab</a>
+_[:]© 2025 The Emirates Group. All Rights Reserved.
+22[:]<a ></a>
+23[:]<img alt="emirates-footer-logo"></img>
+[End of page]

@@ -1,0 +1,130 @@
+
+
+Current url: https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765
+Available tabs:
+[TabInfo(page_id=0, url='https://cars.easyjet.com/en/book?pickupDateTime=2025-07-17T10%3A00&returnDateTime=2025-07-24T10%3A00&age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&&residenceID=CH&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/vehicles', title='easyJet.com Car Rentals'), TabInfo(page_id=1, url='https://cars.easyjet.com/en/book?age=30&clientID=512111&ct=MP&curr=EUR&elID=3551750361947370&pickupDateTime=2025-07-17T10%3A00&residenceID=CH&returnDateTime=2025-07-24T10%3A00&countryID=PT&&pickupCountryCode=PT&returnCountryCode=PT&pickupID=2640&pickupName=Lisbon%20-%20Airport&returnID=2640&returnName=Lisbon%20-%20Airport#/details-with-payment/9909765', title='easyJet.com Car Rentals')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Welcome
+0[:]<a >Sign in</a>
+_[:]or
+1[:]<a >Register</a>
+2[:]<a ></a>
+3[:]<img alt="easyJet"></img>
+4[:]<a >Flight info</a>
+5[:]<a >Holidays</a>
+6[:]<a >Hotels</a>
+7[:]<a >Cars/Transfers</a>
+8[:]<a >Business</a>
+9[:]<a >My easyJet</a>
+10[:]<a aria-label=" Clicking on this link will open easyJet.com in the new tab! "></a>
+11[:]<img alt="easyJet.com"></img>
+12[:]<a aria-label=" Manage Car Booking - The link opens in a new window ">Manage My Booking</a>
+13[:]<a aria-label=" Manage Car Booking - The link opens in a new window ">Help</a>
+14[:]<button aria-label="Change Language. Page language is currently set to English. Changing the language will cause the page to reload."></button>
+15[:]<img alt="en flag"></img>
+16[:]<button >€
+|
+EUR</button>
+17[:]<li tabindex="0" role="link" aria-label="Back to Search Results">Search Results</li>
+18[:]<li tabindex="0" role="link" aria-label="Back to Options">Options</li>
+19[:]<li tabindex="0" aria-label="Details: Step 4 of 5 to complete your booking">Details</li>
+_[:]Confirmation
+_[:]Main driver details
+20[:]<input name="firstname" type="{{::$ctrl.type}}" aria-label=""></input>
+_[:]First Name *
+_[:]The name should match the driving licence and the credit card used when you pick up the car.
+21[:]<input name="surname" type="{{::$ctrl.type}}" aria-label=""></input>
+_[:]Surname *
+22[:]<input name="email" type="{{::$ctrl.type}}" aria-label=""></input>
+_[:]E-mail *
+23[:]<select name="contactPrefix" tabindex="0"></select>
+_[:]Country code
+24[:]<input name="contactNo" type="{{::$ctrl.type}}" aria-label=""></input>
+_[:]Phone *
+25[:]<ct-icon ></ct-icon>
+26[:]<select name="country" tabindex="0"></select>
+_[:]Country/Region*
+27[:]<input name="city" type="{{::$ctrl.type}}" aria-label=""></input>
+_[:]City *
+28[:]<input name="address1" type="{{::$ctrl.type}}" aria-label=""></input>
+_[:]Address *
+_[:]Flight number
+_[:]Strongly recommended
+29[:]<input name="flightNumber" type="{{::$ctrl.type}}" aria-label=""></input>
+_[:]Flight number *
+_[:]A flight number helps Klass wagen track your flight's status, helping them know when you'll arrive.
+_[:]If you miss your pick-up time due to a flight delay, you may not be eligible for a refund if you have not added your flight number to the car reservation.
+30[:]<label ></label>
+31[:]<button ></button>
+32[:]<button ></button>
+33[:]<button ></button>
+34[:]<div ></div>
+35[:]<div ></div>
+36[:]<label >Name on card *</label>
+37[:]<input type="text" name="name" placeholder="" value=""></input>
+38[:]<label >Card number *</label>
+39[:]<img alt="null icon"></img>
+40[:]<input type="text" name="number" placeholder=""></input>
+41[:]<label >Expiry date *</label>
+42[:]<input type="text" name="expiry" placeholder="MM/YY"></input>
+43[:]<label >CVC *</label>
+44[:]<input name="cvc" type="text" placeholder=""></input>
+_[:]Price summary
+45[:]<ct-price-summary-line-item value="price.value">Car hire fee
+€ 206.05</ct-price-summary-line-item>
+46[:]<ct-price-summary-line-item value="price.value">Standard bundle</ct-price-summary-line-item>
+47[:]<ct-price-summary-line-item value="price.value">Included charges:</ct-price-summary-line-item>
+48[:]<ct-price-summary-line-item value="price.value">Tax</ct-price-summary-line-item>
+49[:]<ct-price-summary-line-item value="price.value">Premium Cover
+€ 70.01</ct-price-summary-line-item>
+50[:]<ct-price-summary-line-item value="price.value">Includes all applicable taxes</ct-price-summary-line-item>
+51[:]<ct-price-summary-line-item value="price.value">Total
+€ 276.06</ct-price-summary-line-item>
+52[:]<ct-price-summary-line-item tabindex="0">Pay now
+€ 276.06</ct-price-summary-line-item>
+_[:]Car hire fee
+_[:]€ 206.05
+_[:]Premium Cover
+_[:]€ 70.01
+_[:]Mini
+_[:]Fiat 500
+_[:]or similar
+53[:]<img alt="KLASS WAGEN" aria-label="KLASS WAGEN"></img>
+54[:]<img alt="Fiat 500 or similar"></img>
+55[:]<li role="contentinfo" tabindex="0" aria-label="4 Passenger(s)">4</li>
+56[:]<li role="contentinfo" tabindex="0" aria-label="This car can fit 1 small suitcase">1</li>
+57[:]<span aria-label="See full details" role="button" tabindex="0">See full details</span>
+_[:]Mini
+_[:]4 Passenger(s)
+_[:]1 Bag
+_[:]Manual Transmission
+_[:]Pick-up location:
+_[:]Free Shuttle Bus
+_[:]Fuel policy:
+_[:]Same to Same
+_[:]Mileage:
+_[:]Unlimited
+_[:]Pick-up
+_[:]Lisbon - Airport
+_[:]Thursday
+_[:]|
+_[:]10:00
+_[:],
+_[:]17 July 2025
+_[:]Drop-off
+_[:]Lisbon - Airport
+_[:]Thursday
+_[:]|
+_[:]10:00
+_[:],
+_[:]24 July 2025
+_[:]Extras
+58[:]<button aria-label="Add" tabindex="0">Add</button>
+_[:]Not included
+_[:]Insurance cover
+59[:]<button aria-label="Edit" tabindex="0">Edit</button>
+_[:]Premium
+_[:]Package selected:
+_[:]Standard
+... 1193 pixels below - scroll or extract content to see more ...

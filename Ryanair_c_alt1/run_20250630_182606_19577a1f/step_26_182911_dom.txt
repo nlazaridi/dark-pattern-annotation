@@ -1,0 +1,195 @@
+
+
+Current url: https://ie.hotels.ryanair.com/Rome-Hotels-Alessandro-Palace-Bar-Hostel.h8216938.Hotel-Information?chkin=2025-07-18&chkout=2025-08-01&x_pwa=1&rfrr=HSR&pwa_ts=1751300920317&referrerUrl=aHR0cHM6Ly9pZS5ob3RlbHMucnlhbmFpci5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a1&regionId=553248633938945217&destination=Rome+City+Centre%2C+Rome%2C+Lazio%2C+Italy&destType=MARKET&neighborhoodId=553248633938945217&latLong=41.898936%2C12.4816&sort=PRICE_LOW_TO_HIGH&top_dp=796&top_cur=EUR&userIntent=&selectedRoomType=201836964&selectedRatePlan=400498031&searchId=fd418a5c-69bd-4b46-86ea-43eaedfbe3a9
+Available tabs:
+[TabInfo(page_id=0, url='https://ie.hotels.ryanair.com/Hotel-Search?rooms=1&adults=1&destination=Rome%20City%20Centre%2C%20Rome%2C%20Lazio%2C%20Italy&startDate=2025-07-18&endDate=2025-08-01&d1=2025-07-18&d2=2025-08-01&regionId=553248633938945217&latLong=41.89893613158187%2C12.481600476754943&useRewards=false&rate_type=standalone&isInvalidatedDate=false&upsellingNumNightsAdded=&theme=&userIntent=&semdtl=&upsellingDiscountTypeAdded=&categorySearch=&sort=PRICE_LOW_TO_HIGH', title='Rome City Centre, Rome, Lazio, Italy Hotel Search results'), TabInfo(page_id=1, url='https://ie.hotels.ryanair.com/Rome-Hotels-Alessandro-Palace-Bar-Hostel.h8216938.Hotel-Information?chkin=2025-07-18&chkout=2025-08-01&x_pwa=1&rfrr=HSR&pwa_ts=1751300920317&referrerUrl=aHR0cHM6Ly9pZS5ob3RlbHMucnlhbmFpci5jb20vSG90ZWwtU2VhcmNo&useRewards=false&rm1=a1&regionId=553248633938945217&destination=Rome+City+Centre%2C+Rome%2C+Lazio%2C+Italy&destType=MARKET&neighborhoodId=553248633938945217&latLong=41.898936%2C12.4816&sort=PRICE_LOW_TO_HIGH&top_dp=796&top_cur=EUR&userIntent=&selectedRoomType=201836964&selectedRatePlan=400498031&searchId=fd418a5c-69bd-4b46-86ea-43eaedfbe3a9', title='Alessandro Palace & Bar - Hostel')]
+Interactive elements from current page view:
+... 944.6666870117188 pixels above - scroll or extract content to see more ...
+0[:]<img alt="Breakfast, lunch, dinner served; international cuisine "></img>
+1[:]<button type="button"></button>
+2[:]<img alt="Lobby sitting area"></img>
+3[:]<button type="button"></button>
+4[:]<img alt="Shared kitchen"></img>
+5[:]<button type="button"></button>
+6[:]<button aria-label="Show all 63 images" type="button"></button>
+7[:]<li role="listitem"></li>
+8[:]<a role="link">Overview</a>
+9[:]<li role="listitem"></li>
+10[:]<a role="link">About</a>
+11[:]<li role="listitem"></li>
+12[:]<a role="link">Rooms</a>
+13[:]<li role="listitem"></li>
+14[:]<a role="link">Accessibility</a>
+15[:]<li role="listitem"></li>
+16[:]<a role="link">Policies</a>
+17[:]<button type="button"></button>
+18[:]<div aria-label="" tabindex="0"></div>
+_[:]Hostel with a restaurant, near Roman Forum
+_[:]Bar
+_[:]24/7 front desk
+_[:]Air conditioning
+_[:]Free WiFi
+_[:]Restaurant
+19[:]<button type="button" aria-label="See all about this property">See all about this property</button>
+20[:]<img alt="Map"></img>
+21[:]<button type="button" tabindex="-1"></button>
+22[:]<button type="button" aria-label="View in a map"></button>
+_[:]Colosseum
+_[:]‪4 min drive‬
+_[:]Rome (FCO-Fiumicino - Leonardo da Vinci Intl.)
+_[:]‪29 min drive‬
+23[:]<button type="button" aria-label="See all about this area">See all about this area</button>
+_[:]Choose your room
+_[:]Change Search
+_[:]Start date
+24[:]<button name="startDate" aria-expanded="false" aria-label="Start date, 18 Jul" type="button">18 Jul</button>
+_[:]End date
+25[:]<button name="endDate" aria-expanded="false" aria-label="End date, 1 Aug" type="button">1 Aug</button>
+_[:]Travellers
+26[:]<button aria-label="Travellers, 1 room, 1 traveller" type="button">1 room, 1 traveller</button>
+_[:]Enjoy a room with a view
+_[:]View all photos for 8 bed mixed dorm shared
+27[:]<button type="button" aria-label="View all photos for 8 bed mixed dorm shared">In-room safe, desk, free WiFi, bed sheets</button>
+28[:]<button type="button"></button>
+29[:]<button type="button"></button>
+30[:]<button type="button">9</button>
+_[:]8 bed mixed dorm shared
+_[:]9.0
+_[:]9.0 out of 10
+_[:]Wonderful
+_[:]2 reviews
+_[:](2 reviews)
+_[:]18 sq m
+_[:]Sleeps 1
+_[:]Free WiFi
+_[:]1 Twin Bunk Bed
+31[:]<button type="button">More details
+More details for 8 bed mixed dorm shared</button>
+_[:]Cancellation policy
+_[:]per stay
+32[:]<button type="button">More details on all policy options</button>
+33[:]<label >Non-refundable
++ €0</label>
+34[:]<input type="radio" name="LodgingCategorizedUnit-1-cancellationPolicy-1" aria-label="Non-refundable, + €0." value="LodgingCategorizedUnit-1-cancellationPolicy-0"></input>
+35[:]<label >Fully refundable before 17 Jul
++ €40</label>
+36[:]<input type="radio" name="LodgingCategorizedUnit-1-cancellationPolicy-1" aria-label="Fully refundable before 17 Jul, + €40." value="LodgingCategorizedUnit-1-cancellationPolicy-1"></input>
+_[:]10% off
+37[:]<button type="button">The previous price was €881
+€881</button>
+_[:]The current price is €796
+_[:]€796
+_[:]for 14 nights, 1 room
+_[:]€57 per night
+_[:]includes taxes & fees
+38[:]<button type="submit" role="link">Reserve
+Reserve 8 bed mixed dorm shared</button>
+_[:]You will not be charged yet
+_[:]Upgrade your stay
+_[:]View all photos for 6 bed female dorm room shared
+39[:]<button type="button" aria-label="View all photos for 6 bed female dorm room shared">In-room safe, desk, free WiFi, bed sheets</button>
+40[:]<button type="button"></button>
+41[:]<button type="button"></button>
+42[:]<button type="button">6</button>
+_[:]6 bed female dorm room shared
+_[:]18 sq m
+_[:]Sleeps 1
+_[:]Free WiFi
+_[:]1 Twin Bunk Bed
+43[:]<button type="button">More details
+More details for 6 bed female dorm room shared</button>
+_[:]Cancellation policy
+_[:]per stay
+44[:]<button type="button">More details on all policy options</button>
+45[:]<label >Non-refundable
++ €0</label>
+46[:]<input type="radio" name="LodgingCategorizedUnit-2-cancellationPolicy-2" aria-label="Non-refundable, + €0." value="LodgingCategorizedUnit-2-cancellationPolicy-0"></input>
+47[:]<label >Fully refundable before 17 Jul
++ €45</label>
+48[:]<input type="radio" name="LodgingCategorizedUnit-2-cancellationPolicy-2" aria-label="Fully refundable before 17 Jul, + €45." value="LodgingCategorizedUnit-2-cancellationPolicy-1"></input>
+_[:]10% off
+49[:]<button type="button">The previous price was €995
+€995</button>
+_[:]The current price is €899
+_[:]€899
+_[:]for 14 nights, 1 room
+_[:]€64 per night
+_[:]includes taxes & fees
+50[:]<button type="submit" role="link">Reserve
+Reserve 6 bed female dorm room shared</button>
+_[:]You will not be charged yet
+_[:]View all photos for 8 bed mixed dorm ensuite
+51[:]<button type="button" aria-label="View all photos for 8 bed mixed dorm ensuite">In-room safe, desk, free WiFi, bed sheets</button>
+52[:]<button type="button"></button>
+53[:]<button type="button"></button>
+54[:]<button type="button">7</button>
+_[:]8 bed mixed dorm ensuite
+_[:]10.0
+_[:]10.0 out of 10
+_[:]Exceptional
+_[:]1 review
+_[:](1 review)
+_[:]24 sq m
+_[:]Sleeps 1
+_[:]Free WiFi
+_[:]1 Twin Bunk Bed
+55[:]<button type="button">More details
+More details for 8 bed mixed dorm ensuite</button>
+_[:]Cancellation policy
+_[:]per stay
+56[:]<button type="button">More details on all policy options</button>
+57[:]<label >Non-refundable
++ €0</label>
+58[:]<input type="radio" name="LodgingCategorizedUnit-3-cancellationPolicy-3" aria-label="Non-refundable, + €0." value="LodgingCategorizedUnit-3-cancellationPolicy-0"></input>
+59[:]<label >Fully refundable before 17 Jul
++ €44</label>
+60[:]<input type="radio" name="LodgingCategorizedUnit-3-cancellationPolicy-3" aria-label="Fully refundable before 17 Jul, + €44." value="LodgingCategorizedUnit-3-cancellationPolicy-1"></input>
+_[:]10% off
+61[:]<button type="button">The previous price was €962
+€962</button>
+_[:]The current price is €869
+_[:]€869
+_[:]for 14 nights, 1 room
+_[:]€62 per night
+_[:]includes taxes & fees
+62[:]<button type="submit" role="link">Reserve
+Reserve 8 bed mixed dorm ensuite</button>
+_[:]You will not be charged yet
+_[:]View all photos for 6 bed mixed dorm shared
+63[:]<img alt="Shower, hair dryer, towels"></img>
+64[:]<img alt="In-room safe, desk, free WiFi, bed sheets"></img>
+65[:]<button type="button" aria-label="View all photos for 6 bed mixed dorm shared"></button>
+66[:]<img alt="In-room safe, desk, free WiFi, bed sheets"></img>
+67[:]<button type="button"></button>
+68[:]<button type="button"></button>
+69[:]<button type="button"></button>
+70[:]<button type="button"></button>
+71[:]<button type="button"></button>
+72[:]<label ></label>
+73[:]<input type="radio" name="LodgingCategorizedUnit-4-cancellationPolicy-4" aria-label="Non-refundable, + €0." value="LodgingCategorizedUnit-4-cancellationPolicy-0"></input>
+74[:]<label ></label>
+75[:]<input type="radio" name="LodgingCategorizedUnit-4-cancellationPolicy-4" aria-label="Fully refundable before 17 Jul, + €47." value="LodgingCategorizedUnit-4-cancellationPolicy-1"></input>
+_[:]View all photos for 6 bed mixed dorm ensuite
+76[:]<img alt="Shower, hair dryer, towels"></img>
+77[:]<img alt="In-room safe, desk, free WiFi, bed sheets"></img>
+78[:]<button type="button" aria-label="View all photos for 6 bed mixed dorm ensuite"></button>
+79[:]<img alt="In-room safe, desk, free WiFi, bed sheets"></img>
+80[:]<button type="button"></button>
+81[:]<button type="button"></button>
+82[:]<button type="button"></button>
+83[:]<button type="button"></button>
+84[:]<button type="button"></button>
+85[:]<label ></label>
+86[:]<input type="radio" name="LodgingCategorizedUnit-5-cancellationPolicy-5" aria-label="Non-refundable, + €0." value="LodgingCategorizedUnit-5-cancellationPolicy-0"></input>
+87[:]<label ></label>
+88[:]<input type="radio" name="LodgingCategorizedUnit-5-cancellationPolicy-5" aria-label="Fully refundable before 17 Jul, + €51." value="LodgingCategorizedUnit-5-cancellationPolicy-1"></input>
+_[:]View all photos for Annex Superior Double Ensuite
+89[:]<img alt="Annex Superior Double Ensuite | Bathroom"></img>
+90[:]<img alt="Annex Superior Double Ensuite"></img>
+91[:]<button type="button" aria-label="View all photos for Annex Superior Double Ensuite"></button>
+92[:]<img alt="Annex Superior Double Ensuite"></img>
+93[:]<button type="button"></button>
+94[:]<button type="button"></button>
+95[:]<button type="button"></button>
+96[:]<button type="button"></button>
+... 5704.333312988281 pixels below - scroll or extract content to see more ...

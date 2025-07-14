@@ -1,0 +1,161 @@
+
+
+Current url: https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/payment?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<a aria-label="Fees">Fees</a>
+2[:]<a aria-label="FAQs">FAQs</a>
+3[:]<button >Log in</button>
+4[:]<button >myRyanair Portal</button>
+_[:]Flights
+_[:]Seats
+_[:]Bags
+_[:]Extras
+_[:]Review & Pay
+_[:]Contact details
+_[:]We will use it for flight changes and booking confirmation. (Fields marked with * are mandatory)
+_[:]Email address *
+_[:]Confirm email address *
+_[:]Country code *
+_[:]Loading...
+_[:]Phone number *
+_[:]Ryanair subscribers get first access to exclusive discounts on flights and products as well as the latest information on new destinations, available only through marketing communications. If you don't wish to receive these offers by email, text or push notification, please uncheck the box.
+_[:]Send my flight details via SMS for
+_[:]€2.99
+_[:]Relax and enjoy Milan with peace of mind
+_[:]Insurance Plus
+_[:]Agree and add
+_[:]Medical expenses up to £2,500,000 (Pre-existing conditions excluded)
+_[:]Personal baggage up to £1,500 (Single item limits apply)
+_[:]Cancellations up to £3,000
+_[:]Personal electronics (Single item limits apply)
+_[:]Electronic insurance documentation
+_[:]Airline failure service guarantee
+_[:]From/per person
+_[:]€25.29
+_[:]Including IPT
+_[:]Provided by:
+_[:]Only for residents of Spain
+_[:]View Policy
+_[:]All prices include Insurance Premium Tax (IPT)
+_[:]By adding insurance I confirm that I have read and I agree with content of
+_[:]IPID document
+_[:]By adding insurance I confirm that:
+You have made all members of your party aware of the cover and restrictions, and agree to proceed on that basis.
+Medical expenses for insurance policy holders aged 70 years or above are not included.
+Covid-19 related cancellations and pre-existing medical conditions are not covered.
+You confirm you have read and agree to the Policy Terms & Insurance Product Information Document which provides a summary of the key policy features. Pre-existing medical conditions aren’t covered (
+_[:]BIBA
+_[:]). Please contact the British Insurance Brokers Association to see the full list of specialist brokers. This insurance is arranged by Cover Genius Ltd trading as
+_[:]XCover.com
+_[:]. The Insurance is underwritten by Cowen Insurance Company Limited which is authorised under the Insurance Business Act 1998 of the laws of Malta (Malta Company Registration Number C 55905) and authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority (No. 202846). Ryanair DAC is an Appointed Representative of Cover Genius Ltd which is authorised and regulated by the Financial Conduct Authority (No. 750711).
+5[:]<label ></label>
+6[:]<input type="checkbox" tabindex="0"></input>
+7[:]<h3 tabindex="0"></h3>
+8[:]<div role="button" tabindex="0"></div>
+9[:]<div aria-expanded="true"></div>
+10[:]<div role="button" tabindex="0"></div>
+11[:]<label ></label>
+12[:]<input type="checkbox" tabindex="0"></input>
+13[:]<img alt="payment-card"></img>
+14[:]<img alt="visa"></img>
+15[:]<img alt="mastercard"></img>
+16[:]<img alt="amex"></img>
+17[:]<img alt="uatp"></img>
+18[:]<img alt="diners"></img>
+19[:]<img alt="discover"></img>
+20[:]<div role="tabpanel"></div>
+21[:]<img alt="verisign"></img>
+22[:]<label >Card number *</label>
+23[:]<input type="text"></input>
+24[:]<input type="tel" name="cc-exp" placeholder="MM/YY"></input>
+25[:]<label ></label>
+26[:]<input type="text" name="address-line1"></input>
+27[:]<label ></label>
+28[:]<input type="text" name="address-line2"></input>
+29[:]<label ></label>
+_[:]Verified
+_[:]by Ryanair
+_[:]Price Breakdown
+_[:]Flights
+_[:]Barcelona
+_[:]to
+_[:]Milan Malpensa
+_[:]Fri 18 Jul
+_[:]16:35 - 18:20
+_[:]FR7541
+_[:]1 x
+_[:]Adult Basic Fare
+_[:]€
+_[:]21
+_[:].
+_[:]99
+_[:]1 x
+_[:]Priority & 2 Cabin Bags
+_[:]€
+_[:]20
+_[:].
+_[:]00
+_[:]1 x
+_[:]10kg Check-in Bag
+_[:]€
+_[:]15
+_[:].
+_[:]49
+_[:]Milan Malpensa
+_[:]to
+_[:]Barcelona
+_[:]Sat 2 Aug
+_[:]06:15 - 07:55
+_[:]FR 270
+_[:]1 x
+_[:]Adult Basic Fare
+_[:]€
+_[:]105
+_[:].
+_[:]99
+_[:]1 x
+_[:]Priority & 2 Cabin Bags
+_[:]€
+_[:]23
+_[:].
+_[:]00
+_[:]1 x
+_[:]10kg Check-in Bag
+_[:]€
+_[:]17
+_[:].
+_[:]49
+_[:]You saved
+_[:]-
+_[:]€
+_[:]4
+_[:].
+_[:]00
+_[:]You do not pay government taxes
+_[:]Passengers
+_[:]Total to pay
+_[:]€
+_[:]203
+_[:].
+_[:]96
+_[:]Log into myRyanair
+30[:]<button type="button">Continue with Google</button>
+31[:]<button type="button">Continue with Facebook</button>
+32[:]<button type="button">Continue with PayPal</button>
+_[:]Or
+33[:]<input type="email" name="email" placeholder="email@email.com"></input>
+34[:]<label >Email address</label>
+35[:]<input type="password" name="password" placeholder="Password"></input>
+36[:]<label >Password</label>
+37[:]<button type="button">Forgot password?</button>
+38[:]<img ></img>
+39[:]<button type="submit">Log in</button>
+_[:]Don't have an account?
+40[:]<button >Sign up</button>
+41[:]<img alt="undefined"></img>
+... 1205 pixels below - scroll or extract content to see more ...

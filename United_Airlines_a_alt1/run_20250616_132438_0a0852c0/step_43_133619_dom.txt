@@ -1,0 +1,153 @@
+
+
+Current url: https://www.united.com/en/us/book-flight/seatmap/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us/book-flight/seatmap/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R', title='Flight Booking Seatmap | United Airlines')]
+Interactive elements from current page view:
+... 2057 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="United logo link to homepage"></img>
+2[:]<button aria-label="Currently in English US	$ enter to change" type="button">English - US	$</button>
+3[:]<a aria-label="Search, opens in a new tab"></a>
+4[:]<button aria-label="Sign in" type="button">Sign in</button>
+5[:]<button aria-label="Shopping cart with 1 item" type="button">1</button>
+6[:]<button aria-label="Main menu" type="button">Main menu
+Menu</button>
+_[:]Select seats for Denver to Orlando
+7[:]<button type="button">Now selecting seat for traveler 1 John Doe.
+1
+John doe
+No seat selected
+---</button>
+8[:]<button tabindex="0" aria-label="22E Preferred seat. $46.99. plus tax Middle. Standard legroom. Seat available"></button>
+9[:]<button tabindex="0" aria-label="23A Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+10[:]<button tabindex="0" aria-label="23D Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+11[:]<button tabindex="0" aria-label="23E Preferred seat. $46.99. plus tax Middle. Standard legroom. Seat available"></button>
+12[:]<button tabindex="0" aria-label="23F Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+13[:]<button tabindex="0" aria-label="24D Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+14[:]<button tabindex="0" aria-label="24E Preferred seat. $46.99. plus tax Middle. Standard legroom. Seat available"></button>
+15[:]<button tabindex="0" aria-label="24F Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+16[:]<button tabindex="0" aria-label="25A Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+17[:]<button tabindex="0" aria-label="25D Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+18[:]<button tabindex="0" aria-label="25E Preferred seat. $46.99. plus tax Middle. Standard legroom. Seat available"></button>
+19[:]<button tabindex="0" aria-label="25F Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+20[:]<button tabindex="0" aria-label="26A Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+21[:]<button tabindex="0" aria-label="26B Preferred seat. $46.99. plus tax Middle. Standard legroom. Seat available"></button>
+22[:]<button tabindex="0" aria-label="26C Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+23[:]<button tabindex="0" aria-label="26D Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+24[:]<button tabindex="0" aria-label="26E Preferred seat. $46.99. plus tax Middle. Standard legroom. Seat available"></button>
+25[:]<button tabindex="0" aria-label="26F Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+26[:]<button tabindex="0" aria-label="27A Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+27[:]<button tabindex="0" aria-label="27B Economy. $19.99. plus tax Middle. Standard legroom. Seat available"></button>
+28[:]<button tabindex="0" aria-label="27C Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+29[:]<button tabindex="0" aria-label="27D Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+30[:]<button tabindex="0" aria-label="27E Economy. $19.99. plus tax Middle. Standard legroom. Seat available"></button>
+31[:]<button tabindex="0" aria-label="27F Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+32[:]<button tabindex="0" aria-label="28A Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+33[:]<button tabindex="0" aria-label="28B Economy. $19.99. plus tax Middle. Standard legroom. Seat available"></button>
+34[:]<button tabindex="0" aria-label="28C Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+35[:]<button tabindex="0" aria-label="28D Preferred seat. $67.99. plus tax Aisle. Standard legroom. Seat available"></button>
+36[:]<button tabindex="0" aria-label="28E Economy. $19.99. plus tax Middle. Standard legroom. Seat available"></button>
+37[:]<button tabindex="0" aria-label="28F Preferred seat. $60.99. plus tax Window. Standard legroom. Seat available"></button>
+38[:]<button tabindex="0" aria-label="29E Economy. $19.99. plus tax Middle. Standard legroom. Seat available"></button>
+39[:]<button tabindex="0" aria-label="30D Economy. $26.99. plus tax Aisle. Standard legroom. Seat available"></button>
+_[:]Row 31, 4 of 6 seats available
+_[:]31B Economy. $19.99. plus tax Middle. Standard legroom.
+_[:]31C Economy. $26.99. plus tax Aisle. Standard legroom.
+_[:]Aisle of row 31
+_[:]31
+_[:]31D Economy. $26.99. plus tax Aisle. Standard legroom.
+_[:]31E Economy. $19.99. plus tax Middle. Standard legroom.
+_[:]Row 32, 5 of 6 seats available
+40[:]<button tabindex="0" aria-label="32A Economy. $25.99. plus tax Window. Standard legroom. Seat available">32A Economy. $25.99. plus tax Window. Standard legroom.</button>
+41[:]<button tabindex="0" aria-label="32B Economy. $19.99. plus tax Middle. Standard legroom. Seat available">32B Economy. $19.99. plus tax Middle. Standard legroom.</button>
+42[:]<button tabindex="0" aria-label="32C Economy. $26.99. plus tax Aisle. Standard legroom. Seat available">32C Economy. $26.99. plus tax Aisle. Standard legroom.</button>
+_[:]Aisle of row 32
+_[:]32
+43[:]<button tabindex="0" aria-label="32D Economy. $26.99. plus tax Aisle. Standard legroom. Seat available">32D Economy. $26.99. plus tax Aisle. Standard legroom.</button>
+44[:]<button tabindex="0" aria-label="32E Economy. $19.99. plus tax Middle. Standard legroom. Seat available">32E Economy. $19.99. plus tax Middle. Standard legroom.</button>
+_[:]32F Economy. Occupied. Window.
+_[:]Row 34, 6 of 6 seats available
+45[:]<button tabindex="0" aria-label="34A Economy. $25.99. plus tax Window. Standard legroom. Seat available">34A Economy. $25.99. plus tax Window. Standard legroom.</button>
+46[:]<button tabindex="0" aria-label="34B Economy. $19.99. plus tax Middle. Standard legroom. Seat available">34B Economy. $19.99. plus tax Middle. Standard legroom.</button>
+47[:]<button tabindex="0" aria-label="34C Economy. $26.99. plus tax Aisle. Standard legroom. Seat available">34C Economy. $26.99. plus tax Aisle. Standard legroom.</button>
+_[:]Aisle of row 34
+_[:]34
+48[:]<button tabindex="0" aria-label="34D Economy. $26.99. plus tax Aisle. Standard legroom. Seat available">34D Economy. $26.99. plus tax Aisle. Standard legroom.</button>
+49[:]<button tabindex="0" aria-label="34E Economy. $19.99. plus tax Middle. Standard legroom. Seat available">34E Economy. $19.99. plus tax Middle. Standard legroom.</button>
+50[:]<button tabindex="0" aria-label="34F Economy. $25.99. plus tax Window. Standard legroom. Seat available">34F Economy. $25.99. plus tax Window. Standard legroom.</button>
+_[:]Row 35, 6 of 6 seats available
+51[:]<button tabindex="0" aria-label="35A Economy. $25.99. plus tax Window. Standard legroom. Seat available">35A Economy. $25.99. plus tax Window. Standard legroom.</button>
+52[:]<button tabindex="0" aria-label="35B Economy. $19.99. plus tax Middle. Standard legroom. Seat available">35B Economy. $19.99. plus tax Middle. Standard legroom.</button>
+53[:]<button tabindex="0" aria-label="35C Economy. $26.99. plus tax Aisle. Standard legroom. Seat available">35C Economy. $26.99. plus tax Aisle. Standard legroom.</button>
+_[:]Aisle of row 35
+_[:]35
+54[:]<button tabindex="0" aria-label="35D Economy. $26.99. plus tax Aisle. Standard legroom. Seat available">35D Economy. $26.99. plus tax Aisle. Standard legroom.</button>
+55[:]<button tabindex="0" aria-label="35E Economy. $19.99. plus tax Middle. Standard legroom. Seat available">35E Economy. $19.99. plus tax Middle. Standard legroom.</button>
+56[:]<button tabindex="0" aria-label="35F Economy. $25.99. plus tax Window. Standard legroom. Seat available">35F Economy. $25.99. plus tax Window. Standard legroom.</button>
+_[:]Row 36, 2 of 6 seats available
+_[:]36A Economy. Occupied. Window.
+_[:]36B Economy. Occupied. Middle.
+57[:]<button tabindex="0" aria-label="36C Economy. $26.99. plus tax Aisle. Standard legroom. Seat available">36C Economy. $26.99. plus tax Aisle. Standard legroom.</button>
+_[:]Aisle of row 36
+_[:]36
+_[:]36D Economy. Occupied. Aisle.
+_[:]36E Economy. Occupied. Middle.
+58[:]<button tabindex="0" aria-label="36F Economy. $25.99. plus tax Window. Standard legroom. Seat available">36F Economy. $25.99. plus tax Window. Standard legroom.</button>
+_[:]Row 37, 1 of 6 seats available
+_[:]37A Economy. Occupied. Window.
+_[:]37B Economy. Occupied. Middle.
+59[:]<button tabindex="0" aria-label="37C Economy. $26.99. plus tax Aisle. Standard legroom. Seat available">37C Economy. $26.99. plus tax Aisle. Standard legroom.</button>
+_[:]Aisle of row 37
+_[:]37
+_[:]37D Economy. Occupied. Aisle.
+_[:]37E Economy. Occupied. Middle.
+_[:]37F Economy. Occupied. Window.
+_[:]Lavatory
+_[:]Aisle
+_[:]Lavatory
+_[:]Aisle
+_[:]Galley
+_[:]Aisle
+_[:]Galley
+_[:]Subtotal (all seats):
+_[:]$0.00
+_[:]You have not selected a seat for DEN to MCO, MCO to DEN
+60[:]<button type="button">Continue to checkout</button>
+61[:]<button type="button">Next flight</button>
+62[:]<button type="button">About United</button>
+63[:]<button type="button">Products and services</button>
+64[:]<button type="button">Popular destinations</button>
+65[:]<a aria-label="Careers, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab.">Careers</a>
+66[:]<a >Important notices</a>
+67[:]<button >Search
+Search</button>
+68[:]<button aria-label="Currently in English US	$ enter to change" type="button">English - United States	$</button>
+69[:]<button aria-label="Switch to Español">| Español</button>
+70[:]<a aria-label="Open United's Tiktok feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+71[:]<a aria-label="Open United's Facebook page in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+72[:]<a aria-label="Open United's Twitter feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+73[:]<a aria-label="Open United's YouTube page in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+74[:]<a aria-label="Open United's Instagram feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+75[:]<a aria-label="Open United's LinkedIn profile in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+76[:]<a aria-label="">Contract of carriage</a>
+77[:]<a aria-label="">Lengthy tarmac delay plan</a>
+78[:]<a aria-label="">Legal information</a>
+79[:]<a aria-label="">Our United Customer Commitment</a>
+80[:]<a aria-label="">Help Center</a>
+81[:]<a aria-label="">Accessible travel</a>
+82[:]<a aria-label="">Privacy Policy</a>
+83[:]<a aria-label="Do Not Sell or Share My Personal Information, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab.">Do Not Sell or Share My Personal Information</a>
+84[:]<a aria-label="">Interest Based Ads</a>
+85[:]<a aria-label="United Jetstream, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab.">United Jetstream</a>
+86[:]<a aria-label="Cargo, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab.">Cargo</a>
+87[:]<a aria-label="Electronic Invoice, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab.">Electronic Invoice</a>
+_[:]Indicates an external site that may or may not meet accessibility guidelines.
+_[:]Copyright © 2025 United Airlines, Inc. All rights reserved.
+88[:]<a title="United logo link to homepage"></a>
+89[:]<img alt="United logo link to homepage" role="presentation"></img>
+90[:]<a title="United is a proud member of Star Alliance"></a>
+91[:]<img alt="United is a proud member of Star Alliance" role="presentation"></img>
+92[:]<button aria-expanded="false" type="button">CoBrowse</button>
+93[:]<button role="button" aria-expanded="false">Site Feedback</button>
+[End of page]

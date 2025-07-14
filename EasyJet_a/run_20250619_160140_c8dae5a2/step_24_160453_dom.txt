@@ -1,0 +1,296 @@
+
+
+Current url: https://www.easyjet.com/en/buy/flights?isOneWay=off
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/flights?isOneWay=off', title='Pick Flights')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+0[:]<a >easyJet home</a>
+_[:]standard fare outbound flight added to basket
+_[:]Pick flights
+_[:]Add your return flight
+1[:]<button type="button"></button>
+_[:]Added to basket
+2[:]<button type="button" tabindex="-1">Show basket</button>
+_[:]Your current basket
+_[:]Basket
+_[:]£216.99
+3[:]<button type="button">Change currency
+></button>
+4[:]<button type="button">Price breakdown
+></button>
+_[:]Edinburgh
+_[:]to
+_[:]Lisbon
+_[:]Flight Number
+_[:]EZY
+_[:]3321
+5[:]<label >Departure</label>
+_[:]06:05 Thu 17th Jul
+6[:]<label >Arrival</label>
+_[:]09:20
+7[:]<button type="button" aria-label="Remove Edinburgh to Lisbon on 06:05 Thu 17th Jul"></button>
+_[:]Your Fares
+_[:]Item
+_[:]Price
+_[:]Adult
+_[:]1 x £216.99
+_[:]Included in your fare
+_[:]Included item
+_[:]Included item details
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon
+_[:]to
+_[:]Edinburgh
+_[:]No flight selected
+8[:]<button type="button">Continue</button>
+_[:]Non-refundable. Changeable subject to
+9[:]<a >fees</a>
+_[:].
+_[:]Price includes all applicable
+10[:]<a >taxes and fees</a>
+_[:].
+_[:]What do our fares include?
+_[:]What do our fares include?
+_[:]fare item
+_[:]Standard
+_[:]Flight fare and taxes
+_[:]included
+_[:]✔
+_[:]Small cabin bag
+_[:]included
+_[:]✔
+_[:]Large cabin bag
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Hold luggage
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Seat selection
+_[:]Extra
+_[:]can be purchased as an extra item
+_[:]Speedy Boarding
+_[:]not included
+_[:]✘
+_[:]easyJet Plus bag drop
+_[:]not included
+_[:]✘
+_[:]Fast Track Security
+_[:]not included
+_[:]✘
+_[:]Date changes +/-1 day
+_[:]not included
+_[:]✘
+_[:]Free route changes
+_[:]not included
+_[:]✘
+_[:]No payment fees
+_[:]included
+_[:]✔
+_[:]CAFE. Meal Deal
+_[:]not included
+_[:]✘
+_[:]Pick flights
+_[:]Passenger details
+_[:]Seat selection
+_[:]Cabin bags
+_[:]Hold luggage
+_[:]Car rental
+_[:]Travel Insurance
+_[:]Checkout
+_[:]Flight search options
+11[:]<a >Change search
+></a>
+12[:]<button type="button">1 recent search
+></button>
+_[:]Outbound
+_[:]Flight calendar
+_[:]Edinburgh
+_[:]to
+_[:]Lisbon
+_[:]Last booked 3 hours ago
+13[:]<button aria-label="Scroll to earlier date" type="button"></button>
+14[:]<button aria-label="Scroll to later date" type="button"></button>
+_[:]Tuesday
+_[:]15
+_[:]July
+_[:]No flights available
+_[:]Wednesday
+_[:]16
+_[:]July
+_[:]No flights available
+_[:]Thursday
+_[:]17
+_[:]July
+15[:]<button type="button">Departure
+06:05
+Arrival
+09:20
+LOWEST FARE
+£216
+.99
+2
+seats left at</button>
+_[:]Skip to basket
+_[:]Friday
+_[:]18
+_[:]July
+_[:]No flights available
+_[:]Saturday
+_[:]19
+_[:]July
+_[:]No flights available
+_[:]Inbound
+_[:]Flight calendar
+_[:]Lisbon
+_[:]to
+_[:]Edinburgh
+_[:]Last booked 3 hours ago
+16[:]<button aria-label="Scroll to earlier date" type="button"></button>
+17[:]<button aria-label="Scroll to later date" type="button"></button>
+_[:]Tuesday
+_[:]22
+_[:]July
+_[:]No flights available
+_[:]Wednesday
+_[:]23
+_[:]July
+_[:]No flights available
+_[:]Thursday
+_[:]24
+_[:]July
+18[:]<button type="button">Departure
+09:50
+Arrival
+13:05
+LOWEST FARE
+£166
+.70</button>
+_[:]Friday
+_[:]25
+_[:]July
+_[:]No flights available
+_[:]Saturday
+_[:]26
+_[:]July
+_[:]No flights available
+_[:]Departing 17 July for 7 nights for 1 person
+19[:]<li >1
+/
+89
+Lisbon City, Lisbon, Portugal
+1,112 reviews
+Hotel
+Flights
+Small under seat bag
+£1,484
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+20[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+21[:]<button type="button" aria-label="Next" tabindex="0"></button>
+22[:]<img alt=""></img>
+23[:]<img alt=""></img>
+24[:]<a tabindex="0">Vila Gale Opera</a>
+25[:]<img alt=""></img>
+26[:]<img alt=""></img>
+27[:]<img alt=""></img>
+28[:]<button type="button" tabindex="0">Click for more details</button>
+29[:]<a tabindex="0">View Holiday</a>
+30[:]<li >1
+/
+35
+Lisbon City, Lisbon, Portugal
+7,169 reviews
+Hotel
+Flights
+Small under seat bag
+£1,834
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+31[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+32[:]<button type="button" aria-label="Next" tabindex="0"></button>
+33[:]<img alt=""></img>
+34[:]<img alt=""></img>
+35[:]<a tabindex="0">Corinthia Hotel Lisbon</a>
+36[:]<img alt=""></img>
+37[:]<img alt=""></img>
+38[:]<img alt=""></img>
+39[:]<button type="button" tabindex="0">Click for more details</button>
+40[:]<a tabindex="0">View Holiday</a>
+41[:]<li >1
+/
+17
+Lisbon City, Lisbon, Portugal
+611 reviews
+Hotel
+Flights
+Small under seat bag
+£1,588
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+42[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+43[:]<button type="button" aria-label="Next" tabindex="0"></button>
+44[:]<img alt=""></img>
+45[:]<img alt=""></img>
+46[:]<a tabindex="0">Olissippo Castelo</a>
+47[:]<img alt=""></img>
+48[:]<img alt=""></img>
+49[:]<img alt=""></img>
+50[:]<button type="button" tabindex="0">Click for more details</button>
+51[:]<a tabindex="0">View Holiday</a>
+52[:]<li >1
+/
+11
+Lisbon City, Lisbon, Portugal
+1,019 reviews
+Hotel
+Flights
+Small under seat bag
+£1,264
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+53[:]<button type="button" aria-label="Previous" tabindex="0"></button>
+54[:]<button type="button" aria-label="Next" tabindex="0"></button>
+55[:]<img alt=""></img>
+56[:]<img alt=""></img>
+57[:]<a tabindex="0">Zenit Lisboa</a>
+58[:]<img alt=""></img>
+59[:]<img alt=""></img>
+60[:]<img alt=""></img>
+61[:]<button type="button" tabindex="0">Click for more details</button>
+62[:]<a tabindex="0">View Holiday</a>
+63[:]<li >1
+/
+24
+Lisbon City, Lisbon, Portugal
+124 reviews
+Hotel
+Flights
+Small under seat bag
+£1,419
+Price subject to change & availability due to daily system updates. Any change to price is shown on Extras page.</li>
+64[:]<button type="button" aria-label="Previous" tabindex="-1"></button>
+65[:]<button type="button" aria-label="Next" tabindex="-1"></button>
+66[:]<img alt=""></img>
+67[:]<img alt=""></img>
+68[:]<a tabindex="-1">The Editory Riverside Santa Apolonia Hotel</a>
+69[:]<img alt=""></img>
+70[:]<img alt=""></img>
+71[:]<img alt=""></img>
+72[:]<button type="button" tabindex="-1">Click for more details</button>
+73[:]<a tabindex="-1">View Holiday</a>
+74[:]<li >Not found what you looked for?</li>
+75[:]<a tabindex="-1">View all holidays</a>
+76[:]<button ></button>
+77[:]<button aria-label="Go to slide 1"></button>
+78[:]<button aria-label="Go to slide 2"></button>
+79[:]<button aria-label="Go to slide 3"></button>
+80[:]<a >Show all holiday deals from £1,021</a>
+_[:]ATOL protected
+81[:]<a ></a>
+82[:]<a ></a>
+83[:]<a ></a>
+84[:]<a ></a>
+85[:]<a ></a>
+86[:]<a ></a>
+... 884 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,7 @@
+
+
+Current url: about:blank
+Available tabs:
+[TabInfo(page_id=0, url='about:blank', title='')]
+Interactive elements from current page view:
+empty page

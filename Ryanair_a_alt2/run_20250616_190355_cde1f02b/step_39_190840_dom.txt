@@ -1,0 +1,59 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/seats?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+_[:]Fees
+_[:]FAQs
+_[:]My bookings
+_[:]Log in
+_[:]myRyanair Portal
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Flights
+_[:]Seats
+_[:]Bags
+_[:]Extras
+_[:]Review & Pay
+_[:]Choose your seat preference
+_[:]Option 1: Sit where you want
+_[:]or
+_[:]Option 2: Select seats later
+_[:]Before continuing without a seat please be advised
+_[:]If you don't choose seats you will only be able to check-in 24 hours prior to departure where we will randomly allocate you a seat.
+_[:]Avoid middle seat
+_[:]Most of our passengers choose their seat so we have less window and aisle seats to allocate at check in.
+_[:]Seat availability
+_[:]The longer you wait the less likely you'll get the seat that you want.
+_[:]Best price now
+_[:]Our cheapest seats are most likely to sell out quickly. Select seats now to avail of the best price.
+_[:]Continue without a seat
+_[:]Select seats now
+_[:]2025 © Ryanair DAC. All rights reserved.
+_[:]A card payment processing fee may be applied to your booking. This fee will be reflected in the total price once the card number has been entered. Please see our
+_[:]GTCC
+_[:]for more details.
+_[:]General terms & conditions of carriage
+_[:]Terms of Use
+_[:]Privacy Policy
+_[:]Cookies
+_[:]Contact us
+_[:]Cookie preferences
+_[:]Verified
+_[:]by Ryanair
+0[:]<div tabindex="0"></div>
+1[:]<img alt="undefined"></img>
+_[:]You have chosen random seat allocation
+_[:]This means:
+_[:]You can only check in 24hrs before each flight
+_[:]You may be seated anywhere in the aircraft
+_[:]You may be allocated a middle seat
+2[:]<button >Select seats now</button>
+3[:]<button >Continue with random allocation</button>
+4[:]<div tabindex="0"></div>
+[End of page]

@@ -1,0 +1,2744 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started.",
+          "memory": "",
+          "next_goal": "Go to EasyJet website."
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.easyjet.com/en"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.easyjet.com/en",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to EasyJet website.",
+          "memory": "",
+          "next_goal": "Accept cookies."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 15
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 15: Accept Cookies",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/section/div/div/div[2]/button[3]",
+            "highlight_index": 15,
+            "entire_parent_branch_path": [
+              "section",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "id": "ensCloseBanner",
+              "aria-label": "Accept Cookies",
+              "class": "button raised grey",
+              "tabindex": "0"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Accepted cookies.",
+          "memory": "",
+          "next_goal": "Enter Edinburgh as departure."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 31,
+              "text": "Edinburgh"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Edinburgh\" for element index 31",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div/div/div/div/input",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "name": "from",
+              "id": "from",
+              "type": "text",
+              "data-1p-ignore": "true",
+              "data-lp-ignore": "true",
+              "data-testid": "from",
+              "placeholder": "Country, city, airport",
+              "class": "TextBox_inputField__QfCo1 TextBox_iconInputField__7sptJ",
+              "value": "Amsterdam (AMS)",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered Edinburgh as departure.",
+          "memory": "",
+          "next_goal": "Select Edinburgh (EDI) United Kingdom."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 24
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 24: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "label",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div/div/div[2]/div[2]/ul/li/label",
+            "highlight_index": 24,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "label"
+            ],
+            "attributes": {
+              "data-testid": "airport-label",
+              "for": "EDI_from_option"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Edinburgh (EDI) United Kingdom.",
+          "memory": "",
+          "next_goal": "Enter Lisbon as destination."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 37,
+              "text": "Lisbon"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Lisbon\" for element index 37",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[2]/div/div/div/input",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "name": "to",
+              "id": "to",
+              "type": "text",
+              "data-1p-ignore": "true",
+              "data-lp-ignore": "true",
+              "data-testid": "to",
+              "placeholder": "Country, city, airport",
+              "class": "TextBox_inputField__QfCo1 TextBox_iconInputField__7sptJ",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered Lisbon as destination.",
+          "memory": "",
+          "next_goal": "Select Lisbon (LIS) Portugal."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 31
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 31: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[2]/div/div[2]/div[2]/ul/li/input",
+            "highlight_index": 31,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "input"
+            ],
+            "attributes": {
+              "type": "radio",
+              "id": "LIS_to_option",
+              "name": "to_option",
+              "value": "LIS",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected Lisbon (LIS) Portugal.",
+          "memory": "",
+          "next_goal": "Open the departure date-picker."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 36
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 36: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[3]/div/div/div/input",
+            "highlight_index": 36,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "name": "when",
+              "id": "when",
+              "type": "text",
+              "class": "TextBox_inputField__QfCo1 TextBox_iconInputField__7sptJ DatePickerField_datePickerTextbox__ANXSR",
+              "data-testid": "when",
+              "placeholder": "Choose your dates",
+              "readonly": "",
+              "aria-label": "Clear selected travel date",
+              "value": "",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the departure date-picker.",
+          "memory": "",
+          "next_goal": "Select the 17th of July 2025."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July",
+              "search_all": false,
+              "date": 17
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July' \n\u2705 Found date 17 in correct month at index 89. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Found and verified the 17th of July 2025.",
+          "memory": "",
+          "next_goal": "Click the 17th of July 2025."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 89
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 89: 17\n\u00a3217",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[3]/div/div[2]/div[2]/div[3]/div[2]/div[2]/div[18]/button",
+            "highlight_index": 89,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "DatePicker_cellButton__LLyZj",
+              "aria-label": "17 July 2025",
+              "aria-disabled": "false",
+              "tabindex": "-1",
+              "role": "button",
+              "data-testid": "17-7-2025"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked the 17th of July 2025.",
+          "memory": "",
+          "next_goal": "Open the return date-picker."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 37
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 37: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[3]/div/div[2]/div[2]/div/div/div/button",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "Toggle_toggleBtn__yeRaf",
+              "data-testid": "toggle",
+              "aria-label": "Return trip",
+              "aria-pressed": "true"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Select the 24th of July 2025 for the return date."
+        },
+        "action": [
+          {
+            "verify_month": {
+              "target_month": "July",
+              "search_all": false,
+              "date": 24
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2705 Found matching month 'July' \n\u2705 Found date 24 in correct month at index 96. This element needs to be clicked.",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Select the 24th of July 2025 for the return date."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 37
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 37: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[3]/div/div[2]/div[2]/div/div/div/button",
+            "highlight_index": 37,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "Toggle_toggleBtn__yeRaf",
+              "data-testid": "toggle",
+              "aria-label": "One way",
+              "aria-pressed": "true"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Select the 24th of July 2025 for the return date."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 96
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 96: 24\n\u00a3167",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[3]/div/div[2]/div[2]/div[3]/div[2]/div[2]/div[25]/button",
+            "highlight_index": 96,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "DatePicker_cellButton__LLyZj",
+              "aria-label": "24 July 2025",
+              "aria-disabled": "false",
+              "tabindex": "-1",
+              "role": "button",
+              "data-testid": "24-7-2025"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the 24th of July 2025 for the return date.",
+          "memory": "",
+          "next_goal": "Open the passengers selection."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 47
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 47: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[4]/div/div/div/input",
+            "highlight_index": 47,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "name": "who",
+              "id": "who",
+              "type": "text",
+              "autocomplete": "false",
+              "data-testid": "who",
+              "readonly": "",
+              "class": "TextBox_inputField__QfCo1 TextBox_iconInputField__7sptJ",
+              "value": "1 adult",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the passengers selection.",
+          "memory": "",
+          "next_goal": "Add one adult."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 45
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 45: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[4]/div/div[2]/div[2]/div[2]/div/button[2]",
+            "highlight_index": 45,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "Button_button__FnooQ Button_primary__zo_dU Button_block__95D2J QuantitySelector_button__8Iq_L",
+              "aria-label": "Add one adult",
+              "data-testid": "add-button",
+              "type": "button",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the passengers selection.",
+          "memory": "",
+          "next_goal": "Add one adult."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 45
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 45: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[4]/div/div[2]/div[2]/div[2]/div/button[2]",
+            "highlight_index": 45,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "Button_button__FnooQ Button_primary__zo_dU Button_block__95D2J QuantitySelector_button__8Iq_L",
+              "aria-label": "Add one adult",
+              "data-testid": "add-button",
+              "type": "button",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the passengers selection.",
+          "memory": "",
+          "next_goal": "Add one adult."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 45
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 45: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[4]/div/div[2]/div[2]/div[2]/div/button[2]",
+            "highlight_index": 45,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "Button_button__FnooQ Button_primary__zo_dU Button_block__95D2J QuantitySelector_button__8Iq_L",
+              "aria-label": "Add one adult",
+              "data-testid": "add-button",
+              "type": "button",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Opened the passengers selection.",
+          "memory": "",
+          "next_goal": "Specify 1 adult."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 44,
+              "text": "1"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"1\" for element index 44",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[4]/div/div[2]/div[2]/div[2]/div/input",
+            "highlight_index": 44,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "Adult-quantity",
+              "class": "QuantitySelector_quantity__a2HyU",
+              "data-testid": "quantity",
+              "type": "number",
+              "inputmode": "numeric",
+              "min": "1",
+              "value": "4",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Specify 1 adult."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 42
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 42: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[4]/div/div[2]/div[2]/div[2]/div/button",
+            "highlight_index": 42,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "Button_button__FnooQ Button_primary__zo_dU Button_block__95D2J QuantitySelector_button__8Iq_L",
+              "aria-label": "Subtract one adult",
+              "data-testid": "subtract-button",
+              "type": "button",
+              "tabindex": "-1"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Specify 1 adult."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 61
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 61: Apply",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div/div[4]/div/div[2]/div[6]/button",
+            "highlight_index": 61,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "Button_button__FnooQ Button_primary__zo_dU Button_large___B_6p Button_block__95D2J PassengerField_closeButton__y4HN1",
+              "data-testid": "close-button"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Click 'find flights' button."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 48
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 48: Show flights",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en",
+            "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/div[11]/div/div/div/form/div[2]/button",
+            "highlight_index": 48,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "Button_button__FnooQ Button_primary__zo_dU Button_large___B_6p Button_block__95D2J SearchPod_searchButton__g47hr",
+              "data-testid": "submit",
+              "type": "submit"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en",
+        "title": "easyJet | Flights & holidays \u2708\ufe0f Book low-cost airline tickets"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Click 'find flights' button."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 30
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Used JavaScript click on element with index 30",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+            "title": "Pick Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/div/div/form/div[2]/button",
+            "highlight_index": 30,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "type": "submit",
+              "class": "btn btn--medium"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+        "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Select the cheapest available flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 11
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 11: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+            "title": "Pick Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[5]/div[2]/div/div/div/div/div/div/section/div[2]/div[3]/div/div[3]/div[2]/div/button",
+            "highlight_index": 11,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-cy": "standardPrice-3321",
+              "aria-labelledby": "standard-EDI_LIS_2025-07-17T06_05_00_2025-07-17T09_20_00_3321",
+              "type": "button",
+              "class": "FlightTile_flightDetail__Hwkup",
+              "aria-pressed": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+        "title": "Pick Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Select the cheapest available flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 18
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 18: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+            "title": "Pick Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[5]/div[2]/div/div/div/div/div/div/section[2]/div[2]/div[3]/div/div[3]/div[2]/div/button",
+            "highlight_index": 18,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "data-cy": "standardPrice-3322",
+              "aria-labelledby": "standard-LIS_EDI_2025-07-24T09_50_00_2025-07-24T13_05_00_3322",
+              "type": "button",
+              "class": "FlightTile_flightDetail__Hwkup",
+              "aria-pressed": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+        "title": "Pick Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Failed - The page changed after clicking the departure date. The date picker is still open, but the selected date is now 'One way' instead of a date range.",
+          "memory": "",
+          "next_goal": "Select the cheapest available flight option."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 12
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 12: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+            "title": "Pick Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[4]/div[2]/section/div[2]/div/div[2]/button",
+            "highlight_index": 12,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "section",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "data-cy": "basket-continue-button",
+              "class": "Button_button__8B4nB Button_applyOldRadius__zs1i2"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+        "title": "Pick Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected the cheapest available flight option.",
+          "memory": "",
+          "next_goal": "Continue with Standard fare."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 70
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 70: Continue with Standard fare",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+            "title": "Pick Flights"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div/div/main/div[6]/div/div[2]/div[2]/div/div/div/div[2]/button",
+            "highlight_index": 70,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "type": "button",
+              "class": "Button_button__8B4nB Button_isFullWidth__2BvKJ",
+              "aria-label": "Continue with Standard fare for total price of \u00a3383.69"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/flights?isOneWay=off",
+        "title": "Pick Flights"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at the passenger details page.",
+          "memory": "",
+          "next_goal": "Get options for the title dropdown."
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 14
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "0: text=\"\"\n1: text=\"Mr\"\n2: text=\"Mrs\"\n3: text=\"Ms\"\n4: text=\"Miss\"\nUse the exact text string in select_dropdown_option",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/passenger-details",
+            "title": "Passenger Details | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div/div/div[3]/div/div/select",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "id": "title-dropdown-adult-1",
+              "name": "title-dropdown-adult-1",
+              "class": "ej-select ng-pristine ng-untouched ng-invalid ng-invalid-required",
+              "type": "text",
+              "autocomplete": "off",
+              "required": "",
+              "ng-disabled": "AreTitleOptionsDisabled",
+              "ng-model": "Passenger.Title",
+              "ng-options": "title.Value as title.DisplayText for title in GetTitleDropDownOptions()",
+              "aria-disabled": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/passenger-details",
+        "title": "Passenger Details | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Got options for the title dropdown.",
+          "memory": "",
+          "next_goal": "Select 'Mr' as title."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 14,
+              "text": "Mr"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "selected option Mr with value ['string:Mr']",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/passenger-details",
+            "title": "Passenger Details | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div/div/div[3]/div/div/select",
+            "highlight_index": 14,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "id": "title-dropdown-adult-1",
+              "name": "title-dropdown-adult-1",
+              "class": "ej-select ng-pristine ng-untouched ng-invalid ng-invalid-required",
+              "type": "text",
+              "autocomplete": "off",
+              "required": "",
+              "ng-disabled": "AreTitleOptionsDisabled",
+              "ng-model": "Passenger.Title",
+              "ng-options": "title.Value as title.DisplayText for title in GetTitleDropDownOptions()",
+              "aria-disabled": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/passenger-details",
+        "title": "Passenger Details | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected 'Mr' as title.",
+          "memory": "",
+          "next_goal": "Enter first name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 16,
+              "text": "John"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"John\" for element index 16",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/passenger-details",
+            "title": "Passenger Details | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div/div/div[3]/div[2]/div/input",
+            "highlight_index": 16,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "firstname-textbox-adult-1",
+              "name": "firstname-textbox-adult-1",
+              "class": "ej-input firstname-input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength",
+              "type": "text",
+              "autocomplete": "off",
+              "required": "",
+              "maxlength": "30",
+              "pattern": "^(?!^\\s)([^0-9\\+;:\"`\\|!?<>\\(\\).,\\/\\\\@#$\u00a3%^&_=~\\{\\}\\[\\]*\\t]{1,30})$",
+              "ng-model": "Passenger.FirstName",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/passenger-details",
+        "title": "Passenger Details | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered first name.",
+          "memory": "",
+          "next_goal": "Enter last name."
+        },
+        "action": [
+          {
+            "input_text": {
+              "index": 17,
+              "text": "Doe"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\u2328\ufe0f  Input/Selected \"Doe\" for element index 17",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/passenger-details",
+            "title": "Passenger Details | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "input",
+            "xpath": "html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div/div/div[3]/div[3]/div/input",
+            "highlight_index": 17,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "input"
+            ],
+            "attributes": {
+              "id": "lastname-textbox-adult-1",
+              "name": "lastname-textbox-adult-1",
+              "class": "ej-input ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-pattern ng-valid-maxlength",
+              "type": "text",
+              "autocomplete": "off",
+              "required": "",
+              "maxlength": "50",
+              "pattern": "^(?!^\\s)([^0-9\\+;:\"`\\|!?<>\\(\\).,\\/\\\\@#$\u00a3%^&_=~\\{\\}[\\]*\\t]{1,30})$",
+              "ng-model": "Passenger.LastName",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/passenger-details",
+        "title": "Passenger Details | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Entered last name.",
+          "memory": "",
+          "next_goal": "Get options for the age dropdown."
+        },
+        "action": [
+          {
+            "get_dropdown_options": {
+              "index": 20
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "0: text=\"\"\n1: text=\"18+\"\n2: text=\"17\"\n3: text=\"16\"\nUse the exact text string in select_dropdown_option",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/passenger-details",
+            "title": "Passenger Details | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div/div/div[3]/div[4]/div/select",
+            "highlight_index": 20,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "id": "age-dropdown-adult-1",
+              "name": "age-dropdown-adult-1",
+              "class": "ej-select ng-pristine ng-untouched ng-invalid ng-invalid-required",
+              "type": "text",
+              "autocomplete": "off",
+              "required": "",
+              "ng-disabled": "AreAgeOptionsDisabled",
+              "ng-model": "Passenger.Age",
+              "ng-options": "age.Value as age.DisplayText for age in GetAgeDropDownOptions()",
+              "aria-disabled": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/passenger-details",
+        "title": "Passenger Details | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Got options for the age dropdown.",
+          "memory": "",
+          "next_goal": "Select 18+ as age."
+        },
+        "action": [
+          {
+            "select_dropdown_option": {
+              "index": 20,
+              "text": "18+"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "selected option 18+ with value ['number:18']",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/passenger-details",
+            "title": "Passenger Details | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "select",
+            "xpath": "html/body/div[3]/div/main/div/div[2]/div[2]/div/form/div/div/div[3]/div[4]/div/select",
+            "highlight_index": 20,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "div",
+              "form",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "select"
+            ],
+            "attributes": {
+              "id": "age-dropdown-adult-1",
+              "name": "age-dropdown-adult-1",
+              "class": "ej-select ng-pristine ng-untouched ng-invalid ng-invalid-required",
+              "type": "text",
+              "autocomplete": "off",
+              "required": "",
+              "ng-disabled": "AreAgeOptionsDisabled",
+              "ng-model": "Passenger.Age",
+              "ng-options": "age.Value as age.DisplayText for age in GetAgeDropDownOptions()",
+              "aria-disabled": "false"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/passenger-details",
+        "title": "Passenger Details | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Selected 18+ as age.",
+          "memory": "",
+          "next_goal": "Click continue."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 3
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 3: Continue",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/passenger-details",
+            "title": "Passenger Details | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/header/div[3]/div/div/div/div[2]/button",
+            "highlight_index": 3,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "header",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "ng-class": "[\n\t\t\t\t\tIsALink ? 'button-link' : 'ej-button rounded-corners',\n\t\t\t\t\tForceDisabledDisplay ? 'disabled-helpinghand' : ''\n\t\t\t\t\t]",
+              "ng-if": "IsButtonEnabled",
+              "ng-click": "ButtonClick($event)",
+              "ng-attr-data-ej-gtm": "{{ButtonGtmTag}}",
+              "aria-label": "Continue",
+              "class": "ej-button rounded-corners"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/passenger-details",
+        "title": "Passenger Details | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at the seat selection page.",
+          "memory": "",
+          "next_goal": "Skip seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 217
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 217: Skip seats",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/seats",
+            "title": "Seat selection | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div[2]/div[2]/div/div/div[2]/div/div/div/div[5]/div/button[2]",
+            "highlight_index": 217,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "ng-click": "SkipButtonClick($event)",
+              "ng-show": "ShowSkipButton()",
+              "ng-disabled": "!CanGoToNextStep()",
+              "ng-class": "{\n\t\t\t\t\t\t'disabled' : !CanGoToNextStep(),\n\t\t\t\t\t\t'ej-link-button arrow-button skip-link' : !ForceCtaAsButton,\n\t\t\t\t\t\t'ej-button' : ForceCtaAsButton,\n\t\t\t\t        'disabled-basket': ForceDisabledDisplay\n\t\t\t\t\t}",
+              "data-ej-gtm": "button|basket|skip",
+              "aria-label": "Skip seats page",
+              "class": "ej-link-button arrow-button skip-link",
+              "aria-disabled": "false",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/seats",
+        "title": "Seat selection | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seats.",
+          "memory": "",
+          "next_goal": "Confirm to skip seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 75
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 75: Skip seat selection",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/seats",
+            "title": "Seat selection | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[5]/div/div/div[2]/div/div[2]/button[2]",
+            "highlight_index": 75,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "ej-button rounded-corners modal-button dismiss-option",
+              "ng-class": "{'dismiss-option': 'White' === 'White'}",
+              "ng-click": "OptionModalCTRL.SecondaryCtaClick()"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/seats",
+        "title": "Seat selection | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seats.",
+          "memory": "",
+          "next_goal": "Confirm to skip seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 5
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 5: Skip",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/cabin-bags",
+            "title": "Cabin bags | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/header/div[3]/div/div/div/div[2]/button",
+            "highlight_index": 5,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "header",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "ng-class": "[\n\t\t\t\t\tIsALink ? 'button-link' : 'ej-button rounded-corners',\n\t\t\t\t\tForceDisabledDisplay ? 'disabled-helpinghand' : ''\n\t\t\t\t\t]",
+              "ng-if": "IsButtonEnabled",
+              "ng-click": "ButtonClick($event)",
+              "ng-attr-data-ej-gtm": "{{ButtonGtmTag}}",
+              "aria-label": "Skip cabin bags page",
+              "data-ej-gtm": "button|header|skip",
+              "class": "button-link"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/cabin-bags",
+        "title": "Cabin bags | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seats.",
+          "memory": "",
+          "next_goal": "Confirm to skip seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 5
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 5: No, thanks. I'll take a small cabin bag",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/cabin-bags",
+            "title": "Cabin bags | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[4]/div/div/div[2]/div/div/div[2]/div/div/div/div/div[3]/button",
+            "highlight_index": 5,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "ng-click": "Section.Options.Parameters.OnReject()",
+              "class": "ej-button rounded-corners",
+              "ng-attr-data-ej-gtm": "{{Section.Options.Parameters.OnRejectButtonGtmTag}}",
+              "data-ej-gtm": "button|addALargeCabinBagDrawer|no"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/cabin-bags",
+        "title": "Cabin bags | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seats.",
+          "memory": "",
+          "next_goal": "Confirm to skip seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 17
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 17: ",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/bags",
+            "title": "Hold luggage & sports equipment | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "img",
+            "xpath": "html/body/div[3]/div/main/div/div[2]/div/ul/li[8]/span/img",
+            "highlight_index": 17,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "main",
+              "div",
+              "div",
+              "div",
+              "ul",
+              "li",
+              "span",
+              "img"
+            ],
+            "attributes": {
+              "class": "breadcrumb-icon",
+              "ng-src": "/ejcms/cache/medialibrary/Images/Global/Main-III/Funnel-Journey-Breadcrumb-Icons/checkout-grey.svg",
+              "src": "/ejcms/cache/medialibrary/Images/Global/Main-III/Funnel-Journey-Breadcrumb-Icons/checkout-grey.svg"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/bags",
+        "title": "Hold luggage & sports equipment | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seats.",
+          "memory": "",
+          "next_goal": "Confirm to skip seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 40
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 40: Skip bags",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/bags",
+            "title": "Hold luggage & sports equipment | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div[2]/div[2]/div/div/div[2]/div/div/div/div[5]/div/button[2]",
+            "highlight_index": 40,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "ng-click": "SkipButtonClick($event)",
+              "ng-show": "ShowSkipButton()",
+              "ng-disabled": "!CanGoToNextStep()",
+              "ng-class": "{\n\t\t\t\t\t\t'disabled' : !CanGoToNextStep(),\n\t\t\t\t\t\t'ej-link-button arrow-button skip-link' : !ForceCtaAsButton,\n\t\t\t\t\t\t'ej-button' : ForceCtaAsButton,\n\t\t\t\t        'disabled-basket': ForceDisabledDisplay\n\t\t\t\t\t}",
+              "data-ej-gtm": "button|basket|skip",
+              "aria-label": "Skip bags page",
+              "class": "ej-link-button arrow-button skip-link",
+              "aria-disabled": "false",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/bags",
+        "title": "Hold luggage & sports equipment | easyJet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seats.",
+          "memory": "",
+          "next_goal": "Confirm to skip seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 50
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 50: Skip",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/car-rental",
+            "title": "Car Rental | easyjet.com"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div[2]/div[2]/div/div/div[2]/div/div/div/div[5]/div/button[2]",
+            "highlight_index": 50,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "ng-click": "SkipButtonClick($event)",
+              "ng-show": "ShowSkipButton()",
+              "ng-disabled": "!CanGoToNextStep()",
+              "ng-class": "{\n\t\t\t\t\t\t'disabled' : !CanGoToNextStep(),\n\t\t\t\t\t\t'ej-link-button arrow-button skip-link' : !ForceCtaAsButton,\n\t\t\t\t\t\t'ej-button' : ForceCtaAsButton,\n\t\t\t\t        'disabled-basket': ForceDisabledDisplay\n\t\t\t\t\t}",
+              "data-ej-gtm": "button|basket|skip",
+              "aria-label": "Skip car rental page",
+              "class": "ej-link-button arrow-button skip-link",
+              "aria-disabled": "false",
+              "style": ""
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/car-rental",
+        "title": "Car Rental | easyjet.com"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Skipped seats.",
+          "memory": "",
+          "next_goal": "Confirm to skip seats."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 4
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 4: I don\u2019t need insurance",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/travel-insurance",
+            "title": "Travel insurance"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "button",
+            "xpath": "html/body/div[3]/div/header/div[3]/div/div/div/div[2]/button",
+            "highlight_index": 4,
+            "entire_parent_branch_path": [
+              "div",
+              "div",
+              "header",
+              "div",
+              "div",
+              "div",
+              "div",
+              "div",
+              "button"
+            ],
+            "attributes": {
+              "class": "button-link arrow-button",
+              "ng-click": "Cancel()",
+              "aria-label": "Skip travel insurance page"
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.easyjet.com/en/buy/travel-insurance",
+        "title": "Travel insurance"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Arrived at the final checkout page.",
+          "memory": "",
+          "next_goal": "Complete the task."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I have navigated through all booking steps up to the final Checkout page, but I cannot proceed further without signing in or providing payment information. The task is complete up to the specified point."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I have navigated through all booking steps up to the final Checkout page, but I cannot proceed further without signing in or providing payment information. The task is complete up to the specified point.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage",
+            "title": "Cheap Holidays 2025 / 2026 \ud83c\udf34 | easyJet holidays"
+          },
+          {
+            "page_id": 1,
+            "url": "https://www.easyjet.com/en/buy/checkout",
+            "title": "Checkout | easyJet.com"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.easyjet.com/en/buy/checkout",
+        "title": "Checkout | easyJet.com"
+      }
+    }
+  ]
+}

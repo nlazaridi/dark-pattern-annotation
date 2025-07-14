@@ -1,0 +1,98 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+_[:]Fees
+_[:]FAQs
+_[:]My bookings
+_[:]Log in
+_[:]myRyanair Portal
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Barcelona
+_[:](All airports)
+_[:]Milan
+_[:](All airports)
+_[:]Return
+_[:]17 Jul
+_[:]- 1 Aug
+_[:]1
+_[:]Edit search
+_[:]Flights
+_[:]Seats
+_[:]Bags
+_[:]Extras
+_[:]Review & Pay
+_[:]Your selected flights
+_[:]Edit flights
+_[:]18
+_[:]JUL
+_[:]16:35
+_[:]Barcelona
+_[:]FR 7541
+_[:]1h 45m
+_[:]18:20
+_[:]Milan Malpensa
+_[:]02
+_[:]AUG
+_[:]06:15
+_[:]Milan Malpensa
+_[:]FR 270
+_[:]1h 40m
+_[:]· Operated by Malta Air
+_[:]07:55
+_[:]Barcelona
+_[:]Your selected fare
+_[:]Basic
+_[:]Travel light
+_[:]€127.98
+0[:]<a ></a>
+1[:]<input type="email" name="undefined" placeholder="Email"></input>
+2[:]<button ></button>
+3[:]<label ></label>
+4[:]<input type="checkbox" tabindex="0"></input>
+5[:]<a ></a>
+6[:]<a ></a>
+7[:]<a tabindex="0"></a>
+8[:]<a tabindex="0"></a>
+9[:]<a tabindex="0"></a>
+10[:]<a tabindex="0"></a>
+11[:]<a tabindex="0"></a>
+12[:]<button ></button>
+13[:]<div tabindex="0"></div>
+_[:]REGULAR is ideal for your trip!
+_[:]Basic does not include a 10kg overhead locker bag, priority boarding or seat selection.
+_[:]Upgrade to Regular for only
+_[:]€30.25 more
+_[:]per person on each flight.
+14[:]<img alt="Image that represents standard fare"></img>
+_[:]Basic
+_[:]Travel light
+15[:]<img alt="Image that represents regular fare"></img>
+_[:]Regular
+_[:]Choose your seat and 10kg bag on board
+_[:]Recommended
+_[:]1 small bag
+_[:]Reserved seat
+_[:]Specific rows available
+_[:]Priority boarding
+_[:]10kg overhead locker bag
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Total price
+16[:]<button >Continue with Basic</button>
+_[:]just
+_[:]€30.25
+_[:]more
+_[:]on each flight
+17[:]<button >Switch to Regular</button>
+18[:]<div tabindex="0"></div>
+... 353 pixels below - scroll or extract content to see more ...

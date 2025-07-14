@@ -1,0 +1,141 @@
+
+
+Current url: https://www.united.com/en/us/book-flight/customizetravel/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us/book-flight/customizetravel/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R', title='Customize Your Travel | United Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<img alt="United logo link to homepage"></img>
+2[:]<button aria-label="Currently in English US	$ enter to change" type="button">English - US	$</button>
+3[:]<a aria-label="Search, opens in a new tab"></a>
+4[:]<button aria-label="Sign in" type="button">Sign in</button>
+5[:]<button aria-label="Shopping cart with 1 item" type="button">1</button>
+6[:]<button aria-label="Main menu" type="button">Main menu
+Menu</button>
+_[:]Travel add-ons
+_[:]Denver, CO, US (DEN) to Orlando, FL, US (MCO)
+_[:]Bundle Offer 1
+_[:]Seat assignment
+7[:]<button type="button">Seat assignment</button>
+_[:]$55
+_[:]Per person
+8[:]<label >Select</label>
+_[:]Bundle Offer 2
+_[:]Seat assignment
+9[:]<button type="button">Seat assignment</button>
+_[:]Standard checked bag
+10[:]<button type="button">Standard checked bag</button>
+_[:]$92
+_[:]Per person
+11[:]<label >Select</label>
+_[:]Bundle Offer 3
+_[:]Seat assignment
+12[:]<button type="button">Seat assignment</button>
+_[:]United Club access
+13[:]<button type="button">United Club access</button>
+_[:]$107
+_[:]Per person
+14[:]<label >Select</label>
+_[:]Orlando, FL, US (MCO) to Denver, CO, US (DEN)
+_[:]Bundle Offer 1
+_[:]Seat assignment
+15[:]<button type="button">Seat assignment</button>
+_[:]$55
+_[:]Per person
+16[:]<label >Select</label>
+_[:]Bundle Offer 2
+_[:]Seat assignment
+17[:]<button type="button">Seat assignment</button>
+_[:]Standard checked bag
+18[:]<button type="button">Standard checked bag</button>
+_[:]$92
+_[:]Per person
+19[:]<label >Select</label>
+_[:]Bundle Offer 3
+_[:]Seat assignment
+20[:]<button type="button">Seat assignment</button>
+_[:]United Club access
+21[:]<button type="button">United Club access</button>
+_[:]$107
+_[:]Per person
+22[:]<label >Select</label>
+_[:]WANT TO MAKE THE FUTURE OF FLYING MORE SUSTAINABLE?
+_[:]Join our mission to help fight climate change. Your contribution will go directly to United’s account that supports our sustainability initiatives, called the sustainable flight account.
+23[:]<a aria-label="Learn more about United’s sustainable flight account, opens in a new tab"></a>
+24[:]<input type="range" value="1"></input>
+_[:]$3.50
+25[:]<button aria-label="Add $3.50" type="button"></button>
+_[:]Roundtrip
+_[:](1 TRAVELER)
+26[:]<button >Revise this trip</button>
+_[:]Flight selection list
+_[:]Flight 1 of 2
+_[:]Denver DEN to Orlando MCO
+_[:]Jul 18
+_[:]Friday, July 18
+_[:]6:00 AM to 11:45 AM
+_[:]Nonstop
+_[:]Basic Economy
+27[:]<button aria-expanded="false">Show details</button>
+_[:]178 kg CO
+_[:]2
+_[:]Carbon emissions estimate: 178 kilograms.
+28[:]<button type="button">Learn more about carbon emissions</button>
+_[:]Flight 2 of 2
+_[:]Orlando MCO to Denver DEN
+_[:]Jul 25
+_[:]Friday, July 25
+_[:]5:11 PM to 7:31 PM
+_[:]Nonstop
+_[:]Basic Economy
+29[:]<button aria-expanded="false">Show details</button>
+_[:]156 kg CO
+_[:]2
+_[:]Carbon emissions estimate: 156 kilograms.
+30[:]<button type="button">Learn more about carbon emissions</button>
+_[:]Price breakdown
+_[:]Fare
+_[:]$210.58
+_[:]1 adult 18+
+_[:]$210.58
+_[:]/person
+31[:]<button aria-expanded="false" type="button">Taxes and fees</button>
+_[:]$46.39
+_[:]Total due
+_[:]$256.97
+32[:]<button >Continue to seats</button>
+_[:]Cart ID: 415571554
+33[:]<button type="button">Learn more about Cart ID</button>
+34[:]<button type="button"></button>
+35[:]<button type="button"></button>
+36[:]<button type="button"></button>
+37[:]<a aria-label="Careers, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+38[:]<a ></a>
+39[:]<button ></button>
+40[:]<button aria-label="Currently in English US	$ enter to change" type="button"></button>
+41[:]<button aria-label="Switch to Español"></button>
+42[:]<a aria-label="Open United's Tiktok feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+43[:]<a aria-label="Open United's Facebook page in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+44[:]<a aria-label="Open United's Twitter feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+45[:]<a aria-label="Open United's YouTube page in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+46[:]<a aria-label="Open United's Instagram feed in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+47[:]<a aria-label="Open United's LinkedIn profile in a new tab, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+48[:]<a aria-label=""></a>
+49[:]<a aria-label=""></a>
+50[:]<a aria-label=""></a>
+51[:]<a aria-label=""></a>
+52[:]<a aria-label=""></a>
+53[:]<a aria-label=""></a>
+54[:]<a aria-label=""></a>
+55[:]<a aria-label="Do Not Sell or Share My Personal Information, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+56[:]<a aria-label=""></a>
+57[:]<a aria-label="United Jetstream, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+58[:]<a aria-label="Cargo, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+59[:]<a aria-label="Electronic Invoice, this link is to an external site that may or may not meet accessibility guidelines, opens in a new tab."></a>
+60[:]<a title="United logo link to homepage"></a>
+61[:]<img alt="United logo link to homepage" role="presentation"></img>
+62[:]<a title="United is a proud member of Star Alliance"></a>
+63[:]<img alt="United is a proud member of Star Alliance" role="presentation"></img>
+64[:]<button role="button" aria-expanded="false">Site Feedback</button>
+... 611 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,130 @@
+
+
+Current url: https://www.easyjet.com/en/buy/cabin-bags
+Available tabs:
+[TabInfo(page_id=0, url='https://www.easyjet.com/en/holidays?ibf=true&to=24-07-2025&from=17-07-2025&dst=PTLI,PTPO,PTEC&sAccId=&geog=PT,PTLI|PTPO|PTEC&org=EDI&aa=0&rooms=1&take=10&orderBy=&orderDirection=&m=0&openSearchPodWhoField=1&isReferer=1&utm_source=easyjet&utm_campaign=holidays&utm_content=popunder&utm_medium=en_homepage', title='Cheap Holidays 2025 / 2026 🌴 | easyJet holidays'), TabInfo(page_id=1, url='https://www.easyjet.com/en/buy/cabin-bags', title='Cabin bags | easyJet.com')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main page content
+_[:]Your cabin bags
+_[:]<
+_[:]Back
+_[:]Happy with your cabin bag allowance ?
+_[:]EDI to LIS, Thu 17th Jul
+_[:]LIS to EDI, Thu 24th Jul
+_[:]Skip
+_[:]Pick flights
+_[:]Passenger Details
+_[:]Seat selection
+_[:]Cabin bags
+_[:]Hold luggage
+_[:]Car rental
+_[:]Travel Insurance
+_[:]Checkout
+_[:]Small under seat bag
+_[:](max. 45 x 36 x 20 cm)
+_[:]Included for all passengers
+_[:]Bag details
+_[:]Large cabin bag
+_[:](max. 56 x 45 x 25 cm)
+_[:]£
+_[:]32
+_[:].
+_[:]99
+_[:]£32.99
+_[:]per person per flight
+_[:]Bag details
+_[:]Select your cabin bag allowance
+_[:]John Doe
+_[:]Small under seat bag
+_[:]Included for all passengers
+_[:]Large cabin bag
+_[:]Add for
+_[:]£
+_[:]32
+_[:].
+_[:]99
+_[:]* per flight
+_[:]✓
+_[:]✓
+_[:]Same for all flights
+_[:]Please check your cabin bag allowance. Bags and seats are sold separately, so you can now book exactly what you need. If you arrive at the airport with bags outside of your allowance, they’ll need to be put in the hold and will be subject to the airport bag fee.
+_[:]*Prices are shown per flight and are averaged across all flights in the basket.Prices may vary if you add bags at a later stage
+_[:]Purchasing your bags online is cheaper. Any bags not purchased online or that exceed your cabin bag allowance will need to be placed in the hold and will be subject to an airport bag fee of up to £48 per bag.
+_[:]Your current basket
+_[:]Basket
+_[:]£
+_[:]383
+_[:].
+_[:]69
+_[:]£383.69
+_[:]Price breakdown
+_[:]Edinburgh to Lisbon
+_[:]Flight Number
+_[:]EZY3321
+_[:]Departure
+_[:]06:05
+_[:]Thu 17th Jul
+_[:]Arrival
+_[:]09:20
+_[:]Your fares
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]216
+_[:].
+_[:]99
+_[:]£216.99
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Lisbon to Edinburgh
+_[:]Flight Number
+_[:]EZY3322
+_[:]Departure
+_[:]09:50
+_[:]Thu 24th Jul
+_[:]Arrival
+_[:]13:05
+_[:]Your fares
+_[:]Adult
+_[:]1
+_[:]x
+_[:]£
+_[:]166
+_[:].
+_[:]70
+_[:]£166.70
+_[:]Included in your fare
+_[:]Small cabin bag
+_[:]1
+_[:]x
+_[:]Included
+_[:]Skip
+_[:]EDI to LIS, Thu 17th Jul
+_[:]LIS to EDI, Thu 24th Jul
+_[:]Skip
+_[:]Add a large cabin bag
+0[:]<button title="Close"></button>
+1[:]<img alt="Close dialogue"></img>
+_[:]Everyone can bring on board one small cabin bag.
+_[:]You can add a large cabin bag to your booking if you'd like to bring more
+2[:]<img alt="Small Cabin Bag Image"></img>
+_[:]One
+_[:]small
+_[:]cabin bag
+3[:]<img alt="No Large Cabin Bag"></img>
+_[:]No
+_[:]large
+_[:]cabin bag
+_[:]Purchasing your bags online is cheaper. Any bags not purchased online, or that exceed
+_[:]your cabin bag allowance, will need to be placed in the hold and will be subject to an
+_[:]airport bag fee of up to £48 per bag.
+_[:]easyJet Plus member? Great! A large cabin bag is included in your membership. Locker space is limited, so if you let us know as soon as possible that you are bringing a large cabin bag with you, we can save some room for you. Add a large cabin bag to your booking now for free
+4[:]<button >I'll add a large cabin bag</button>
+5[:]<button >No, thanks. I'll take a small cabin bag</button>
+6[:]<div tabindex="-1" role="button"></div>
+[End of page]

@@ -1,0 +1,105 @@
+
+
+Current url: https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us/traveler/choose-travelers?cartId=206A1FC5-2023-48B5-B15E-43C98FC491F1&tqp=R', title='United Airlines Reservations - Book a Flight on More Than 80 Airlines')]
+Interactive elements from current page view:
+... 945 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="United logo link to homepage"></img>
+2[:]<button aria-label="Currently in English US	$ enter to change" type="button">English - US	$</button>
+3[:]<a aria-label="Search, opens in a new tab"></a>
+4[:]<button aria-label="Sign in" type="button">Sign in</button>
+5[:]<button aria-label="Shopping cart with 1 item" type="button">1</button>
+6[:]<button aria-label="Main menu" type="button">Main menu
+Menu</button>
+7[:]<button aria-expanded="true" type="button"></button>
+8[:]<button aria-label="Link to footnote 1"></button>
+9[:]<button aria-label="Link to footnote 2"></button>
+_[:]First name
+_[:](required)
+_[:]Last name
+_[:](required)
+_[:]Middle name/initial
+_[:]Date of birth
+_[:](required)
+_[:]Month
+10[:]<select aria-label="Month"></select>
+_[:]Day
+11[:]<input type="text" placeholder="DD" value=""></input>
+_[:]Year
+12[:]<input type="text" placeholder="YYYY" value=""></input>
+13[:]<label aria-label="Gender required">Gender
+(required)</label>
+14[:]<button type="button">About traveler gender.</button>
+15[:]<select name="rtiTraveler.travelers[0].gender"></select>
+16[:]<label >Suffix</label>
+17[:]<select name="rtiTraveler.travelers[0].suffix"></select>
+18[:]<button aria-expanded="true" type="button">Frequent flyer program</button>
+19[:]<label >Frequent flyer program</label>
+20[:]<select name="rtiTraveler.travelers[0].frequentFlyer.program"></select>
+21[:]<label >Frequent flyer number</label>
+22[:]<input name="rtiTraveler.travelers[0].frequentFlyer.number" type="text" value=""></input>
+23[:]<button aria-expanded="false" type="button">Traveler contact information</button>
+24[:]<button aria-expanded="false" type="button">Known Traveler Number or redress number</button>
+25[:]<button aria-expanded="false" type="button">Special meal requests</button>
+26[:]<button aria-expanded="false" type="button">Assistance requests
+Wheelchair services, mobility devices and other accessibility options</button>
+_[:]FareLock
+_[:]Hold this fare
+_[:]and complete your purchase at a later date.
+27[:]<input type="radio" value="1"></input>
+28[:]<label >3 days for
+$5.99 per person</label>
+29[:]<input type="radio" value="2"></input>
+30[:]<label >7 days for
+$8.99 per person</label>
+31[:]<input type="radio" value="3"></input>
+32[:]<label >14 days for
+$12.99 per person</label>
+33[:]<button aria-expanded="true" type="button"></button>
+34[:]<button ></button>
+35[:]<button ></button>
+_[:]Basic Economy
+_[:]Show details
+_[:]178 kg CO
+_[:]2
+_[:]Carbon emissions estimate: 178 kilograms.
+_[:]Learn more about carbon emissions
+_[:]Flight 2 of 2
+_[:]Orlando MCO to Denver DEN
+_[:]Jul 25
+_[:]Friday, July 25
+_[:]5:11 PM to 7:31 PM
+_[:]Nonstop
+_[:]Basic Economy
+36[:]<button aria-expanded="false">Show details</button>
+_[:]156 kg CO
+_[:]2
+_[:]Carbon emissions estimate: 156 kilograms.
+37[:]<button type="button">Learn more about carbon emissions</button>
+_[:]Price breakdown
+_[:]Fare
+_[:]$210.58
+_[:]1 adult 18+
+_[:]$210.58
+_[:]/person
+38[:]<button aria-expanded="false" type="button">Taxes and fees</button>
+_[:]$46.39
+_[:]Total due
+_[:]$256.97
+_[:]or starting from
+39[:]<button type="button" aria-label="">$
+39
+/month</button>
+40[:]<button >Continue</button>
+_[:]Cart ID: 415571554
+41[:]<button type="button">Learn more about Cart ID</button>
+42[:]<button aria-expanded="true" type="button"></button>
+43[:]<label ></label>
+44[:]<label ></label>
+45[:]<button type="button"></button>
+46[:]<select ></select>
+47[:]<button aria-expanded="false" type="button"></button>
+48[:]<button role="button" aria-expanded="false">Site Feedback</button>
+... 1152 pixels below - scroll or extract content to see more ...

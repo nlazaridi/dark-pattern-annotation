@@ -1,0 +1,325 @@
+
+
+Current url: https://www.turkishairlines.com/en/flight-deals
+Available tabs:
+[TabInfo(page_id=0, url='https://www.turkishairlines.com/en/flight-deals', title='Flight Deals | Turkish Airlines')]
+Interactive elements from current page view:
+... 552 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="Turkish Airlines"></img>
+2[:]<button type="button" aria-expanded="false"></button>
+3[:]<button type="button" aria-expanded="false"></button>
+4[:]<button type="button" aria-expanded="false"></button>
+5[:]<button type="button" aria-expanded="false"></button>
+6[:]<a ></a>
+7[:]<span tabindex="0" role="button"></span>
+8[:]<div ></div>
+9[:]<div ></div>
+10[:]<div ></div>
+11[:]<div ></div>
+12[:]<div ></div>
+13[:]<div ></div>
+14[:]<div ></div>
+15[:]<div ></div>
+16[:]<div ></div>
+17[:]<div ></div>
+18[:]<div ></div>
+19[:]<div ></div>
+20[:]<button aria-label="fc-booking-journey-type-aria-label, Round-trip" type="button" aria-expanded="false"></button>
+21[:]<div ></div>
+22[:]<div ></div>
+23[:]<div ></div>
+24[:]<div ></div>
+25[:]<div ></div>
+26[:]<div ></div>
+27[:]<div ></div>
+28[:]<button aria-label="Traveler Information. Press Enter or Spacebar key to open the passenger selection menu and use the Tab key to move through the passenger section and complete your selection, 1 Passenger, Economy" type="button" aria-expanded="false"></button>
+29[:]<div ></div>
+30[:]<div ></div>
+31[:]<div ></div>
+32[:]<div ></div>
+33[:]<div ></div>
+34[:]<div ></div>
+35[:]<div ></div>
+36[:]<div ></div>
+37[:]<div ></div>
+38[:]<label ></label>
+39[:]<input aria-label="fc-booking-origin-aria-label" placeholder="Origin" role="combobox" type="text" aria-expanded="false" value=""></input>
+40[:]<div ></div>
+41[:]<div ></div>
+42[:]<div ></div>
+43[:]<div ></div>
+44[:]<div ></div>
+45[:]<div ></div>
+46[:]<div ></div>
+47[:]<label ></label>
+48[:]<input aria-label="fc-booking-destination-aria-label" placeholder="Destination" role="combobox" type="text" aria-expanded="false" value=""></input>
+49[:]<div ></div>
+50[:]<div ></div>
+51[:]<div ></div>
+52[:]<div ></div>
+53[:]<div role="none" aria-expanded="false"></div>
+54[:]<div ></div>
+55[:]<div ></div>
+56[:]<div ></div>
+57[:]<div ></div>
+58[:]<div ></div>
+59[:]<div ></div>
+60[:]<label ></label>
+61[:]<label ></label>
+62[:]<button aria-expanded="false" type="button"></button>
+63[:]<div ></div>
+64[:]<div ></div>
+65[:]<div role="none" aria-expanded="false"></div>
+66[:]<div ></div>
+67[:]<div ></div>
+68[:]<div ></div>
+69[:]<div ></div>
+70[:]<div ></div>
+71[:]<div ></div>
+72[:]<label ></label>
+73[:]<label ></label>
+74[:]<button aria-expanded="false" type="button"></button>
+75[:]<div ></div>
+76[:]<button type="button"></button>
+77[:]<a ></a>
+_[:]Discover the most popular flight destinations
+_[:]From
+_[:]flight_takeoff
+_[:]close
+_[:]To
+_[:]flight_land
+_[:]keyboard_arrow_down
+_[:]Cabin Class
+_[:]Cabin Class option undefined Selected
+_[:]Select Travel Class
+_[:]keyboard_arrow_down
+_[:]Frankfurt (FRA)
+_[:]to
+_[:]Istanbul (IST)
+_[:]Thu, September 04 - Thu, September 18
+_[:]From
+_[:]EUR207
+_[:]*
+_[:]Last update 4 minutes ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+_[:]BOOK NOW
+_[:]Frankfurt (FRA)
+_[:]to
+_[:]Istanbul (IST)
+_[:]Tue, September 09 - Tue, September 23
+_[:]From
+_[:]EUR207
+_[:]*
+_[:]Last update 4 minutes ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+_[:]BOOK NOW
+_[:]Frankfurt (FRA)
+_[:]to
+_[:]Istanbul (IST)
+_[:]Wed, September 17 - Wed, September 24
+_[:]From
+_[:]EUR207
+_[:]*
+_[:]Last update 4 minutes ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+_[:]BOOK NOW
+_[:]Frankfurt (FRA)
+_[:]to
+_[:]Istanbul (IST)
+_[:]Thu, September 11 - Thu, September 25
+_[:]From
+_[:]EUR207
+_[:]*
+_[:]Last update 4 minutes ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+_[:]BOOK NOW
+_[:]Frankfurt (FRA)
+_[:]to
+_[:]Istanbul (IST)
+_[:]Mon, September 15 - Mon, September 29
+_[:]From
+_[:]EUR207
+_[:]*
+_[:]Last update 4 minutes ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+_[:]BOOK NOW
+_[:]Frankfurt (FRA)
+_[:]to
+_[:]Istanbul (IST)
+_[:]Wed, September 24 - Wed, October 08
+_[:]From
+_[:]EUR207
+_[:]*
+_[:]Last update 4 minutes ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+_[:]BOOK NOW
+_[:]Frankfurt (FRA)
+_[:]to
+_[:]Istanbul (IST)
+_[:]Thu, September 18 - Thu, September 25
+_[:]From
+_[:]EUR207
+_[:]*
+_[:]Last update 4 minutes ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+_[:]BOOK NOW
+_[:]Frankfurt (FRA)
+_[:]to
+_[:]Istanbul (IST)
+_[:]Mon, September 22 - Mon, September 29
+_[:]From
+_[:]EUR207
+_[:]*
+_[:]Last update 4 minutes ago
+_[:]Round-trip
+_[:]/
+_[:]Economy
+_[:]BOOK NOW
+78[:]<img alt=""></img>
+79[:]<button type="button" aria-label="BOOK NOW Frankfurt FRA to Istanbul IST Wed, September 17 - Thu, September 25 From EUR204 Last update 1 day ago Round-trip Economy"></button>
+80[:]<img alt=""></img>
+81[:]<button type="button" aria-label="BOOK NOW Frankfurt FRA to Istanbul IST Mon, September 22 - Wed, October 01 From EUR204 Last update 1 day ago Round-trip Economy"></button>
+82[:]<img alt=""></img>
+83[:]<button type="button" aria-label="BOOK NOW Frankfurt FRA to Beirut BEY Mon, September 22 - Mon, October 06 From EUR401 Last update 23 minutes ago Round-trip Economy"></button>
+84[:]<img alt=""></img>
+85[:]<button type="button" aria-label="BOOK NOW Frankfurt FRA to Beirut BEY Tue, September 23 - Tue, October 07 From EUR401 Last update 23 minutes ago Round-trip Economy"></button>
+86[:]<img alt=""></img>
+87[:]<img alt=""></img>
+88[:]<img alt=""></img>
+89[:]<img alt=""></img>
+_[:]Explore our interactive map and find our best flight deals*
+90[:]<label >From</label>
+91[:]<div role="combobox" aria-expanded="false"></div>
+92[:]<input type="text" placeholder="Departure City" value=""></input>
+93[:]<div ></div>
+_[:]Selector collapsed Enter the origin city of the trip.
+94[:]<button type="button" aria-expanded="false" aria-label="Depart ">Departure date</button>
+95[:]<button type="button" aria-expanded="false" aria-label="cmp-travel-class-filter-label-selected-item Travel Class Economy ">Travel Class</button>
+96[:]<button type="button" aria-expanded="false" aria-label="cmp-travel-class-filter-label-selected-item cmp-location-selector-label-flight-type Round-trip ">Trip Type</button>
+97[:]<button aria-label="cmp-secondary-filter-clear-button-accessibility-message" type="button">Clear</button>
+_[:]Select departure city to see available route destinations
+_[:]16
+_[:]7
+_[:]11
+_[:]3
+_[:]4
+_[:]7
+_[:]7
+_[:]2
+_[:]60
+_[:]2
+_[:]4
+_[:]11
+_[:]9
+_[:]2
+_[:]4
+_[:]3
+_[:]2
+_[:]5
+_[:]4
+_[:]4
+_[:]12
+_[:]5
+_[:]6
+_[:]23
+_[:]28
+_[:]2
+_[:]42
+_[:]6
+_[:]6
+_[:]2
+_[:]6
+_[:]3
+_[:]2
+_[:]30
+_[:]26
+_[:]*Fares displayed have been collected within the last 48 hours and may no longer be available at the time of booking. The prices don’t have TUA (Airport Usage Fee) in domestic flights. Learn more about this offer.
+98[:]<div ></div>
+99[:]<div ></div>
+100[:]<div ></div>
+101[:]<button aria-label="x" type="button">close</button>
+102[:]<div >Book your flight</div>
+103[:]<div ></div>
+104[:]<div ></div>
+105[:]<div ></div>
+106[:]<div ></div>
+107[:]<div ></div>
+108[:]<div ></div>
+109[:]<div >expand_more</div>
+110[:]<div ></div>
+111[:]<div ></div>
+112[:]<button aria-label="fc-booking-journey-type-aria-label, Round-trip" type="button" aria-expanded="false">Round-trip</button>
+113[:]<div ></div>
+114[:]<div ></div>
+115[:]<div ></div>
+116[:]<div ></div>
+117[:]<div >expand_more</div>
+118[:]<div ></div>
+119[:]<div ></div>
+120[:]<button aria-label="Traveler Information. Press Enter or Spacebar key to open the passenger selection menu and use the Tab key to move through the passenger section and complete your selection, 1 Passenger, Economy" type="button" aria-expanded="false">1 Passenger, Economy</button>
+121[:]<div ></div>
+122[:]<div ></div>
+123[:]<div ></div>
+124[:]<div ></div>
+125[:]<div ></div>
+126[:]<div ></div>
+127[:]<div ></div>
+128[:]<div ></div>
+129[:]<div ></div>
+130[:]<div ></div>
+131[:]<label >From</label>
+132[:]<input aria-label="fc-booking-origin-aria-label" placeholder="Origin" role="combobox" type="text" aria-expanded="false" value=""></input>
+133[:]<button aria-label="Clear filter" type="button">close</button>
+134[:]<div ></div>
+135[:]<div ></div>
+136[:]<div ></div>
+137[:]<div ></div>
+138[:]<div ></div>
+139[:]<div ></div>
+140[:]<div ></div>
+141[:]<label >To</label>
+142[:]<input aria-label="fc-booking-destination-aria-label" placeholder="Destination" role="combobox" type="text" aria-expanded="false" value=""></input>
+143[:]<button aria-label="Clear filter" type="button">close</button>
+144[:]<div ></div>
+145[:]<div ></div>
+146[:]<div ></div>
+147[:]<div ></div>
+148[:]<div role="none" aria-expanded="false"></div>
+149[:]<div ></div>
+150[:]<div ></div>
+151[:]<div ></div>
+152[:]<div >today</div>
+153[:]<div ></div>
+154[:]<div >fc-booking-departure-date-aria-label</div>
+155[:]<label >Departure date</label>
+156[:]<button aria-expanded="false" type="button">Thu, September 04</button>
+157[:]<div ></div>
+158[:]<div ></div>
+159[:]<div role="none" aria-expanded="false"></div>
+160[:]<div ></div>
+161[:]<div ></div>
+162[:]<div ></div>
+163[:]<div >today</div>
+164[:]<div ></div>
+165[:]<div >fc-booking-return-date-aria-label</div>
+166[:]<label >Return date</label>
+167[:]<button aria-expanded="false" type="button">Thu, September 18</button>
+168[:]<div >*Modifying this information may result in a different fare.</div>
+169[:]<div ></div>
+170[:]<button type="button">Search flight</button>
+... 3930 pixels below - scroll or extract content to see more ...

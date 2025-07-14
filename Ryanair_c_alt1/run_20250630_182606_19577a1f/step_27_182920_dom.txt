@@ -1,0 +1,95 @@
+
+
+Current url: https://ie.hotels.ryanair.com/HotelCheckout?tripid=bc3e76dc-a435-50a1-aee8-b718539f49f9&c=0996707e-d605-4a17-b186-dafdea159040&swpApplied=false&searchId=fd418a5c-69bd-4b46-86ea-43eaedfbe3a9
+Available tabs:
+[TabInfo(page_id=0, url='https://ie.hotels.ryanair.com/Hotel-Search?rooms=1&adults=1&destination=Rome%20City%20Centre%2C%20Rome%2C%20Lazio%2C%20Italy&startDate=2025-07-18&endDate=2025-08-01&d1=2025-07-18&d2=2025-08-01&regionId=553248633938945217&latLong=41.89893613158187%2C12.481600476754943&useRewards=false&rate_type=standalone&isInvalidatedDate=false&upsellingNumNightsAdded=&theme=&userIntent=&semdtl=&upsellingDiscountTypeAdded=&categorySearch=&sort=PRICE_LOW_TO_HIGH', title='Rome City Centre, Rome, Lazio, Italy Hotel Search results'), TabInfo(page_id=1, url='https://ie.hotels.ryanair.com/HotelCheckout?tripid=bc3e76dc-a435-50a1-aee8-b718539f49f9&c=0996707e-d605-4a17-b186-dafdea159040&swpApplied=false&searchId=fd418a5c-69bd-4b46-86ea-43eaedfbe3a9', title='Ryanair Rooms: Payment')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<img alt="Ryanair Ireland logo"></img>
+_[:]Powered by
+2[:]<a ></a>
+3[:]<img alt="Expedia logo"></img>
+_[:]Secure booking — only takes 2 minutes!
+_[:]You've picked a winner! This hotel is rated 7.6/10.
+_[:]Trip Summary
+4[:]<img alt="Bar (on property)"></img>
+_[:]carousel: previous group
+5[:]<button type="button">carousel: next group</button>
+_[:]Alessandro Palace & Bar - Hostel
+_[:]7.6
+_[:]Good
+_[:](165 reviews)
+_[:]1 Room:
+_[:]8 bed mixed dorm shared
+6[:]<a >Non-refundable</a>
+_[:]Check-in:
+_[:]Fri, 18 Jul
+_[:]Check-out:
+_[:]Fri, 1 Aug
+_[:]14-night stay
+7[:]<a >Special Requests (optional)</a>
+_[:]You have good taste! Book now before someone else grabs it!
+_[:]Price details
+_[:]1 room x 14 nights
+_[:]€692.15
+_[:]€49.44
+_[:]average per night
+8[:]<a >10% off</a>
+9[:]<img ></img>
+10[:]<a >Taxes and fees</a>
+_[:]€69.20
+11[:]<a ></a>
+_[:]Who's checking in?
+_[:]*
+_[:]Required
+_[:]Fields marked with an asterisk are required
+_[:]Room 1:
+_[:]1 Adult
+_[:]Non-smoking
+_[:]Internet included
+_[:]Room 1:
+12[:]<label >First name
+*</label>
+13[:]<input type="text" value="" name="tripPreferencesRequest.hotelTripPreferences.hotelRoomPreferences[0].firstName" placeholder="(e.g. John)" aria-label="First name"></input>
+14[:]<label >Surname
+*</label>
+15[:]<input type="text" value="" name="tripPreferencesRequest.hotelTripPreferences.hotelRoomPreferences[0].lastName" placeholder="(e.g. Smith)" aria-label="Surname"></input>
+16[:]<label >Email address
+*</label>
+17[:]<input type="email" name="email" placeholder="Email for confirmation" aria-label="Email address"></input>
+_[:]Country/Territory Code
+_[:]Country/region
+_[:]*
+18[:]<select name="tripPreferencesRequest.hotelTripPreferences.hotelRoomPreferences[0].preferredPhoneCountryCode" aria-label="Country/Territory Code"></select>
+19[:]<label >Phone number
+Phone number
+*</label>
+20[:]<input type="tel" name="tripPreferencesRequest.hotelTripPreferences.hotelRoomPreferences[0].preferredPhoneNumber" value="" aria-label="Phone number"></input>
+_[:]Payment method
+_[:]How would you like to pay?
+_[:]We use secure transmission
+_[:]We protect your personal information
+21[:]<img alt="MasterCard" role="img"></img>
+22[:]<img alt="AmericanExpress" role="img"></img>
+23[:]<img alt="Diner's Club International" role="img"></img>
+24[:]<img alt="Visa"></img>
+_[:]Enter payment information
+25[:]<label >Name on Card
+*</label>
+26[:]<input type="text" name="creditCards[0].cardholder_name" placeholder="" aria-label="Name on Card"></input>
+27[:]<label >Debit/Credit card number
+*</label>
+28[:]<input type="tel" name="creditCards[0].card_number" value="" placeholder="0000 0000 0000 0000" aria-label="Debit/Credit card number"></input>
+_[:]Expiry date
+_[:]*
+29[:]<label >Expiration Month</label>
+30[:]<select name="creditCards[0].expiration_month" aria-label="Expiration Month"></select>
+31[:]<label >Expiration Year</label>
+32[:]<select name="creditCards[0].expiration_year" aria-label="Expiration Year"></select>
+_[:]Security code
+_[:]*
+33[:]<label >Security code</label>
+34[:]<input type="tel" name="creditCards[0].new_card_security_code" value="" placeholder="" aria-label="Security code"></input>
+35[:]<div role="region" tabindex="0"></div>
+... 927 pixels below - scroll or extract content to see more ...

@@ -1,0 +1,162 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/extras/transport?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/extras/transport?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Official Ryanair website | Book direct for the lowest fares | Ryanair.com')]
+Interactive elements from current page view:
+... 1611.3333740234375 pixels above - scroll or extract content to see more ...
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<a aria-label="Fees">Fees</a>
+2[:]<a aria-label="FAQs">FAQs</a>
+3[:]<button >My bookings</button>
+4[:]<button >Log in</button>
+5[:]<button >myRyanair Portal</button>
+_[:]€
+_[:]203
+_[:].
+_[:]96
+6[:]<div ></div>
+7[:]<ul tabindex="0"></ul>
+8[:]<a role="button" tabindex="0">Top Pick
+Flight exclusive: 10% off
+Ford Fiesta
+or similar small car
+Price for 15 days:
+€ 453.61
+€ 408.24
+Free cancellation</a>
+9[:]<img alt="" role="presentation"></img>
+10[:]<span >5 seats</span>
+11[:]<span >Manual</span>
+12[:]<span >1 Large bag</span>
+13[:]<span >1 Small bag</span>
+14[:]<img alt="Supplied by Goldcar"></img>
+15[:]<a role="button" tabindex="0">Flight exclusive: 9% off
+Ideal for Families
+Fiat 500L
+or similar medium car
+Price for 15 days:
+€ 521.79
+€ 474.82
+Free cancellation</a>
+16[:]<img alt="" role="presentation"></img>
+17[:]<span >5 seats</span>
+18[:]<span >Manual</span>
+19[:]<span >1 Large bag</span>
+20[:]<span >1 Small bag</span>
+21[:]<img alt="Supplied by Goldcar"></img>
+22[:]<a role="button" tabindex="0">Flight exclusive: 9% off
+Renault Twingo
+or similar small car
+Price for 15 days:
+€ 436.06
+€ 396.81
+Free cancellation</a>
+23[:]<img alt="" role="presentation"></img>
+24[:]<span >4 seats</span>
+25[:]<span >Manual</span>
+26[:]<span >1 Large bag</span>
+27[:]<img alt="Supplied by Goldcar"></img>
+28[:]<a role="button" tabindex="0">Flight exclusive: 9% off
+Fiat 500
+or similar small car
+Price for 15 days:
+€ 444.83
+€ 404.80
+Free cancellation</a>
+29[:]<img alt="" role="presentation"></img>
+30[:]<span >4 seats</span>
+31[:]<span >Manual</span>
+32[:]<span >1 Large bag</span>
+33[:]<img alt="Supplied by Goldcar"></img>
+34[:]<a role="button" tabindex="0">Opel Grandland
+or similar SUV
+Price for 15 days:
+€ 705.85
+Free cancellation</a>
+35[:]<img alt="" role="presentation"></img>
+36[:]<span >5 seats</span>
+37[:]<span >Automatic</span>
+38[:]<span >3 Large bags</span>
+39[:]<img alt="Supplied by Dollar"></img>
+40[:]<a role="button" tabindex="0">Flight exclusive: 9% off
+Volkswagen Polo
+or similar small car
+Price for 15 days:
+€ 521.79
+€ 474.82
+Free cancellation</a>
+41[:]<img alt="" role="presentation"></img>
+42[:]<span >5 seats</span>
+43[:]<span >Automatic</span>
+44[:]<span >1 Large bag</span>
+45[:]<span >1 Small bag</span>
+46[:]<img alt="Supplied by Goldcar"></img>
+47[:]<button aria-label="Next content" type="button"></button>
+48[:]<label ></label>
+49[:]<button ></button>
+50[:]<label ></label>
+51[:]<button ></button>
+52[:]<img alt="Parking
+"></img>
+53[:]<img ></img>
+54[:]<a ></a>
+55[:]<img ></img>
+56[:]<a ></a>
+_[:]Need more information?
+57[:]<div aria-expanded="false"></div>
+58[:]<div role="button" tabindex="0"></div>
+_[:]BUS AND TRAIN
+_[:]Have you arranged your transport to and from the airport?
+_[:]Arriving to a new city might be stressful, we will help you to get where you want to go.
+_[:]Buses and Trains in Barcelona
+_[:]Buses and Trains in Milan Malpensa
+59[:]<img alt=" Bus and Train"></img>
+60[:]<a tabindex="0">Provider info and timetable</a>
+61[:]<div aria-expanded="true"></div>
+62[:]<div role="button" tabindex="0">Plus Group
+Recommended
+Low cost bus service
+From
+€
+10
+.
+00</div>
+63[:]<img alt=""></img>
+64[:]<div role="tabpanel">Ticket Type
+Passengers
+0
+From
+Choose origin
+To
+Choose destination</div>
+65[:]<label >One Way</label>
+66[:]<label >Return</label>
+67[:]<button type="submit">Add</button>
+68[:]<img alt=" Bus and Train"></img>
+69[:]<a tabindex="0">Provider info and timetable</a>
+70[:]<div aria-expanded="false"></div>
+71[:]<div role="button" tabindex="0">Looking for Transfers
+Airport bus service
+From
+€
+10
+.
+00</div>
+72[:]<img alt=""></img>
+73[:]<div aria-expanded="false"></div>
+74[:]<div role="button" tabindex="0">Frequently Asked Questions</div>
+75[:]<button >Continue</button>
+_[:]2025 © Ryanair DAC. All rights reserved.
+_[:]A card payment processing fee may be applied to your booking. This fee will be reflected in the total price once the card number has been entered. Please see our
+76[:]<a >GTCC</a>
+_[:]for more details.
+77[:]<a tabindex="0">General terms & conditions of carriage</a>
+78[:]<a tabindex="0">Terms of Use</a>
+79[:]<a tabindex="0">Privacy Policy</a>
+80[:]<a tabindex="0">Cookies</a>
+81[:]<a tabindex="0">Contact us</a>
+82[:]<button >Cookie preferences</button>
+_[:]Verified
+_[:]by Ryanair
+... 1.6666259765625 pixels below - scroll or extract content to see more ...

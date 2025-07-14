@@ -1,0 +1,294 @@
+
+
+Current url: https://www.booking.com/searchresults.en-us.html?aid=1320040&label=standalone&sid=62fb751ed41b8b6b915709a04bbaedb1&sb=1&sb_lp=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.en-us.html%3Faid%3D1320040%26label%3Dstandalone%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26sb_price_type%3Dtotal%26&ss=Istanbul%2C+Marmara+Region%2C+Turkey&is_ski_area=&checkin_year=2025&checkin_month=7&checkin_monthday=18&checkout_year=2025&checkout_month=7&checkout_monthday=25&flex_window=0&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Istanbul&ac_position=0&ac_langcode=en&ac_click_type=b&ac_meta=GhBhNmYxNTU3YzZhYmIwNzQwIAAoATICZW46CElzdGFuYnVsQABKAFAA&dest_id=-755070&dest_type=city&iata=IST&place_id_lat=41.00817&place_id_lon=28.974445&search_pageview_id=d5b2557886d80862&search_selected=true&search_pageview_id=d5b2557886d80862&ac_suggestion_list_length=5&ac_suggestion_theme_list_length=0
+Available tabs:
+[TabInfo(page_id=0, url='https://www.booking.com/searchresults.en-us.html?aid=1320040&label=standalone&sid=62fb751ed41b8b6b915709a04bbaedb1&sb=1&sb_lp=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.en-us.html%3Faid%3D1320040%26label%3Dstandalone%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26sb_price_type%3Dtotal%26&ss=Istanbul%2C+Marmara+Region%2C+Turkey&is_ski_area=&checkin_year=2025&checkin_month=7&checkin_monthday=18&checkout_year=2025&checkout_month=7&checkout_monthday=25&flex_window=0&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Istanbul&ac_position=0&ac_langcode=en&ac_click_type=b&ac_meta=GhBhNmYxNTU3YzZhYmIwNzQwIAAoATICZW46CElzdGFuYnVsQABKAFAA&dest_id=-755070&dest_type=city&iata=IST&place_id_lat=41.00817&place_id_lon=28.974445&search_pageview_id=d5b2557886d80862&search_selected=true&search_pageview_id=d5b2557886d80862&ac_suggestion_list_length=5&ac_suggestion_theme_list_length=0', title='Booking.com: Hotels in Istanbul. Book your hotel now!')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<body >Earn
+2 Miles
+per € 1 spent
+You need to provide your loyalty info during or after booking.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132</body>
+1[:]<div >In partnership with</div>
+2[:]<a aria-label="Booking.com"></a>
+3[:]<button aria-label="Prices in Euro" type="button">EUR</button>
+4[:]<button aria-label="Language: English (US)" type="button"></button>
+5[:]<img alt="" role="presentation"></img>
+6[:]<a aria-label="Customer support"></a>
+7[:]<a >List your property</a>
+8[:]<a aria-label="Register an account">Register</a>
+9[:]<a aria-label="Sign in">Sign in</a>
+10[:]<a ></a>
+11[:]<img alt="TURKISH AIRLINES INC"></img>
+12[:]<div >Search results</div>
+13[:]<a >Home</a>
+14[:]<a >Turkey</a>
+15[:]<a >Marmara Region</a>
+16[:]<a >Istanbul</a>
+17[:]<a >See promotion details</a>
+18[:]<img alt="Turkish Airlines"></img>
+19[:]<div >Istanbul: 3,800 properties found</div>
+20[:]<div role="button" tabindex="0"></div>
+21[:]<span >Show on map</span>
+22[:]<div >Commission paid on bookings and other factors can affect property rankings. Learn about these ranking parameters and how to select and modify them.
+Browse the results for Istanbul
+This property matches your criteria and may be ranked higher in your search results. It will pay us a higher commission if you make a booking.
+Managed by a private host</div>
+23[:]<button aria-expanded="true" type="button">Sort by:
+Top picks for long stays</button>
+24[:]<button aria-label="Close banner" type="button"></button>
+25[:]<a >Learn more</a>
+26[:]<a >İstanbul La Nil Apartment
+Opens in new window</a>
+27[:]<div aria-label="4 out of 5" role="button"></div>
+28[:]<span tabindex="0">Featured</span>
+29[:]<a >Sisli, Istanbul (Taksim)
+Show on map</a>
+30[:]<span tabindex="0" role="button">5.1 km from downtown</span>
+31[:]<span tabindex="0" role="button">Subway Access</span>
+32[:]<a tabindex="0">Scored 8.9
+8.9
+Excellent
+7 reviews</a>
+33[:]<a aria-label="Comfort: Scored 8.9 ">Comfort
+8.9</a>
+34[:]<span tabindex="0" aria-label="Limited-time Deal. You’re getting a reduced rate because this property has a limited-time deal running. These deals only last up to 48 hours..">Limited-time Deal</span>
+35[:]<div tabindex="0">1 week
+,
+2 adults
+Original price € 977. Current price € 420.
+Includes taxes and fees
+Earn 840 Miles</div>
+36[:]<div role="none">1 queen bed
+Breakfast included
+Only 3 rooms left at this price on our site</div>
+37[:]<h4 role="link" tabindex="0">Queen Room</h4>
+38[:]<div tabindex="0">€ 977
+€ 420</div>
+39[:]<img alt="Turkish Airlines"></img>
+40[:]<a >See availability</a>
+41[:]<a tabindex="-1"></a>
+42[:]<img alt="Mayar Residence Hotel"></img>
+43[:]<a >Mayar Residence Hotel
+Opens in new window</a>
+44[:]<span tabindex="0" role="button"></span>
+45[:]<a >Bayrampasa, Istanbul (European Side)
+Show on map</a>
+46[:]<span tabindex="0" role="button">7.9 km from downtown</span>
+47[:]<span tabindex="0" role="button">Subway Access</span>
+48[:]<a tabindex="0">Scored 9.1
+9.1
+Wonderful
+932 reviews</a>
+49[:]<a aria-label="Comfort: Scored 9.3 ">Comfort
+9.3</a>
+50[:]<span tabindex="0" aria-label="Getaway Deal. This property is offering a discount on stays between Mar 28 and Sep 30 2025..">Getaway Deal</span>
+51[:]<div tabindex="0">1 week
+,
+2 adults
+Original price € 1,783. Current price € 1,070.
+Includes taxes and fees
+Earn 2139 Miles</div>
+52[:]<div role="none">Entire apartment
+•
+1 bedroom
+•
+1 living room
+•
+1 bathroom
+•
+1 kitchen
+•
+87 m²
+3 beds (1 full, 2 sofa beds)</div>
+53[:]<h4 role="link" tabindex="0">One Bedroom Apartment with City View</h4>
+54[:]<div tabindex="0">€ 1,783
+€ 1,070</div>
+55[:]<img alt="Turkish Airlines"></img>
+56[:]<a ></a>
+57[:]<a tabindex="-1"></a>
+58[:]<img alt="Seres Hotel Old City"></img>
+59[:]<button aria-expanded="false" aria-label="Save this item to a trip list" type="button"></button>
+60[:]<a ></a>
+61[:]<span tabindex="0" role="button"></span>
+62[:]<a ></a>
+63[:]<span tabindex="0" role="button"></span>
+64[:]<a tabindex="0"></a>
+65[:]<a aria-label="Comfort: Scored 8.5 "></a>
+66[:]<span tabindex="0" aria-label="Limited-time Deal. You’re getting a reduced rate because this property has a limited-time deal running. These deals only last up to 48 hours.."></span>
+67[:]<div tabindex="0"></div>
+68[:]<div role="none"></div>
+69[:]<h4 role="link" tabindex="0"></h4>
+70[:]<div tabindex="0"></div>
+71[:]<img alt="Turkish Airlines"></img>
+72[:]<a ></a>
+73[:]<a tabindex="-1"></a>
+74[:]<img alt="Aurora Eco Hotel"></img>
+75[:]<button aria-expanded="false" aria-label="Save this item to a trip list" type="button"></button>
+76[:]<a ></a>
+77[:]<span tabindex="0"></span>
+78[:]<a ></a>
+79[:]<a tabindex="0"></a>
+80[:]<div >Search
+Destination/property name:
+Check-in date
+Check-out date
+1-week stay</div>
+81[:]<input name="ss" placeholder="Where are you going?" aria-label="Where are you going?" aria-expanded="false" role="combobox" value="Istanbul"></input>
+82[:]<button type="button">18
+Friday, July 18, 2025</button>
+83[:]<button type="button">25
+Friday, July 25, 2025</button>
+84[:]<button aria-expanded="false" aria-label="Number of travelers and rooms. Currently selected: 2 adults · 0 children · 1 room" type="button">2 adults · 0 children · 1 room</button>
+85[:]<label >Entire homes & apartments</label>
+86[:]<span tabindex="0" role="img" aria-label="We'll show you stays where you can have the entire place to yourself"></span>
+87[:]<input type="checkbox" name="sb_travel_purpose" value="business"></input>
+88[:]<label >I'm traveling for work</label>
+89[:]<span tabindex="0" role="img" aria-label="If you select this option, we'll show you popular business travel features like breakfast, Wifi and free parking."></span>
+90[:]<button type="submit">Search</button>
+91[:]<div >Filter by:
+Your budget (per night)
+€ 10 – € 200+
+Popular filters</div>
+92[:]<input aria-label="Twin beds: 1828 properties" type="checkbox" name="tdb=2" value="tdb=2"></input>
+93[:]<label >Twin beds
+1828</label>
+94[:]<input aria-label="Breakfast included: 1690 properties" type="checkbox" name="mealplan=1" value="mealplan=1"></input>
+95[:]<label >Breakfast included
+1690</label>
+96[:]<input aria-label="Hotels: 2759 properties" type="checkbox" name="ht_id=204" value="ht_id=204"></input>
+97[:]<label >Hotels
+2759</label>
+98[:]<input aria-label="Less than 1 km: 845 properties" type="checkbox" name="distance=1000" value="distance=1000"></input>
+99[:]<label >Less than 1 km
+845
+Distance from address</label>
+100[:]<input aria-label="Free Wifi: 3587 properties" type="checkbox" name="hotelfacility=107" value="hotelfacility=107"></input>
+101[:]<label >Free Wifi
+3587</label>
+102[:]<input aria-label="Wonderful: 9+: 804 properties" type="checkbox" name="review_score=90" value="review_score=90"></input>
+103[:]<label >Wonderful: 9+
+804</label>
+104[:]<input aria-label="Air conditioning: 3632 properties" type="checkbox" name="roomfacility=11" value="roomfacility=11"></input>
+105[:]<label ></label>
+106[:]<input aria-label="5 stars: 200 properties" type="checkbox" name="class=5" value="class=5"></input>
+107[:]<label ></label>
+108[:]<label ></label>
+109[:]<span role="none"></span>
+110[:]<textarea name="request" placeholder="Example: I want a place with great reviews and free cancellation"></textarea>
+111[:]<button type="submit"></button>
+112[:]<input aria-label="Sustainability certification: 211 properties" type="checkbox" name="SustainablePropertyLevelFilter=4" value="SustainablePropertyLevelFilter=4"></input>
+113[:]<label ></label>
+114[:]<input aria-label="Air conditioning: 3632 properties" type="checkbox" name="roomfacility=11" value="roomfacility=11"></input>
+115[:]<label ></label>
+116[:]<input aria-label="Sea view: 702 properties" type="checkbox" name="roomfacility=108" value="roomfacility=108"></input>
+117[:]<label ></label>
+118[:]<input aria-label="Private pool: 88 properties" type="checkbox" name="roomfacility=93" value="roomfacility=93"></input>
+119[:]<label ></label>
+120[:]<div ></div>
+121[:]<div role="menu"></div>
+122[:]<button aria-label="Top picks for long stays" role="option" type="button">Top picks for long stays</button>
+123[:]<button aria-label="Homes & apartments first" role="option" type="button">Homes & apartments first</button>
+124[:]<button aria-label="Price (lowest first)" role="option" type="button">Price (lowest first)</button>
+125[:]<button aria-label="Price (highest first)" role="option" type="button">Price (highest first)</button>
+126[:]<button aria-label="Best reviewed & lowest price" role="option" type="button">Best reviewed & lowest price</button>
+127[:]<button aria-label="Property rating (high to low)" role="option" type="button">Property rating (high to low)</button>
+128[:]<button aria-label="Property rating (low to high)" role="option" type="button">Property rating (low to high)</button>
+129[:]<button aria-label="Property rating and price" role="option" type="button">Property rating and price</button>
+130[:]<button aria-label="Distance from downtown" role="option" type="button">Distance from downtown</button>
+131[:]<button aria-label="Top reviewed" role="option" type="button">Top reviewed</button>
+132[:]<button aria-label="" role="option" type="button"></button>
+... 8549 pixels below - scroll or extract content to see more ...

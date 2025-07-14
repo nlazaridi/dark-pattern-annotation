@@ -1,0 +1,93 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/select?adults=1&teens=0&children=0&infants=0&dateOut=2025-07-18&dateIn=2025-08-02&isConnectedFlight=false&discount=0&promoCode=&isReturn=true&originMac=BAR&destinationMac=MIL&tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Ryanair')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content
+0[:]<a aria-label="Ryanair logo" title="Ryanair"></a>
+1[:]<a aria-label="Fees">Fees</a>
+2[:]<a aria-label="FAQs">FAQs</a>
+3[:]<button >My bookings</button>
+4[:]<button >Log in</button>
+5[:]<button >myRyanair Portal</button>
+_[:]€
+_[:]127
+_[:].
+_[:]98
+_[:]Barcelona
+_[:](All airports)
+_[:]Milan
+_[:](All airports)
+_[:]Return
+_[:]17 Jul
+_[:]- 1 Aug
+_[:]1
+6[:]<button >Edit search</button>
+7[:]<a tabindex="0"></a>
+8[:]<button aria-label="Search previous dates"></button>
+9[:]<button ></button>
+10[:]<button ></button>
+11[:]<button ></button>
+12[:]<button ></button>
+13[:]<button ></button>
+14[:]<button aria-label="Search next dates"></button>
+15[:]<div tabindex="0"></div>
+16[:]<div tabindex="0"></div>
+17[:]<div tabindex="0"></div>
+18[:]<button aria-label="Search previous dates"></button>
+19[:]<button ></button>
+20[:]<button ></button>
+21[:]<button ></button>
+22[:]<button ></button>
+23[:]<button ></button>
+24[:]<button aria-label="Search next dates"></button>
+_[:]02
+_[:]AUG
+_[:]06:15
+_[:]Milan Malpensa
+_[:]FR 270
+_[:]1h 40m
+_[:]· Operated by Malta Air
+_[:]07:55
+_[:]Barcelona
+_[:]Your selected fare
+25[:]<a tabindex="0">Edit fare</a>
+_[:]Basic
+_[:]Travel light
+_[:]€127.98
+26[:]<button >Log in later</button>
+_[:]Log in to
+_[:]myRyanair
+_[:]to proceed with your booking
+_[:]Checkout easily
+_[:]Retrieve saved companion and payment details
+_[:]Manage your booking
+27[:]<button >Sign up</button>
+28[:]<button >Log in</button>
+_[:]Passengers
+_[:]Please enter names as they appear on passport or travel documentation
+_[:]Passenger 1
+_[:]Adult
+_[:]Title
+_[:]-
+_[:]First name
+_[:]Last name
+_[:]Need special assistance?
+29[:]<button >Continue</button>
+_[:]Subscribe now to get our best deals delivered straight to your inbox.
+30[:]<a ></a>
+31[:]<input type="email" name="undefined" placeholder="Email"></input>
+32[:]<button ></button>
+33[:]<label ></label>
+34[:]<input type="checkbox" tabindex="0"></input>
+35[:]<a ></a>
+36[:]<a ></a>
+37[:]<a tabindex="0"></a>
+38[:]<a tabindex="0"></a>
+39[:]<a tabindex="0"></a>
+40[:]<a tabindex="0"></a>
+41[:]<a tabindex="0"></a>
+42[:]<button ></button>
+... 248 pixels below - scroll or extract content to see more ...

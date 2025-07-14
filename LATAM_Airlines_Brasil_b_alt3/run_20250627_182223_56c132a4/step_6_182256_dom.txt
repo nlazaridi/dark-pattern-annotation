@@ -1,0 +1,131 @@
+
+
+Current url: https://www.latamairlines.com/es/en
+Available tabs:
+[TabInfo(page_id=0, url='https://www.latamairlines.com/es/en', title='Book Flights, Hotels and Car rentals | LATAM Airlines Spain')]
+Interactive elements from current page view:
+... 100 pixels above - scroll or extract content to see more ...
+0[:]<body >Log in to LATAM to get different benefits.
+Log in to LATAM and you will be able to:
+Earn LATAM Pass Miles and redeem them for tickets and more.
+Manage your trips.
+Pay with your LATAM Wallet.
+Create Account
+Log in
+Flights
+Accommodations
+Cars
+Upgrade
+Where do you want to go?
+Round trip
+One way
+From
+1 opción disponible. Usa las teclas de flechas para navegar
+To
+1267 opciones disponibles. Usa las teclas de flechas para navegar
+Departure
+Return
+Passengers
+Cabin
+Promo code
+Use
+miles + cash
+Search flights
+TRAVEL WITH LATAM
+Discover South America: adventure in every destination
+It’s time to pack your bags and start exploring. Travel, connect, and experience each place to the fullest.
+Discover more
+Manage your trip
+Change or refund tickets
+Information about boarding fees
+Baggage Information
+Find your next trip
+Discover your next trip: find offers for your next destination
+Flight offers from
+See offers in miles
+On sale
+Beach destinations
+City adventures
+Nightlife
+Natural retreats
+South American Gems
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+42
+43
+44
+45</body>
+1[:]<a ></a>
+2[:]<a ></a>
+3[:]<a ></a>
+4[:]<a aria-label="Go to Home page."></a>
+5[:]<img alt="logo"></img>
+6[:]<button aria-expanded="false" role="button" title="Discover"></button>
+7[:]<button aria-expanded="false" role="button" title="My Trips"></button>
+8[:]<a ></a>
+9[:]<a ></a>
+10[:]<a ></a>
+11[:]<button ></button>
+12[:]<button role="link"></button>
+13[:]<span role="combobox" aria-expanded="true" tabindex="-1">Valencia</span>
+14[:]<div >Select another origin</div>
+15[:]<input type="text" value=""></input>
+16[:]<ul role="listbox">Milan
+Munich
+Paris
+Rome
+Valencia</ul>
+17[:]<li role="menuitem"></li>
+18[:]<span tabindex="-1" title="BCN" value="BCN">Barcelona</span>
+19[:]<li role="menuitem"></li>
+20[:]<span tabindex="-1" title="BER" value="BER">Berlin</span>
+21[:]<li role="menuitem"></li>
+22[:]<span tabindex="-1" title="FRA" value="FRA">Frankfurt</span>
+23[:]<li role="menuitem"></li>
+24[:]<span tabindex="-1" title="HAM" value="HAM">Hamburg</span>
+25[:]<li role="menuitem"></li>
+26[:]<span tabindex="-1" title="LIS" value="LIS">Lisbon</span>
+27[:]<li role="menuitem"></li>
+28[:]<span tabindex="-1" title="MAD" value="MAD">Madrid</span>
+29[:]<li role="menuitem"></li>
+30[:]<span tabindex="-1" title="ZRH" value="ZRH"></span>
+31[:]<a aria-label="You are on offer 1 of 5: VLC-AEP. Flight with connection from Valencia to Buenos Aires. See flights to travel: From Monday, September 01, 2025 to Monday, September 08, 2025 in cabin Economy. With your purchase, you earn LATAM Pass points. Price starting at EUR 1,131.47. Fees included."></a>
+32[:]<img alt="Buenos Aires"></img>
+33[:]<a aria-label="You are on offer 2 of 5: VLC-CGH. Flight with connection from Valencia to São Paulo. See flights to travel: From Sunday, August 31, 2025 to Sunday, September 07, 2025 in cabin Economy. With your purchase, you earn LATAM Pass points. Price starting at EUR 1,018.84. Fees included."></a>
+34[:]<img alt="São Paulo"></img>
+35[:]<a aria-label="You are on offer 3 of 5: VLC-UDI. Flight with connection from Valencia to Uberlandia. See flights to travel: From Tuesday, September 02, 2025 to Tuesday, September 09, 2025 in cabin Economy. With your purchase, you earn LATAM Pass points. Price starting at EUR 1,298.28. Fees included."></a>
+36[:]<img alt="Uberlandia"></img>
+37[:]<a aria-label="You are on offer 4 of 5: VLC-BOG. Flight with connection from Valencia to Bogota. See flights to travel: From Friday, August 08, 2025 to Monday, August 18, 2025 in cabin Economy. With your purchase, you earn LATAM Pass points. Price starting at EUR 2,927.79. Fees included."></a>
+38[:]<img alt="Bogota"></img>
+39[:]<a aria-label="You are on offer 5 of 5: VLC-GYE. Flight with connection from Valencia to Guayaquil. See flights to travel: From Wednesday, September 03, 2025 to Wednesday, September 10, 2025 in cabin Economy. With your purchase, you earn LATAM Pass points. Price starting at EUR 916.16. Fees included."></a>
+40[:]<img alt="Guayaquil"></img>
+41[:]<a ></a>
+42[:]<ul aria-label="Lista de opciones" role="listbox"></ul>
+43[:]<li role="option"></li>
+44[:]<span name="Lisboa" type="AIRPORT" tabindex="-1" title="Lisbon, LIS - Portugal" value="LIS">Lisbon
+, LIS - Portugal
+Lisboa</span>
+45[:]<div ></div>
+... 4000 pixels below - scroll or extract content to see more ...

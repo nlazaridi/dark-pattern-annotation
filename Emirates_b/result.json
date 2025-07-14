@@ -1,0 +1,415 @@
+{
+  "history": [
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Browser started successfully.",
+          "memory": "",
+          "next_goal": "Go to Emirates airline website."
+        },
+        "action": [
+          {
+            "go_to_url": {
+              "url": "https://www.emirates.com/us/english/"
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd17  Navigated to https://www.emirates.com/us/english/",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "about:blank",
+            "title": ""
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "about:blank",
+        "title": ""
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Navigated to Emirates website.",
+          "memory": "",
+          "next_goal": "Navigate to the Featured Destinations section."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down the page.",
+          "memory": "",
+          "next_goal": "Click more 'See more fairs'."
+        },
+        "action": [
+          {
+            "click_element": {
+              "index": 45
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\uddb1\ufe0f  Clicked element with index 45: See more fares redirects to Featured fares\nSee more fares",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/",
+            "title": "Emirates | Fly Better"
+          }
+        ],
+        "interacted_element": [
+          {
+            "tag_name": "a",
+            "xpath": "html/body/main/section/div/div[2]/div/div/a",
+            "highlight_index": 45,
+            "entire_parent_branch_path": [
+              "main",
+              "section",
+              "div",
+              "div",
+              "div",
+              "div",
+              "a"
+            ],
+            "attributes": {
+              "href": "/us/english/book/featured-fares/",
+              "data-id": "pagebody_cta",
+              "data-link": "Featured fares:Explore more fares",
+              "class": "cta cta--small cta--secondary cta--shrink-to-fit a14 "
+            },
+            "shadow_root": false
+          }
+        ],
+        "url": "https://www.emirates.com/us/english/",
+        "title": "Emirates | Fly Better"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Clicked on see more fares and navigated to the featured fares page.",
+          "memory": "",
+          "next_goal": "Scroll down to see all options."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/book/featured-fares/",
+            "title": "Featured Fares | Book a flight | Emirates United States"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/book/featured-fares/",
+        "title": "Featured Fares | Book a flight | Emirates United States"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to see all options."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/book/featured-fares/",
+            "title": "Featured Fares | Book a flight | Emirates United States"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/book/featured-fares/",
+        "title": "Featured Fares | Book a flight | Emirates United States"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to see all options."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/book/featured-fares/",
+            "title": "Featured Fares | Book a flight | Emirates United States"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/book/featured-fares/",
+        "title": "Featured Fares | Book a flight | Emirates United States"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to see all options."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/book/featured-fares/",
+            "title": "Featured Fares | Book a flight | Emirates United States"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/book/featured-fares/",
+        "title": "Featured Fares | Book a flight | Emirates United States"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to see all options."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/book/featured-fares/",
+            "title": "Featured Fares | Book a flight | Emirates United States"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/book/featured-fares/",
+        "title": "Featured Fares | Book a flight | Emirates United States"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to see all options."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/book/featured-fares/",
+            "title": "Featured Fares | Book a flight | Emirates United States"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/book/featured-fares/",
+        "title": "Featured Fares | Book a flight | Emirates United States"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "Scroll down to see all options."
+        },
+        "action": [
+          {
+            "scroll_down": {}
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": false,
+          "extracted_content": "\ud83d\udd0d  Scrolled down the page by one page",
+          "include_in_memory": true
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/book/featured-fares/",
+            "title": "Featured Fares | Book a flight | Emirates United States"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/book/featured-fares/",
+        "title": "Featured Fares | Book a flight | Emirates United States"
+      }
+    },
+    {
+      "model_output": {
+        "current_state": {
+          "evaluation_previous_goal": "Success - Scrolled down one page.",
+          "memory": "",
+          "next_goal": "If you achieved your ultimate task, stop everything and use the done action in the next step to complete the task."
+        },
+        "action": [
+          {
+            "done": {
+              "text": "I have navigated to the Emirates airline website, accessed the Featured Fares section, and scrolled down to see all the options."
+            }
+          }
+        ]
+      },
+      "result": [
+        {
+          "is_done": true,
+          "extracted_content": "I have navigated to the Emirates airline website, accessed the Featured Fares section, and scrolled down to see all the options.",
+          "include_in_memory": false
+        }
+      ],
+      "state": {
+        "tabs": [
+          {
+            "page_id": 0,
+            "url": "https://www.emirates.com/us/english/book/featured-fares/",
+            "title": "Featured Fares | Book a flight | Emirates United States"
+          }
+        ],
+        "interacted_element": [
+          null
+        ],
+        "url": "https://www.emirates.com/us/english/book/featured-fares/",
+        "title": "Featured Fares | Book a flight | Emirates United States"
+      }
+    }
+  ]
+}

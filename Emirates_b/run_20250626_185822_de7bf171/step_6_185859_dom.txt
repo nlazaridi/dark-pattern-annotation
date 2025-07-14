@@ -1,0 +1,110 @@
+
+
+Current url: https://www.emirates.com/us/english/book/featured-fares/
+Available tabs:
+[TabInfo(page_id=0, url='https://www.emirates.com/us/english/book/featured-fares/', title='Featured Fares | Book a flight | Emirates United States')]
+Interactive elements from current page view:
+... 1890 pixels above - scroll or extract content to see more ...
+0[:]<a ></a>
+1[:]<img alt="Emirates logo"></img>
+2[:]<span tabindex="0" role="tab">Book
+•</span>
+3[:]<span tabindex="0" role="tab">About booking online</span>
+4[:]<a >Search flights</a>
+_[:]Featured fares for all destinations
+5[:]<button aria-label="Filter results Opens a dialog" type="button">Filter results</button>
+6[:]<img alt=""></img>
+7[:]<div tabindex="0" role="tab"></div>
+8[:]<div tabindex="0" role="tab"></div>
+9[:]<div tabindex="0" role="tab"></div>
+10[:]<button aria-label="Fare conditions Mumbai (Bombay) Opens a dialog" type="button"></button>
+11[:]<a aria-label="Search for flights Mumbai (Bombay)"></a>
+12[:]<img alt=""></img>
+13[:]<div tabindex="0" role="tab"></div>
+14[:]<div tabindex="0" role="tab"></div>
+15[:]<button aria-label="Fare conditions Delhi Opens a dialog" type="button"></button>
+16[:]<a aria-label="Search for flights Delhi"></a>
+17[:]<img alt=""></img>
+18[:]<div ></div>
+19[:]<button aria-label="Fare conditions Islamabad Opens a dialog" type="button"></button>
+20[:]<a aria-label="Search for flights Islamabad"></a>
+21[:]<img alt=""></img>
+_[:]Amman (AMM)
+22[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]961*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+23[:]<button aria-label="Fare conditions Amman Opens a dialog" type="button">Fare conditions</button>
+24[:]<a aria-label="Search for flights Amman">Search for flights</a>
+25[:]<img alt=""></img>
+_[:]Beirut (BEY)
+26[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]973*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+27[:]<button aria-label="Fare conditions Beirut Opens a dialog" type="button">Fare conditions</button>
+28[:]<a aria-label="Search for flights Beirut">Search for flights</a>
+29[:]<img alt=""></img>
+_[:]Lahore (LHE)
+30[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]999*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+31[:]<button aria-label="Fare conditions Lahore Opens a dialog" type="button">Fare conditions</button>
+32[:]<a aria-label="Search for flights Lahore">Search for flights</a>
+33[:]<img alt=""></img>
+_[:]Karachi (KHI)
+34[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1010*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+35[:]<button aria-label="Fare conditions Karachi Opens a dialog" type="button">Fare conditions</button>
+36[:]<a aria-label="Search for flights Karachi"></a>
+37[:]<img alt=""></img>
+_[:]Tel Aviv (TLV)
+38[:]<div >Economy Class</div>
+_[:]From
+_[:]USD
+_[:]1017*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+39[:]<button aria-label="Fare conditions Tel Aviv Opens a dialog" type="button">Fare conditions</button>
+40[:]<a aria-label="Search for flights Tel Aviv"></a>
+41[:]<img alt=""></img>
+_[:]Nairobi (NBO)
+42[:]<div tabindex="0" role="tab">Economy Class</div>
+43[:]<div tabindex="0" role="tab">Business Class</div>
+_[:]From
+_[:]USD
+_[:]1040*
+_[:]Return trip
+_[:]For travel between 22 Jun 2025 – 08 Dec 2025
+_[:]For travel between 22 Jun 25 – 08 Dec 25
+_[:]Fare expires in 7 days
+44[:]<button aria-label="Fare conditions Nairobi Opens a dialog" type="button">Fare conditions</button>
+45[:]<a aria-label="Search for flights Nairobi"></a>
+46[:]<img alt=""></img>
+47[:]<div ></div>
+48[:]<img alt=""></img>
+49[:]<div ></div>
+50[:]<img alt=""></img>
+51[:]<div ></div>
+... 6404 pixels below - scroll or extract content to see more ...

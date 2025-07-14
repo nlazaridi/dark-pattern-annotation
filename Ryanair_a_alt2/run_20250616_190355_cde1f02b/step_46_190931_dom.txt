@@ -1,0 +1,118 @@
+
+
+Current url: https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP
+Available tabs:
+[TabInfo(page_id=0, url='https://www.ryanair.com/gb/en/trip/flights/extras?tpAdults=1&tpTeens=0&tpChildren=0&tpInfants=0&tpStartDate=2025-07-18&tpEndDate=2025-08-02&tpDiscount=0&tpPromoCode=&tpOriginMac=BAR&tpDestinationMac=MIL&tpOriginIata=BCN&tpDestinationIata=MXP', title='Official Ryanair website | Book direct for the lowest fares | Ryanair.com')]
+Interactive elements from current page view:
+... 777.3333129882812 pixels above - scroll or extract content to see more ...
+_[:]Fees
+_[:]FAQs
+_[:]My bookings
+_[:]Log in
+_[:]myRyanair Portal
+_[:]€
+_[:]203
+_[:].
+_[:]96
+0[:]<img alt="Security Fast Track"></img>
+1[:]<button ></button>
+2[:]<button ></button>
+3[:]<button ></button>
+4[:]<button ></button>
+5[:]<img ></img>
+6[:]<button ></button>
+7[:]<button ></button>
+8[:]<button ></button>
+9[:]<button ></button>
+10[:]<img alt="undefined"></img>
+_[:]Standard Insurance
+_[:]€
+_[:]22
+_[:].
+_[:]29
+_[:]Per person
+_[:]Insurance Plus
+_[:]€
+_[:]25
+_[:].
+_[:]29
+_[:]Per person
+_[:]Annual Insurance
+_[:]€
+_[:]37
+_[:].
+_[:]29
+_[:]Per person
+_[:]Medical expenses
+_[:]Up to £2,500,000 (Pre-existing condition excluded)
+_[:]up to
+_[:]£2,500,000
+_[:]up to
+_[:]£2,500,000
+_[:]up to
+_[:]£2,500,000
+_[:]Personal baggage
+_[:]Up to £1,500 (Single item limits apply)
+_[:]up to
+_[:]£1,500
+_[:]up to
+_[:]£1,500
+_[:]up to
+_[:]£1,500
+_[:]Cancellation
+_[:]Up to £3,000
+_[:]up to
+_[:]£3,000
+_[:]up to
+_[:]£3,000
+_[:]up to
+_[:]£3,000
+_[:]Electronic insurance documentation
+_[:]Personal electronics
+_[:]Up to £1,500 (Single item limits apply)
+_[:]Full year of insurance
+_[:](Max. single trip duration 90 days)
+_[:]Airline failure service guarantee
+_[:]Agree and add
+_[:]Agree and add
+_[:]Agree and add
+_[:]When purchasing travel insurance, the selected country of residence must correspond to all of the passengers on your booking.
+_[:]Resident in
+_[:]Spain
+_[:]All prices include Insurance Premium Tax (IPT).
+_[:]By adding insurance:
+_[:]You confirm that you have read and agree to the Policy Wording & Insurance Product Information Document. Medical expenses coverage is not available for pre-existing conditions and for travellers aged 70 years or older. This insurance is underwritten by Cowen Insurance Company Limited which is authorised by the Malta Financial Services Authority under the Insurance Business Act, 1998, of the laws of Malta (Malta Company Registration number C 55905) and arranged by Cover Genius Europe B.V. trading as XCover.com which is regulated by the AFM (No. 12046177). The Airline Failure Services are powered by Cover Genius Europe B.V. Ryanair DAC is an Ancillary Insurance Intermediary of Cover Genius Europe B.V.
+_[:]Policy Terms - Standard & Annual Insurance
+_[:]Policy Terms - Insurance Plus
+_[:]Insurance Product Information Document
+_[:]( Spain )
+_[:]...
+_[:]Read more
+_[:]Choose per passenger
+_[:]Pre-paid Credit: Get More, Pay Less
+_[:]How does it work?
+_[:]Choose any products from our Inflight Magazine, including gifts, food and drink, and purchase more for less with the Pre-paid Credit.
+_[:]Why choose Inflight Credit?
+_[:]Get 10% more credit for free
+_[:]Easy to use on board
+_[:]Valid for all inflight magazine purchases
+11[:]<img alt="Pre-paid Credit"></img>
+12[:]<button ></button>
+13[:]<button ></button>
+14[:]<a ></a>
+15[:]<a tabindex="0"></a>
+16[:]<a tabindex="0"></a>
+17[:]<a tabindex="0"></a>
+18[:]<a tabindex="0"></a>
+19[:]<a tabindex="0"></a>
+20[:]<button ></button>
+21[:]<div tabindex="0"></div>
+_[:]Annual Insurance
+_[:]We've already selected the date of your departing flight for you
+22[:]<icon tabindex="0"></icon>
+23[:]<input type="text" name="undefined"></input>
+24[:]<label >Starting date</label>
+25[:]<button >Confirm</button>
+26[:]<button >Cancel</button>
+27[:]<div tabindex="0"></div>
+... 399.66668701171875 pixels below - scroll or extract content to see more ...

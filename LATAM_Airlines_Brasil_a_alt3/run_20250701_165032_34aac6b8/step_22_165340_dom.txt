@@ -1,0 +1,104 @@
+
+
+Current url: https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf
+Available tabs:
+[TabInfo(page_id=0, url='https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0', title='Booking.com: Hotels in Cali. Book your hotel now!'), TabInfo(page_id=1, url='https://www.latamairlines.com/es/en/flight-offers?origin=BOG&outbound=2025-07-18T16%3A00%3A00.000Z&destination=CLO&adt=1&chd=0&inf=0&trip=RT&cabin=Economy&redemption=false&sort=RECOMMENDED&inbound=2025-07-25T16%3A00%3A00.000Z&exp_id=a429846a-5ac3-48b8-994c-8175977beccf', title='Flight selection | LATAM Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<body >Skip to main content.
+Navegate through the user sections.
+Departure flight in cabin BASIC. Friday, July 18, 2025
+Arrival flight in cabin BASIC. Friday, July 25, 2025
+Flight with departure time at 5:02 AM, from Cali, airport Alfonso Bonilla Aragon. Arrival time at 6:10 AM  in the city of Bogota, airport El Dorado Intl.. Flight direct with a duration of 1 hour 8 minutes. Price per passenger starting at 52.51 Euros. Operated by latam airlines colombia.
+5:02 AM
+CLO
+Direct
+1h 8m
+6:10 AM
+BOG
+Operated by
+LATAM Airlines Colombia
+Change your flight
+Change arrival flight.
+Price per passenger
+EUR 52.51
+You chose Basic Fare
+Includes handbag (to store under your seat).
+Benefits do not apply for Elite membership category.
+Flights
+EUR 81.00
+Fees, charges and taxes
+EUR 24.94
+Subtotal
+EUR 105.94
+Per person.
+Includes fees, charges and taxes.
+Limited seat availability at this price. The available price will be displayed at the time of purchase.
+Now you can protect your ticket against unforeseen events
+New
+Receive credits for the value of your ticket and use them for a new trip
+The credits are valid for purchases on LATAM.com
+xp_anci_web_latamFlexMarketBanner_multiOffer_legend
+xp_anci_web_latamFlexMarketBanner_multiOffer_disclaimer
+Protected by reCAPTCHA according to Google’s
+and
+.
+protected by
+reCAPTCHA
+-
+-
+-
+-
+0
+1
+2
+3
+4
+5
+6
+7
+11
+12
+13
+14
+15
+16
+17
+18
+19
+22
+23</body>
+1[:]<a aria-label="Go to Home page.">Latam Airlines</a>
+2[:]<img alt="logo"></img>
+3[:]<button >EUR · €
+Euros</button>
+4[:]<button role="link">Log in to my LATAM account.
+Log in</button>
+5[:]<div role="region"></div>
+6[:]<div tabindex="0" aria-label="Summary of your search: Origin city Bogota, destination city Cali, with outbound date Friday, July 18, 2025 and return date Friday, July 25, 2025. Number of passengers 1, Cabin type Economy. Change flight selected.">Bogota
+Cali
+Fri, Jul 18 - Fri, Jul 25
+1
+Passenger
+Economy</div>
+7[:]<div role="link" tabindex="0" aria-label="Change search">Change search</div>
+8[:]<img alt=""></img>
+9[:]<img alt="LATAM Airlines Colombia"></img>
+10[:]<button ></button>
+11[:]<a aria-label="[object Object]. [object Object]">Check the ticket conditions</a>
+12[:]<label >xp_anci_web_latamFlexMarketBanner_multiOfferDays_label
+xp_anci_web_latamFlexMarketBanner_multiOffer_recommended</label>
+13[:]<label >xp_anci_web_latamFlexMarketBanner_multiOfferHours_label</label>
+14[:]<a >More information</a>
+15[:]<a >Terms and conditions</a>
+16[:]<button >Continue with refund option
+Continue to seat selection with refund option.</button>
+17[:]<button >Continue without refund option
+Continue to seat selection without refund option.</button>
+18[:]<a >privacy policies</a>
+19[:]<a >terms of service</a>
+20[:]<a >Privacy</a>
+21[:]<a >Terms</a>
+22[:]<a >Privacy</a>
+23[:]<a >Terms</a>
+... 59 pixels below - scroll or extract content to see more ...

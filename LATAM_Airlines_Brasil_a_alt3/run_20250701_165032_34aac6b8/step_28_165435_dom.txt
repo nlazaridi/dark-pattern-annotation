@@ -1,0 +1,83 @@
+
+
+Current url: https://www.latamairlines.com/es/en/payments/passengers?orderId=LA0451599ASCE
+Available tabs:
+[TabInfo(page_id=0, url='https://sp.booking.com/searchresults.html?aid=1264873&label=es_home_newsearchextension_hotels&checkin=2025-07-18&checkout=2025-07-25&iata=CLO&iata_orr=1&group_adults=1&group_children=0', title='Booking.com: Hotels in Cali. Book your hotel now!'), TabInfo(page_id=1, url='https://www.latamairlines.com/es/en/payments/passengers?orderId=LA0451599ASCE', title='Add passengers | LATAM Airlines')]
+Interactive elements from current page view:
+[Start of page]
+_[:]Skip to main content.
+_[:]Navegate through the user sections.
+0[:]<a aria-label="Go to Home page.">Latam Airlines</a>
+1[:]<img alt="logo"></img>
+2[:]<button >EUR · €
+Euro</button>
+3[:]<button role="link">Log in to my LATAM account.
+Log in</button>
+_[:]Passengers
+4[:]<div tabindex="0" role="button" aria-expanded="true">Adult</div>
+_[:]Enter the personal details.
+_[:]Name
+5[:]<div ></div>
+6[:]<input name="passengerDetails.firstName" type="text" aria-label="Enter the passenger name." value=""></input>
+_[:]Last name
+7[:]<div ></div>
+8[:]<input name="passengerDetails.lastName" type="text" aria-label="Enter the passenger last name." value=""></input>
+_[:]Date of birth
+_[:]*
+9[:]<div ></div>
+10[:]<input placeholder="dd-mm-aaaa" type="text" aria-label="Enter the date of birth of the passenger." value=""></input>
+11[:]<button tabindex="0" type="button">Log in to select a date</button>
+_[:]Gender
+12[:]<div ></div>
+13[:]<div tabindex="0" role="button" aria-label="Select the gender of the passenger.">Male</div>
+_[:]Nationality
+14[:]<div ></div>
+15[:]<div tabindex="0" role="button" aria-label="Select the nationality of the passenger.">Spain</div>
+16[:]<img alt="ES"></img>
+_[:]Enter the documentation details of the passenger.
+_[:]Type of document
+17[:]<div ></div>
+18[:]<div tabindex="0" role="button" aria-label="Select the type of document of the passenger.">ID</div>
+_[:]ID Number
+19[:]<div ></div>
+20[:]<input name="documentInfo.documentNumber" type="text" aria-label="enter the id number of the passenger." value=""></input>
+_[:]Without dots or dash
+_[:]Enter, if you have, your frequent flyer data.
+_[:]Frequent Flyer Nº (optional)
+21[:]<div ></div>
+22[:]<input name="preferences.frequentFlyer[0].number" type="text" aria-label="Enter the passenger frequent flyer number." value=""></input>
+_[:]So that this person can enjoy their benefits
+_[:]Airline
+23[:]<div ></div>
+24[:]<div tabindex="0" role="button" aria-label="Select an airline.">LATAM Airlines Group</div>
+_[:]Contact information
+_[:]Enter the contact information of the passenger.
+_[:]Email
+25[:]<div ></div>
+26[:]<input name="passengerInfo.emails" type="email" aria-label="enter the passenger email." value=""></input>
+27[:]<div role="combobox" aria-expanded="false" type="CountryCodeSelector" name="passengerInfo.phones[0].countryCode">Code</div>
+28[:]<div ></div>
+29[:]<input type="text" aria-label="Country code selector" value="+34"></input>
+30[:]<button tabindex="-1" type="button" aria-label="Show options" title="Show options"></button>
+_[:]Number
+31[:]<div ></div>
+32[:]<input name="passengerInfo.phones[0].number" type="email" aria-label="enter the phone number of the passenger." value=""></input>
+33[:]<button tabindex="0" type="submit" aria-label="Save the passenger details entered.">Confirm information</button>
+_[:]Do you need special assistance?
+_[:]If you have reduced mobility, sensory disability, autism, you travel with a service animal, or you are elderly people, you can request
+34[:]<a ></a>
+35[:]<button role="button"></button>
+_[:]Trip details
+36[:]<button aria-expanded="false">Flights
+EUR 105.94
+Flights. Total: 105,94 Euros. Enter for more details.</button>
+37[:]<button aria-expanded="false">Final price
+EUR 105.94
+Includes fees, charges and taxes.
+Final price, 105,94 Euros. Includes fees, charges and taxes.. Enter for more details.</button>
+38[:]<button tabindex="0" type="button" aria-label="Continue to the payment step.">Continue
+Continue to the payment step.</button>
+39[:]<img alt="LATAM Logo"></img>
+40[:]<a tabindex="0" title="PCI"></a>
+41[:]<img alt="PCI"></img>
+... 223 pixels below - scroll or extract content to see more ...

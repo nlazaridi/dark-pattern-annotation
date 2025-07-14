@@ -1,0 +1,267 @@
+
+
+Current url: https://www.booking.com/searchresults.en-us.html?label=standalone&sid=62fb751ed41b8b6b915709a04bbaedb1&aid=1320040&sb=1&sb_lp=1&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.en-us.html%3Faid%3D1320040%26label%3Dstandalone%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26sb_price_type%3Dtotal%26&ss=Istanbul%2C+Marmara+Region%2C+Turkey&is_ski_area=&checkin_year=2025&checkin_month=7&checkin_monthday=18&checkout_year=2025&checkout_month=7&checkout_monthday=25&flex_window=0&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Istanbul&ac_position=0&ac_langcode=en&ac_click_type=b&dest_id=-755070&dest_type=city&iata=IST&place_id_lat=41.00817&place_id_lon=28.974445&search_pageview_id=d5b2557886d80862&search_selected=true&search_pageview_id=d5b2557886d80862&ac_suggestion_list_length=5&ac_suggestion_theme_list_length=0&order=price_from_high_to_low
+Available tabs:
+[TabInfo(page_id=0, url='https://www.booking.com/searchresults.en-us.html?label=standalone&sid=62fb751ed41b8b6b915709a04bbaedb1&aid=1320040&sb=1&sb_lp=1&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.en-us.html%3Faid%3D1320040%26label%3Dstandalone%26sid%3D62fb751ed41b8b6b915709a04bbaedb1%26sb_price_type%3Dtotal%26&ss=Istanbul%2C+Marmara+Region%2C+Turkey&is_ski_area=&checkin_year=2025&checkin_month=7&checkin_monthday=18&checkout_year=2025&checkout_month=7&checkout_monthday=25&flex_window=0&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Istanbul&ac_position=0&ac_langcode=en&ac_click_type=b&dest_id=-755070&dest_type=city&iata=IST&place_id_lat=41.00817&place_id_lon=28.974445&search_pageview_id=d5b2557886d80862&search_selected=true&search_pageview_id=d5b2557886d80862&ac_suggestion_list_length=5&ac_suggestion_theme_list_length=0&order=price_from_high_to_low', title='Booking.com: Hotels in Istanbul. Book your hotel now!')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<body >Earn
+2 Miles
+per € 1 spent
+You need to provide your loyalty info during or after booking.
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99</body>
+1[:]<div >In partnership with</div>
+2[:]<a aria-label="Booking.com"></a>
+3[:]<button aria-label="Prices in Euro" type="button">EUR</button>
+4[:]<button aria-label="Language: English (US)" type="button"></button>
+5[:]<img alt="" role="presentation"></img>
+6[:]<a aria-label="Customer support"></a>
+7[:]<a >List your property</a>
+8[:]<a aria-label="Register an account">Register</a>
+9[:]<a aria-label="Sign in">Sign in</a>
+10[:]<a ></a>
+11[:]<img alt="TURKISH AIRLINES INC"></img>
+12[:]<div >Search results</div>
+13[:]<a >Home</a>
+14[:]<a >Turkey</a>
+15[:]<a >Marmara Region</a>
+16[:]<a >Istanbul</a>
+17[:]<a >See promotion details</a>
+18[:]<img alt="Turkish Airlines"></img>
+19[:]<div >Istanbul: 3,800 properties found</div>
+20[:]<div role="button" tabindex="0"></div>
+21[:]<span >Show on map</span>
+22[:]<div >Commission paid on bookings and other factors can affect property rankings. Learn about these ranking parameters and how to select and modify them.
+Browse the results for Istanbul
+Managed by a private host</div>
+23[:]<button aria-expanded="false" type="button">Sort by:
+Price (highest first)</button>
+24[:]<button aria-label="Close banner" type="button"></button>
+25[:]<a >Learn more</a>
+26[:]<a tabindex="-1"></a>
+27[:]<img alt="Kadıköy ALEX 5K"></img>
+28[:]<button aria-expanded="false" aria-label="Save this item to a trip list" type="button"></button>
+29[:]<a >Kadıköy ALEX 5K
+Opens in new window</a>
+30[:]<a >Kadikoy, Istanbul (Asian Side)
+Show on map</a>
+31[:]<span tabindex="0" role="button">5.2 km from downtown</span>
+32[:]<a tabindex="0">Scored 1.0
+1.0
+Review score
+1 review</a>
+33[:]<div tabindex="0">1 week
+,
+2 adults
+€ 31,185
+Price € 31,185
+Includes taxes and fees
+Earn 62370 Miles</div>
+34[:]<div role="none">Entire apartment
+•
+1 bedroom
+•
+1 living room
+•
+1 bathroom
+•
+45 m²
+2 beds (1 full, 1 sofa bed)
+Only 1 left at this price on our site</div>
+35[:]<h4 role="link" tabindex="0">One-Bedroom Apartment</h4>
+36[:]<img alt="Turkish Airlines"></img>
+37[:]<a >See availability</a>
+38[:]<a tabindex="-1"></a>
+39[:]<img alt="Birun Ada Hotel"></img>
+40[:]<button aria-expanded="false" aria-label="Save this item to a trip list" type="button"></button>
+41[:]<a >Birun Ada Hotel
+Opens in new window</a>
+42[:]<div tabindex="0" aria-label="5 out of 5" role="button"></div>
+43[:]<span tabindex="0" role="button"></span>
+44[:]<a >Istanbul
+Show on map</a>
+45[:]<span tabindex="0" role="button">16.1 km from downtown</span>
+46[:]<a tabindex="0">Scored 9.9
+9.9
+Exceptional
+69 reviews</a>
+47[:]<a aria-label="Comfort: Scored 10 ">Comfort
+10</a>
+48[:]<div tabindex="0">1 week
+,
+2 adults
+€ 24,872
+Price € 24,872
+Includes taxes and fees
+Earn 49745 Miles</div>
+49[:]<div role="none">Private suite
+•
+1 bedroom
+•
+3 living rooms
+•
+2 bathrooms
+•
+450 m²
+4 beds (1 king, 3 sofa beds)
+Breakfast included
+Only 1 left at this price on our site</div>
+50[:]<h4 role="link" tabindex="0">King Suite with Sea View</h4>
+51[:]<img alt="Turkish Airlines"></img>
+52[:]<a >See availability</a>
+53[:]<a tabindex="-1"></a>
+54[:]<img alt="A Luxury Residence 150m2, 3 min to Istinye Park Mall, 8 min to Vadi İstanbul, 2 Bedroom 3 Bathroom"></img>
+55[:]<button aria-expanded="false" aria-label="Save this item to a trip list" type="button"></button>
+56[:]<a ></a>
+57[:]<div aria-label="4 out of 5" role="button"></div>
+58[:]<a ></a>
+59[:]<span tabindex="0" role="button"></span>
+60[:]<a tabindex="0"></a>
+61[:]<a aria-label="Comfort: Scored 10 "></a>
+62[:]<div tabindex="0"></div>
+63[:]<div role="none"></div>
+64[:]<h4 role="link" tabindex="0"></h4>
+65[:]<img alt="Turkish Airlines"></img>
+66[:]<a ></a>
+67[:]<a tabindex="-1"></a>
+68[:]<img alt="Vip Bosphorus Tour"></img>
+69[:]<button aria-expanded="false" aria-label="Save this item to a trip list" type="button"></button>
+70[:]<a ></a>
+71[:]<a ></a>
+72[:]<span tabindex="0" role="button"></span>
+73[:]<div tabindex="0"></div>
+74[:]<div role="none"></div>
+75[:]<h4 role="link" tabindex="0"></h4>
+76[:]<div >Search
+Destination/property name:
+Check-in date
+Check-out date
+1-week stay</div>
+77[:]<input name="ss" placeholder="Where are you going?" aria-label="Where are you going?" aria-expanded="false" role="combobox" value="Istanbul"></input>
+78[:]<button type="button">18
+Friday, July 18, 2025</button>
+79[:]<button type="button">25
+Friday, July 25, 2025</button>
+80[:]<button aria-expanded="false" aria-label="Number of travelers and rooms. Currently selected: 2 adults · 0 children · 1 room" type="button">2 adults · 0 children · 1 room</button>
+81[:]<label >Entire homes & apartments</label>
+82[:]<span tabindex="0" role="img" aria-label="We'll show you stays where you can have the entire place to yourself"></span>
+83[:]<input type="checkbox" name="sb_travel_purpose" value="business"></input>
+84[:]<label >I'm traveling for work</label>
+85[:]<span tabindex="0" role="img" aria-label="If you select this option, we'll show you popular business travel features like breakfast, Wifi and free parking."></span>
+86[:]<button type="submit">Search</button>
+87[:]<div >Filter by:
+Your budget (per night)
+€ 10 – € 200+
+Popular filters</div>
+88[:]<input aria-label="Twin beds: 1828 properties" type="checkbox" name="tdb=2" value="tdb=2"></input>
+89[:]<label >Twin beds
+1828</label>
+90[:]<input aria-label="Breakfast included: 1690 properties" type="checkbox" name="mealplan=1" value="mealplan=1"></input>
+91[:]<label >Breakfast included
+1690</label>
+92[:]<input aria-label="Hotels: 2759 properties" type="checkbox" name="ht_id=204" value="ht_id=204"></input>
+93[:]<label >Hotels
+2759</label>
+94[:]<input aria-label="Less than 1 km: 845 properties" type="checkbox" name="distance=1000" value="distance=1000"></input>
+95[:]<label >Less than 1 km
+845
+Distance from address</label>
+96[:]<input aria-label="Free Wifi: 3587 properties" type="checkbox" name="hotelfacility=107" value="hotelfacility=107"></input>
+97[:]<label >Free Wifi
+3587</label>
+98[:]<input aria-label="Wonderful: 9+: 805 properties" type="checkbox" name="review_score=90" value="review_score=90"></input>
+99[:]<label >Wonderful: 9+
+805</label>
+100[:]<input aria-label="Air conditioning: 3632 properties" type="checkbox" name="roomfacility=11" value="roomfacility=11"></input>
+101[:]<label ></label>
+102[:]<input aria-label="5 stars: 200 properties" type="checkbox" name="class=5" value="class=5"></input>
+103[:]<label ></label>
+104[:]<label ></label>
+105[:]<span role="none"></span>
+106[:]<textarea name="request" placeholder="Example: I want a place with great reviews and free cancellation"></textarea>
+107[:]<button type="submit"></button>
+108[:]<input aria-label="Sustainability certification: 211 properties" type="checkbox" name="SustainablePropertyLevelFilter=4" value="SustainablePropertyLevelFilter=4"></input>
+109[:]<label ></label>
+110[:]<input aria-label="Air conditioning: 3632 properties" type="checkbox" name="roomfacility=11" value="roomfacility=11"></input>
+111[:]<label ></label>
+112[:]<input aria-label="Sea view: 702 properties" type="checkbox" name="roomfacility=108" value="roomfacility=108"></input>
+113[:]<label ></label>
+114[:]<input aria-label="Private pool: 88 properties" type="checkbox" name="roomfacility=93" value="roomfacility=93"></input>
+115[:]<label ></label>
+... 8004 pixels below - scroll or extract content to see more ...

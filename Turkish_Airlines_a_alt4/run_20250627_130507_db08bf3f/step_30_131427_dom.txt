@@ -1,0 +1,302 @@
+
+
+Current url: https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266
+Available tabs:
+[TabInfo(page_id=0, url='https://www.turkishairlines.com/en-int/flights/booking/availability-international?cId=8a33e407-94c8-4a63-af43-8de615172266', title='Turkish Airlines Booking Availability')]
+Interactive elements from current page view:
+... 2026 pixels above - scroll or extract content to see more ...
+0[:]<body >36
+37
+40
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+115</body>
+1[:]<div ></div>
+2[:]<div >Package details
+1 piece X 8 kg cabin baggage
+Baggage allowance
+Standard seat selection
+Preferred seat selection
+Change without fee (class fare difference may be charged)
+Change to an earlier flight on the same day
+Full refund
+Miles
+Fast track (where available)
+Meal service
+EcoFly
+V-Y Class
+1100 Miles
+ExtraFly
+V-Y Class
+23 kg
+2780.00 TRY deduction
+1100 Miles
+FlexFly
+V-Y Class
+Recommended
+23 kg
+3971.00 TRY deduction
+1375 Miles
+PrimeFly
+V-Y Class
+30 kg
+1650 Miles
+Departure
+COV
+-
+MUC
+•
+18 Jul Fri
+Departure: 14:35
+|
+Arrival: 21:25
+Select the return flight
+Continue</div>
+3[:]<div tabindex="0" role="button" aria-label="14:45 - 01:35 Itinerary details"></div>
+4[:]<img alt="MUC"></img>
+5[:]<img alt="IST"></img>
+6[:]<div role="button" aria-label="Itinerary details: 14:45 - 01:35"></div>
+7[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+8[:]<span role="button"></span>
+9[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+10[:]<span role="button"></span>
+11[:]<div tabindex="0" role="button" aria-label="07:15 - 18:35 Itinerary details"></div>
+12[:]<img alt="MUC"></img>
+13[:]<img alt="IST"></img>
+14[:]<div role="button" aria-label="Itinerary details: 07:15 - 18:35"></div>
+15[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+16[:]<span role="button"></span>
+17[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+18[:]<span role="button"></span>
+19[:]<div tabindex="0" role="button" aria-label="10:30 - 22:15 Itinerary details"></div>
+20[:]<img alt="MUC"></img>
+21[:]<img alt="IST"></img>
+22[:]<div role="button" aria-label="Itinerary details: 10:30 - 22:15"></div>
+23[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+24[:]<span role="button"></span>
+25[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+26[:]<span role="button"></span>
+27[:]<div tabindex="0" role="button" aria-label="19:30 - 07:50 Itinerary details"></div>
+28[:]<img alt="MUC"></img>
+29[:]<img alt="IST"></img>
+30[:]<div role="button" aria-label="Itinerary details: 19:30 - 07:50"></div>
+31[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+32[:]<span role="button"></span>
+33[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+34[:]<span role="button"></span>
+35[:]<div tabindex="0" role="button" aria-label="12:50 - 01:35 Itinerary details">MUC
+Munich
+COV
+Çukurova
+Total travel duration
+11h 45m
+Aircraft type:
+Airbus A321-200neo - Narrow body</div>
+36[:]<img alt="MUC"></img>
+37[:]<img alt="IST"></img>
+38[:]<div role="button" aria-label="Itinerary details: 12:50 - 01:35">Itinerary details</div>
+39[:]<div tabindex="0" role="button" aria-expanded="false">Per passenger
+TRY
+8,448
+.75</div>
+40[:]<span role="button"></span>
+41[:]<div tabindex="0" role="button" aria-expanded="false">Per passenger
+TRY
+29,019
+.22
+4 left at this price</div>
+42[:]<span role="button"></span>
+43[:]<div tabindex="0" role="button" aria-label="07:15 - 20:05 Itinerary details">07:15
+MUC
+Munich
+IST
+20:05
+COV
+Çukurova
+Total travel duration
+11h 50m
+Aircraft type:
+Boeing 737-800 - Narrow-body</div>
+44[:]<img alt="MUC"></img>
+45[:]<img alt="IST"></img>
+46[:]<div role="button" aria-label="Itinerary details: 07:15 - 20:05">Itinerary details</div>
+47[:]<div tabindex="0" role="button" aria-expanded="false">Economy
+Best price
+Per passenger
+TRY
+8,448
+.75</div>
+48[:]<span role="button"></span>
+49[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+TRY
+29,019
+.22
+4 left at this price</div>
+50[:]<span role="button"></span>
+51[:]<div tabindex="0" role="button" aria-label="14:45 - 03:35 Itinerary details">14:45
+MUC
+Munich
+IST
+03:35
+COV
+Çukurova
+Next day
+Total travel duration
+11h 50m
+Aircraft type:
+Airbus A320 - Narrow-body</div>
+52[:]<img alt="MUC"></img>
+53[:]<img alt="IST"></img>
+54[:]<div role="button" aria-label="Itinerary details: 14:45 - 03:35">Itinerary details</div>
+55[:]<div tabindex="0" role="button" aria-expanded="false">Economy
+Per passenger
+TRY
+9,798
+.75</div>
+56[:]<span role="button"></span>
+57[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+TRY
+29,019
+.22
+4 left at this price</div>
+58[:]<span role="button"></span>
+59[:]<div tabindex="0" role="button" aria-label="19:30 - 09:30 Itinerary details">19:30
+MUC
+Munich
+IST
+09:30
+COV
+Çukurova
+Next day
+Total travel duration
+13h
+Aircraft type:
+Airbus A330-300 - Wide-body</div>
+60[:]<img alt="MUC"></img>
+61[:]<img alt="IST"></img>
+62[:]<div role="button" aria-label="Itinerary details: 19:30 - 09:30">Itinerary details</div>
+63[:]<div tabindex="0" role="button" aria-expanded="false">Economy
+Per passenger
+TRY
+8,647
+.75</div>
+64[:]<span role="button"></span>
+65[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+TRY
+29,217
+.22
+4 left at this price</div>
+66[:]<span role="button"></span>
+67[:]<div tabindex="0" role="button" aria-label="12:50 - 03:35 Itinerary details">12:50
+MUC
+Munich
+IST
+03:35
+COV
+Çukurova
+Next day
+Total travel duration
+13h 45m
+Aircraft type:
+Airbus A321-200neo - Narrow body</div>
+68[:]<img alt="MUC"></img>
+69[:]<img alt="IST"></img>
+70[:]<div role="button" aria-label="Itinerary details: 12:50 - 03:35">Itinerary details</div>
+71[:]<div tabindex="0" role="button" aria-expanded="true">Economy
+Best price
+Per passenger
+TRY
+8,448
+.75</div>
+72[:]<span role="button"></span>
+73[:]<div tabindex="0" role="button" aria-expanded="false">Business
+Per passenger
+TRY
+29,019
+.22
+4 left at this price</div>
+74[:]<span role="button"></span>
+75[:]<img alt=""></img>
+76[:]<img alt=""></img>
+77[:]<img alt=""></img>
+78[:]<img alt=""></img>
+79[:]<img alt=""></img>
+80[:]<img alt=""></img>
+81[:]<img alt=""></img>
+82[:]<img alt=""></img>
+83[:]<button type="button" aria-label="EcoFly - 8448.75 TRY"></button>
+84[:]<button type="button" aria-label="ExtraFly - 9203.75 TRY"></button>
+85[:]<button type="button" aria-label="FlexFly - 9798.75 TRY"></button>
+86[:]<button type="button" aria-label="PrimeFly - 10553.75 TRY"></button>
+87[:]<div tabindex="0" role="button" aria-label="07:15 - 22:15 Itinerary details"></div>
+88[:]<img alt="MUC"></img>
+89[:]<img alt="IST"></img>
+90[:]<div role="button" aria-label="Itinerary details: 07:15 - 22:15"></div>
+91[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+92[:]<span role="button"></span>
+93[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+94[:]<span role="button"></span>
+95[:]<div tabindex="0" role="button" aria-label="10:30 - 01:35 Itinerary details"></div>
+96[:]<img alt="MUC"></img>
+97[:]<img alt="IST"></img>
+98[:]<div role="button" aria-label="Itinerary details: 10:30 - 01:35"></div>
+99[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+100[:]<span role="button"></span>
+101[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+102[:]<span role="button"></span>
+103[:]<div tabindex="0" role="button" aria-label="10:30 - 03:35 Itinerary details"></div>
+104[:]<img alt="MUC"></img>
+105[:]<img alt="IST"></img>
+106[:]<div role="button" aria-label="Itinerary details: 10:30 - 03:35"></div>
+107[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+108[:]<span role="button"></span>
+109[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+110[:]<span role="button"></span>
+111[:]<div tabindex="0" role="button" aria-label="14:45 - 07:50 Itinerary details"></div>
+112[:]<div role="button" aria-label="Itinerary details: 14:45 - 07:50"></div>
+113[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+114[:]<div tabindex="0" role="button" aria-expanded="false"></div>
+115[:]<a tabindex="0" role="button">Details</a>
+... 2833 pixels below - scroll or extract content to see more ...

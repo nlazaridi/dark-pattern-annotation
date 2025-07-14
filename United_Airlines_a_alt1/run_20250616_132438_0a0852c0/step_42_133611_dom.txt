@@ -1,0 +1,135 @@
+
+
+Current url: https://www.united.com/en/us/book-flight/seatmap/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R
+Available tabs:
+[TabInfo(page_id=0, url='https://www.united.com/en/us/book-flight/seatmap/206A1FC5-2023-48B5-B15E-43C98FC491F1?tqp=R', title='Flight Booking Seatmap | United Airlines')]
+Interactive elements from current page view:
+[Start of page]
+0[:]<a ></a>
+1[:]<img alt="United logo link to homepage"></img>
+2[:]<button aria-label="Currently in English US	$ enter to change" type="button">English - US	$</button>
+3[:]<a aria-label="Search, opens in a new tab"></a>
+4[:]<button aria-label="Sign in" type="button">Sign in</button>
+5[:]<button aria-label="Shopping cart with 1 item" type="button">1</button>
+6[:]<button aria-label="Main menu" type="button">Main menu
+Menu</button>
+_[:]Select seats
+_[:]Show seat map for flight
+_[:]use arrow keys to navigate among tabs and enter/ space key to activate and navigate through the tab
+7[:]<button type="button" role="tab" tabindex="0">Showing seat map for
+Flight 1 of 2
+DEN - MCO</button>
+8[:]<button type="button" role="tab" tabindex="-1">Showing seat map for
+Flight 2 of 2
+MCO - DEN</button>
+_[:]Date
+_[:]Fri, Jul 18, 2025
+_[:]Flight
+_[:]UA 2065
+_[:]Aircraft
+_[:]Boeing 737-800
+_[:]Duration
+_[:]3h 45m
+_[:]Travelers with Basic Economy tickets can purchase advance seat assignments. If you don't purchase a seat assignment, we'll assign you a seat prior to boarding.
+_[:]Select seats for Denver to Orlando
+9[:]<button type="button">Now selecting seat for traveler 1 John Doe.
+1
+John doe
+No seat selected
+---</button>
+_[:]Legend
+_[:]Seat types
+_[:]Price does not include tax
+_[:]United First®
+_[:]Unavailable
+_[:]Extra-wide seats with added legroom
+_[:]Complimentary wine, beer and spirits
+_[:]One additional checked bag at no charge
+_[:]Economy Plus®
+_[:]Unavailable
+_[:]Extra legroom
+_[:]Earn Premier® qualifying points
+_[:]Preferred seat
+_[:]From $46.99
+_[:]plus tax
+_[:]Standard legroom
+_[:]Favorable location in Economy
+_[:]Earn Premier® qualifying points
+_[:]United Economy®
+_[:]From $19.99
+_[:]plus tax
+_[:]Standard legroom
+_[:]Unavailable seat
+_[:]Unavailable seat
+_[:]This is the seat map for a Boeing 737-800. You'll move through each row of the map starting with the front of the plane and moving to the back of the plane. Each available seat in the map is a button. Select the button to choose that seat.
+_[:]Lavatory
+_[:]Aisle
+_[:]Galley
+_[:]Aisle
+_[:]Galley
+_[:]Aisle
+_[:]Galley
+10[:]<span tabindex="0" aria-label="United First">United First®</span>
+_[:]Seat section A
+_[:]A
+_[:]Seat section B
+_[:]B
+_[:]Aisle section
+_[:]Seat section E
+_[:]E
+_[:]Seat section F
+_[:]F
+_[:]Row 1, 0 of 4 seats available
+_[:]1A United First. Occupied. Window.
+_[:]1B United First. Occupied. Aisle.
+_[:]Aisle of row 1
+_[:]1
+_[:]1E United First. Occupied. Aisle.
+_[:]1F United First. Occupied. Window.
+_[:]Row 2, 0 of 4 seats available
+_[:]2A United First. Occupied. Window.
+_[:]2B United First. Occupied. Aisle.
+_[:]Aisle of row 2
+_[:]2
+_[:]2E United First. Occupied. Aisle.
+_[:]2F United First. Occupied. Window.
+_[:]Row 3, 0 of 4 seats available
+_[:]3A United First. Occupied. Window.
+_[:]3B United First. Occupied. Aisle.
+_[:]Aisle of row 3
+_[:]3
+_[:]3E United First. Occupied. Aisle.
+_[:]3F United First. Occupied. Window.
+_[:]Row 4, 0 of 4 seats available
+_[:]4A United First. Occupied. Window.
+_[:]4B United First. Occupied. Aisle.
+_[:]Aisle of row 4
+_[:]4
+_[:]4E United First. Occupied. Aisle.
+_[:]4F United First. Occupied. Window.
+11[:]<span tabindex="0" aria-label="United Economy">United Economy®</span>
+_[:]Seat section A
+_[:]A
+_[:]Seat section B
+_[:]B
+_[:]Seat section C
+_[:]C
+_[:]Aisle section
+_[:]Seat section D
+_[:]D
+_[:]Seat section E
+_[:]E
+_[:]Seat section F
+_[:]F
+_[:]Row 7, 0 of 6 seats available
+_[:]7A Economy Plus. Occupied. Window.
+_[:]7B Economy Plus. Occupied. Middle.
+_[:]7C Economy Plus. Occupied. Aisle.
+_[:]Aisle of row 7
+_[:]7
+_[:]7D Economy Plus. Occupied. Aisle.
+_[:]7E Economy Plus. Occupied. Middle.
+_[:]7F Economy Plus. Occupied. Window.
+12[:]<button tabindex="0" aria-label="22E Preferred seat. $46.99. plus tax Middle. Standard legroom. Seat available"></button>
+13[:]<button role="button" aria-expanded="false">Site Feedback</button>
+... 2057 pixels below - scroll or extract content to see more ...
