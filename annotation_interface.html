@@ -596,12 +596,6 @@
             // Use the full URL path for the image
             img.src = `/${imagePath}`;
             img.onload = function() {
-                // Clone and replace the image element to ensure clean event listeners
-                const imageWrapper = document.getElementById('imageWrapper');
-                const newImg = img.cloneNode(true);
-                newImg.draggable = false;
-                imageWrapper.replaceChild(newImg, img);
-                
                 // Clear previous annotations
                 clearBoundingBoxes();
                 annotations = [];
@@ -609,7 +603,7 @@
                 updateImageCounter();
                 updateNavigationButtons();
                 
-                // Attach drawing listeners to the new image element
+                // Attach drawing listeners to the image element
                 attachDrawingListeners();
             };
         }
@@ -659,8 +653,16 @@
 
         // Bounding box functionality
         function startDrawing(e) {
-            if (e.target !== document.getElementById('annotationImage')) return;
-            if (isDrawing) return;
+            console.log('startDrawing called', e.target, document.getElementById('annotationImage'));
+            if (e.target !== document.getElementById('annotationImage')) {
+                console.log('Target mismatch:', e.target, document.getElementById('annotationImage'));
+                return;
+            }
+            if (isDrawing) {
+                console.log('Already drawing');
+                return;
+            }
+            console.log('Starting to draw at:', e.clientX, e.clientY);
             isDrawing = true;
             
             const rect = e.target.getBoundingClientRect();
@@ -675,6 +677,7 @@
             currentBox.style.height = '0px';
 
             document.getElementById('imageWrapper').appendChild(currentBox);
+            console.log('Box created:', currentBox);
         }
 
         function draw(e) {
@@ -753,20 +756,25 @@
             const img = document.getElementById('annotationImage');
             if (!img) return;
             
-            // Remove any existing listeners
-            img.onmousedown = null;
-            img.onmousemove = null;
-            img.onmouseup = null;
-            img.onmouseleave = null;
+            // Remove any existing listeners by cloning and replacing
+            const imageWrapper = document.getElementById('imageWrapper');
+            const newImg = img.cloneNode(true);
+            newImg.draggable = false;
+            imageWrapper.replaceChild(newImg, img);
             
-            // Add new listeners
-            img.addEventListener('mousedown', startDrawing);
-            img.addEventListener('mousemove', draw);
-            img.addEventListener('mouseup', endDrawing);
-            img.addEventListener('mouseleave', endDrawing);
+            // Get the new image element
+            const freshImg = document.getElementById('annotationImage');
+            
+            // Add event listeners to the fresh image
+            freshImg.addEventListener('mousedown', startDrawing);
+            freshImg.addEventListener('mousemove', draw);
+            freshImg.addEventListener('mouseup', endDrawing);
+            freshImg.addEventListener('mouseleave', endDrawing);
             
             // Prevent drag behavior
-            img.ondragstart = function() { return false; };
+            freshImg.ondragstart = function() { return false; };
+            
+            console.log('Drawing listeners attached to image:', freshImg);
         }
 
         // Annotation functionality
