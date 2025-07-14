@@ -1,1 +1,1 @@
-web: git lfs install && git lfs pull && python annotation_server.py 
+web: bash start.sh 
