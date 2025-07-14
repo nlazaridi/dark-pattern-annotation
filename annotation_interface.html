@@ -596,7 +596,18 @@
             // Use the full URL path for the image
             img.src = `/${imagePath}`;
             img.onload = function() {
-                initializeBoundingBoxes();
+                // Remove any previous listeners
+                img.onmousedown = null;
+                img.onmousemove = null;
+                img.onmouseup = null;
+                img.onmouseleave = null;
+
+                // Attach the drawing listeners
+                img.addEventListener('mousedown', startDrawing);
+                img.addEventListener('mousemove', draw);
+                img.addEventListener('mouseup', endDrawing);
+                img.addEventListener('mouseleave', endDrawing);
+
                 img.ondragstart = function() { return false; };
             };
             
@@ -653,26 +664,11 @@
         }
 
         // Bounding box functionality
-        function initializeBoundingBoxes() {
-            const image = document.getElementById('annotationImage');
-            // Remove previous listeners
-            image.onmousedown = null;
-            image.onmousemove = null;
-            image.onmouseup = null;
-            image.onmouseleave = null;
-
-            image.addEventListener('mousedown', startDrawing);
-            image.addEventListener('mousemove', draw);
-            image.addEventListener('mouseup', endDrawing);
-            image.addEventListener('mouseleave', endDrawing);
-        }
-
         function startDrawing(e) {
             if (e.target !== document.getElementById('annotationImage')) return;
             isDrawing = true;
             startX = e.offsetX;
             startY = e.offsetY;
-            console.log('startDrawing', startX, startY);
 
             currentBox = document.createElement('div');
             currentBox.className = 'bounding-box';
@@ -682,18 +678,24 @@
             currentBox.style.height = '0px';
 
             document.getElementById('imageWrapper').appendChild(currentBox);
+
+            // Attach listeners to document for robust drawing
+            document.addEventListener('mousemove', draw);
+            document.addEventListener('mouseup', endDrawing);
         }
 
         function draw(e) {
             if (!isDrawing || !currentBox) return;
-            const currentX = e.offsetX;
-            const currentY = e.offsetY;
-            console.log('draw', currentX, currentY);
+            // Calculate mouse position relative to the image
+            const img = document.getElementById('annotationImage');
+            const rect = img.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
 
-            const width = Math.abs(currentX - startX);
-            const height = Math.abs(currentY - startY);
-            const left = Math.min(currentX, startX);
-            const top = Math.min(currentY, startY);
+            const width = Math.abs(x - startX);
+            const height = Math.abs(y - startY);
+            const left = Math.min(x, startX);
+            const top = Math.min(y, startY);
 
             currentBox.style.left = left + 'px';
             currentBox.style.top = top + 'px';
@@ -703,22 +705,22 @@
 
         function endDrawing() {
             if (!isDrawing || !currentBox) return;
-            
             isDrawing = false;
-            
+            // Remove document listeners
+            document.removeEventListener('mousemove', draw);
+            document.removeEventListener('mouseup', endDrawing);
+
             // Only keep the box if it has a reasonable size
             const width = parseInt(currentBox.style.width);
             const height = parseInt(currentBox.style.height);
-            
+
             if (width > 10 && height > 10) {
-                const boxNumber = boundingBoxes.length + 1;
+                const boxNumber = document.querySelectorAll('.bounding-box').length + 1;
                 currentBox.innerHTML = `<div class="bounding-box-number">${boxNumber}</div>`;
                 currentBox.onclick = () => selectBox(currentBox);
-                boundingBoxes.push(currentBox);
             } else {
                 currentBox.remove();
             }
-            
             currentBox = null;
         }
 
@@ -887,7 +889,7 @@
         // Initialize when page loads
         document.addEventListener('DOMContentLoaded', function() {
             initializeInterface();
-            // Do not call initializeBoundingBoxes() here
+            // No initializeBoundingBoxes here
             document.getElementById('annotationImage').ondragstart = function() { return false; };
         });
     </script>
