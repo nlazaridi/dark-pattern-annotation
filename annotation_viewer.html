@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annotation Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 20px 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            min-height: 600px;
+        }
+
+        .sidebar {
+            background: #f8f9fa;
+            padding: 20px;
+            border-right: 1px solid #e9ecef;
+        }
+
+        .annotation-list {
+            max-height: 500px;
+            overflow-y: auto;
+        }
+
+        .annotation-item {
+            background: white;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .annotation-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        }
+
+        .annotation-item.selected {
+            background: #3498db;
+            color: white;
+        }
+
+        .annotation-item h4 {
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        .annotation-item p {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .annotation-item.selected p {
+            color: #e0e0e0;
+        }
+
+        .user-info {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .user-info h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .user-info p {
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .image-container {
+            padding: 30px;
+            text-align: center;
+            background: #f8f9fa;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .image-wrapper {
+            position: relative;
+            display: block;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            overflow: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            max-width: 100%;
+            max-height: 70vh;
+            width: 100%;
+            height: 70vh;
+            scrollbar-width: auto;
+            scrollbar-color: #888 #f1f1f1;
+        }
+
+        .image-wrapper::-webkit-scrollbar {
+            width: 12px;
+            height: 12px;
+        }
+
+        .image-wrapper::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 6px;
+        }
+
+        .image-wrapper::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 6px;
+        }
+
+        .image-wrapper::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+        .annotation-image {
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+
+        #imageContainer {
+            position: relative;
+            display: block;
+            min-width: 100%;
+            min-height: 100%;
+        }
+
+        .zoom-controls {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .zoom-btn {
+            padding: 8px 16px;
+            margin: 0 5px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 6px;
+            background: #3498db;
+            color: white;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+
+        .zoom-btn:hover {
+            background: #2980b9;
+        }
+
+        .annotation-details {
+            background: white;
+            padding: 15px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .annotation-details h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .annotation-details p {
+            margin-bottom: 5px;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Annotation Viewer</h1>
+            <p>View and verify saved annotations</p>
+        </div>
+
+        <div class="main-content">
+            <div class="sidebar">
+                <div class="user-info" id="userInfo">
+                    <h3>User Information</h3>
+                    <p><strong>Name:</strong> <span id="userName">Loading...</span></p>
+                    <p><strong>Email:</strong> <span id="userEmail">Loading...</span></p>
+                    <p><strong>Submission Time:</strong> <span id="submissionTime">Loading...</span></p>
+                </div>
+
+                <div class="annotation-list" id="annotationList">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <p>Loading annotations...</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <div class="zoom-controls">
+                    <button class="zoom-btn" onclick="setZoom(zoomLevel + 0.2)">+</button>
+                    <button class="zoom-btn" onclick="setZoom(zoomLevel - 0.2)">−</button>
+                    <button class="zoom-btn" onclick="resetZoom()">Reset</button>
+                    <button class="zoom-btn" onclick="testScroll()">Test Scroll</button>
+                    <span id="zoomPercent" style="margin-left:10px; font-weight:bold;">100%</span>
+                </div>
+                
+                <div id="imageWrapper" class="image-wrapper">
+                    <div id="imageContainer">
+                        <img id="annotationImage" class="annotation-image" src="" alt="Annotation Image" />
+                    </div>
+                </div>
+
+                <div class="annotation-details" id="annotationDetails">
+                    <h3>Annotation Details</h3>
+                    <p>Select an annotation from the sidebar to view details</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let annotations = [];
+        let currentAnnotation = null;
+        let zoomLevel = 1;
+
+        function setZoom(level) {
+            zoomLevel = Math.max(0.2, Math.min(level, 8));
+            const img = document.getElementById('annotationImage');
+            const container = document.getElementById('imageContainer');
+            
+            if (img && container) {
+                // Set image size based on zoom
+                const newWidth = img.naturalWidth * zoomLevel;
+                const newHeight = img.naturalHeight * zoomLevel;
+                
+                container.style.width = newWidth + 'px';
+                container.style.height = newHeight + 'px';
+                img.style.width = newWidth + 'px';
+                img.style.height = newHeight + 'px';
+                
+                // Update zoom display
+                const zoomPercent = document.getElementById('zoomPercent');
+                if (zoomPercent) {
+                    zoomPercent.textContent = Math.round(zoomLevel * 100) + '%';
+                }
+                
+                // Reposition boxes after zoom
+                setTimeout(() => {
+                    repositionBoxes();
+                }, 50);
+            }
+        }
+
+        function resetZoom() {
+            setZoom(1);
+        }
+
+        function testScroll() {
+            const wrapper = document.getElementById('imageWrapper');
+            if (wrapper) {
+                console.log('Testing scroll...');
+                console.log('Current scroll position:', wrapper.scrollLeft, wrapper.scrollTop);
+                console.log('Scroll width/height:', wrapper.scrollWidth, wrapper.scrollHeight);
+                console.log('Client width/height:', wrapper.clientWidth, wrapper.clientHeight);
+                
+                // Try to scroll to the right
+                wrapper.scrollLeft = wrapper.scrollWidth - wrapper.clientWidth;
+                console.log('After scroll right:', wrapper.scrollLeft, wrapper.scrollTop);
+                
+                // Try to scroll to the bottom
+                wrapper.scrollTop = wrapper.scrollHeight - wrapper.clientHeight;
+                console.log('After scroll bottom:', wrapper.scrollLeft, wrapper.scrollTop);
+                
+                // Reset to top-left
+                setTimeout(() => {
+                    wrapper.scrollLeft = 0;
+                    wrapper.scrollTop = 0;
+                    console.log('Reset to top-left:', wrapper.scrollLeft, wrapper.scrollTop);
+                }, 2000);
+            }
+        }
+
+        function ensureScrollable() {
+            const wrapper = document.getElementById('imageWrapper');
+            const container = document.getElementById('imageContainer');
+            
+            if (wrapper && container) {
+                // Force a reflow to ensure dimensions are calculated
+                wrapper.offsetHeight;
+                
+                // Ensure the container is larger than the wrapper when zoomed
+                if (zoomLevel > 1) {
+                    const wrapperRect = wrapper.getBoundingClientRect();
+                    const containerRect = container.getBoundingClientRect();
+                    
+                    console.log('Wrapper size:', wrapperRect.width, 'x', wrapperRect.height);
+                    console.log('Container size:', containerRect.width, 'x', containerRect.height);
+                    console.log('Scroll position:', wrapper.scrollLeft, wrapper.scrollTop);
+                    console.log('Max scroll:', wrapper.scrollWidth - wrapper.clientWidth, wrapper.scrollHeight - wrapper.clientHeight);
+                }
+            }
+        }
+
+        function loadAnnotations() {
+            fetch('/api/annotations')
+                .then(response => response.json())
+                .then(data => {
+                    console.log('API Response:', data);
+                    
+                    // Process annotations to handle both individual files and submission files
+                    annotations = processAnnotations(data.annotations);
+                    console.log('Processed annotations:', annotations.length);
+                    displayAnnotationList();
+                })
+                .catch(error => {
+                    console.error('Error loading annotations:', error);
+                    document.getElementById('annotationList').innerHTML = '<p>Error loading annotations</p>';
+                });
+        }
+
+        function processAnnotations(rawAnnotations) {
+            const processedAnnotations = [];
+            
+            rawAnnotations.forEach(annotation => {
+                // Check if this is a submission file (has nested annotations structure)
+                if (annotation.annotations && typeof annotation.annotations === 'object' && 
+                    !Array.isArray(annotation.annotations) && 
+                    annotation.file && annotation.file.startsWith('submission_')) {
+                    
+                    console.log('Processing submission file:', annotation.file);
+                    
+                    // Extract individual annotations from submission file
+                    const submissionAnnotations = annotation.annotations;
+                    const userInfo = annotation.user_info || {};
+                    const timestamp = annotation.timestamp;
+                    
+                    // Process each folder in the submission
+                    Object.keys(submissionAnnotations).forEach(folderName => {
+                        const folderData = submissionAnnotations[folderName];
+                        const folderImages = folderData.images || {};
+                        
+                        // Process each image in the folder
+                        Object.keys(folderImages).forEach(imagePath => {
+                            const boxes = folderImages[imagePath];
+                            
+                            if (boxes && boxes.length > 0) {
+                                // Create individual annotation entry
+                                const individualAnnotation = {
+                                    folder: folderName,
+                                    image: imagePath,
+                                    annotations: boxes,
+                                    timestamp: timestamp,
+                                    user_info: userInfo,
+                                    total_annotations: boxes.length,
+                                    file: annotation.file,
+                                    is_from_submission: true,
+                                    folder_comment: folderData.comments || ''
+                                };
+                                
+                                processedAnnotations.push(individualAnnotation);
+                            }
+                        });
+                    });
+                    
+                } else {
+                    // This is an individual annotation file, keep as is
+                    processedAnnotations.push(annotation);
+                }
+            });
+            
+            return processedAnnotations;
+        }
+
+        function displayAnnotationList() {
+            const list = document.getElementById('annotationList');
+            list.innerHTML = '';
+
+            if (annotations.length === 0) {
+                list.innerHTML = '<p>No annotations found</p>';
+                return;
+            }
+
+            annotations.forEach((annotation, index) => {
+                const item = document.createElement('div');
+                item.className = 'annotation-item';
+                item.onclick = () => selectAnnotation(index);
+                
+                const userInfo = annotation.user_info || {};
+                const timestamp = new Date(annotation.timestamp).toLocaleString();
+                
+                // Get the actual image path for display
+                let imagePath = annotation.image;
+                let boxCount = annotation.total_annotations || 0;
+                let folderName = annotation.folder || 'Unknown Folder';
+                
+                // Extract just the filename from the full path
+                if (imagePath) {
+                    const pathParts = imagePath.split('/');
+                    imagePath = pathParts[pathParts.length - 1];
+                }
+                
+                // Add submission indicator if this is from a submission file
+                const submissionIndicator = annotation.is_from_submission ? ' (Submission)' : '';
+                
+                item.innerHTML = `
+                    <h4>${folderName}${submissionIndicator}</h4>
+                    <p><strong>Image:</strong> ${imagePath || 'Unknown'}</p>
+                    <p><strong>User:</strong> ${userInfo.name || 'Unknown'}</p>
+                    <p><strong>Time:</strong> ${timestamp}</p>
+                    <p><strong>Boxes:</strong> ${boxCount}</p>
+                    ${annotation.folder_comment ? `<p><strong>Folder Comment:</strong> ${annotation.folder_comment}</p>` : ''}
+                `;
+                
+                list.appendChild(item);
+            });
+        }
+
+        function selectAnnotation(index) {
+            // Remove previous selection
+            document.querySelectorAll('.annotation-item').forEach(item => {
+                item.classList.remove('selected');
+            });
+            
+            // Select current item
+            const items = document.querySelectorAll('.annotation-item');
+            if (items[index]) {
+                items[index].classList.add('selected');
+            }
+            
+            currentAnnotation = annotations[index];
+            displayAnnotation(currentAnnotation);
+        }
+
+        function displayAnnotation(annotation) {
+            // Update user info
+            const userInfo = annotation.user_info || {};
+            document.getElementById('userName').textContent = userInfo.name || 'Unknown';
+            document.getElementById('userEmail').textContent = userInfo.email || 'Unknown';
+            document.getElementById('submissionTime').textContent = new Date(annotation.timestamp).toLocaleString();
+
+            // Get the correct image path
+            let imagePath = annotation.image;
+            
+            // Load and display image
+            const img = document.getElementById('annotationImage');
+            if (imagePath && imagePath !== 'images' && imagePath !== 'comments') {
+                img.src = `/${imagePath}`;
+            } else {
+                img.src = ''; // Clear image if no valid path
+            }
+            
+            img.onload = function() {
+                // Clear previous boxes
+                clearBoundingBoxes();
+                
+                // Wait a bit for the image to be fully rendered
+                setTimeout(() => {
+                    // Add bounding boxes for this annotation
+                    if (annotation.annotations && Array.isArray(annotation.annotations)) {
+                        annotation.annotations.forEach((box, index) => {
+                            addBoundingBox(box, index);
+                        });
+                    }
+                    
+                    // Reset zoom
+                    setZoom(1);
+                }, 100); // Small delay to ensure image is rendered
+            };
+
+            img.onerror = function() {
+                console.log('Failed to load image:', imagePath);
+                clearBoundingBoxes();
+            };
+
+            // Update annotation details
+            const details = document.getElementById('annotationDetails');
+            const boxCount = Array.isArray(annotation.annotations) ? annotation.annotations.length : 0;
+            
+            details.innerHTML = `
+                <h3>Annotation Details</h3>
+                <p><strong>Folder:</strong> ${annotation.folder || 'Unknown'}</p>
+                <p><strong>Image:</strong> ${imagePath || 'Unknown'}</p>
+                <p><strong>Total Boxes:</strong> ${boxCount}</p>
+                <p><strong>Timestamp:</strong> ${new Date(annotation.timestamp).toLocaleString()}</p>
+                <p><strong>User:</strong> ${userInfo.name || 'Unknown'} (${userInfo.email || 'Unknown'})</p>
+                ${annotation.folder_comment ? `<p><strong>Folder Comment:</strong> ${annotation.folder_comment}</p>` : ''}
+                ${annotation.is_from_submission ? `<p><strong>Source:</strong> Submission File</p>` : ''}
+            `;
+        }
+
+        function clearBoundingBoxes() {
+            const container = document.getElementById('imageContainer');
+            const boxes = container.querySelectorAll('.bounding-box');
+            boxes.forEach(box => box.remove());
+        }
+
+        function addBoundingBox(box, index) {
+            const container = document.getElementById('imageContainer');
+            const img = document.getElementById('annotationImage');
+            
+            if (!img || !img.naturalWidth || !img.naturalHeight) {
+                console.log('Image not loaded yet, skipping box');
+                return;
+            }
+            
+            // Get the displayed image dimensions
+            const displayRect = img.getBoundingClientRect();
+            
+            // Calculate scaling factors based on current zoom
+            const scaleX = displayRect.width / img.naturalWidth;
+            const scaleY = displayRect.height / img.naturalHeight;
+            
+            // Scale the box coordinates
+            const scaledLeft = box.left * scaleX;
+            const scaledTop = box.top * scaleY;
+            const scaledWidth = box.width * scaleX;
+            const scaledHeight = box.height * scaleY;
+            
+            const boxElement = document.createElement('div');
+            boxElement.className = 'bounding-box';
+            boxElement.style.position = 'absolute';
+            boxElement.style.left = scaledLeft + 'px';
+            boxElement.style.top = scaledTop + 'px';
+            boxElement.style.width = scaledWidth + 'px';
+            boxElement.style.height = scaledHeight + 'px';
+            boxElement.style.border = '2px solid #e74c3c';
+            boxElement.style.background = 'rgba(231, 76, 60, 0.1)';
+            boxElement.style.pointerEvents = 'none';
+            boxElement.style.zIndex = '5';
+            
+            // Add label
+            const label = document.createElement('span');
+            label.className = 'box-label';
+            label.style.position = 'absolute';
+            label.style.top = '-22px';
+            label.style.left = '0';
+            label.style.background = '#e74c3c';
+            label.style.color = '#fff';
+            label.style.padding = '2px 8px';
+            label.style.borderRadius = '4px';
+            label.style.fontSize = '0.9em';
+            label.style.pointerEvents = 'none';
+            label.style.zIndex = '20';
+            label.style.whiteSpace = 'nowrap';
+            label.style.maxWidth = '200px';
+            label.style.overflow = 'hidden';
+            label.style.textOverflow = 'ellipsis';
+            label.textContent = `${index}: ${box.description || 'No description'}`;
+            boxElement.appendChild(label);
+            
+            // Append to the image container, not the image itself
+            container.appendChild(boxElement);
+        }
+
+        function repositionBoxes() {
+            if (!currentAnnotation) return;
+            
+            clearBoundingBoxes();
+            
+            const img = document.getElementById('annotationImage');
+            if (!img || !img.naturalWidth || !img.naturalHeight) return;
+            
+            // Wait a bit for the image to be fully rendered
+            setTimeout(() => {
+                if (currentAnnotation.annotations && Array.isArray(currentAnnotation.annotations)) {
+                    currentAnnotation.annotations.forEach((box, index) => {
+                        addBoundingBox(box, index + 1);
+                    });
+                }
+            }, 50);
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadAnnotations();
+            
+            // Set up zoom controls
+            const wrapper = document.getElementById('imageWrapper');
+            if (wrapper) {
+                wrapper.addEventListener('wheel', function(e) {
+                    if (e.ctrlKey) return;
+                    e.preventDefault();
+                    
+                    // Get mouse position relative to the wrapper
+                    const rect = wrapper.getBoundingClientRect();
+                    const mouseX = e.clientX - rect.left;
+                    const mouseY = e.clientY - rect.top;
+                    
+                    // Calculate zoom center
+                    const zoomCenterX = mouseX + wrapper.scrollLeft;
+                    const zoomCenterY = mouseY + wrapper.scrollTop;
+                    
+                    // Apply zoom
+                    const oldZoom = zoomLevel;
+                    if (e.deltaY < 0) {
+                        setZoom(zoomLevel + 0.1);
+                    } else {
+                        setZoom(zoomLevel - 0.1);
+                    }
+                    
+                    // Adjust scroll position to keep mouse position fixed
+                    if (zoomLevel !== oldZoom) {
+                        const scaleChange = zoomLevel / oldZoom;
+                        const newScrollLeft = zoomCenterX * scaleChange - mouseX;
+                        const newScrollTop = zoomCenterY * scaleChange - mouseY;
+                        
+                        wrapper.scrollLeft = Math.max(0, newScrollLeft);
+                        wrapper.scrollTop = Math.max(0, newScrollTop);
+                        
+                        // Ensure scrolling works properly after zoom
+                        setTimeout(() => {
+                            ensureScrollable();
+                        }, 50);
+                    }
+                }, { passive: false });
+                
+                // Add panning with mouse drag
+                let isPanning = false;
+                let startX, startY, startScrollLeft, startScrollTop;
+                
+                wrapper.addEventListener('mousedown', function(e) {
+                    if (e.button === 0) { // Left mouse button
+                        isPanning = true;
+                        startX = e.clientX;
+                        startY = e.clientY;
+                        startScrollLeft = wrapper.scrollLeft;
+                        startScrollTop = wrapper.scrollTop;
+                        wrapper.style.cursor = 'grabbing';
+                        e.preventDefault();
+                    }
+                });
+                
+                document.addEventListener('mousemove', function(e) {
+                    if (isPanning) {
+                        const deltaX = e.clientX - startX;
+                        const deltaY = e.clientY - startY;
+                        wrapper.scrollLeft = startScrollLeft - deltaX;
+                        wrapper.scrollTop = startScrollTop - deltaY;
+                        e.preventDefault();
+                    }
+                });
+                
+                document.addEventListener('mouseup', function() {
+                    if (isPanning) {
+                        isPanning = false;
+                        wrapper.style.cursor = 'grab';
+                    }
+                });
+                
+                // Set initial cursor
+                wrapper.style.cursor = 'grab';
+            }
+        });
+    </script>
+</body>
+</html> 

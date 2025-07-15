@@ -7,6 +7,7 @@ Serves images and handles annotation saving for the UI Dark Pattern Experts inte
 import os
 import json
 import glob
+import re
 from datetime import datetime
 from flask import Flask, request, jsonify, send_from_directory, render_template_string
 from flask_cors import CORS
@@ -23,6 +24,14 @@ CORS(app)  # Enable CORS for all routes
 IMAGES_EXTENSIONS = {'.png', '.jpg', '.jpeg', '.gif', '.bmp', '.webp'}
 ANNOTATIONS_DIR = 'annotations'
 os.makedirs(ANNOTATIONS_DIR, exist_ok=True)
+
+def natural_sort_key(text):
+    """Convert a string into a list of string and number chunks.
+    "z23a" -> ["z", 23, "a"]
+    """
+    def atoi(text):
+        return int(text) if text.isdigit() else text
+    return [atoi(c) for c in re.split(r'(\d+)', text)]
 
 def get_images_from_folder(folder_path):
     """Get all image files from a folder and its subfolders."""
@@ -43,14 +52,19 @@ def get_images_from_folder(folder_path):
                 rel_path = os.path.relpath(file_path, os.getcwd())
                 images.append(rel_path.replace('\\', '/'))  # Normalize path separators
     
-    # Sort images by filename for consistent ordering
-    images.sort()
+    # Sort images using natural sorting for consistent ordering
+    images.sort(key=natural_sort_key)
     return images
 
 @app.route('/')
 def index():
     """Serve the main annotation interface."""
     return send_from_directory('.', 'annotation_interface.html')
+
+@app.route('/viewer')
+def viewer():
+    """Serve the annotation viewer interface."""
+    return send_from_directory('.', 'annotation_viewer.html')
 
 @app.route('/folders_summary.json')
 def get_folders_summary():
@@ -289,12 +303,17 @@ def submit_annotations():
         timestamp = data.get('timestamp', datetime.now().isoformat())
         total_folders = data.get('total_folders', 0)
         total_images = data.get('total_images', 0)
+        user_info = data.get('user_info', {})
         
         # Create a comprehensive submission file
         submission_data = {
             "timestamp": timestamp,
             "total_folders": total_folders,
             "total_images": total_images,
+            "user_info": {
+                "name": user_info.get('name', 'Unknown'),
+                "email": user_info.get('email', 'Unknown')
+            },
             "annotations": annotations,
             "summary": {
                 "folders_with_annotations": len([f for f in annotations.keys() if annotations[f]]),
@@ -305,9 +324,10 @@ def submit_annotations():
             }
         }
         
-        # Create filename with timestamp
+        # Create filename with timestamp and user info
         timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
-        submission_file = os.path.join(ANNOTATIONS_DIR, f"submission_{timestamp_str}.json")
+        user_name = user_info.get('name', 'Unknown').replace(' ', '_')
+        submission_file = os.path.join(ANNOTATIONS_DIR, f"submission_{user_name}_{timestamp_str}.json")
         
         # Save the complete submission
         with open(submission_file, 'w', encoding='utf-8') as f:
@@ -320,7 +340,7 @@ def submit_annotations():
             for image_path, boxes in folder_images.items():
                 if boxes:  # Only save if there are boxes
                     # Create individual annotation file
-                    safe_filename = f"{folder_name}_{image_path.replace('/', '_').replace('.', '_')}_{timestamp_str}.json"
+                    safe_filename = f"{folder_name}_{image_path.replace('/', '_').replace('.', '_')}_{user_name}_{timestamp_str}.json"
                     safe_filename = "".join(c for c in safe_filename if c.isalnum() or c in ('-', '_', '.'))
                     
                     individual_file = os.path.join(ANNOTATIONS_DIR, safe_filename)
@@ -330,6 +350,10 @@ def submit_annotations():
                         "image": image_path,
                         "annotations": boxes,
                         "timestamp": timestamp,
+                        "user_info": {
+                            "name": user_info.get('name', 'Unknown'),
+                            "email": user_info.get('email', 'Unknown')
+                        },
                         "total_annotations": len(boxes)
                     }
                     

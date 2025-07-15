@@ -226,19 +226,37 @@
 
         .image-wrapper {
             position: relative;
-            display: inline-block;
+            display: block;
             border: 2px solid #e9ecef;
             border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            max-width: 100%;
-            max-height: 70vh;
             overflow: auto;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            width: 100%;
+            height: 70vh;
+            scrollbar-width: auto;
+            scrollbar-color: #888 #f1f1f1;
+        }
+
+        .image-wrapper::-webkit-scrollbar {
+            width: 12px;
+            height: 12px;
+        }
+
+        .image-wrapper::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 6px;
+        }
+
+        .image-wrapper::-webkit-scrollbar-thumb {
+            background: #888;
+            border-radius: 6px;
+        }
+
+        .image-wrapper::-webkit-scrollbar-thumb:hover {
+            background: #555;
         }
 
         .annotation-image {
-            max-width: 100%;
-            max-height: 70vh;
             display: block;
             transform-origin: top left;
         }
@@ -536,8 +554,8 @@
         let isDrawing = false;
         let startX, startY, currentBox;
         let actionsDisabled = false;
-        // Store boxes per image path
-        let imageBoxes = {};
+        // Store all annotations for the entire session
+        let sessionAnnotations = {};
         let zoomLevel = 1; // Initialize zoom level
         let isPanning = false;
         let panStartX, panStartY;
@@ -553,15 +571,54 @@
 
         // Place setZoom function before any code that calls it
         function setZoom(level) {
-            zoomLevel = Math.max(0.2, Math.min(level, 4));
+            zoomLevel = Math.max(0.2, Math.min(level, 8));
             const wrapper = document.getElementById('imageWrapper');
             const container = document.getElementById('imageContainer');
-            if (wrapper && container) {
-                container.style.transform = `scale(${zoomLevel})`;
-                // Reset scroll position when zoom changes
-                wrapper.scrollLeft = 0;
-                wrapper.scrollTop = 0;
+            const img = document.getElementById('annotationImage');
+            
+            if (wrapper && container && img && img.naturalWidth && img.naturalHeight) {
+                const newWidth = img.naturalWidth * zoomLevel;
+                const newHeight = img.naturalHeight * zoomLevel;
+                
+                // Set container and image to zoomed size
+                container.style.width = newWidth + 'px';
+                container.style.height = newHeight + 'px';
+                img.style.width = newWidth + 'px';
+                img.style.height = newHeight + 'px';
+                
+                // Scale all bounding boxes proportionally
+                boundingBoxes.forEach(boxObj => {
+                    const box = boxObj.element;
+                    const originalLeft = parseFloat(box.getAttribute('data-original-left') || box.style.left);
+                    const originalTop = parseFloat(box.getAttribute('data-original-top') || box.style.top);
+                    const originalWidth = parseFloat(box.getAttribute('data-original-width') || box.style.width);
+                    const originalHeight = parseFloat(box.getAttribute('data-original-height') || box.style.height);
+                    
+                    // Store original values if not already stored
+                    if (!box.getAttribute('data-original-left')) {
+                        box.setAttribute('data-original-left', originalLeft);
+                        box.setAttribute('data-original-top', originalTop);
+                        box.setAttribute('data-original-width', originalWidth);
+                        box.setAttribute('data-original-height', originalHeight);
+                    }
+                    
+                    // Scale the box
+                    box.style.left = (originalLeft * zoomLevel) + 'px';
+                    box.style.top = (originalTop * zoomLevel) + 'px';
+                    box.style.width = (originalWidth * zoomLevel) + 'px';
+                    box.style.height = (originalHeight * zoomLevel) + 'px';
+                });
+                
+                // Ensure wrapper can scroll
+                wrapper.style.overflow = 'auto';
+                
+                // Reset scroll position when going back to fit view
+                if (zoomLevel <= 1) {
+                    wrapper.scrollLeft = 0;
+                    wrapper.scrollTop = 0;
+                }
             }
+            
             const zoomPercent = document.getElementById('zoomPercent');
             if (zoomPercent) {
                 zoomPercent.textContent = Math.round(zoomLevel * 100) + '%';
@@ -569,16 +626,23 @@
         }
 
         function startPanning(e) {
-            if (zoomLevel <= 1 || drawMode) return; // Only pan when zoomed and not in draw mode
-            isPanning = true;
-            panStartX = e.clientX;
-            panStartY = e.clientY;
+            if (drawMode) return; // Only pan when not in draw mode
             const wrapper = document.getElementById('imageWrapper');
-            panStartScrollX = wrapper.scrollLeft;
-            panStartScrollY = wrapper.scrollTop;
-            document.addEventListener('mousemove', pan);
-            document.addEventListener('mouseup', stopPanning);
-            e.preventDefault();
+            const container = document.getElementById('imageContainer');
+            
+            // Check if image is larger than viewport (can be panned)
+            if (container && wrapper && 
+                (container.offsetWidth > wrapper.clientWidth || 
+                 container.offsetHeight > wrapper.clientHeight)) {
+                isPanning = true;
+                panStartX = e.clientX;
+                panStartY = e.clientY;
+                panStartScrollX = wrapper.scrollLeft;
+                panStartScrollY = wrapper.scrollTop;
+                document.addEventListener('mousemove', pan);
+                document.addEventListener('mouseup', stopPanning);
+                e.preventDefault();
+            }
         }
 
         function pan(e) {
@@ -665,7 +729,7 @@
             // Save current folder comments
             saveFolderComments();
             
-            // Collect all annotation data
+            // Collect all annotation data from session storage
             const allAnnotations = {};
             
             // Go through all folders and images to collect data
@@ -680,8 +744,8 @@
                     const cleanImagePath = imagePath.replace(/^diverse_searchers_task_folders[\\/]/, '');
                     const uniqueImageId = `${folderName}_${cleanImagePath}`;
                     
-                    // Get boxes for this image
-                    const boxes = imageBoxes[uniqueImageId] || [];
+                    // Get boxes for this image from session storage
+                    const boxes = sessionAnnotations[uniqueImageId] || [];
                     
                     if (boxes.length > 0) {
                         allAnnotations[folderName].images[cleanImagePath] = boxes.map(box => ({
@@ -765,6 +829,45 @@
                 showStatus('Error loading folders. Please check if folders exist.', 'error');
             }
         }
+
+        function ensureProperImageDisplay() {
+            const img = document.getElementById('annotationImage');
+            const container = document.getElementById('imageContainer');
+            const wrapper = document.getElementById('imageWrapper');
+            
+            if (img && img.naturalWidth && img.naturalHeight && container && wrapper) {
+                // Get wrapper dimensions
+                const wrapperWidth = wrapper.clientWidth - 20; // Account for padding
+                const wrapperHeight = wrapper.clientHeight - 20;
+                
+                // Calculate if image needs to be scaled down to fit
+                const scaleX = wrapperWidth / img.naturalWidth;
+                const scaleY = wrapperHeight / img.naturalHeight;
+                const scale = Math.min(1, scaleX, scaleY); // Don't scale up, only down
+                
+                // Set image and container to natural size or scaled size
+                const displayWidth = img.naturalWidth * scale;
+                const displayHeight = img.naturalHeight * scale;
+                
+                container.style.width = displayWidth + 'px';
+                container.style.height = displayHeight + 'px';
+                img.style.width = displayWidth + 'px';
+                img.style.height = displayHeight + 'px';
+                
+                // Update zoom level to reflect actual display scale
+                zoomLevel = scale;
+                
+                // Update zoom display
+                const zoomPercent = document.getElementById('zoomPercent');
+                if (zoomPercent) {
+                    zoomPercent.textContent = Math.round(scale * 100) + '%';
+                }
+                
+                // Reset scroll position
+                wrapper.scrollLeft = 0;
+                wrapper.scrollTop = 0;
+            }
+        }
         // Load a specific folder
         async function loadFolder(folderIndex) {
             if (folderIndex < 0 || folderIndex >= folders.length) return;
@@ -825,34 +928,47 @@
             if (imageIndex < 0 || imageIndex >= currentFolderImages.length) return;
             const img = document.getElementById('annotationImage');
             if (!img) {
-                console.warn('Image element not found! Retrying in 50ms...');
                 setTimeout(() => loadImage(imageIndex, saveCurrent), 50);
                 return;
             }
-            // Save boxes for the current image before switching (unless called from loadFolder)
+            
+            // Save boxes for the current image before switching
             if (saveCurrent) {
                 saveCurrentImageBoxes();
             }
+            
             // Update the image index
             currentImageIndex = imageIndex;
-            let imagePath = currentFolderImages[imageIndex]; // full path
-            // Remove diverse_searchers_task_folders/ or \\ prefix if present
+            let imagePath = currentFolderImages[imageIndex];
             imagePath = imagePath.replace(/^diverse_searchers_task_folders[\\/]/, '');
-            console.log('Setting image src to:', imagePath);
+            
+            // Load the image
             img.src = `/${imagePath}`;
+            
+            // Update UI
             updateImageCounter();
             updateNavigationButtons();
-            restoreImageBoxes(imagePath);
-            setZoom(1);
-            resetPan(); // Reset pan when loading a new image
-            updateProgress(); // Update progress bar
+            updateProgress();
+            
+            // Reset zoom and pan when loading new image
+            zoomLevel = 1;
+            resetPan();
+            
+            // Restore boxes after image loads
+            img.onload = function() {
+                // Ensure image displays at natural size initially
+                ensureProperImageDisplay();
+                restoreImageBoxes(imagePath);
+            };
         }
         function saveCurrentImageBoxes() {
             if (!currentFolderImages.length) return;
             let imagePath = currentFolderImages[currentImageIndex]; // full path
             // Create a unique identifier that includes folder and image info
             const folderName = folders[currentFolderIndex].folder_name;
-            const uniqueImageId = `${folderName}_${imagePath.replace(/^diverse_searchers_task_folders[\\/]/, '')}`;
+            const cleanImagePath = imagePath.replace(/^diverse_searchers_task_folders[\\/]/, '');
+            const uniqueImageId = `${folderName}_${cleanImagePath}`;
+            
             console.log('=== SAVING BOXES ===');
             console.log('Current folder index:', currentFolderIndex);
             console.log('Current image index:', currentImageIndex);
@@ -860,16 +976,24 @@
             console.log('Image path:', imagePath);
             console.log('Unique image ID:', uniqueImageId);
             console.log('Current boundingBoxes count:', boundingBoxes.length);
-            imageBoxes[uniqueImageId] = boundingBoxes.map(obj => {
+            
+            // Save to session storage
+            sessionAnnotations[uniqueImageId] = boundingBoxes.map(obj => {
+                // Use original coordinates (at natural image size) for saving
+                const originalLeft = parseFloat(obj.element.getAttribute('data-original-left') || obj.element.style.left);
+                const originalTop = parseFloat(obj.element.getAttribute('data-original-top') || obj.element.style.top);
+                const originalWidth = parseFloat(obj.element.getAttribute('data-original-width') || obj.element.style.width);
+                const originalHeight = parseFloat(obj.element.getAttribute('data-original-height') || obj.element.style.height);
+                
                 return {
-                    left: parseFloat(obj.element.style.left),
-                    top: parseFloat(obj.element.style.top),
-                    width: parseFloat(obj.element.style.width),
-                    height: parseFloat(obj.element.style.height),
+                    left: originalLeft,
+                    top: originalTop,
+                    width: originalWidth,
+                    height: originalHeight,
                     description: obj.description || '',
                 };
             });
-            console.log('Saved boxes for path:', uniqueImageId, 'Boxes:', imageBoxes[uniqueImageId]);
+            console.log('Saved boxes for path:', uniqueImageId, 'Boxes:', sessionAnnotations[uniqueImageId]);
             console.log('=== END SAVING ===');
         }
         function restoreImageBoxes(imagePath) {
@@ -881,18 +1005,27 @@
             console.log('Folder name:', folderName);
             console.log('Image path:', imagePath);
             console.log('Unique image ID:', uniqueImageId);
-            console.log('Available imageBoxes keys:', Object.keys(imageBoxes));
+            console.log('Available imageBoxes keys:', Object.keys(sessionAnnotations));
             clearBoundingBoxes();
-            const boxes = imageBoxes[uniqueImageId] || [];
+            const boxes = sessionAnnotations[uniqueImageId] || [];
             console.log('Found boxes for path:', uniqueImageId, 'Count:', boxes.length);
             console.log('=== END RESTORING ===');
             boxes.forEach(data => {
                 const box = document.createElement('div');
                 box.className = 'bounding-box';
-                box.style.left = data.left + 'px';
-                box.style.top = data.top + 'px';
-                box.style.width = data.width + 'px';
-                box.style.height = data.height + 'px';
+                
+                // Store original coordinates (at 100% zoom)
+                box.setAttribute('data-original-left', data.left);
+                box.setAttribute('data-original-top', data.top);
+                box.setAttribute('data-original-width', data.width);
+                box.setAttribute('data-original-height', data.height);
+                
+                // Scale to current zoom level
+                box.style.left = (data.left * zoomLevel) + 'px';
+                box.style.top = (data.top * zoomLevel) + 'px';
+                box.style.width = (data.width * zoomLevel) + 'px';
+                box.style.height = (data.height * zoomLevel) + 'px';
+                
                 box.setAttribute('tabindex', '0');
                 box.onclick = function(e) {
                     if (actionsDisabled) return;
@@ -931,9 +1064,9 @@
             const img = document.getElementById('annotationImage');
             const wrapper = document.getElementById('imageWrapper');
             const rect = img.getBoundingClientRect();
-            // Calculate coordinates relative to the image, accounting for scroll and scale
-            startX = (e.clientX - rect.left + wrapper.scrollLeft) / zoomLevel;
-            startY = (e.clientY - rect.top + wrapper.scrollTop) / zoomLevel;
+            // Calculate coordinates relative to the image, accounting for scroll
+            startX = e.clientX - rect.left + wrapper.scrollLeft;
+            startY = e.clientY - rect.top + wrapper.scrollTop;
             currentBox = document.createElement('div');
             currentBox.className = 'bounding-box';
             currentBox.style.left = startX + 'px';
@@ -944,13 +1077,14 @@
             document.addEventListener('mousemove', drawBox);
             document.addEventListener('mouseup', endDrawing);
         }
+        
         function drawBox(e) {
             if (!isDrawing || !currentBox) return;
             const img = document.getElementById('annotationImage');
             const wrapper = document.getElementById('imageWrapper');
             const rect = img.getBoundingClientRect();
-            const x = (e.clientX - rect.left + wrapper.scrollLeft) / zoomLevel;
-            const y = (e.clientY - rect.top + wrapper.scrollTop) / zoomLevel;
+            const x = e.clientX - rect.left + wrapper.scrollLeft;
+            const y = e.clientY - rect.top + wrapper.scrollTop;
             const width = Math.abs(x - startX);
             const height = Math.abs(y - startY);
             const left = Math.min(x, startX);
@@ -968,6 +1102,17 @@
             const width = parseInt(currentBox.style.width);
             const height = parseInt(currentBox.style.height);
             if (width > 10 && height > 10) {
+                // Store original coordinates (at natural image size, not current zoom)
+                const originalLeft = parseFloat(currentBox.style.left) / zoomLevel;
+                const originalTop = parseFloat(currentBox.style.top) / zoomLevel;
+                const originalWidth = width / zoomLevel;
+                const originalHeight = height / zoomLevel;
+                
+                currentBox.setAttribute('data-original-left', originalLeft);
+                currentBox.setAttribute('data-original-top', originalTop);
+                currentBox.setAttribute('data-original-width', originalWidth);
+                currentBox.setAttribute('data-original-height', originalHeight);
+                
                 currentBox.setAttribute('tabindex', '0');
                 currentBox.onclick = function(e) {
                     if (actionsDisabled) return;
@@ -1201,7 +1346,7 @@
             }, { passive: false });
             // Add panning functionality to wrapper
             wrapper.addEventListener('mousedown', function(e) {
-                if (!drawMode && zoomLevel > 1) {
+                if (!drawMode) {
                     startPanning(e);
                 }
             });
